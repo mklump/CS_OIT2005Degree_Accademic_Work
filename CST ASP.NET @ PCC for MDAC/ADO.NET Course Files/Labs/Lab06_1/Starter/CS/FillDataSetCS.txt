@@ -1,0 +1,49 @@
+// instantiate the data set
+OnTheRoad.NWDataSet tempNW = new OnTheRoad.NWDataSet();
+
+if (this.cnNorthwind.State != ConnectionState.Open)
+{
+	try
+	{
+		this.cnNorthwind.Open();
+	}
+	catch (System.Exception Xcp)
+	{
+		MessageBox.Show("Failed to connect because:\n" + Xcp.ToString() + "\n\nTry a different server name.", "Get from central database", MessageBoxButtons.OK, MessageBoxIcon.Error);
+		return;
+	}
+}
+
+try
+{
+	// fill the Employees DataTable
+	this.daEmployees.Fill(tempNW.Employees);
+}
+catch (System.Exception Xcp)
+{
+	MessageBox.Show("Failed to retrieve employee list because:\n" + Xcp.ToString(), "Get from central database", MessageBoxButtons.OK, MessageBoxIcon.Error);
+}
+
+
+// create instance of logon form
+Logon frmLogon = new Logon();
+
+
+// set the data properties to link the list box to the Employees table
+frmLogon.lstEmployees.DataSource = tempNW.Employees;
+frmLogon.lstEmployees.DisplayMember = "FullName";
+frmLogon.lstEmployees.ValueMember = "EmployeeID";
+
+// display the last selected employee
+frmLogon.lstEmployees.SelectedValue = this.EmployeeID;
+
+// if user selects OK...
+if (frmLogon.ShowDialog(this) == DialogResult.OK)
+{
+	// change employee and load related data
+	this.EmployeeID = (int)frmLogon.lstEmployees.SelectedValue;
+
+	this.dsNorthwind = tempNW;
+	this.RefreshUI();
+}
+this.cnNorthwind.Close();

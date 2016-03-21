@@ -1,0 +1,61 @@
+<HTML>
+<HEAD>
+<TITLE>Microsoft Course 2310B Review Game</TITLE>
+</HEAD>
+<BODY bgcolor="#ffffff" topmargin="0" leftmargin="0">
+
+<SCRIPT LANGUAGE=JavaScript>
+<!--
+var InternetExplorer = navigator.appName.indexOf("Microsoft") != -1;
+// Handle all the the FSCommand messages in a Flash movie
+function base_DoFSCommand(command, args) {
+  var baseObj = InternetExplorer ? base : document.base;
+  //
+  // Place your code here...
+  //
+}
+// Hook for Internet Explorer 
+if (navigator.appName && navigator.appName.indexOf("Microsoft") != -1 && 
+	  navigator.userAgent.indexOf("Windows") != -1 && navigator.userAgent.indexOf("Windows 3.1") == -1) {
+	document.write('<SCRIPT LANGUAGE=VBScript\> \n');
+	document.write('on error resume next \n');
+	document.write('Sub base_FSCommand(ByVal command, ByVal args)\n');
+	document.write('  call base_DoFSCommand(command, args)\n');
+	document.write('end sub\n');
+	document.write('</SCRIPT\> \n');
+}
+//-->
+</SCRIPT>
+
+<table height=100% width=100% border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="middle" align="center">
+
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" ID=base WIDTH=800 HEIGHT=600>
+<PARAM NAME=movie VALUE="StartScreen.swf">
+<PARAM NAME=wmode VALUE=opaque>
+<PARAM NAME=loop VALUE=false>
+<PARAM NAME=menu VALUE=false>
+<PARAM NAME=quality VALUE=high>
+<PARAM NAME=scale VALUE=noborder>
+<PARAM NAME=bgcolor VALUE=#ffffff>
+   <EMBED src="StartScreen.swf"
+	loop=false
+	menu=false
+	quality=high
+	scale=noborder
+	bgcolor=#ffffff
+	WIDTH=800
+	HEIGHT=600
+	swLiveConnect=true
+	NAME=base TYPE="application/x-shockwave-flash"
+	PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">
+   </EMBED>
+</OBJECT>
+
+</td>
+</tr>
+</table>
+
+</BODY>
+</HTML>

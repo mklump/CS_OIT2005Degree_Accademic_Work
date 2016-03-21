@@ -1,0 +1,147 @@
+
+body { 
+   background-color: #ffffff; 
+   color: #000000;
+   font-family: tahoma, arial, sans-serif;
+   font-size: 10pt;
+}
+
+a:link, a:visited {
+   color: #006699;
+}
+
+a:hover, a:active {
+   color: #00bbee;
+   text-decoration: underline;
+}
+
+div.logo {
+   background-color: white;
+   margin-bottom: 5px;
+}
+
+div.navigation {
+   padding-top: 2px;
+   padding-bottom: 2px;
+   background-color: #006699;
+}
+
+div.header {
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 10px;
+   background-color: black;
+   color: #ffffff;
+   font-size: 14pt;
+}
+
+div.author {
+   padding-top: 2px;
+   padding-bottom: 2px;
+   padding-left: 20px;
+   background-color: #003366;
+   color: white;
+   font-size: 11pt;
+   font-weight: bold;
+}
+
+div.productDetails, div.login, div.register {
+   margin: 10px;
+   background-color: #ddddee;
+   width: 50%;
+   padding: 10px;
+}
+
+div.error {
+   color: red;
+   background-color: #ddddee;
+   padding-left: 10px;
+   margin-left: 10px;
+}
+
+img.bookCover {
+   border: 1px solid black;
+}
+
+th {
+   text-align: center;
+   font-size: 11pt;
+}
+
+td { 
+   font-size: 10pt;
+}
+
+table.cart {
+   width: 85%; 
+   text-align: right;
+   margin-left: 10px;
+}
+
+table.cart td {
+   padding-left: 10px;
+   padding-right: 10px;
+   background-color: #ddddee;
+}
+
+table.catalog {
+   width: 85%;
+   text-align: center;
+   margin-left: 10px;
+}
+
+table.catalog td {
+   padding-left: 5px;
+   background-color: #ddddee;
+}
+
+
+table.catalog td.price {
+   padding: 5px;
+   text-align: right;
+   background-color: #99bbdd;
+   padding-left: 10px;
+}
+
+td.title a {
+   color: #006699;
+   text-decoration: none;
+}
+
+td.menu 
+{
+   padding-left: 10px;
+   padding-right: 10px;
+   
+	background-color: #006699;
+}
+
+td.menu a, td.menu a:visited
+{ 
+	text-decoration: none;
+	color: #ffffff;
+   font-weight: bold;
+}
+
+td.menu a:hover
+{
+   text-decoration: underline;
+   color: #ffffff;
+   font-weight: bold;
+}
+
+ /************************************************************************** 
+ * (C) Copyright 2002 by Deitel & Associates, Inc. and Prentice Hall.     *
+ * All Rights Reserved.                                                   *
+ *                                                                        *
+ * DISCLAIMER: The authors and publisher of this book have used their     *
+ * best efforts in preparing the book. These efforts include the          *
+ * development, research, and testing of the theories and programs        *
+ * to determine their effectiveness. The authors and publisher make       *
+ * no warranty of any kind, expressed or implied, with regard to these    *
+ * programs or to the documentation contained in these books. The authors *
+ * and publisher shall not be liable in any event for incidental or       *
+ * consequential damages in connection with, or arising out of, the       *
+ * furnishing, performance, or use of these programs.                     *
+ **************************************************************************/
+

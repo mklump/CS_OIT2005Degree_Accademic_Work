@@ -1,0 +1,4 @@
+cat
+data
+day
+dog

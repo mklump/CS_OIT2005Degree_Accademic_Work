@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="1.0">
+    <name unique="AutoComment" display="Auto Comment Tool" from-bundle="false" />
+    <ui-type type="any" >
+        <bounds x="100" y="50" width="750" height="450" />
+        <frame type="window" state="normal" />
+        <container type="tabbed" >
+        </container>
+        <other defined-by="module" mode-state="hidden" />
+    </ui-type>
+</mode>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" targetNamespace="" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <data name="lblConStr.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="grpPooling.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="lblLifetime.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="lblMinPoolSize.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="chkResetConnection.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="lblMaxPoolSize.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="txtMinPoolSize.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="txtMaxPoolSize.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="txtLifetime.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="cboPassword.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="lblConnStr.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="chkEnablePooling.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="cboUsername.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="lblUserName.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="btnOpenSQL.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="btnRelease.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="lblSQLDatabase.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="btnCloseSQL.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="lblPassword.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="cboDatabase.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.Name">
+    <value>OpenNewConnection</value>
+  </data>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+</root>

@@ -1,0 +1,340 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Stage1Testing</title>
+<style>
+<!--
+.font6
+	{color:windowtext;
+	font-size:14.0pt;
+	font-weight:400;
+	font-style:italic;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	}
+.font5
+	{color:windowtext;
+	font-size:14.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial, sans-serif;
+	}
+-->
+</style>
+</head>
+
+<body>
+
+<div align="center">
+  <center>
+
+<table border="0" width="65%"
+    cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="100%" align="center"><big><big><font color="#0000ff">Oregon Institute of
+        Technology</font></big></big></td>
+      </tr>
+      <tr>
+        <td width="100%" align="center"><big><big><font color="#0000ff">Software Engineering
+        Technology</font></big></big></td>
+      </tr>
+      <tr>
+        <td width="100%" align="center"><small><span
+        style="font-size:14.0pt;mso-bidi-font-size:10.0pt">Portland, Oregon</span></small></td>
+      </tr>
+      <tr>
+        <td width="100%" align="center"><p align="center"><span
+        style="font-size:14.0pt;mso-bidi-font-size:10.0pt">CST 336P &#150; Software Design &amp; Implementation II<o:p></span></td>
+      </tr>
+      <tr>
+        <td width="100%" align="center">
+          <p align="center"><span style="mso-bidi-font-size: 10.0pt"><font size="3">Spring
+          2004</font></span></td>
+      </tr>
+
+    </table>
+
+  </center>
+</div>
+
+<p>&nbsp;</p>
+<p><font size="5"><b>Individual Review and Testing of Alpha release for the 
+Moonbucks Project Group</b></font></p>
+<p><font size="5"><b>Due Date:&nbsp; Tuesday May 11, 2004</b></font></p>
+<p><font size="5"><b>By: Matthew Klump</b></font></p>
+<p><font size="5"><b>Friday, May 7, 2004</b></font></p>
+<p><span style="mso-special-format: bullet"><font size="3"><b><i>Review another
+Project team's Alpha Release<br>
+</i></b></font></span>Review the project schedule and write up a brief
+review.&nbsp;&nbsp;</p>
+<ul>
+  <li>Does the schedule look &quot;doable&quot; in the time allotted?</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yes,&nbsp; the schedule does look 
+&quot;doable&quot; in the allotted time.</p>
+<ul>
+  <li>Are all the feature/functions included?</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As of 5/7/2004, the moonbucks do 
+not have 100% of their features implemented as stated. However, they do have the 
+following use-cases implemented and working reasonably well:</p>
+<p>- UC 1: Machine powers up for the first time<br>
+- UC 2: User enters money into the money box, but not enough to make a purchase<br>
+- UC 3: User enters money into the money box to make a purchase<br>
+- UC 4: User has entered money and requests a refund<br>
+- UC 7: User makes a selection and the drink is made</p>
+<ul>
+  <li>Are the resources identified for each task?</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As stated in the documentation, 
+the actual operation of the Moonbucks coffee machine will be simulated. I just 
+looked at a sample GUI that they'll be using for the simulation. It looks like 
+this is all the resource they'll need.</p>
+<ul>
+  <li>Does the schedule include complete test coverage tasks?</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From the looks of it, this project 
+is quite literally simple enough to split the test coverage tasks 50/50 between
+<font face="Times New Roman">Kim and Brandon. One guy could do all of the 
+database interaction testing, and the other could do the use-case interaction 
+with the system testing.</font></p>
+<ul>
+  <li>etc.</li>
+</ul>
+<p>Review the project test plan and write up a brief review.&nbsp;&nbsp;</p>
+<ul>
+  <li>Is there reasonable time allocated for testing?</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Between now and May 15, 2004, yes 
+there is plenty of time for testing and debugging.</p>
+<ul>
+  <li>Does the test plan cover each use case and requirement?</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yes, the test plan does cover each use 
+case and requirement</p>
+<ul>
+  <li>Are there test cases for unit testing, blackbox testing, whitebox testing,
+    integration testing, etc. ?</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The test plans so defined are for 
+unit testing of their code.</p>
+<ul>
+  <li>etc.</li>
+</ul>
+<p>For each test case defined by the team's project you are testing</p>
+<ul>
+    <li>Submit a completed test report</li>
+    </ul>
+<p style="margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+For the alpha release, the Moon Bucks team has defined the following Unit Test 
+for the Vending Machine:</p>
+<p style="margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<table x:str border="0" cellpadding="0" cellspacing="0" width="1028" style="border-collapse:
+ collapse;width:772pt" id="table1">
+	<colgroup>
+		<col width="74" style="width: 56pt">
+		<col width="180" style="width: 135pt">
+		<col width="276" style="width: 207pt">
+		<col width="180" style="width: 135pt">
+		<col width="254" style="width: 191pt">
+		<col width="64" style="width:48pt">
+	</colgroup>
+	<tr height="25" style="height:18.75pt">
+		<td colspan="6" height="25" width="1028" style="height: 18.75pt; width: 772pt; font-size: 14.0pt; font-family: Arial, sans-serif; text-align: center; color: windowtext; font-weight: 400; font-style: normal; text-decoration: none; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Unit Test Plan for <font class="font6">VendingMachine </font>
+		<font class="font5">Class</font></td>
+	</tr>
+	<tr height="17" style="height:12.75pt">
+		<td colspan="6" height="17" style="height: 12.75pt; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px; background: #33CCCC">
+		&nbsp;</td>
+	</tr>
+	<tr height="17" style="height:12.75pt">
+		<td height="17" style="height: 12.75pt; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		&nbsp;Project</td>
+		<td colspan="5" style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: .5pt solid windowtext; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		CST336p - Coffee Vending Machine</td>
+	</tr>
+	<tr height="17" style="height:12.75pt">
+		<td height="17" style="height: 12.75pt; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: .5pt solid windowtext; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		&nbsp;Version</td>
+		<td colspan="5" align="right" style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: .5pt solid windowtext; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px" x:num>
+		1</td>
+	</tr>
+	<tr height="17" style="height:12.75pt">
+		<td height="17" style="height: 12.75pt; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: .5pt solid windowtext; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		&nbsp;Tester</td>
+		<td colspan="5" style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: .5pt solid windowtext; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		&nbsp;</td>
+	</tr>
+	<tr height="17" style="height:12.75pt">
+		<td height="17" style="height: 12.75pt; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: .5pt solid windowtext; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		&nbsp;Test Date</td>
+		<td colspan="5" style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: .5pt solid windowtext; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		&nbsp;</td>
+	</tr>
+	<tr height="17" style="height:12.75pt">
+		<td colspan="6" height="17" style="height: 12.75pt; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px; background: #33CCCC">
+		&nbsp;</td>
+	</tr>
+	<tr height="34" style="height:25.5pt">
+		<td height="34" width="74" style="height: 25.5pt; width: 56pt; text-align: center; vertical-align: middle; white-space: normal; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; border: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Test Case #</td>
+		<td width="180" style="width: 135pt; vertical-align: middle; white-space: normal; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; border-left: medium none; border-right: .5pt solid windowtext; border-top: .5pt solid windowtext; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Method</td>
+		<td width="276" style="width: 207pt; vertical-align: middle; white-space: normal; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; border-left: medium none; border-right: .5pt solid windowtext; border-top: .5pt solid windowtext; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Defect Sought</td>
+		<td width="180" style="width: 135pt; vertical-align: middle; white-space: normal; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; border-left: medium none; border-right: .5pt solid windowtext; border-top: .5pt solid windowtext; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Test Data</td>
+		<td width="254" style="width: 191pt; vertical-align: middle; white-space: normal; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; border-left: medium none; border-right: .5pt solid windowtext; border-top: .5pt solid windowtext; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Expected Result</td>
+		<td width="64" style="width: 48pt; vertical-align: middle; white-space: normal; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; border-left: medium none; border-right: .5pt solid windowtext; border-top: .5pt solid windowtext; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Defect Found?</td>
+	</tr>
+	<tr height="34" style="height:25.5pt">
+		<td height="34" style="height: 25.5pt; text-align: center; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; vertical-align: bottom; white-space: nowrap; border-left: .5pt solid windowtext; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px" x:num>
+		1</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		AcceptMoney(double)</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Money is not accepted and sent to MoneyBox</td>
+		<td width="180" style="width: 135pt; white-space: normal; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		double currency values<br>
+		(1.00, .25, .10, .5)</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Updates MoneyBox with provided data</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		&nbsp;</td>
+	</tr>
+	<tr height="17" style="height:12.75pt">
+		<td height="17" style="height: 12.75pt; text-align: center; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; vertical-align: bottom; white-space: nowrap; border-left: .5pt solid windowtext; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px" x:num>
+		2</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Refund()</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Current balance is not refunded</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Some value in balance</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Value in balance is refunded</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		&nbsp;</td>
+	</tr>
+	<tr height="17" style="height:12.75pt">
+		<td height="17" style="height: 12.75pt; text-align: center; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; vertical-align: bottom; white-space: nowrap; border-left: .5pt solid windowtext; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px" x:num>
+		3</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		SetInterface(IConsole)</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Does not set the interface</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px" x:str="IConsole Interface ">
+		IConsole Interface&nbsp;</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Returns a handle to the GUI interface</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		&nbsp;</td>
+	</tr>
+	<tr height="17" style="height:12.75pt">
+		<td height="17" style="height: 12.75pt; text-align: center; color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; vertical-align: bottom; white-space: nowrap; border-left: .5pt solid windowtext; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px" x:num>
+		4</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		CreateMenu(recipes[])</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Fails to create menu items</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Array of Recipes</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		Recipes in array are displayed in GUI</td>
+		<td style="color: windowtext; font-size: 10.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Arial; text-align: general; vertical-align: bottom; white-space: nowrap; border-left: medium none; border-right: .5pt solid windowtext; border-top: medium none; border-bottom: .5pt solid windowtext; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+		&nbsp;</td>
+	</tr>
+</table>
+<ul>
+    <li>Submit a test case critique:
+    <ul>
+		<li>
+		<p style="margin-top: 0; margin-bottom: 0">How useful were the test cases?</li>
+	</ul>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</p>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	The unit test cases so defined in this documentation have been extremely 
+	useful because it gives myself, the user/tester an idea of what to expect.</p>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;<ul>
+		<li>
+		<p style="margin-top: 0; margin-bottom: 0">Do you think they performed the intended purpose?</li>
+	</ul>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</p>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	Yes, according to the test cases and the alpha release executable, this 
+	particular module is performing the intended purpose.</p>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;<ul>
+		<li>
+		<p style="margin-top: 0; margin-bottom: 0">Rate the Test Cases defined on a scale 1-10, 10 being highest.</li>
+	</ul>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	For Case #1 - I give a 10.</p>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	For Case #2 - I give a 9.</p>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	For Case #3 - I give a 9.</p>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	For Case #4 - I give a 8.</p>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</p>
+	<p style="margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	The executable as well as the source code was extremely useful in 
+	determining how well the Moon Bucks alpha release turned out for this 
+	particular iteration. I can tell that a fair amount of time was put into the 
+	development and documentation of this release.</p>
+	<p>
+      </li>
+    </ul>
+<p><font size="3"><b><i>What to hand in for Individual Alpha Review<br>
+</i></b>
+Be certain to include at the top of the page your name, the project name and project
+deliverable you are reviewing.<br>
+Make this a constructive review document that will aid the project team to be
+more successful and avoid pitfalls and oversights.</font></p>
+<ol>
+  <li><font size="3">Write up 1-2 paragraph assessment of the reviewed project's
+    schedule.&nbsp;&nbsp;</font></li>
+  <li><font size="3">Complete a test report that includes a review of the
+    project test plan and each test case that was completed. </font></li>
+	<li><font size="3">Can you
+    easily trace the test case to the use case and the defined project
+    requirement?&nbsp;</font></li>
+</ol>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yes, the test cases 
+are able to be traced to the defined use case as well as to the defined 
+requirement.</p>
+<ol>
+  <li value="4"><font size="3">Is the test case complete, i.e., does it really test edge
+    cases and error paths?</font></li>
+</ol>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The test cases are 
+complete for error path detection, but I do not see any addressing of edge 
+cases.</p>
+<ol>
+  <li value="5"><font size="3">If possible, execute each test as defined in the test case
+    and record the results.</font></li>
+</ol>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; All of the defined 
+test cases are passing at this time.</p>
+<ol>
+  <li value="6"><font size="3">You can use the form provided under
+    &quot;Forms&quot; menu.</font></li>
+</ol>
+<p><font size="3">
+Send this in email format to : <a href="mailto:bockelmj@oit.edu">bockelmj@oit.edu</a>
+or hand in a paper copy in class.</font></p>
+
+</body>
+
+</html>

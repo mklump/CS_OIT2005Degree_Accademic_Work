@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ManageStatsWebService</name>
+    </assembly>
+    <members>
+        <member name="T:ManageStatsWebService.Global">
+            <summary>
+            Summary description for Global.
+            </summary>
+        </member>
+        <member name="F:ManageStatsWebService.Global.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ManageStatsWebService.Global.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ManageStatsWebService.Global.Application_Start(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ManageStatsWebService.Global.Session_Start(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ManageStatsWebService.Global.Application_BeginRequest(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ManageStatsWebService.Global.Application_EndRequest(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ManageStatsWebService.Global.Application_AuthenticateRequest(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ManageStatsWebService.Global.Application_Error(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ManageStatsWebService.Global.Session_End(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ManageStatsWebService.Global.Application_End(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ManageStatsWebService.Global.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ManageStatsWebService.DataBaseInterface">
+            <summary>
+            Summary description for ManageStats.
+            </summary>
+        </member>
+        <member name="F:ManageStatsWebService.DataBaseInterface.conn">
+            <summary>
+            OleDbConnection to the data base named thepuzzler_3dstyle on the DB server localhost.
+            </summary>
+        </member>
+        <member name="F:ManageStatsWebService.DataBaseInterface.cmd">
+            <summary>
+            OleDbCommand commander object for handling query commands into the data base.
+            </summary>
+        </member>
+        <member name="F:ManageStatsWebService.DataBaseInterface.dataAdapter">
+            <summary>
+            OleDbDataAdapter for directly working with the puzzleRUN table/dataSet in
+            thepuzzler_3dstyle database.
+            </summary>
+        </member>
+        <member name="F:ManageStatsWebService.DataBaseInterface.connString">
+            <summary>
+            Stream reader that reads the first line connection string from the text file dbconn.txt
+            </summary>
+        </member>
+        <member name="M:ManageStatsWebService.DataBaseInterface.#ctor">
+            <summary>
+            Web Service Constructor
+            </summary>
+        </member>
+        <member name="M:ManageStatsWebService.DataBaseInterface.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ManageStatsWebService.DataBaseInterface.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:ManageStatsWebService.DataBaseInterface.StorePuzzlerRun(System.String,System.String,System.String,System.Int64,System.Int64,System.Int64)">
+            <summary>
+            This web service will accept a complete six-item data row containing the
+            next Puzzler - 3D Style Execution Run to keep track of.
+            </summary>
+            <param name="dictionary">The dictionary for the current execution run.</param>
+            <param name="puzzle">The puzzle for the current execution run.</param>
+            <param name="wordsFound">The words that were found by the solution for the
+            current execution run.</param>
+            <param name="dictionaryTime">The time span taken to create the dictionary.</param>
+            <param name="puzzleTime">The time span taken to create the puzzle.</param>
+            <param name="solutionTime">The time span taken to execute the solution for
+            the current run of everything.</param>
+            <returns>"Succeeded" if the the operation succeeded, and the error message
+            if the operation failed.</returns>
+        </member>
+        <member name="M:ManageStatsWebService.DataBaseInterface.GetExecutionStatistics">
+            <summary>
+            This web service queries the data base for all of the calculated average execution
+            times.
+            </summary>
+            <returns>The resulting queries and calcuation as a string[] set for display
+            at the ASP.NET user interface front end.</returns>
+        </member>
+        <member name="M:ManageStatsWebService.DataBaseInterface.SetUpDataBase(System.Int32@)">
+            <summary>
+            This helper operation sets up the database for The Puzzler - 3D Style
+            web application.
+            </summary>
+        </member>
+        <member name="M:ManageStatsWebService.DataBaseInterface.HandleException(System.Exception@)">
+            <summary>
+            Error Handling for this DataBaseInterface WebService class
+            </summary>
+            <param name="ex">The Current System.Exception that was thrown.</param>
+        </member>
+    </members>
+</doc>

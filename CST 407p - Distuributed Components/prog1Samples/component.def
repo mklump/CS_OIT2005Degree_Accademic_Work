@@ -1,0 +1,6 @@
+; component.def
+LIBRARY         component.dll
+DESCRIPTION     '(c)1997 Guy Eddon'
+EXPORTS
+                DllGetClassObject   @2	PRIVATE
+                DllCanUnloadNow     @3	PRIVATE

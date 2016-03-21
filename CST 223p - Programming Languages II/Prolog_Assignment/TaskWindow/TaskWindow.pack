@@ -1,0 +1,22 @@
+/*****************************************************************************
+
+                        Copyright (c) 
+
+******************************************************************************/
+
+#include @"TaskWindow\TaskWindow.ph"
+
+% privately used packages
+#include @"pfc\vpi\vpimessage\vpimessage.ph"
+#include @"pfc\exception\exception.ph"
+#include @"TaskWindow\Toolbar\Toolbars.ph"
+
+% private interfaces
+#include @"resourceIdentifiers.i"
+
+% private classes
+#include @"TaskWindow\AboutDialog.cl"
+
+% implementations
+#include @"TaskWindow\TaskWindow.pro"
+#include @"TaskWindow\AboutDialog.pro"

@@ -1,0 +1,14 @@
+START
+ 
+  VAR I : INTEGER;
+
+  VAR J : INTEGER;
+
+  
+  I := READ();
+
+  J := I + J - I + (I + J);
+
+  PRINT(J);
+
+END

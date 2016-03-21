@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="thepuzzler_3dstyleSchema" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="thepuzzler_3dstyleSchema" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ExecutionID" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Dictionary" type="xs:string" minOccurs="0" />
+              <xs:element name="Puzzle" type="xs:string" minOccurs="0" />
+              <xs:element name="WordsFound" type="xs:string" minOccurs="0" />
+              <xs:element name="DictionaryTime" type="xs:long" minOccurs="0" />
+              <xs:element name="PuzzleTime" type="xs:long" minOccurs="0" />
+              <xs:element name="SolutionTime" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

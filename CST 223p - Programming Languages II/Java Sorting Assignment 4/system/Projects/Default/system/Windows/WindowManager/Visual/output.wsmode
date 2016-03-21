@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="1.0">
+    <name unique="output" display="CTL_OutputWindow" from-bundle="true" bundle="org.netbeans.core.windows.Bundle" />
+    <module name="org.netbeans.modules.form/2" spec="1.7" />
+    <ui-type type="any" >
+        <bounds x="252" y="612" width="768" height="125" />
+        <frame type="window" constraints="bottom" state="normal" />
+        <container type="split" >
+            <area constraint="center" x="2" y="2" width="652" height="189" />
+        </container>
+        <icon url="nbresboot:/org/netbeans/core/resources/frames/output.gif" />
+        <other defined-by="module" mode-state="hidden" />
+    </ui-type>
+</mode>

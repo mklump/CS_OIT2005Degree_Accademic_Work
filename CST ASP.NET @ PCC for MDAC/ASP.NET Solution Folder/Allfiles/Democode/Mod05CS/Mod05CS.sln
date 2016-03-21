@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod05CS", "http://localhost/CSTASPNET/Democode/Mod05CS/Mod05CS.csproj", "{393E66D4-DC5E-4EB3-AB1E-CE297C566611}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{393E66D4-DC5E-4EB3-AB1E-CE297C566611}.Debug.ActiveCfg = Debug|.NET
+		{393E66D4-DC5E-4EB3-AB1E-CE297C566611}.Debug.Build.0 = Debug|.NET
+		{393E66D4-DC5E-4EB3-AB1E-CE297C566611}.Release.ActiveCfg = Release|.NET
+		{393E66D4-DC5E-4EB3-AB1E-CE297C566611}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

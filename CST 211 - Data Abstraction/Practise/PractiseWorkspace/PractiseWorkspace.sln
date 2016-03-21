@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bank Account Program", "Bank Account Program\Bank Account Program.vcproj", "{55DECC63-444B-4711-9837-617A7FCB4A04}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DebugWordList", "DebugWordList\DebugWordList.vcproj", "{94810A95-5A84-4174-9E1A-8FC57F5DC3A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OverloadingOperatorsPractise", "OverloadingOperatorsPractise\OverloadingOperatorsPractise.vcproj", "{4EED0646-520E-46B0-BDAE-3603ADCA1DB9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplatePractise", "TemplatePractise\TemplatePractise.vcproj", "{3A0F7075-4882-4753-A6E7-21A35AD65F3B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "The CToolBox", "The CToolBox\The CToolBox.vcproj", "{744BE9F0-59AD-45C8-8A57-C57CA275240F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Water Safety", "Water Safety\Water Safety.vcproj", "{28A3FE8A-E242-4CE8-A5EB-F6469F1BE31E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calendar2", "Calendar2\Calendar2.vcproj", "{67F7D321-91E4-48AA-A468-56BE0E8F21CD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calendar1", "Calendar1\Calendar1.vcproj", "{B01536C7-18D1-43B6-83EC-7553FCFE049A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "listProgram", "listProgram\listProgram.vcproj", "{6F0DE35B-C79D-4E21-AC21-E458F76C6045}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{55DECC63-444B-4711-9837-617A7FCB4A04}.Debug.ActiveCfg = Debug|Win32
+		{55DECC63-444B-4711-9837-617A7FCB4A04}.Release.ActiveCfg = Release|Win32
+		{55DECC63-444B-4711-9837-617A7FCB4A04}.Release.Build.0 = Release|Win32
+		{94810A95-5A84-4174-9E1A-8FC57F5DC3A8}.Debug.ActiveCfg = Debug|Win32
+		{94810A95-5A84-4174-9E1A-8FC57F5DC3A8}.Release.ActiveCfg = Release|Win32
+		{94810A95-5A84-4174-9E1A-8FC57F5DC3A8}.Release.Build.0 = Release|Win32
+		{4EED0646-520E-46B0-BDAE-3603ADCA1DB9}.Debug.ActiveCfg = Debug|Win32
+		{4EED0646-520E-46B0-BDAE-3603ADCA1DB9}.Release.ActiveCfg = Release|Win32
+		{4EED0646-520E-46B0-BDAE-3603ADCA1DB9}.Release.Build.0 = Release|Win32
+		{3A0F7075-4882-4753-A6E7-21A35AD65F3B}.Debug.ActiveCfg = Debug|Win32
+		{3A0F7075-4882-4753-A6E7-21A35AD65F3B}.Release.ActiveCfg = Release|Win32
+		{3A0F7075-4882-4753-A6E7-21A35AD65F3B}.Release.Build.0 = Release|Win32
+		{744BE9F0-59AD-45C8-8A57-C57CA275240F}.Debug.ActiveCfg = Debug|Win32
+		{744BE9F0-59AD-45C8-8A57-C57CA275240F}.Release.ActiveCfg = Release|Win32
+		{744BE9F0-59AD-45C8-8A57-C57CA275240F}.Release.Build.0 = Release|Win32
+		{28A3FE8A-E242-4CE8-A5EB-F6469F1BE31E}.Debug.ActiveCfg = Debug|Win32
+		{28A3FE8A-E242-4CE8-A5EB-F6469F1BE31E}.Release.ActiveCfg = Release|Win32
+		{28A3FE8A-E242-4CE8-A5EB-F6469F1BE31E}.Release.Build.0 = Release|Win32
+		{67F7D321-91E4-48AA-A468-56BE0E8F21CD}.Debug.ActiveCfg = Debug|Win32
+		{67F7D321-91E4-48AA-A468-56BE0E8F21CD}.Release.ActiveCfg = Release|Win32
+		{67F7D321-91E4-48AA-A468-56BE0E8F21CD}.Release.Build.0 = Release|Win32
+		{B01536C7-18D1-43B6-83EC-7553FCFE049A}.Debug.ActiveCfg = Debug|Win32
+		{B01536C7-18D1-43B6-83EC-7553FCFE049A}.Release.ActiveCfg = Release|Win32
+		{B01536C7-18D1-43B6-83EC-7553FCFE049A}.Release.Build.0 = Release|Win32
+		{6F0DE35B-C79D-4E21-AC21-E458F76C6045}.Debug.ActiveCfg = Debug|Win32
+		{6F0DE35B-C79D-4E21-AC21-E458F76C6045}.Debug.Build.0 = Debug|Win32
+		{6F0DE35B-C79D-4E21-AC21-E458F76C6045}.Release.ActiveCfg = Release|Win32
+		{6F0DE35B-C79D-4E21-AC21-E458F76C6045}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

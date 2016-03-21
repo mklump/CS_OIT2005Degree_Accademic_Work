@@ -1,0 +1,20 @@
+/*****************************************************************************
+
+                        Copyright (c) Prolog Development Center A/S
+
+******************************************************************************/
+
+#include @"Configuration\Configuration.ph"
+
+% privately used packages
+#include @"pfc\5xvip\5xfile\5xfile.ph"
+#include @"pfc\5xvip\5xstring\5xstring.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\vpi\vpieditor\vpieditor.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"Configuration\Configuration.pro"

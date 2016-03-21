@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{00B2C787-5A93-463C-B470-BA10BA39A9C5}") = "PerlProject", "PerlProject.perlproj", "{593BABDD-DC30-40DE-9B0B-2FCB7C8FA8DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{593BABDD-DC30-40DE-9B0B-2FCB7C8FA8DE}.Debug.ActiveCfg = Debug
+		{593BABDD-DC30-40DE-9B0B-2FCB7C8FA8DE}.Debug.Build.0 = Debug
+		{593BABDD-DC30-40DE-9B0B-2FCB7C8FA8DE}.Release.ActiveCfg = Release
+		{593BABDD-DC30-40DE-9B0B-2FCB7C8FA8DE}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,69 @@
+<?php
+
+  $db_connect_str="";
+  $the_error_str="";
+  $conn="";
+  $user_type="invalid";
+
+  begin_page();
+  $conn=open_db();
+
+  if ($conn)
+  {
+    $user_type=validate_user();
+    if ($user_type=="invalid")
+    { unauthorized(); }
+    else
+    { $error_str=main($user_type, $conn); }
+    
+    if ($error_str) 
+    { goto_error($error_str); }
+    close_db($conn);
+  }
+  else
+  {
+    goto_error($the_error_str);
+  }
+
+function begin_page()
+{
+  print("\n<title>OwlEval survey system. Oregon Institue of Technology</title>");
+  print("\n</head>\n<body bgcolor=c0c0c0>");
+}
+
+function goto_error($str)
+{
+  if(!$str) {$str="<br>-- Database connection could not be resolved, please try again later.";}
+
+  print("<font size=6 color=FF0000>Error</font><br>$str");
+}
+
+function open_db()
+{
+  return "some DB connection";
+}
+
+function close_db($conn)
+{
+}
+
+function validate_user()
+{
+  return "admin";
+}
+
+function log_entry($some_action)
+{
+}
+
+function unauthorized()
+{
+  print("You are not authorized to use this system");
+}
+
+function send_me($page_name)
+{
+  close_db();
+  header('Location: $page_name');
+}
+?>

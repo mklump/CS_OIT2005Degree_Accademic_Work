@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="Mount">
+        <attr name="OpenIDE-Folder-Order" stringvalue="Javadoc/java/SystemFileSystem.instance/org-netbeans-modules-form-GlobalJarFileSystem.settings/org-netbeans-modules-usersguide-sampledir.settings/org-openide-filesystems-LocalFileSystem.settings"/>
+    </fileobject>
+</attributes>

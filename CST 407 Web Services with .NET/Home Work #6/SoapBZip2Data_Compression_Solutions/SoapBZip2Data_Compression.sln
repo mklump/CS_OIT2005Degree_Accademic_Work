@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompressionClient", "CompressionClient\CompressionClient.csproj", "{78D469B3-7396-4EE2-96B1-C30E41260156}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapBZip2Data_Compression", "http://localhost/Matts_Projects/compressionservice/SoapBZip2Data_Compression.csproj", "{3982264F-4619-48BC-8FC9-52254D1364AD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{78D469B3-7396-4EE2-96B1-C30E41260156}.Debug.ActiveCfg = Debug|.NET
+		{78D469B3-7396-4EE2-96B1-C30E41260156}.Debug.Build.0 = Debug|.NET
+		{78D469B3-7396-4EE2-96B1-C30E41260156}.Release.ActiveCfg = Release|.NET
+		{78D469B3-7396-4EE2-96B1-C30E41260156}.Release.Build.0 = Release|.NET
+		{3982264F-4619-48BC-8FC9-52254D1364AD}.Debug.ActiveCfg = Debug|.NET
+		{3982264F-4619-48BC-8FC9-52254D1364AD}.Debug.Build.0 = Debug|.NET
+		{3982264F-4619-48BC-8FC9-52254D1364AD}.Release.ActiveCfg = Release|.NET
+		{3982264F-4619-48BC-8FC9-52254D1364AD}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

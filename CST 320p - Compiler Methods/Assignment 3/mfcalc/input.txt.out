@@ -1,0 +1,64 @@
+^add_func	 // function entry point
+	push	%r14	//Save bp register
+	mov	%r14,	%r13	// bp <- sp
+	mov	%r0,	<%r14, $8, $4>	// r0 <- stack[sp+8]
+	add	%r0,	<%r14, $12, $4>  // r0 <- r0 + stack[bp+12]
+	mov	%r13,	%r14	// sp <- bp
+	pop	%r14	// restore bp
+	return	// return back to caller
+
+^sub_func	 // function entry point
+	push	%r14	//Save bp register
+	mov	%r14,	%r13	// bp <- sp
+	mov	%r0,	<%r14, $8, $4>	// r0 <- stack[bp+8]
+	sub	%r0,	<%r14, $12, $4>  // r0 <- r0 - stack[bp+12]
+	mov	%r13,	%r14	// sp <- bp
+	pop	%r14	// restore bp
+	return	// return back to caller
+
+^read_func	 // function entry point
+	push	%r14	//Save bp register
+	mov	%r14,	%r13	// bp <- sp
+	accept	%r0	// read integer into r0
+	mov	%r13,	%r14	// sp <- bp
+	pop	%r14	// restore bp
+	return	// return back to caller
+
+^print_func	 // function entry point
+	push	%r14	//Save bp register
+	mov	%r14,	%r13	// bp <- sp
+	mov	%r0,	<%r14, $8, $4>	// r0 <- stack[sp+8]
+	print	%r0	// print value of r0
+	mov	%r13,	%r14	// sp <- bp
+	pop	%r14	// restore bp
+	return	// return back to caller
+
+^start	 // function entry point
+	push	%r14	//Save bp register
+	mov	%r14,	%r13	// bp <- sp
+	call	read_func	// call intrinsic read function for read(x)
+	mov	<$0,	$0,	$4>,	%r0	//move from reg to memory
+	mov	%r0,	<$0,	$0,	$4>	// move var into register
+	mov	%r1,	$1	// rx<- constant
+	push	%r1	//push parameter onto stack
+	push	%r0	//push parameter onto stack
+	call	add_func
+	add	%r13,	$8	// adjust the stack
+	mov	<$0,	$4,	$4>,	%r0	//move from reg to memory
+	mov	%r2,	<$0,	$4,	$4>	// move var into register
+	push	$1	// add(x) <-  add_func(x,1)
+	push	%r2	// push register onto stack
+	call	add_func	// call intrinsic add function for add(x)
+	add	%r13,	$8	//remove parameters from stack
+	mov	<$0,	$0,	$4>,	%r0	//move from reg to memory
+	mov	%r3,	<$0,	$0,	$4>	// move var into register
+	push	%r3	// push register onto stack
+	call	print_func	// call intrinsic print function for print(x)
+	add	%r13,	$4	//remove parameter from stack
+	mov	%r4,	<$0,	$4,	$4>	// move var into register
+	push	%r4	// push register onto stack
+	call	print_func	// call intrinsic print function for print(x)
+	add	%r13,	$4	//remove parameter from stack
+	mov	%r13,	%r14	// sp <- bp
+	pop	%r14	//restore bp
+	return	//return from main function

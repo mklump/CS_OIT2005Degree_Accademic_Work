@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Page-1" NameU="Page-1">
+			<Layer IX="0">
+				<Name>Connector</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="1" UniqueID="{1DA65F37-8816-4244-B744-F97B665D2E51}" Name="Box" NameU="Box" Master="0">
+					<Text>Client (Web Browser)</Text>
+					<XForm>
+						<PinX Unit="MM">5.807086614173228</PinX>
+						<PinY Unit="MM">9.719488188976378</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{F42F0FD8-5ED0-4F36-874F-09BFEB9FB56D}" Name="Box.2" NameU="Box.2" Master="0">
+					<Text>ASP.NET Architecture</Text>
+					<XForm>
+						<PinX Unit="MM">5.807086614173228</PinX>
+						<PinY Unit="MM">7.947834645669289</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{72DAA957-7AFB-44F5-9C1C-7F9E86A6ADA1}" Name="2-D double" NameU="2-D double" Master="2">
+					<XForm>
+						<PinX Unit="MM">5.826771653543310</PinX>
+						<PinY Unit="MM">8.838582677165356</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{52DB38A9-669D-4DB7-9DD6-E684F820E751}" Name="2-D double.4" NameU="2-D double.4" Master="2">
+					<XForm>
+						<PinX Unit="MM">5.826771653543310</PinX>
+						<PinY Unit="MM">7.066929133858270</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{C49D56CF-4CB0-465F-96B7-637B6BE0E18B}" Name="Box.5" NameU="Box.5" Master="0">
+					<Text>C# Application Logic</Text>
+					<XForm>
+						<PinX Unit="MM">5.807086614173229</PinX>
+						<PinY Unit="MM">6.176181102362205</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{84DDE669-9249-45E7-AB43-61D2379DCEE7}" Name="2-D double.6" NameU="2-D double.6" Master="2">
+					<Text>.NET Web Services</Text>
+					<XForm>
+						<PinX Unit="MM">5.826771653543310</PinX>
+						<PinY Unit="MM">5.295275590551185</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{497D17F8-69BB-4338-8490-347B46E2E4E2}" Name="Box.7" NameU="Box.7" Master="0">
+					<Text>SQL (MS SQL Server 2000)</Text>
+					<XForm>
+						<PinX Unit="MM">5.807086614173229</PinX>
+						<PinY Unit="MM">4.404527559055118</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{AB58E33C-2E7C-4F21-B873-E25B0BB4908A}" Name="Sheet.9" NameU="Sheet.9">
+					<XForm>
+						<PinX Unit="MM">4.094488188976379</PinX>
+						<PinY Unit="MM">9.229715850736049</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{183BDA46-C749-43B9-9C26-118EFBCAB5B4}" Name="Sheet.8" NameU="Sheet.8">
+					<XForm>
+						<PinX Unit="MM">4.094488188976378</PinX>
+						<PinY Unit="MM">10.017117425539196</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{04288388-64D6-4C6D-995D-EDE38A3880EF}" Name="Sheet.10" NameU="Sheet.10">
+					<Text>Tier 1 – Client Computer</Text>
+					<XForm>
+						<PinX Unit="MM">2.519685039370079</PinX>
+						<PinY Unit="MM">9.645669291338580</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{FAA5A195-2679-43ED-9993-3FCB7AD7FAA1}" Name="Sheet.11" NameU="Sheet.11">
+					<XForm>
+						<PinX Unit="MM">4.429133858267717</PinX>
+						<PinY Unit="MM">5.314960629921258</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{71FAD4B9-92F1-4AE3-9401-BFED5FA9388D}" Name="Sheet.12" NameU="Sheet.12">
+					<XForm>
+						<PinX Unit="MM">3.212220040000720</PinX>
+						<PinY Unit="MM">7.972440944881889</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{31397526-F5EB-4F49-98D2-07F4025A682B}" Name="Sheet.13" NameU="Sheet.13">
+					<XForm>
+						<PinX Unit="MM">3.248031496062993</PinX>
+						<PinY Unit="MM">6.200787401574802</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{A8C3FB63-2CD5-4477-B7E2-CDB2EC1F677D}" Name="Sheet.14" NameU="Sheet.14">
+					<Text>Tier 2 – Server Computer</Text>
+					<XForm>
+						<PinX Unit="MM">2.322834645669292</PinX>
+						<PinY Unit="MM">7.125984251968502</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="15" UniqueID="{AD2DBB4C-9F71-40FE-AE02-440839B36B4F}" Name="Sheet.15" NameU="Sheet.15">
+					<XForm>
+						<PinX Unit="MM">4.133858267716536</PinX>
+						<PinY Unit="MM">4.035433070866140</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="16" UniqueID="{5734830C-ED51-4F6C-8259-1F1A382FA1D3}" Name="Sheet.16" NameU="Sheet.16">
+					<XForm>
+						<PinX Unit="MM">3.256716072255674</PinX>
+						<PinY Unit="MM">4.906785548865214</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{0BCD5235-0FA4-47A1-A2CD-9F76E7647A9A}" Name="Sheet.17" NameU="Sheet.17">
+					<Text>1) localhost then,
+2) Webhost4life
+Windows Server 2003
+At domain klump-pdx.com</Text>
+					<XForm>
+						<PinX Unit="MM">2.559055118110236</PinX>
+						<PinY Unit="MM">4.527559055118108</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="18" UniqueID="{C39CA42A-918B-4177-92A7-21DDCC329345}" Name="Sheet.18" NameU="Sheet.18">
+					<XForm>
+						<PinX Unit="MM">2.755905511811024</PinX>
+						<PinY Unit="MM">10.433070866141730</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="19" UniqueID="{8F213983-CB7A-478B-BBCD-BA549E17F2D0}" Name="Sheet.19" NameU="Sheet.19">
+					<XForm>
+						<PinX Unit="MM">2.751900459834880</PinX>
+						<PinY Unit="MM">5.309256464985539</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="20" UniqueID="{CA27278A-CA67-4039-914F-98CA9DCD5BD6}" Name="Sheet.20" NameU="Sheet.20">
+					<XForm>
+						<PinX Unit="MM">1.791433089461521</PinX>
+						<PinY Unit="MM">7.873871726721303</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="21" UniqueID="{26A64078-4EC7-43A4-BA6E-45BEB2417170}" Name="Sheet.21" NameU="Sheet.21">
+					<Text>Phase 1 Testing</Text>
+					<XForm>
+						<PinX Unit="MM">1.279527559055119</PinX>
+						<PinY Unit="MM">7.874015748031495</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="22" UniqueID="{2A63875E-3EE9-49E7-BAA1-03225F2C0731}" Name="Sheet.22" NameU="Sheet.22">
+					<XForm>
+						<PinX Unit="MM">2.755905511811024</PinX>
+						<PinY Unit="MM">3.543307086614171</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{06A1DAAE-9DE3-4DF6-9569-615BE17B5495}" Name="Sheet.23" NameU="Sheet.23">
+					<XForm>
+						<PinX Unit="MM">1.778262650422649</PinX>
+						<PinY Unit="MM">4.429085735208744</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="24" UniqueID="{59F2371D-3B96-4404-9198-66F89EC67901}" Name="Sheet.24" NameU="Sheet.24">
+					<Text>Testing Phase 2 – localhost to klump-pdx.com</Text>
+					<XForm>
+						<PinX Unit="MM">1.181102362204725</PinX>
+						<PinY Unit="MM">4.527559055118109</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="25" UniqueID="{1E9E9A74-3A43-4717-9C48-4E72C011AAF2}" Name="Sheet.25" NameU="Sheet.25">
+					<Text>High Level Design</Text>
+					<XForm>
+						<PinX Unit="MM">4.133858267716535</PinX>
+						<PinY Unit="MM">10.925196850393700</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

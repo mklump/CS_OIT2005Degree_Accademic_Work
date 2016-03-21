@@ -1,0 +1,189 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: WSA5 Web Service
+Date: Tue, 23 Nov 2004 08:51:04 -0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/WSA5_Service.asmx?op=Login
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1441
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>WSA5 Web Service</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dutf-8"><LINK=20
+href=3D"WSA5_Service.asmx?disco" type=3Dtext/xml rel=3Dalternate>
+<STYLE type=3Dtext/css>BODY {
+	MARGIN-TOP: 0px; MARGIN-LEFT: 0px; COLOR: #000000; FONT-FAMILY: =
+Verdana; BACKGROUND-COLOR: white
+}
+#content {
+	FONT-SIZE: 0.7em; PADDING-BOTTOM: 2em; MARGIN-LEFT: 30px
+}
+A:link {
+	FONT-WEIGHT: bold; COLOR: #336699; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A:active {
+	FONT-WEIGHT: bold; COLOR: #336699; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-WEIGHT: bold; COLOR: #cc3300; TEXT-DECORATION: underline
+}
+P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 12px; COLOR: #000000; FONT-FAMILY: =
+Verdana
+}
+PRE {
+	BORDER-RIGHT: #f0f0e0 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: =
+#f0f0e0 1px solid; MARGIN-TOP: -5px; PADDING-LEFT: 5px; FONT-SIZE: =
+x-small; PADDING-BOTTOM: 5px; BORDER-LEFT: #f0f0e0 1px solid; =
+PADDING-TOP: 5px; BORDER-BOTTOM: #f0f0e0 1px solid; FONT-FAMILY: Courier =
+New; BACKGROUND-COLOR: #e5e5cc
+}
+TD {
+	FONT-SIZE: 0.7em; COLOR: #000000; FONT-FAMILY: Verdana
+}
+H2 {
+	BORDER-TOP: #003366 1px solid; MARGIN-TOP: 25px; FONT-WEIGHT: bold; =
+FONT-SIZE: 1.5em; MARGIN-BOTTOM: 10px; MARGIN-LEFT: -15px; COLOR: =
+#003366
+}
+H3 {
+	MARGIN-TOP: 10px; FONT-SIZE: 1.1em; MARGIN-BOTTOM: 10px; MARGIN-LEFT: =
+-15px; COLOR: #000000
+}
+UL {
+	MARGIN-TOP: 10px; MARGIN-LEFT: 20px
+}
+OL {
+	MARGIN-TOP: 10px; MARGIN-LEFT: 20px
+}
+LI {
+	MARGIN-TOP: 10px; COLOR: #000000
+}
+FONT.value {
+	FONT-WEIGHT: bold; COLOR: darkblue
+}
+FONT.key {
+	FONT-WEIGHT: bold; COLOR: darkgreen
+}
+.heading1 {
+	MARGIN-TOP: 0px; PADDING-LEFT: 15px; FONT-WEIGHT: normal; FONT-SIZE: =
+26px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 3px; MARGIN-LEFT: -30px; =
+WIDTH: 105%; COLOR: #ffffff; PADDING-TOP: 10px; FONT-FAMILY: Tahoma; =
+BACKGROUND-COLOR: #003366
+}
+.button {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #cccccc 1px solid; =
+FONT-SIZE: 1em; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #666666 =
+1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #dcdcdc
+}
+.frmheader {
+	FONT-WEIGHT: normal; FONT-SIZE: 0.7em; BACKGROUND: #dcdcdc; =
+PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: =
+#dcdcdc 1px solid; FONT-FAMILY: Verdana
+}
+.frmtext {
+	MARGIN-TOP: 8px; FONT-SIZE: 0.7em; MARGIN-BOTTOM: 0px; MARGIN-LEFT: =
+32px; FONT-FAMILY: Verdana
+}
+.frmInput {
+	FONT-SIZE: 1em; FONT-FAMILY: Verdana
+}
+.intro {
+	MARGIN-LEFT: -15px
+}
+</STYLE>
+
+<META content=3D"MSHTML 6.00.2800.1476" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV id=3Dcontent>
+<P class=3Dheading1>WSA5</P><BR><SPAN>
+<P class=3Dintro>Click <A=20
+href=3D"http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/W=
+SA5_Service.asmx">here</A>=20
+for a complete list of operations.</P>
+<H2>Login</H2>
+<P class=3Dintro></P>
+<H3>Test</H3>The test form is only available for requests from the local =
+
+machine. <SPAN>
+<H3>SOAP</H3>
+<P>The following is a sample SOAP request and response. The <FONT=20
+class=3Dvalue>placeholders</FONT> shown need to be replaced with actual=20
+values.</P><PRE>POST =
+/thepuzzler_3dstyle/WSA5_WebService/WSA5_Service.asmx HTTP/1.1
+Host: matthew.klump-pdx.com
+Content-Type: text/xml; charset=3Dutf-8
+Content-Length: <FONT class=3Dvalue>length</FONT>
+SOAPAction: =
+"http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/Login"
+
+&lt;?xml version=3D"1.0" encoding=3D"utf-8"?&gt;
+&lt;soap:Envelope =
+xmlns:xsi=3D"http://www.w3.org/2001/XMLSchema-instance" =
+xmlns:xsd=3D"http://www.w3.org/2001/XMLSchema" =
+xmlns:soap=3D"http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Header&gt;
+    &lt;_Session =
+xmlns=3D"http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/=
+Session"&gt;
+      &lt;id&gt;<FONT class=3Dvalue>string</FONT>&lt;/id&gt;
+      &lt;initiate&gt;
+        &lt;expires&gt;<FONT =
+class=3Dvalue>dateTime</FONT>&lt;/expires&gt;
+      &lt;/initiate&gt;
+      &lt;terminate&gt;
+        &lt;Terminated&gt;<FONT =
+class=3Dvalue>boolean</FONT>&lt;/Terminated&gt;
+      &lt;/terminate&gt;
+    &lt;/_Session&gt;
+  &lt;/soap:Header&gt;
+  &lt;soap:Body&gt;
+    &lt;Login =
+xmlns=3D"http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/=
+"&gt;
+      &lt;employee_ID&gt;<FONT =
+class=3Dvalue>int</FONT>&lt;/employee_ID&gt;
+      &lt;customer_ID&gt;<FONT =
+class=3Dvalue>int</FONT>&lt;/customer_ID&gt;
+      &lt;Name&gt;<FONT class=3Dvalue>string</FONT>&lt;/Name&gt;
+      &lt;admin&gt;<FONT class=3Dvalue>int</FONT>&lt;/admin&gt;
+    &lt;/Login&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</PRE><PRE>HTTP/1.1 200 OK
+Content-Type: text/xml; charset=3Dutf-8
+Content-Length: <FONT class=3Dvalue>length</FONT>
+
+&lt;?xml version=3D"1.0" encoding=3D"utf-8"?&gt;
+&lt;soap:Envelope =
+xmlns:xsi=3D"http://www.w3.org/2001/XMLSchema-instance" =
+xmlns:xsd=3D"http://www.w3.org/2001/XMLSchema" =
+xmlns:soap=3D"http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;soap:Header&gt;
+    &lt;_Session =
+xmlns=3D"http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/=
+Session"&gt;
+      &lt;id&gt;<FONT class=3Dvalue>string</FONT>&lt;/id&gt;
+      &lt;initiate&gt;
+        &lt;expires&gt;<FONT =
+class=3Dvalue>dateTime</FONT>&lt;/expires&gt;
+      &lt;/initiate&gt;
+      &lt;terminate&gt;
+        &lt;Terminated&gt;<FONT =
+class=3Dvalue>boolean</FONT>&lt;/Terminated&gt;
+      &lt;/terminate&gt;
+    &lt;/_Session&gt;
+  &lt;/soap:Header&gt;
+  &lt;soap:Body&gt;
+    &lt;LoginResponse =
+xmlns=3D"http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/=
+"&gt;
+      &lt;LoginResult&gt;<FONT =
+class=3Dvalue>boolean</FONT>&lt;/LoginResult&gt;
+    &lt;/LoginResponse&gt;
+  &lt;/soap:Body&gt;
+&lt;/soap:Envelope&gt;</PRE></SPAN></SPAN></DIV></BODY></HTML>

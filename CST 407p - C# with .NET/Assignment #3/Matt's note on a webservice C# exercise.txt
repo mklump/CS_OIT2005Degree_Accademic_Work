@@ -1,0 +1,8 @@
+I have heard so much about how web services can revolution the very same business functions we still do repetitively today. So naturally I thought all of the code samples availabe on the particular page were of great interest:
+
+http://www.thecodeproject.com/cs/webservices/cpwebserviceconsumer.asp
+
+It goes on to talk about how a beginner like me could write my very onw C# application, and test it with the instructions given.
+Perhaps maybe we could try it as an exercise?
+
+-Matt

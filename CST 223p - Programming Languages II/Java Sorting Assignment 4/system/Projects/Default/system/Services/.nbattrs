@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="org-netbeans-modules-j2ee-impl-ServerOptions.settings">
+        <attr name="SystemFileSystem.layer" stringvalue="project"/>
+    </fileobject>
+    <fileobject name="org-netbeans-modules-javadoc-settings-DocumentationSettings.settings">
+        <attr name="SystemFileSystem.layer" stringvalue="project"/>
+    </fileobject>
+</attributes>

@@ -1,0 +1,1 @@
+osql -S (local) -E -o "results.txt" -i "Lab15.sql" 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="1.0">
+    <name unique="output" display="CTL_OutputWindow" from-bundle="true" bundle="org.netbeans.core.windows.Bundle" />
+    <ui-type type="any" >
+        <bounds x="297" y="581" width="723" height="156" />
+        <frame type="window" constraints="bottom" state="normal" />
+        <container type="split" active-tc="Compiler" >
+            <area constraint="center" x="0" y="0" width="721" height="122" />
+        </container>
+        <icon url="nbresboot:/org/netbeans/core/resources/frames/output.gif" />
+        <other defined-by="module" mode-state="visible" />
+    </ui-type>
+</mode>

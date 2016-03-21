@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="debugger">
+        <attr name="OpenIDE-Folder-Order" stringvalue="DebuggerWindow.wstcref"/>
+    </fileobject>
+    <fileobject name="output">
+        <attr name="OpenIDE-Folder-Order" stringvalue="output.wstcref/Compiler.wstcref"/>
+    </fileobject>
+    <fileobject name="Form">
+        <attr name="OpenIDE-Folder-Order" stringvalue="ComponentInspector.wstcref/ComponentPalette.wstcref"/>
+    </fileobject>
+</attributes>

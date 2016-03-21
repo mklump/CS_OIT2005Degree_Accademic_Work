@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace version="1.1">
+    <name unique="Running" display="CTL_Workspace_Running" from-bundle="true" bundle="org.netbeans.core.windows.Bundle" />
+    <ui-type type="any">
+        <cascade origin-x="0" origin-y="0" step-x="20" step-y="20" count="1" current-x="0" current-y="116" />
+        <active mode="" />
+        <mode z-order="execution,output,options,Form,editor,explorer,properties" />
+        <toolbar configuration="Standard" />
+    </ui-type>
+</workspace>

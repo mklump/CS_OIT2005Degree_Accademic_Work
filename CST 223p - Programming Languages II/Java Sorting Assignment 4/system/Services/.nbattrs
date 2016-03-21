@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="org-netbeans-modules-db-explorer-DatabaseOption.settings">
+        <attr name="SystemFileSystem.layer" stringvalue="Project"/>
+    </fileobject>
+    <fileobject name="org-netbeans-modules-debugger-support-DebuggerProjectSettings.settings">
+        <attr name="hidden" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="org-netbeans-modules-projects-settings-ProjectOption.settings">
+        <attr name="SystemFileSystem.layer" stringvalue="global"/>
+    </fileobject>
+    <fileobject name="org-netbeans-modules-debugger-support-java-JavaProjectSettings.settings">
+        <attr name="hidden" boolvalue="true"/>
+    </fileobject>
+</attributes>

@@ -1,0 +1,18 @@
+#!/bin/sh
+#purgetrash
+#Matthew Klump
+#March 15, 2002
+#To allow Unix to have a "Recycle Bin" feature.
+#This script uses a directory called .trash in
+#the home directory to delete after N days old.
+
+read N
+if [ $# = 0 ]; then
+	echo "Error, purgetrash doesn't take 0 parameters."
+	echo "Usage: purgetrash [some number]"
+	exit 1
+elif [ ! "$TRASH_DIR" ]; then
+	TRASH_DIR="$HOME/.TRASH"
+fi
+find $TRASH_DIR -mtime +$N 
+exec rm

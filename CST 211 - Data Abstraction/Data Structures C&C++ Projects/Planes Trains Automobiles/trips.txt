@@ -1,0 +1,8 @@
+Portland NewYork 2900
+Portland Seattle 180
+Portland KlamathFalls 275
+Portland Albuquerque 1370
+Portland RapidCity 1260
+Seattle Philadelphia 2820
+Seattle WashingtonDC 2720
+Seattle Fargo 1420

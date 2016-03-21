@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tc-ref version="1.0" id="DebuggerWindow" >
+    <module name="org.netbeans.modules.debugger.core/3" spec="2.1" />
+    <ui-type type="any" state="opened" constraint="center" selected="false" />
+</tc-ref>

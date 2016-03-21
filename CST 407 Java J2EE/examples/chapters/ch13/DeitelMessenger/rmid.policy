@@ -1,0 +1,6 @@
+// allow ActivationGroup to specify C:\activationGroup.policy 
+// as its VM’s security policy
+grant {
+   permission com.sun.rmi.rmid.ExecOptionPermission
+      "-Djava.security.policy=file:///C:/activationGroup.policy";
+};

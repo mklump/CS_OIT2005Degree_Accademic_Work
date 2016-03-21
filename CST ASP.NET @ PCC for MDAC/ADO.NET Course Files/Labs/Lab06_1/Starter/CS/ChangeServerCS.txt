@@ -1,0 +1,18 @@
+Options frmOptions = new Options();
+
+// display last selected server
+frmOptions.txtServer.Text = this.ServerName;
+
+// if user selects OK, change employee and load related data
+if (frmOptions.ShowDialog(this) == DialogResult.OK)
+{
+	// retrieve server name entered in the text box
+	this.ServerName = frmOptions.txtServer.Text;
+
+	// set connection string using new server name
+	this.cnNorthwind.ConnectionString = 
+		"data source=" + this.ServerName + ";" +
+		"initial catalog=Northwind;" +
+		"integrated security=SSPI;" +
+		"persist security info=False;";
+}

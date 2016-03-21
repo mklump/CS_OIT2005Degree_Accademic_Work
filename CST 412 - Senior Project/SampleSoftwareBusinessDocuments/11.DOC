@@ -1,0 +1,351 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f14\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f16\fswiss\fcharset0\fprq2{\*\panose 020b0a04020102020204}Arial Black;}
+{\f17\fswiss\fcharset0\fprq2{\*\panose 020b0506020202030204}Arial Narrow;}{\f206\fswiss\fcharset238\fprq2 Arial Black CE;}{\f207\fswiss\fcharset204\fprq2 Arial Black Cyr;}{\f209\fswiss\fcharset161\fprq2 Arial Black Greek;}
+{\f210\fswiss\fcharset162\fprq2 Arial Black Tur;}{\f211\fswiss\fcharset186\fprq2 Arial Black Baltic;}{\f212\fswiss\fcharset238\fprq2 Arial Narrow CE;}{\f213\fswiss\fcharset204\fprq2 Arial Narrow Cyr;}{\f215\fswiss\fcharset161\fprq2 Arial Narrow Greek;}
+{\f216\fswiss\fcharset162\fprq2 Arial Narrow Tur;}{\f217\fswiss\fcharset186\fprq2 Arial Narrow Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;
+\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{
+\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 1;}{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\i\f1\cgrid \sbasedon0 \snext0 heading 2;}{
+\s3\sb240\sa60\keepn\widctlpar\adjustright \f1\cgrid \sbasedon0 \snext0 heading 3;}{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 4;}{\s5\sb240\sa60\widctlpar\adjustright \f1\fs22\cgrid \sbasedon0 \snext0 heading 5;}{
+\s6\sb240\sa60\widctlpar\adjustright \i\fs22\cgrid \sbasedon0 \snext0 heading 6;}{\s7\sb240\sa60\widctlpar\adjustright \f1\fs20\cgrid \sbasedon0 \snext0 heading 7;}{\s8\sb240\sa60\widctlpar\adjustright \i\f1\fs20\cgrid \sbasedon0 \snext0 heading 8;}{
+\s9\sb240\sa60\widctlpar\adjustright \b\i\f1\fs18\cgrid \sbasedon0 \snext0 heading 9;}{\*\cs10 \additive Default Paragraph Font;}{\s15\fi-360\li720\widctlpar\adjustright \f2\fs20\cgrid \sbasedon0 \snext15 List 2;}{\s16\fi-360\li1080\widctlpar\adjustright 
+\f2\fs20\cgrid \sbasedon0 \snext16 List 3;}{\s17\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext17 header;}{\s18\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext18 footer;}{\*\cs19 \additive \sbasedon10 
+page number;}{\s20\qc\sb100\widctlpar\adjustright \b\fs72\cgrid \sbasedon0 \snext20 Title;}}{\*\listtable{\list\listtemplateid264038066\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext
+\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1800 }{\listname ;}\listid107554324}{\list\listtemplateid1940803620\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}
+\fi-360\li1080 }{\listname ;}\listid125973476}{\list\listtemplateid-1908751828\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1080 }{\listname 
+;}\listid202375416}{\list\listtemplateid-264756188\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1800 }{\listname ;}\listid275866212}
+{\list\listtemplateid294041130\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fs22 \fi-360\li1080 }{\listname ;}\listid357240784}
+{\list\listtemplateid407431770\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'03\'00. ;}{\levelnumbers\'01;}\b0\i0\f0\fs22\ulnone\fbias0 \fi-360\li1080 }{\listname ;}\listid394082911}
+{\list\listtemplateid294041130\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fs22 \fi-360\li1080 }{\listname ;}\listid415131262}
+{\list\listtemplateid294041130\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fs22 \fi-360\li1080 }{\listname ;}\listid491676652}
+{\list\listtemplateid-264756188\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1800 }{\listname ;}\listid508714255}{\list\listtemplateid1940803620
+\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1080 }{\listname ;}\listid529301412}{\list\listtemplateid-368825730\listsimple{\listlevel\levelnfc3
+\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\b0\i0\fs22 \fi-360\li1080\jclisttab\tx1080 }{\listname ;}\listid575093930}{\list\listtemplateid1395401232\listsimple{\listlevel\levelnfc3\leveljc0
+\levelfollow0\levelstartat3\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fs22 \fi-360\li1080 }{\listname ;}\listid583805651}{\list\listtemplateid239081496\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat2
+\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1080 }{\listname ;}\listid596913211}{\list\listtemplateid1986683938\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat2\levelold\levelspace0
+\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fs22 \fi-360\li1080 }{\listname ;}\listid689339054}{\list\listtemplateid407431770\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext
+\'03\'00. ;}{\levelnumbers\'01;}\b0\i0\f0\fs22\ulnone\fbias0 \fi-360\li1080 }{\listname ;}\listid691342807}{\list\listtemplateid-264756188\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext
+\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1800 }{\listname ;}\listid754477819}{\list\listtemplateid-368825730\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\b0\i0\fs22 
+\fi-360\li1080\jclisttab\tx1080 }{\listname ;}\listid872184150}{\list\listtemplateid-2062388078\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat6\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fs22 
+\fi-360\li1080 }{\listname ;}\listid895775573}{\list\listtemplateid-1524080092\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3880 ?;}{\levelnumbers;}\f14\fbias0 \fi432\li288
+\jclisttab\tx1080 }{\listname ;}\listid978270639}{\list\listtemplateid-264756188\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1800 }{\listname 
+;}\listid1154562044}{\list\listtemplateid1940803620\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1080 }{\listname ;}\listid1197623162}
+{\list\listtemplateid1940803620\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1080 }{\listname ;}\listid1207524845}{\list\listtemplateid294041130
+\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fs22 \fi-360\li1080 }{\listname ;}\listid1257252355}{\list\listtemplateid1940803620\listsimple{\listlevel
+\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1080 }{\listname ;}\listid1274366948}{\list\listtemplateid1391478806\listsimple{\listlevel\levelnfc3\leveljc0
+\levelfollow0\levelstartat8\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1080 }{\listname ;}\listid1288506666}{\list\listtemplateid294041130\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1
+\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fs22 \fi-360\li1080 }{\listname ;}\listid1352489239}{\list\listtemplateid1940803620\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0
+\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1080 }{\listname ;}\listid1370256286}{\list\listtemplateid-264756188\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext
+\'02\'00.;}{\levelnumbers\'01;}\fi-360\li2520 }{\listname ;}\listid1511336497}{\list\listtemplateid1940803620\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}
+\fi-360\li1080 }{\listname ;}\listid1566647553}{\list\listtemplateid298509168\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat3\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1080 }{\listname 
+;}\listid1600916220}{\list\listtemplateid-264756188\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1800 }{\listname ;}\listid1646155016}
+{\list\listtemplateid-1336522150\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat4\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1080 }{\listname ;}\listid1734693708}
+{\list\listtemplateid1866633290\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat7\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1805270437}
+{\list\listtemplateid1940803620\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1080 }{\listname ;}\listid1859391576}{\list\listtemplateid1940803620
+\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1080 }{\listname ;}\listid1908762572}{\list\listtemplateid407431770\listsimple{\listlevel\levelnfc3
+\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'03\'00. ;}{\levelnumbers\'01;}\b0\i0\f0\fs22\ulnone\fbias0 \fi-360\li1080 }{\listname ;}\listid1992060091}{\list\listtemplateid-264756188\listsimple{\listlevel\levelnfc0
+\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li1800 }{\listname ;}\listid2089886295}{\list\listtemplateid294041130\listsimple{\listlevel\levelnfc3\leveljc0\levelfollow0
+\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fs22 \fi-360\li1080 }{\listname ;}\listid2127890341}}{\*\listoverridetable{\listoverride\listid575093930\listoverridecount0\ls1}{\listoverride\listid2127890341
+\listoverridecount0\ls2}{\listoverride\listid1370256286\listoverridecount0\ls3}{\listoverride\listid125973476\listoverridecount0\ls4}{\listoverride\listid754477819\listoverridecount0\ls5}{\listoverride\listid1600916220\listoverridecount0\ls6}
+{\listoverride\listid1646155016\listoverridecount0\ls7}{\listoverride\listid1734693708\listoverridecount0\ls8}{\listoverride\listid1992060091\listoverridecount0\ls9}{\listoverride\listid508714255\listoverridecount0\ls10}{\listoverride\listid691342807
+\listoverridecount0\ls11}{\listoverride\listid357240784\listoverridecount0\ls12}{\listoverride\listid491676652\listoverridecount0\ls13}{\listoverride\listid1352489239\listoverridecount0\ls14}{\listoverride\listid1154562044\listoverridecount0\ls15}
+{\listoverride\listid689339054\listoverridecount0\ls16}{\listoverride\listid2089886295\listoverridecount0\ls17}{\listoverride\listid583805651\listoverridecount0\ls18}{\listoverride\listid275866212\listoverridecount0\ls19}{\listoverride\listid895775573
+\listoverridecount0\ls20}{\listoverride\listid1197623162\listoverridecount0\ls21}{\listoverride\listid1257252355\listoverridecount0\ls22}{\listoverride\listid415131262\listoverridecount0\ls23}{\listoverride\listid394082911\listoverridecount0\ls24}
+{\listoverride\listid1859391576\listoverridecount0\ls25}{\listoverride\listid1908762572\listoverridecount0\ls26}{\listoverride\listid529301412\listoverridecount0\ls27}{\listoverride\listid1207524845\listoverridecount0\ls28}{\listoverride\listid1566647553
+\listoverridecount0\ls29}{\listoverride\listid1511336497\listoverridecount0\ls30}{\listoverride\listid596913211\listoverridecount0\ls31}{\listoverride\listid1274366948\listoverridecount0\ls32}{\listoverride\listid1288506666\listoverridecount0\ls33}
+{\listoverride\listid107554324\listoverridecount0\ls34}{\listoverride\listid202375416\listoverridecount0\ls35}{\listoverride\listid978270639\listoverridecount0\ls36}{\listoverride\listid872184150\listoverridecount0\ls37}{\listoverride\listid1805270437
+\listoverridecount0\ls38}}{\info{\title County Contract}{\author Tom Howe}{\operator Tom Howe}{\creatim\yr1997\mo1\dy18\hr13\min11}{\revtim\yr1998\mo2\dy15\hr12\min13}{\printim\yr1997\mo1\dy17\hr10\min29}{\version4}{\edmins3}{\nofpages8}{\nofwords3255}
+{\nofchars18556}{\*\company Howe & Associates}{\nofcharsws22788}{\vern89}}\margl1440\margr1440\margt720\margb864 \widowctrl\ftnbj\aenddoc\lytprtmet\hyphcaps0\formshade\viewkind1\viewscale90\pgbrdrhead\pgbrdrfoot \fet0\sectd 
+\psz1\linex0\footery576\endnhere\sectdefaultcl {\footer \pard\plain \s18\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid {\cs19\i Page }{\field{\*\fldinst {\cs19\i  PAGE }}{\fldrslt {\cs19\i\lang1024 7}}}{\cs19\i  - Agreement }{
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \qc\sb100\widctlpar\brdrt\brdrs\brdrw45\brsp80 \brdrb\brdrs\brdrw45\brsp80 \adjustright \fs20\cgrid {\f16\fs32 
+Software License Contract
+\par }\pard \qj\sb100\widctlpar\adjustright {
+\par 
+\par }\pard \sb100\sl360\slmult1\widctlpar\tx-1440\tx-720\adjustright {This AGREEMENT is by and between }{\b Software, Inc}{. (hereinafter referred to as \ldblquote }{\b Company}{\rdblquote ) and }{\b _________________________________________}{ 
+(hereinafter referred to as "}{\b Customer}{.\rdblquote 
+\par }\pard \li720\ri540\sb100\widctlpar\tx-1440\tx-720\adjustright {\b WHEREAS}{, Company is a developer of computer software, including a product known as \ldblquote Killer Solutions;\rdblquote  and
+\par }{\b WHEREAS}{, Customer desires to license the Software and to have Company modify and install the Software for Customer.
+\par }{\b NOW, THEREFORE, }{for good and valuable consideration, the parties agree as follows:
+\par }\pard \qj\li720\ri720\sb100\widctlpar\tx-1440\tx-720\adjustright {
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 1.\tab DESCRIPTION OF THE SOFTWARE
+\par }\pard \qj\ri-187\sb100\widctlpar\adjustright {Killer Solutions will be used to collect, store, retrieve and manage information regarding t
+he clients of Customer. All references in this Agreement to the "Software" means Killer Solutions, as modified for Customer. It does not include any other software (such as Microsoft Word) or any other operating systems.
+\par }\pard \qj\sb100\widctlpar\adjustright {\tab The following modules are included with the Killer Solutions Software:
+\par {\pntext\pard\plain\f1\fs22\cgrid \hich\af1\dbch\af0\loch\f1 A.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent1080\pnhang{\pntxta .}}\ls1\adjustright {\b\f1 
+Client Module:}{ Collects, stores, retrieves and manages information for the client\rquote s files. The module includes letters, agreements, and reports. Letters can be customized to meet the user\rquote 
+s needs. All documents are saved in the client log. 
+\par {\pntext\pard\plain\f1\fs22\cgrid \hich\af1\dbch\af0\loch\f1 B.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent1080\pnhang{\pntxta .}}\ls1\adjustright {\b\f1 
+Calendar Module:}{ An office calendar to keep track of all appointments and scheduled events. Calendar items and reports can be printed, including a user\rquote s schedule. Items and reports can be pri
+nted for an event, such as all appointments of a certain user. Alarm notification reminders can be set for events.
+\par {\pntext\pard\plain\f1\fs22\cgrid \hich\af1\dbch\af0\loch\f1 C.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent1080\pnhang{\pntxta .}}\ls1\adjustright {\b\f1 
+Client Billing Module:}{ Generates bills for clients and tracks all client payments. Billing entries can be automatically created when documents are generated.
+\par {\pntext\pard\plain\f1\fs22\cgrid \hich\af1\dbch\af0\loch\f1 D.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent1080\pnhang{\pntxta .}}\ls1\adjustright {\b\f1 
+Contacts Module:}{ Stores and retrieves information for individuals who are not clients. Built-in access to professionals in the state of ________, including CPA\rquote s, lawyers, doctors, and others. Maintains information and generates le
+tters and reports automatically. Information in the office Rolodex will be kept in this module so that all users can have access to the information.
+\par {\pntext\pard\plain\f1\fs22\cgrid \hich\af1\dbch\af0\loch\f1 E.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent1080\pnhang{\pntxta .}}\ls1\adjustright {\b\f1 
+E-Mail Module}{\b\f17 :}{ A fully networked messaging system. Computer users can send and receive information to each other by computer. Deleted messages are saved in an archive file for later retrieval.
+\par {\pntext\pard\plain\f1\fs22\cgrid \hich\af1\dbch\af0\loch\f1 F.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent1080\pnhang{\pntxta .}}\ls1\adjustright {\b\f1 
+To-Do List Module:}{ A fully networked To-Do List. To-Do Items can be prioritized and checked off when done.
+\par {\pntext\pard\plain\f1\fs22\cgrid \hich\af1\dbch\af0\loch\f1 G.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent1080\pnhang{\pntxta .}}\ls1\adjustright {\b\f1 
+Banking, Check Writing and Financial Analysis:}{ A fu
+lly networked check writing, general ledger and reconciliation program. Customized detailed financial reporting. Maintain multiple accounts. Keep track of revenue, expenses, profits and other financial and marketing data.
+\par {\pntext\pard\plain\f1\fs22\cgrid \hich\af1\dbch\af0\loch\f1 H.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent1080\pnhang{\pntxta .}}\ls1\adjustright {\b\f1 
+Information Module: }{A fully networked Information System. In addition to client data, there is other general information to keep track of such as office information and procedures, legal research and documents not related to a client.
+\par {\pntext\pard\plain\f1\fs22\cgrid \hich\af1\dbch\af0\loch\f1 I.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent1080\pnhang{\pntxta .}}\ls1\adjustright {\b\f1 
+Office Reporting and Analysis:}{ Generates reports and analysis of client and office data.
+\par {\pntext\pard\plain\f1\fs22\cgrid \hich\af1\dbch\af0\loch\f1 J.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent1080\pnhang{\pntxta .}}\ls1\adjustright {\b\f1 
+Human Resources Module:}{ A fully networked human resource module to maintain employee files. This information can be password protected.
+\par {\pntext\pard\plain\f1\fs22\cgrid \hich\af1\dbch\af0\loch\f1 K.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent1080\pnhang{\pntxta .}}\ls1\adjustright {\b\f1 
+Document Scanning:}{ Scan and retrieve documents in Killer Solutions. 
+\par }\pard \qj\li720\sb100\widctlpar\adjustright {\f16 
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 2.\tab CUSTOMIZATION OF SOFTWARE
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 A.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pnucltr\pnfs22\pnstart1\pnindent360\pnhang{\pntxta .}}\ls2\adjustright {
+Customer has been provided an opportunity to review the Software, and intends to purchase and have Company install certain modules, some of which may require customization for Customer\rquote s use. Company agrees to provide up to
+ ______________ ( ___ ) hours of customization of Killer Solutions for Customer as part of the cost of the Software. 
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 B.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pnucltr\pnfs22\pnstart1\pnindent360\pnhang{\pntxta .}}\ls2\adjustright {
+Any importing of Customer data from another program into Killer Solutions, as well as work to attach Killer Solutions to other programs, constitutes customization work.
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 3.\tab COST OF SOFTWARE
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 A.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls3\adjustright {
+The cost of the Killer Solutions Software as outlined in this Agreement is $________ for a nonexclusive, nontransferable __________________ ( ____ ) user runtime license. Additional user licenses c
+an be purchased for $________ per user for the first two (2) years after the date of this Agreement.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 B.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls3\adjustright {
+The cost includes one (1) year of free technical support, from the date of installation, which includes product upgrades. After the first year, the yea
+rly cost of technical support, including product upgrades, is $_________ per year for the first (1) year.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 C.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls3\adjustright {
+All custom programming after the hours agreed upon in Section 2A will be charged at the then current hourly rate. Such rate will not exceed $95 for the first two (2) years after the date of this Agreement.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 D.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls3\adjustright {
+The cost of the Killer Solutions Software includes training at the time of installation, as further described in Section 11. All training by Company after this time will be charged at the rate
+ of $95 per hour. This hourly rate will not increase for the first two (2) years after the date of this Agreement.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 E.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls3\adjustright {
+All licenses and other fees payable by Customer under this Agreement are net of applicable taxes. Customer is solely responsible for any taxes or assessed fees which are or may become due by reason of this Agreement.
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 4.\tab SOFTWARE LICENSE
+\par {\pntext\pard\plain\b\f1\fs20\cgrid \hich\af1\dbch\af0\loch\f1 A.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls4\adjustright {\b\f1 The Software is licensed to Customer}{
+, }{\ul not}{ sold. The Software is for Customer's internal use only. Ownership of the Software remains with Company.
+\par {\pntext\pard\plain\b\f1\fs20\cgrid \hich\af1\dbch\af0\loch\f1 B.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls4\adjustright {\b\f1 
+Customer has the following rights under the Software license}{:
+\par {\pntext\pard\plain\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls5\adjustright {\i Software:}{
+ Customer may install and use the number of runtime versions of the Software as set forth in Section 3A.
+\par {\pntext\pard\plain\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls5\adjustright {\i Storage/Network Use:}{
+ Customer may also store or install a copy of the So
+ftware on a storage device, such as a network server, to install or run the Software on other computers over the network as long as the total number of users do not exceed the runtime licenses purchased by Customer.
+\par {\pntext\pard\plain\b\f1\fs20\cgrid \hich\af1\dbch\af0\loch\f1 C.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pnucltr\pnstart3\pnindent360\pnhang{\pntxta .}}\ls6\adjustright {\b\f1 Description}{ }{\b\f1 
+of other rights or limitations:}{
+\par {\pntext\pard\plain\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls34\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls34\adjustright {\i 
+Limitations on reverse engineering, decompilation, and disassembly:}{ Customer may not reverse engineer, decompile, disassemble, or otherwise reduce the Software to human-perceivable form unless such activity is expressly permitted by applicable 
+law notwithstanding this limitation.}{\i 
+\par {\pntext\pard\plain\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls34\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls34\adjustright {\i 
+Separation of components:}{ The Software is licensed as a single product. Its components may not be separated.
+\par {\pntext\pard\plain\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls34\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls34\adjustright {\i Transfer:}{
+ Customer may not loan, rent, lease, assign or otherwise transfer the Software. The license is }{\ul not}{ transferable. 
+\par {\pntext\pard\plain\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 4.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls34\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls34\adjustright {\i Termination:}{
+ If Customer fails to comply with the terms and conditions of these license provisions, Company may terminate Customer\rquote s licen
+se after fourteen (14) days written notice to Customer. In such event, Customer must destroy all copies of the Software and all of its component parts.
+\par {\pntext\pard\plain\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 5.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls34\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls34\adjustright {\i Copying Software:}{
+ Customer may make one copy of the Software solely for backup or archival purposes.
+\par {\pntext\pard\plain\b\f1\fs20\cgrid \hich\af1\dbch\af0\loch\f1 D.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pnucltr\pnstart4\pnindent360\pnhang{\pntxta .}}\ls8\adjustright {\b\f1 Upgrades:}{
+ When the Software is upgraded by Company, Customer may use the upgraded Software only in accordance with the licensing provisions. 
+\par {\pntext\pard\plain\b\f1\fs20\cgrid \hich\af1\dbch\af0\loch\f1 E.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pnucltr\pnstart4\pnindent360\pnhang{\pntxta .}}\ls8\adjustright {\b\f1 
+Company rights to safeguard against unlicensed use:}{ Company may use any means it deems appropriate to pro
+tect the Software from unauthorized use. This may include, but is not limited to, software copy protection schemes, encryption, hardware key protection and execution control schemes.
+\par {\pntext\pard\plain\b\f1\fs20\cgrid \hich\af1\dbch\af0\loch\f1 F.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pnucltr\pnstart4\pnindent360\pnhang{\pntxta .}}\ls8\adjustright {\b\f1 Term of license:}{
+ This license shall continue for as long as Customer 
+uses the Software. However, if Customer fails to comply with the terms and conditions of the license, the license may be terminated as provided in Section 4C Part 4, and Customer agrees to destroy all copies of the Software. The limitations of warranties 
+and liabilities as set out below shall continue in force even after termination of the license.
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 5.\tab SUPPORT OF SOFTWARE
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 A. \tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent360\pnhang{\pntxta . }}\ls9\adjustright {Company\rquote 
+s support obligation is limited to the functionality of the Software. Customer can receive technical support by telephoning 
+a Tech Town, Texas phone number between the hours of 9:00 AM and 5:00 PM (Mountain Time). Technical support representatives will help Customer resolve any technical support issues involving the Software by telephone instructions, fax instructions, demonst
+rations via modem or at Customer's office site. The method for providing technical support assistance will be solely at the discretion of Company. 
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 B. \tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent360\pnhang{\pntxta . }}\ls9\adjustright {
+Customer agrees to promptly report any errors in the Software to Company.
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 C. \tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent360\pnhang{\pntxta . }}\ls9\adjustright {Company will }{\ul not}{
+ be responsible for:
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls10\adjustright {
+Installation, maintenance, support, repair or training regarding any computer hardware.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls10\adjustright {
+Installation, maintenance, support, repair or training regarding the computer network.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls10\adjustright {Instal
+lation, maintenance, support, repair or training regarding the computer operating systems. 
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 4.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls10\adjustright {
+Any data entry, including entry of test data.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 5.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls10\adjustright {
+Installation, maintenance, support, repair or training regarding any software, other than Killer Solutions, on Customer's computers, including, but not limited to: Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Word Perfect, or PC Anywhere.
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 6.\tab UPGRADING OF SOFTWARE
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 A. \tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent360\pnhang{\pntxta . }}\ls11\adjustright {
+Customer will receive Software upgrades at least once a year as long as Customer has paid for this service as outlined in Section 3.
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 B. \tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent360\pnhang{\pntxta . }}\ls11\adjustright {\rdblquote Software upgrade
+\rdblquote  includes all revisions and enhancements of the modules described in Section 1 of this Agreement, plus all revisions and enhancements of any additional modules which Customer purchases subsequent to the execution of this Agreement. 
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 C. \tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent360\pnhang{\pntxta . }}\ls11\adjustright {\ldblquote Software upgrade
+\rdblquote  also includes updating of public contacts in the Contacts Module.
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 D. \tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent360\pnhang{\pntxta . }}\ls11\adjustright {
+The purchase of technical support and upgrades does }{\ul not}{ entitle Customer to receive any licenses or other rights 
+to additional Killer Solutions modules developed subsequent to the date of this Agreement.  Any such newly-developed modules will be made available for separate purchase by Customer.
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 E. \tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent360\pnhang{\pntxta . }}\ls11\adjustright {\ldblquote Software upgrade
+\rdblquote  is limited to those revisions and enhancements g
+enerally provided for all users of the Killer Solutions Software.  Modifications or enhancements specific to Customer are considered customization work, and shall be charged at the custom programming rate then in existence.
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 F. \tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent360\pnhang{\pntxta . }}\ls11\adjustright {Future upgrades to the Sof
+tware may require Customer to upgrade its computer hardware, operating systems or other software to be used in conjunction with the Customer\rquote s Software.
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 7. \tab PAYMENT FOR SOFTWARE
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 A.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pnucltr\pnfs22\pnstart1\pnindent360\pnhang{\pntxta .}}\ls12\adjustright {
+Customer will pay one-third (1/3) of the cost of the Software upon executi
+on of this Agreement and the balance upon acceptance of the Software. The Software shall be deemed accepted when it has been installed at Customer's work site and is being used by Customer. 
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 8.\tab DELIVERY DATE
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 A.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pnucltr\pnfs22\pnstart1\pnindent360\pnhang{\pntxta .}}\ls13\adjustright {
+The delivery date of Killer Solutions is set for }{\b ____________________________,}{ or as soon as reasonably possible thereafter. This shall be dependent on the extent of custom modifications requested by Customer.
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 9.\tab CUSTOMER\rquote S UNDERSTANDINGS AND RESPONSIBILITIES
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 A.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pnucltr\pnfs22\pnstart1\pnindent360\pnhang{\pntxta .}}\ls14\adjustright {Customer agrees that following the e
+xecution of this Agreement, Customer will promptly provide Company with the name of a contact person familiar with Customer's processes and computer systems.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \qj\fi-360\li1800\ri810\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls15\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls15\adjustright {
+Company shall be authorized to direct all questions regarding the customization of the Softwar
+e, installation, operation and support of the Software, and any other questions arising under this Agreement, to such contact person. Company shall further be authorized to rely upon instructions received from, and information provided by, such person.
+
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 B.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls16\pnrnot0\pnucltr\pnfs22\pnstart2\pnindent360\pnhang{\pntxta .}}\ls16\adjustright {
+Customer agrees to provide all necessary computer hardware and software (fully set up and configured) to permit the installation of the Software. Required hardware and software includes, but is not limited to:
+\par {\pntext\pard\plain\b\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls17\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls17\adjustright {\b\i Workstation Computers:}{\b  }{
+A minimum requirement is IBM PC compatible computers with 486-66 processor with not less than 16 MB Ram. For better performance, a Pentium 120 processor with 24-32 MB Ram is recommended.
+\par {\pntext\pard\plain\b\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls17\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls17\adjustright {\b\i Server Computer}{\i :}{
+ IBM PC compatible computers with a Pentium processor with not less than 32 MB Ram, a CD ROM Drive and a 28.8 modem.
+\par {\pntext\pard\plain\b\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls17\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls17\adjustright {\b\i Dial In Software}{\i :}{
+ PC Anywhere (a Windows 95 software program) installed on a computer that has a modem for dial in access to the computer by Company.
+\par {\pntext\pard\plain\b\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 4.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls17\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls17\adjustright {\b\i Backup System:}{\i  }{
+A tape, DAT or optical computer backup system.
+\par {\pntext\pard\plain\b\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 5.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls17\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls17\adjustright {\b\i Operating System}{\i :}{
+ Windows 95 or Windows NT installed on all computers.
+\par {\pntext\pard\plain\b\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 6.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls17\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls17\adjustright {\b\i Other Programs Required}{\i :}{
+ Microsoft Word, Microsoft Excel and Microsoft PowerPoint installed on all computers (these products are all includes in Microsoft Office 97 - Standard Edition).
+\par {\pntext\pard\plain\b\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 7.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls17\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls17\adjustright {\b\i Computer Network:}{
+ All computers networked together with Ethernet cabling and with network cards in all computers.
+\par {\pntext\pard\plain\b\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 8.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls17\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls17\adjustright {\b\i Scanning Software}{\i :}{
+ Scanning Software is required if the scanning feature will be used.
+\par {\pntext\pard\plain\b\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 9.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls17\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls17\adjustright {\b\i Scanner:}{
+ Hewlett-Packard 3C or 4C scanners if the scanning feature will be used.
+\par {\pntext\pard\plain\b\i\fs20\cgrid \hich\af0\dbch\af0\loch\f0 10.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls17\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls17\adjustright {\b\i Large Office Networks:}{
+ For large offices with heavy network traffic, Microsoft SQL Server will need to be purchased for better database performance.
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 C.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls18\pnrnot0\pnucltr\pnfs22\pnstart3\pnindent360\pnhang{\pntxta .}}\ls18\adjustright {
+Customer will allow Company modem access to make online changes to program files and to download new versions of the Software.
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 D.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls18\pnrnot0\pnucltr\pnfs22\pnstart3\pnindent360\pnhang{\pntxta .}}\ls18\adjustright {Customer understands an
+d agrees that all documents and letters created for Customer will be done using Microsoft Word (not Word Perfect). If Customer uses Word Perfect to create documents, it will not be supported by Company. 
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 E.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls18\pnrnot0\pnucltr\pnfs22\pnstart3\pnindent360\pnhang{\pntxta .}}\ls18\adjustright {
+Customer understands and agrees that accurate information is required by Company to fulfill its responsibilities under this Agreement, including the following:
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls19\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls19\adjustright {
+Access to Customer computers (via dial in access and on\_site, as determined by Company).
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls19\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls19\adjustright {Accurate definitions of Customer\rquote 
+s software programs to the extent that Company is required to use or connect to those programs for development and testing.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \qj\fi-360\li1800\ri720\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls19\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls19\adjustright {
+Access to persons familiar with Customer's processes and computer systems.
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 F.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls20\pnrnot0\pnucltr\pnfs22\pnstart6\pnindent360\pnhang{\pntxta .}}\ls20\adjustright {
+Customer understands and agrees that Company is not responsible for data entry errors, lost data or the recovery of lost data.  Customer understands that data must be backed up frequently, at least daily, and agrees to be responsible for data backup.
+
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 10.\tab PROPRIETARY RIGHTS AND CONFIDENTIAL INFORMATION
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 A.\tab}}\pard \qj\fi-360\li1080\sb100\keepn\widctlpar{\*\pn \pnlvlbody\ilvl0\ls21\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls21\adjustright {The ownershi
+p of the Software shall remain with Company. Company retains all ownership rights, including source code, and Customer has no interest therein except to runtime licenses purchased by this Agreement.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 B.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls21\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls21\adjustright {
+The parties anticipate that Customer will provide confidential information relating to its specific processes in order for Company to perform under this Agreement. Company agrees to keep Customer\rquote 
+s confidential information confidential and not to disclose or use Customer's confidential information in any way adverse to Customer. 
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 C.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar{\*\pn \pnlvlbody\ilvl0\ls21\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls21\adjustright {
+The parties anticipate that Company will provide confidential information relating to its specific processes and systems in order for Customer to perform under this Agreement and to benefit from or use the Software. Customer agrees to keep Company\rquote 
+s confidential information confidential and not to disclose or use Company's information in any way adverse to Company.
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 11.\tab TRAINING
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 A.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls22\pnrnot0\pnucltr\pnfs22\pnstart1\pnindent360\pnhang{\pntxta .}}\ls22\adjustright {Company\rquote 
+s training is limited to the Killer Solutions Software. Company will not be responsible for training on hardware, networks, operating systems, or software other than Killer Solutions (see Section 5C).
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 12. \tab WARRANTIES, DISCLAIMERS AND INDEMNITY
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 A.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls23\pnrnot0\pnucltr\pnfs22\pnstart1\pnindent360\pnhang{\pntxta .}}\ls23\adjustright {
+THIS SOFTWARE AND ANY MANUALS OR OTHER DOCUMENTATION IS SOLD \ldblquote AS IS.\rdblquote 
+ TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, COMPANY DISCLAIMS ALL WARRANTIES, EITHER EXPRESS OR IMPLIED, FOR THE KILLER SOLUTIONS SOFTWARE AND COMPANY SERVICES AND PRODUCTS LICENSED UNDER THIS AGREEMENT, INCLUDING, BUT NOT LIM
+ITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, AND ALL OBLIGATIONS OR LIABILITIES ON THE PART OF COMPANY FOR DAMAGES, INCLUDING, BUT NOT LIMITED TO, INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES (INCLUDING, 
+WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF, OR IN CONNECTION WITH, THE DELIVERY, USE, OR PERFORMANCE OF THE SOFTWARE AND/OR SYSTEM. 
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 B.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls23\pnrnot0\pnucltr\pnfs22\pnstart1\pnindent360\pnhang{\pntxta .}}\ls23\adjustright {THE CONT
+ACT INFORMATION PROVIDED IN THE SOFTWARE WAS DERIVED FROM OTHER SOURCES AND IS PROVIDED FOR THE CONVENIENCE OF CUSTOMER. COMPANY HAS ATTEMPTED TO INCLUDE CONTACT INFORMATION WHICH ACCURATELY MIRRORS THE DATA RECEIVED FROM PUBLIC AND REGULATORY AGENCIES, B
+UT COMPANY HAS MADE NO ATTEMPT TO VERIFY THE ACCURACY OF THE DATA. COMPANY MAKES NO WARRANTY OF ANY KIND REGARDING THE ACCURACY OF THE CONTACT INFORMATION PROVIDED.
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 C.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls23\pnrnot0\pnucltr\pnfs22\pnstart1\pnindent360\pnhang{\pntxta .}}\ls23\adjustright {
+SOME STATES DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES SO THE ABOVE EXCLUSION MAY 
+NOT APPLY TO YOU. THIS WARRANTY GIVES YOU SPECIFIC, LIMITED RIGHTS. YOU MAY HAVE RIGHTS THAT VARY FROM STATE TO STATE. FURTHER, SOME STATES DO NOT ALLOW THE EXCLUSION OF LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, SO THE ABOVE LIMITAT
+ION OR EXCLUSION MAY NOT APPLY TO YOU.
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 13. \tab COOPERATION
+\par {\pntext\pard\plain\fs22\cgrid \hich\af0\dbch\af0\loch\f0 A. \tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls24\pnrnot0\pnucltr\pnb0\pni0\pnfs22\pnstart1\pnindent360\pnhang{\pntxta . }}\ls24\adjustright {
+Customer and Company acknowledge that the cooperation of both parties is necessary for timely implementation of the custom development work.
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 14. \tab LIMITATION OF DAMAGES
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 A.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls25\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls25\adjustright {NEITHER PARTY SHALL BE 
+LIABLE TO THE OTHER FOR DAMAGES IN EXCESS OF AMOUNTS PAID WITH RESPECT TO THE GOODS AND SERVICES AND SOFTWARE TO BE PROVIDED UNDER THIS AGREEMENT. 
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 15. \tab COPYRIGHT
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 A.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls26\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls26\adjustright {
+The Software is protected by copyright laws, as well as other intellectual property laws.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 B.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls26\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls26\adjustright {
+All title and copyrights in and to the Software, including but not limited to images, photographs, animations, video, audio, music, text, and \ldblquote applets\rdblquote 
+ incorporated into the Software, the accompanying printed materials, and any copies of the Software, are owned by Company.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 C.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls26\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls26\adjustright {
+Neither the Software nor its documentation may be copied, photocopied, reproduced, translated, or reduced to any electronic medium or machine readable form, in whole or in part, without prior written consent of Company.
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 16. \tab TRADEMARKS
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 A.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls27\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls27\adjustright {
+Microsoft is a registered trademark of Microsoft Corporation. Killer Solutions is a trademark of Company. Other product names used herein are for identification purposes only and may be trademarks of their respective companies.
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 17.\tab ARBITRATION
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 A.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls28\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls28\adjustright {
+If any dispute arises under this Agreement, the parties agree that a good-faith attempt to resolve the dispute shall be made by presenting the position of the parties to the President of Company and the Management of Customer at a meeting at a neutral 
+site.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 B.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls28\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls28\adjustright {
+If no such meeting can be arranged within two (2) weeks from the request for such meeting, or if the named persons are unable to reach Agreement within one (1) week after such meeting, the parties agree that the dispute shall be resolved by bindi
+ng arbitration by a three person arbitration panel in ________ County, ________ under the rules of the American Arbitration Association, and that the award shall be enforceable under any court having jurisdiction thereof.
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 18.\tab TERMINATION OF AGREEMENT
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 A.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls29\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls29\adjustright {E
+xcept as provided in Section 4C(4) hereof, this Agreement may be terminated:
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \qj\fi-360\li2520\ri720\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls30\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls30\adjustright {
+By mutual written consent of the parties;
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \qj\fi-360\li2520\ri720\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls30\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls30\adjustright {
+By Company or Customer, effective upon delivery of written notice to the other by certified mail or in person.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 B.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls31\pnrnot0\pnucltr\pnstart2\pnindent360\pnhang{\pntxta .}}\ls31\adjustright {Payment due Co
+mpany for work done shall be prorated to and including the day of termination. Company shall be paid for the work done based on the hourly rate for custom work as set forth in Section 3C of this Agreement. Termination under any provision of this paragraph
+ shall not affect any right, obligation or liability of Company or Customer which accrued prior to such termination. 
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 C.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls31\pnrnot0\pnucltr\pnstart2\pnindent360\pnhang{\pntxta .}}\ls31\adjustright {
+Termination of this Agreement for any reason shall not affect the mutual obligations of the parties to maintain the confidentiality of information pursuant to Section 10 hereof.
+\par }\pard \qj\fi-720\li720\sb100\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \tx-1440\tx-720\adjustright {\f16 19.\tab GENERAL PROVISIONS
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 A.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls32\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls32\adjustright {
+This Agreement can be modified only by a written Agreement duly signed by persons authorized to sign agreements on behalf of Customer and Company, and variance from the terms and conditi
+ons of this Agreement in any purchase order or other written notification from the Customer will be of no effect.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 B.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls32\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls32\adjustright {
+Any delay or nonperformance of any provision of this Agreement caused by conditions beyond the reasonable control of the performing party 
+shall not constitute a breach of this Agreement, provided that the delayed party has taken reasonable measures to notify the other of the delay.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 C.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls32\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls32\adjustright {
+Company shall furnish to Customer its employer identification number, as designated by the Internal Revenue Service.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 D.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls32\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls32\adjustright {
+Company is an independent contractor and is solely responsible for the conduct of its programs and/or services. Company, its employees, subcontractors or agents shall not be deemed employees or agents of Customer.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 E.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls32\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls32\adjustright {If Customer is a unit, a
+gency or any part of the United States Government, use, duplication or disclosure by the Government is subject to restrictions set forth in subparagraphs (a) through (d) of the Commercial Computer-Restricted Rights clause at FAR 52.227-19 when applicable,
+ or in subparagraph (c) (1) (ii) of the Rights in Technical Data and Computer SOFTWARE clause at DFARS 252.227-7013, and in similar clauses in the NASA AR Supplement. Contractor/ manufacturer is Software, Inc. 123 Main Street, Tech Town, TX 76101.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 F.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls32\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls32\adjustright {If an
+y provision of this Agreement shall be held to be invalid, illegal, or unenforceable, the validity, legality, and enforceability of the remaining provisions shall not in any way be affected or impaired.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 G.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls32\pnrnot0\pnucltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls32\adjustright {
+Any notices required under this Agreement may be hand-delivered or shall be deemed received three (3) business days after mailing by certified mail, return receipt requested, to the following addresses:
+\par }\pard \qj\li1440\sb100\widctlpar\tx-1440\tx-720\adjustright {\f16 Company: }{\b\f1 \tab }{\f1 Jim Johnson; Software, Inc.
+\par }\pard \qj\li2880\sb100\widctlpar\tx-1440\tx-720\adjustright {\f1 123 Main Street, Tech Town, TX 76101}{.}{\b 
+\par }\pard \li1440\sb100\widctlpar\tx-1440\tx-720\adjustright {\f16 Customer:}{\f1  \tab ___________________________________________________;
+\par }\pard \li2880\sb100\widctlpar\tx-1440\tx-720\adjustright {\f1 ___________________________________________________.}{\b 
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 H.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls33\pnrnot0\pnucltr\pnstart8\pnindent360\pnhang{\pntxta .}}\ls33\adjustright {This Agreement shall
+ be governed and construed in all respects in accordance with the laws of the State of _____________ }{as they apply to a contract entered into and performed in that State}{.
+\par {\pntext\pard\plain\fs20\cgrid \hich\af0\dbch\af0\loch\f0 I.\tab}}\pard \qj\fi-360\li1080\sb100\widctlpar\tx-1440\tx-720{\*\pn \pnlvlbody\ilvl0\ls33\pnrnot0\pnucltr\pnstart8\pnindent360\pnhang{\pntxta .}}\ls33\adjustright {
+This Agreement is the complete an
+d exclusive statement of the Agreement between the parties and supersedes all agreements or prior agreements, oral or written, and all other communications between the parties relating to the subject matter. The parties acknowledge that they have not reli
+ed on any representations or misrepresentations not set forth herein.
+\par }\pard \qj\sb100\widctlpar\tx-1440\tx-720\adjustright {
+\par EACH PARTY ACKNOWLEDGES (1) READING, (2) UNDERSTANDING AND (3) RECEIVING A COPY OF THIS AGREEMENT.
+\par BY THEIR SIGNATURES BELOW, THE PARTIES TO THIS CONTRACT AGREES TO THE TERMS, CONDITIONS, AND CONTENT EXPRESSED HEREIN.
+\par 
+\par 
+\par }\pard \qj\sb100\widctlpar\tx-1440\tx-720\tqr\tx9180\adjustright {\b\f1 Dated: ____________________________}{\b 
+\par }{\tab }{\f16 Customer}{
+\par }{\b\f1 Software, Inc.}{\f16  \tab _______________________}{\b\f1 
+\par 
+\par __________________________________\tab }{\f1 By:__________________________________
+\par }{\f17 Thomas P. Howe, President}{\f1 
+\par \tab Name:__________________________________
+\par 
+\par \tab Title:__________________________________}{\b 
+\par 
+\par 
+\par 
+\par }\pard \qj\sb100\widctlpar\tx-1440\tx-720\adjustright {
+\par 
+\par 
+\par }\pard \qc\li720\ri720\sb100\widctlpar\tx-1440\tx-720\adjustright {\f1 Microsoft, Microsoft Word, Microsoft Excel, Microsoft Access, Microsoft PowerPoint, Microsoft Office, and Microsoft Visual Basic are registered trademarks of Microsoft
+ Corporation. Other product names mentioned are for identification purposes only and may be trademarks of their respective companies.
+\par }}

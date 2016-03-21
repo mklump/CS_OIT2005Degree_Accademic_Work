@@ -1,0 +1,18 @@
+<xsd:schema id="CustomerData" targetNamespace="http://tempuri.org/PhoneList.xsd" xmlns="http://tempuri.org/PhoneList.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	<xsd:element name="CustomerData" msdata:IsDataSet="true" msdata:EnforceConstraints="False">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element name="customers">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="CustomerID" type="xsd:string" minOccurs="0" />
+							<xsd:element name="CompanyName" type="xsd:string" minOccurs="0" />
+							<xsd:element name="Phone" type="xsd:string" />
+						</xsd:sequence>
+						<xsd:attribute name="ContactName" type="xsd:string" />
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

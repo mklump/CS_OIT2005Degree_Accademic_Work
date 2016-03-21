@@ -1,0 +1,356 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!-- weblogic-ejb-jar.xml deployment descriptor for bookstore -->
+<!-- describes weblogic specific properties of each bean -->
+
+<!DOCTYPE weblogic-ejb-jar PUBLIC 
+   '-//BEA Systems, Inc.//DTD WebLogic 5.1.0 EJB//EN' 
+   'http://www.bea.com/servers/wls510/dtd/weblogic-ejb-jar.dtd'>
+
+<!-- Customer EJB weblogic descriptor -->
+<weblogic-ejb-jar>
+
+   <weblogic-enterprise-bean>      
+      <ejb-name>Customer</ejb-name>
+
+      <!-- determines caching properties -->
+      <caching-descriptor>
+         <max-beans-in-cache>100</max-beans-in-cache>
+         <cache-strategy>Read-Write</cache-strategy>
+         <read-timeout-seconds>0</read-timeout-seconds>
+      </caching-descriptor>
+
+      <!-- maps cmp types for bean -->
+      <persistence-descriptor>
+
+         <persistence-type>
+            <type-identifier> 
+               WebLogic_CMP_RDBMS 
+            </type-identifier>
+            <type-version>5.1.0</type-version>
+            <type-storage>
+               META-INF/weblogic-cmp-rdbms-jar-Customer.xml
+            </type-storage>
+         </persistence-type>
+
+         <persistence-use>
+            <type-identifier> 
+               WebLogic_CMP_RDBMS 
+            </type-identifier>
+            <type-version>5.1.0</type-version>
+         </persistence-use>
+      </persistence-descriptor>
+
+      <!-- transaction paramaters -->
+      <transaction-descriptor>
+         <trans-timeout-seconds>200</trans-timeout-seconds>
+      </transaction-descriptor>
+
+      <!-- maps references to ejb names -->
+      <reference-descriptor>
+         <ejb-reference-description>
+            <ejb-ref-name>ejb/Order</ejb-ref-name>
+            <jndi-name>ejb/Order</jndi-name>
+         </ejb-reference-description>
+
+         <ejb-reference-description>
+            <ejb-ref-name>ejb/SequenceFactory</ejb-ref-name>
+            <jndi-name>ejb/SequenceFactory</jndi-name>
+         </ejb-reference-description>
+
+         <ejb-reference-description>
+            <ejb-ref-name>ejb/Address</ejb-ref-name>
+            <jndi-name>ejb/Address</jndi-name>
+         </ejb-reference-description>
+  
+      </reference-descriptor>
+
+      <!-- assigns JNDI name to EJB -->
+      <jndi-name>ejb/Customer</jndi-name>
+
+   </weblogic-enterprise-bean> <!-- end customer descriptor -->
+
+   <!-- Sequence factory EJB weblogic descriptor -->
+   <weblogic-enterprise-bean>      
+
+      <ejb-name>SequenceFactory</ejb-name>
+
+      <!-- manages beans caching behavior -->
+      <caching-descriptor>
+         <max-beans-in-cache>100</max-beans-in-cache>
+         <idle-timeout-seconds>20</idle-timeout-seconds>
+         <cache-strategy>Read-Write</cache-strategy>
+         <read-timeout-seconds>0</read-timeout-seconds>
+      </caching-descriptor>
+
+      <!-- map bean to CMP descriptor -->
+      <persistence-descriptor>
+         <persistence-type>
+            <type-identifier> 
+               WebLogic_CMP_RDBMS 
+            </type-identifier>
+            <type-version>5.1.0</type-version>
+            <type-storage>
+               META-INF/weblogic-cmp-rdbms-jar-Sequence.xml
+            </type-storage>
+         </persistence-type>
+
+         <persistence-use>
+            <type-identifier> 
+               WebLogic_CMP_RDBMS 
+            </type-identifier>
+            <type-version>5.1.0</type-version>
+         </persistence-use>
+      </persistence-descriptor>
+
+      <!-- transaction management properties -->
+      <transaction-descriptor>
+         <trans-timeout-seconds>200</trans-timeout-seconds>
+      </transaction-descriptor>
+
+      <!-- assigns JNDI name to bean -->
+      <jndi-name>ejb/SequenceFactory</jndi-name>
+
+   </weblogic-enterprise-bean> 
+   <!-- end SequenceFactory descriptor -->
+
+   <!-- Order EJB weblogic descriptor -->
+   <weblogic-enterprise-bean>      
+      <ejb-name>Order</ejb-name>
+
+       <!-- defines caching properties, set to defaults -->
+       <caching-descriptor>
+         <max-beans-in-cache>100</max-beans-in-cache>
+         <idle-timeout-seconds>20</idle-timeout-seconds>
+         <cache-strategy>Read-Write</cache-strategy>
+         <read-timeout-seconds>0</read-timeout-seconds>
+      </caching-descriptor>
+
+      <!-- maps bean to specific CMP descriptor -->
+      <persistence-descriptor>
+         <persistence-type>
+            <type-identifier> 
+               WebLogic_CMP_RDBMS 
+            </type-identifier>
+            <type-version>5.1.0</type-version>
+            <type-storage> 
+               META-INF/weblogic-cmp-rdbms-jar-order.xml
+            </type-storage>
+         </persistence-type>
+
+         <persistence-use>
+            <type-identifier>
+               WebLogic_CMP_RDBMS 
+            </type-identifier>
+            <type-version>5.1.0</type-version>
+         </persistence-use>
+      </persistence-descriptor>
+         
+      <!-- defines transaction attributes -->
+      <transaction-descriptor>
+         <trans-timeout-seconds>200</trans-timeout-seconds>
+      </transaction-descriptor>
+
+      <!-- maps bean references to JNDI names -->
+      <reference-descriptor>
+         <ejb-reference-description>
+            <ejb-ref-name>ejb/SequenceFactory</ejb-ref-name>
+            <jndi-name>ejb/SequenceFactory</jndi-name>
+         </ejb-reference-description>
+
+
+         <ejb-reference-description>
+            <ejb-ref-name>ejb/OrderProduct</ejb-ref-name>
+            <jndi-name>ejb/OrderProduct</jndi-name>
+         </ejb-reference-description>
+
+         <ejb-reference-description>
+            <ejb-ref-name>ejb/Customer</ejb-ref-name>
+            <jndi-name>ejb/Customer</jndi-name>
+         </ejb-reference-description>
+  
+      </reference-descriptor>
+      <jndi-name>ejb/Order</jndi-name>
+
+   </weblogic-enterprise-bean> <!-- end Order descriptor -->
+
+   <!-- Address EJB weblogic deployment descriptor -->
+   <weblogic-enterprise-bean>      
+      <ejb-name>Address</ejb-name>
+      
+      <!-- defines caching properties for bean -->
+      <caching-descriptor>
+         <max-beans-in-cache>100</max-beans-in-cache>
+         <idle-timeout-seconds>20</idle-timeout-seconds>
+         <cache-strategy>Read-Write</cache-strategy>
+         <read-timeout-seconds>0</read-timeout-seconds>
+      </caching-descriptor>
+
+      <!-- maps EJB to specific cmp descriptor -->
+      <persistence-descriptor>
+         <persistence-type>
+            <type-identifier> 
+               WebLogic_CMP_RDBMS 
+            </type-identifier>
+            <type-version>5.1.0</type-version>
+            <type-storage>
+               META-INF/weblogic-cmp-rdbms-jar-address.xml
+            </type-storage>
+         </persistence-type>
+
+         <persistence-use>
+            <type-identifier> 
+               WebLogic_CMP_RDBMS 
+            </type-identifier>
+            <type-version>5.1.0</type-version>
+         </persistence-use>
+      </persistence-descriptor>
+         
+      <!-- defines transaction properties -->
+      <transaction-descriptor>
+         <trans-timeout-seconds>200</trans-timeout-seconds>
+      </transaction-descriptor>
+
+      <!-- maps referenced to JNDI names of beans -->
+      <reference-descriptor>
+         <ejb-reference-description>
+            <ejb-ref-name>ejb/SequenceFactory</ejb-ref-name>
+            <jndi-name>ejb/SequenceFactory</jndi-name>
+         </ejb-reference-description>
+      </reference-descriptor>
+
+      <!-- assigns JNDI name to this bean -->
+      <jndi-name>ejb/Address</jndi-name>
+
+   </weblogic-enterprise-bean> <!-- end Address descriptor -->
+
+   <!-- OrderProduct EJB weblogic deployment descriptor -->
+   <weblogic-enterprise-bean>      
+      <ejb-name>OrderProduct</ejb-name>
+
+      <!-- sets default caching properties -->
+      <caching-descriptor>
+         <max-beans-in-cache>100</max-beans-in-cache>
+         <idle-timeout-seconds>20</idle-timeout-seconds>
+         <cache-strategy>Read-Write</cache-strategy>
+         <read-timeout-seconds>0</read-timeout-seconds>
+      </caching-descriptor>
+
+      <!-- maps this bean to specific cmp descriptor -->
+      <persistence-descriptor>
+         <persistence-type>
+            <type-identifier> 
+               WebLogic_CMP_RDBMS 
+            </type-identifier>
+            <type-version>5.1.0</type-version>
+            <type-storage>
+               META-INF/weblogic-cmp-rdbms-jar-orderProduct.xml
+            </type-storage>
+         </persistence-type>
+        
+         <persistence-use>
+            <type-identifier> 
+               WebLogic_CMP_RDBMS 
+            </type-identifier>
+            <type-version>5.1.0</type-version>
+         </persistence-use>
+      </persistence-descriptor>
+
+      <!-- maps references to JNDI names of beans -->
+      <reference-descriptor>
+         <ejb-reference-description>
+            <ejb-ref-name>ejb/Product</ejb-ref-name>
+            <jndi-name>ejb/Product</jndi-name>
+         </ejb-reference-description>
+      </reference-descriptor>
+ 
+      <!-- assigns JNDI name of this bean -->
+      <jndi-name>ejb/OrderProduct</jndi-name>
+
+   </weblogic-enterprise-bean> 
+   <!-- end OrderProduct Descriptor -->
+
+   <!-- Product EJB weblogic deployment descriptor -->
+   <weblogic-enterprise-bean>      
+      <ejb-name>Product</ejb-name>
+      
+      <!-- defines caching properties for EJB -->
+      <caching-descriptor>
+         <idle-timeout-seconds>20</idle-timeout-seconds>
+         <cache-strategy>Read-Write</cache-strategy>
+         <read-timeout-seconds>0</read-timeout-seconds>
+      </caching-descriptor>
+
+      <!-- maps this bean to its CMP descriptor -->
+      <persistence-descriptor>
+         <persistence-type>
+            <type-identifier> 
+               WebLogic_CMP_RDBMS 
+            </type-identifier>
+            <type-version>5.1.0</type-version>
+            <type-storage>
+               META-INF/weblogic-cmp-rdbms-jar-product.xml
+            </type-storage>
+         </persistence-type>
+
+         <persistence-use>
+            <type-identifier> 
+               WebLogic_CMP_RDBMS 
+            </type-identifier>
+            <type-version>5.1.0</type-version>
+         </persistence-use>
+      </persistence-descriptor>
+         
+      <!-- defines transaction properties -->
+      <transaction-descriptor>
+         <trans-timeout-seconds>200</trans-timeout-seconds>
+      </transaction-descriptor>
+
+      <!-- assigns JNDI name -->
+      <jndi-name>ejb/Product</jndi-name>
+
+   </weblogic-enterprise-bean> <!-- end Product descriptor -->
+
+   <!-- ShoppingCart EJB weblogic deployment descriptor -->
+   <weblogic-enterprise-bean>      
+      <ejb-name>ShoppingCart</ejb-name>
+
+      <!-- defines chaching properties, set to defaults -->
+      <caching-descriptor>
+         <max-beans-in-cache>100</max-beans-in-cache>
+         <idle-timeout-seconds>20</idle-timeout-seconds>
+         <cache-strategy>Read-Write</cache-strategy>
+         <read-timeout-seconds>0</read-timeout-seconds>
+      </caching-descriptor>
+
+      <!-- assigns a store directory for bean -->
+      <persistence-descriptor>
+         <stateful-session-persistent-store-dir> 
+            /config/deitel/
+         </stateful-session-persistent-store-dir>
+      </persistence-descriptor>
+
+      <!-- defines transaction attributes -->
+      <transaction-descriptor>
+         <trans-timeout-seconds>200</trans-timeout-seconds>
+      </transaction-descriptor>
+
+      <!-- maps EJB references to JNDI names -->
+      <reference-descriptor>
+
+         <ejb-reference-description>
+            <ejb-ref-name>ejb/Product</ejb-ref-name>
+            <jndi-name>ejb/Product</jndi-name>
+         </ejb-reference-description>
+ 
+         <ejb-reference-description>
+            <ejb-ref-name>ejb/Order</ejb-ref-name>
+            <jndi-name>ejb/Order</jndi-name>
+         </ejb-reference-description>
+  
+      </reference-descriptor>
+      <jndi-name>ejb/ShoppingCart</jndi-name>
+
+   </weblogic-enterprise-bean> <!-- end ShoppingCart descriptor -->
+
+</weblogic-ejb-jar> <!-- end weblogic descriptor -->

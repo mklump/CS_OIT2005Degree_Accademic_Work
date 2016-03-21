@@ -1,0 +1,30 @@
+/*****************************************************************************
+
+                        Copyright (c) Prolog Development Center A/S
+
+******************************************************************************/
+
+#include @"Engine\Engine.ph"
+
+% privately used packages
+#include @"pfc\5xvip\5xfile\5xfile.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\chaindb\chaindb.ph"
+#include @"pfc\5xvip\5xbreakcontrol\5xbreakcontrol.ph"
+#include @"pfc\5xvip\5xplatformsupport\5xplatformsupport.ph"
+#include @"pfc\5xvip\5xconversion\5xconversion.ph"
+#include @"pfc\5xvip\5xstring\5xstring.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"parser\parser.ph"
+#include @"pfc\math\math.ph"
+#include @"output\output.ph"
+#include @"scanner\scanner.ph"
+#include @"pfc\exception\exception.ph"
+
+% private interfaces
+%#include @"5xvip\5xfile\5xfile.ph"
+
+% private classes
+
+% implementations
+#include @"Engine\Engine.pro"

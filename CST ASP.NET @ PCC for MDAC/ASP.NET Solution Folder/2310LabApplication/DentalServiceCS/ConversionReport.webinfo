@@ -1,0 +1,43 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file DentalServiceCS.csproj at May 31 2007, 13:59:28.
+
+=========================ERRORS===================
+ERROR: Unable to find codebehind file ~/App_Code/Service1.asmx.cs.    Service1.asmx
+
+=========================WARNINGS=================
+Warning: Resource files were moved to 'App_GlobalResources' folder. Code using resources may have to be fixed manually.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Added folder App_Code.
+Moved file Global.asax.cs to the App_Code\ directory.
+Moved file Service1.asmx.cs to the App_Code\ directory.
+Moved file AssemblyInfo.cs to the App_Code\ directory.
+Warning: Renamed file Global.asax.resx to file Global.asax.resx.
+Added folder App_GlobalResources.
+Moved file Global.asax.resx to the App_GlobalResources directory.
+Warning: Unable to convert user settings because user file C:\Documents and Settings\Matthew Klump\VSWebCache\MATT\MCSD\ASP.NET Solution Folder\2310LabApplication\DentalServiceCS\DentalServiceCS.csproj.user was not found.
+Changed HTML validation schema for all projects to 'Internet Explorer 6.0'.
+Removed file DentalServiceCS.csproj.
+Removed file DentalServiceCS.csproj.webinfo.
+Project DentalServiceCS.csproj has been converted successfully at May 31 2007, 13:59:30.
+This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file DentalServiceCS.csproj at May 31 2007, 15:18:42.
+
+=========================ERRORS===================
+ERROR: Unable to get local copy of file global.asax.cs.
+ERROR: Unable to get local copy of file service1.asmx.cs.
+ERROR: Unable to get local copy of file assemblyinfo.cs.
+
+=========================COMMENTS=================
+Warning: Renamed folder App_GlobalResources to App_GlobalResources_Old.
+Web.Config: Added 'xhtmlConformance' attribute.
+Warning: Unable to convert user settings because user file C:\Documents and Settings\Matthew Klump\VSWebCache\MATT\MCSD\ASP.NET Solution Folder\2310LabApplication\DentalServiceCS\DentalServiceCS.csproj.user was not found.
+Changed HTML validation schema for all projects to 'Internet Explorer 6.0'.
+Removed file DentalServiceCS.csproj.
+Removed file DentalServiceCS.csproj.webinfo.
+Project DentalServiceCS.csproj has been converted successfully at May 31 2007, 15:18:44.

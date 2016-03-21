@@ -1,0 +1,22 @@
+<?xml version = "1.0"?>
+
+<!-- Fig. D.9 : usage.xml             -->
+<!-- Book information                 -->
+
+<book isbn = "999-99999-9-X">
+   <title>Deitel&apos;s XML Primer</title>
+
+   <author>
+      <firstName>Paul</firstName>
+      <lastName>Deitel</lastName>
+   </author>
+
+   <chapters>
+      <preface num = "1" pages = "2">Welcome</preface>
+      <chapter num = "2" pages = "2">XML Elements?</chapter>
+      <chapter num = "1" pages = "4">Easy XML</chapter>
+      <appendix num = "1" pages = "9">Entities</appendix>
+   </chapters>
+
+   <media type = "CD"/>
+</book>

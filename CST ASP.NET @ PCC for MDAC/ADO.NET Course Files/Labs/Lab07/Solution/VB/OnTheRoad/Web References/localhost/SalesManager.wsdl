@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:i0="http://www.tempuri.org/NWDataSet.xsd" xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://www.tempuri.org/NWDataSet.xsd" location="http://localhost/2389/Labs/Lab07/Solution/VB/OnTheRoadWS/SalesManager.asmx?schema=NWDataSet" />
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://www.tempuri.org/NWDataSet.xsd" />
+      <s:element name="GetDataSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="iEmployeeID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sServerName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataSetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any namespace="http://www.tempuri.org/NWDataSet.xsd" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDatabase">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsNorthwind">
+              <s:complexType>
+                <s:sequence>
+                  <s:any namespace="http://www.tempuri.org/NWDataSet.xsd" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDatabaseResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetDataSetSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSetSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDatabaseSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateDatabase" />
+  </wsdl:message>
+  <wsdl:message name="UpdateDatabaseSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateDatabaseResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SalesManagerSoap">
+    <wsdl:operation name="GetDataSet">
+      <wsdl:input message="tns:GetDataSetSoapIn" />
+      <wsdl:output message="tns:GetDataSetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDatabase">
+      <wsdl:input message="tns:UpdateDatabaseSoapIn" />
+      <wsdl:output message="tns:UpdateDatabaseSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SalesManagerSoap" type="tns:SalesManagerSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="GetDataSet">
+      <soap:operation soapAction="http://tempuri.org/GetDataSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDatabase">
+      <soap:operation soapAction="http://tempuri.org/UpdateDatabase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SalesManager">
+    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
+    <wsdl:port name="SalesManagerSoap" binding="tns:SalesManagerSoap">
+      <soap:address location="http://localhost/2389/Labs/Lab07/Solution/VB/OnTheRoadWS/SalesManager.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

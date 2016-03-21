@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Documents and Settings\Matthew Klump\My Documents\Matts_Projects\thepuzzler_3dstyle_seniorproject\thepuzzler_3dstyle\ManageDB\bin\Debug\ManageDB.dll" total="3" failures="3" not-run="0" date="10/13/2005" time="8:22 AM">
+  <test-suite name="C:\Documents and Settings\Matthew Klump\My Documents\Matts_Projects\thepuzzler_3dstyle_seniorproject\thepuzzler_3dstyle\ManageDB\bin\Debug\ManageDB.dll" success="False" time="40.875" asserts="0">
+    <results>
+      <test-suite name="ManageDB" success="False" time="40.875" asserts="0">
+        <results>
+          <test-suite name="ManageDB_TestClass" success="False" time="40.875" asserts="0">
+            <results>
+              <test-case name="ManageDB.ManageDB_TestClass.TestConnectivity" executed="True" success="False" time="0.000" asserts="0">
+                <failure>
+                  <message><![CDATA[Exception has been thrown by the target of an invocation.]]></message>
+                  <stack-trace><![CDATA[   at System.Reflection.RuntimeConstructorInfo.InternalInvoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean isBinderDefault)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at NUnit.Core.Reflect.Construct(Type type) in C:\svnhome\trunk\nunit20\core\Reflect.cs:line 484
+   at NUnit.Core.TestFixture.DoSetUp(TestResult suiteResult) in C:\svnhome\trunk\nunit20\core\TestFixture.cs:line 105
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="ManageDB.ManageDB_TestClass.TestCreateDataBase" executed="True" success="False" time="0.000" asserts="0">
+                <failure>
+                  <message><![CDATA[Exception has been thrown by the target of an invocation.]]></message>
+                  <stack-trace><![CDATA[   at System.Reflection.RuntimeConstructorInfo.InternalInvoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean isBinderDefault)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at NUnit.Core.Reflect.Construct(Type type) in C:\svnhome\trunk\nunit20\core\Reflect.cs:line 484
+   at NUnit.Core.TestFixture.DoSetUp(TestResult suiteResult) in C:\svnhome\trunk\nunit20\core\TestFixture.cs:line 105
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="ManageDB.ManageDB_TestClass.TestQueryingTheDataBase" executed="True" success="False" time="0.016" asserts="0">
+                <failure>
+                  <message><![CDATA[Exception has been thrown by the target of an invocation.]]></message>
+                  <stack-trace><![CDATA[   at System.Reflection.RuntimeConstructorInfo.InternalInvoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean isBinderDefault)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at NUnit.Core.Reflect.Construct(Type type) in C:\svnhome\trunk\nunit20\core\Reflect.cs:line 484
+   at NUnit.Core.TestFixture.DoSetUp(TestResult suiteResult) in C:\svnhome\trunk\nunit20\core\TestFixture.cs:line 105
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

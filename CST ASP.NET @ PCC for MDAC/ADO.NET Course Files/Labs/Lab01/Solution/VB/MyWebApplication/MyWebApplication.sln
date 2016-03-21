@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MyWebApplication", "http://localhost/2389/Labs/Lab01/Solution/VB/MyWebApplication/MyWebApplication.vbproj", "{189A7322-03CD-4E7C-A113-76B62D9B7678}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{189A7322-03CD-4E7C-A113-76B62D9B7678}.Debug.ActiveCfg = Debug|.NET
+		{189A7322-03CD-4E7C-A113-76B62D9B7678}.Debug.Build.0 = Debug|.NET
+		{189A7322-03CD-4E7C-A113-76B62D9B7678}.Release.ActiveCfg = Release|.NET
+		{189A7322-03CD-4E7C-A113-76B62D9B7678}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

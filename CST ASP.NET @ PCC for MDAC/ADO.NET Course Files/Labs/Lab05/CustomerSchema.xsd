@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes"?>
+<xsd:schema id="CustomerData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:element name="CustomerData" msdata:IsDataSet="true">
+    <xsd:complexType>
+      <xsd:choice maxOccurs="unbounded">
+        <xsd:element name="customers">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="CustomerID" type="xsd:string" minOccurs="0" msdata:Ordinal="0" />
+              <xsd:element name="CompanyName" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              <xsd:element name="ContactName" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              <xsd:element name="ContactTitle" type="xsd:string" minOccurs="0" msdata:Ordinal="3" />
+              <xsd:element name="Address" type="xsd:string" minOccurs="0" msdata:Ordinal="4" />
+              <xsd:element name="City" type="xsd:string" minOccurs="0" msdata:Ordinal="5" />
+              <xsd:element name="PostalCode" type="xsd:string" minOccurs="0" msdata:Ordinal="6" />
+              <xsd:element name="Country" type="xsd:string" minOccurs="0" msdata:Ordinal="7" />
+              <xsd:element name="Phone" type="xsd:string" minOccurs="0" msdata:Ordinal="8" />
+              <xsd:element name="Fax" type="xsd:string" minOccurs="0" msdata:Ordinal="9" />
+              <xsd:element name="orders" minOccurs="0" maxOccurs="unbounded">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="OrderID" type="xsd:string" minOccurs="0" msdata:Ordinal="0" />
+                    <xsd:element name="CustomerID" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                    <xsd:element name="EmployeeID" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                    <xsd:element name="OrderDate" type="xsd:string" minOccurs="0" msdata:Ordinal="3" />
+                    <xsd:element name="RequiredDate" type="xsd:string" minOccurs="0" msdata:Ordinal="4" />
+                    <xsd:element name="ShippedDate" type="xsd:string" minOccurs="0" msdata:Ordinal="5" />
+                    <xsd:element name="ShipVia" type="xsd:string" minOccurs="0" msdata:Ordinal="6" />
+                    <xsd:element name="Freight" type="xsd:string" minOccurs="0" msdata:Ordinal="7" />
+                    <xsd:element name="ShipName" type="xsd:string" minOccurs="0" msdata:Ordinal="8" />
+                    <xsd:element name="ShipAddress" type="xsd:string" minOccurs="0" msdata:Ordinal="9" />
+                    <xsd:element name="ShipCity" type="xsd:string" minOccurs="0" msdata:Ordinal="10" />
+                    <xsd:element name="ShipPostalCode" type="xsd:string" minOccurs="0" msdata:Ordinal="11" />
+                    <xsd:element name="ShipCountry" type="xsd:string" minOccurs="0" msdata:Ordinal="12" />
+                    <xsd:element name="orderdetails" minOccurs="0" maxOccurs="unbounded">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="OrderID" type="xsd:string" minOccurs="0" msdata:Ordinal="0" />
+                          <xsd:element name="ProductID" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                          <xsd:element name="UnitPrice" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                          <xsd:element name="Quantity" type="xsd:string" minOccurs="0" msdata:Ordinal="3" />
+                          <xsd:element name="Discount" type="xsd:string" minOccurs="0" msdata:Ordinal="4" />
+                        </xsd:sequence>
+                        <xsd:attribute name="orders_Id" type="xsd:int" use="prohibited" />
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                  <xsd:attribute name="orders_Id" msdata:AutoIncrement="true" type="xsd:int" msdata:AllowDBNull="false" use="prohibited" />
+                  <xsd:attribute name="customers_Id" type="xsd:int" use="prohibited" />
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="customers_Id" msdata:AutoIncrement="true" type="xsd:int" msdata:AllowDBNull="false" use="prohibited" />
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:choice>
+    </xsd:complexType>
+    <xsd:unique name="orders_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xsd:selector xpath=".//orders" />
+      <xsd:field xpath="@orders_Id" />
+    </xsd:unique>
+    <xsd:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xsd:selector xpath=".//customers" />
+      <xsd:field xpath="@customers_Id" />
+    </xsd:unique>
+    <xsd:keyref name="customers_orders" refer="Constraint1" msdata:IsNested="true">
+      <xsd:selector xpath=".//orders" />
+      <xsd:field xpath="@customers_Id" />
+    </xsd:keyref>
+    <xsd:keyref name="orders_orderdetails" refer="orders_Constraint1" msdata:IsNested="true">
+      <xsd:selector xpath=".//orderdetails" />
+      <xsd:field xpath="@orders_Id" />
+    </xsd:keyref>
+  </xsd:element>
+</xsd:schema>

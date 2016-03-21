@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!-- weblogic-cmp-rdbms-jar-order.xml ejb descriptor for  -->
+<!-- OrderEJB defines rdbms properties for WebLogic -->
+
+<!DOCTYPE weblogic-rdbms-bean PUBLIC 
+   '-//BEA Systems, Inc.//DTD WebLogic 5.1.0 EJB RDBMS Persistence//EN'
+   'http://www.bea.com/servers/wls510/dtd/weblogic-rdbms-persistence.dtd'>
+
+
+<!-- element containing rdbms properties for OrderEJB -->
+<weblogic-rdbms-bean>
+
+   <!-- assigns this bean to pool named BookstorePool -->
+   <pool-name>BookstorePool</pool-name>
+
+
+   <!-- assigns this bean to table named CUSTOMERORDERS -->
+   <table-name>CustomerOrders</table-name>
+   
+   <!-- element containing field mappings -->
+   <attribute-map>
+
+
+      <!-- field mapping for orderDate -->
+      <object-link>
+         <bean-field>orderDate</bean-field>
+         <dbms-column>orderDate</dbms-column>
+      </object-link>
+
+
+      <!-- field mapping for shipped -->
+      <object-link>
+         <bean-field>shipped</bean-field>
+         <dbms-column>shipped</dbms-column>
+      </object-link>
+
+
+      <!-- field mapping for customerID -->
+     <object-link>
+         <bean-field>customerID</bean-field>
+         <dbms-column>customerID</dbms-column>
+      </object-link>
+
+      <!-- field mapping for orderID -->
+      <object-link>
+         <bean-field>orderID</bean-field>
+         <dbms-column>orderID</dbms-column>
+      </object-link>
+
+   </attribute-map>
+
+   <finder-list>
+
+      <!-- finder for findByCustomerID -->
+      <finder>
+         <method-name>findByCustomerID</method-name>
+         <method-params>
+            <method-param>java.lang.Integer</method-param>
+         </method-params>
+
+         <!-- return enumeration where customerID = argument -->
+         <finder-query>
+            <![CDATA[( = customerID $0 )]]>
+         </finder-query>
+      </finder>
+
+   </finder-list>
+
+   <!-- additional options -->
+   <options>
+    <use-quoted-names>false</use-quoted-names>
+   </options>
+
+</weblogic-rdbms-bean>
+<!-- end rdbms descriptor for OrderEJB -->

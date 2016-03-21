@@ -1,0 +1,194 @@
+<head>
+<title>OwlEval survey system. Oregon Institue of Technology</title>
+<LINK REL=stylesheet HREF="./owleval.css" TYPE="text/css">
+</head>
+<body>
+
+<?php
+
+  // Testing error_reporting configuration for PHP interpreter --> Matthew Klump
+  // error_reporting(E_ALL ^ E_NOTICE);
+
+  $error_str="";
+  $conn=open_db();
+
+  if ($conn)
+  {
+
+    $user_type=validate_user();
+    if ($user_type=="invalid")
+    { $error_str=$error_str . "<br>-- Invalid login"; }
+    if ($user_type=="timeout")
+    { $error_str=$error_str . "<br>-- Session timeout, please log in again"; }
+    if ($user_type=="wrong_ip")
+    { $error_str=$error_str . "<br>-- Attempt to enter from a different computer. You must supply a password to switch computers."; }
+
+
+    if ($user_type=="logging_in" || $user_type=="student" || $user_type=="faculty" || $user_type=="admin" || $user_type=="adfac" || $user_type=="change_pword")
+    { 
+      $error_str=$error_str . main($user_type); 
+    }
+
+    $user_type=check_password($user_type);
+    if ($user_type=="change_pword")
+    { $error_str=$error_str . "<br>-- Your password is no longer valid, please change it."; }
+
+    close_db($conn);
+    
+    if ($error_str) 
+    { goto_error($error_str); }
+  }
+  else
+  { goto_error($error_str); }
+
+
+function draw_mainmenu_form()
+{
+  echo "<form method=post action=http://matthew.klump-pdx.com/blues/gwr/admin_menu.php><input type=hidden name=fac_name value=" . $_POST['fac_name'] . "><input type=submit value=\"Main Menu\"></form>";
+}
+
+function goto_error($str)
+{
+  if(!$str) 
+  {
+    $str="<br>-- Database connection could not be resolved, please try again later.";
+  }
+
+  print("<br><font size=6 color=FF0000>Error</font>$str");
+}
+
+function open_db()
+{
+   $conn=mysql_connect ("hedron", "blues", "guest123");
+   $db_check=mysql_select_db ("owl_eval", $conn);
+   if (!$db_check) {$conn="";}
+   return $conn;
+}
+
+function close_db($conn)
+{
+  mysql_close($conn);
+}
+
+function validate_user()
+{
+  $user_state="invalid";
+  $stu_key=$_POST['key'];
+  $fac_name=$_POST['fac_name'];
+  $fac_pass=$_POST['fac_pass'];
+  $ip=getenv("REMOTE_ADDR");
+  $time=time();
+  $timeout=$time-600; //seconds
+
+  //this is a state where the user is logging in
+  if (!$stu_key && !$fac_name && !$fac_pass)
+  {
+    $user_state="logging_in";
+  }
+
+  //this is where the student key will be checked agains the DB
+  if ($stu_key && !$fac_name && !$fac_pass)
+  {
+    $user_state="student";
+  }
+
+  //this is where the faculty is logging in and their level is determined
+  if (!$stu_key && $fac_name && $fac_pass)
+  {
+    $result=mysql_query("select privilege from users where user_name='$fac_name' and password='$fac_pass'");
+    $row=mysql_fetch_array($result);
+    if ($row)
+    {
+      mysql_query("delete from access_log where user_name='$fac_name'");
+      mysql_query("insert into access_log (user_name, IP_address, time_stamp) values ('$fac_name','$ip',$time)");
+      $user_state=$row[0];
+    }
+  }
+
+  //this is where the faculty is checked agains the DB and checked for 
+  //timeout and user level
+  if (!$stu_key && $fac_name && !$fac_pass)
+  {
+    $al_result=mysql_query("select time_stamp, IP_address from access_log where user_name='$fac_name'");
+    $al_row=mysql_fetch_array($al_result);
+    if($al_row)
+    {  
+      if($al_row[0]>=$timeout)
+      {
+        if($al_row[1]==$ip)
+        {
+          $u_result=mysql_query("select privilege from users where user_name='$fac_name'");
+          $u_row=mysql_fetch_array($u_result);
+          if ($u_row)
+          {
+            mysql_query("delete from access_log where user_name='$fac_name'");
+            mysql_query("insert into access_log (user_name, IP_address, time_stamp) values ('$fac_name','$al_row[1]',$time)");
+            $user_state=$u_row[0];
+          }
+        }
+        else
+        {
+          $user_state="wrong_ip";
+        }
+      }
+      else
+      {
+         $user_state="timeout";
+      }      
+    }
+  }
+
+  return $user_state;
+}
+
+function log_entry($some_action)
+{
+}
+
+function check_password($user_level)
+{
+  
+  $user_t=$user_level;
+  $fac_name=$_POST['fac_name'];
+  if($fac_name)
+  {
+    $u_result=mysql_query("select count(*) from users where user_name='" . $fac_name . "' and user_name=password");
+    $u_row=mysql_fetch_array($u_result);
+    if ($u_row[0] >= 1)
+    {
+      $user_t="change_pword";
+    }  
+  }
+  return $user_t;
+}
+
+function unauthorized()
+{
+  print("You are not authorized to use this system");
+}
+
+function send_me($page_name)
+{
+  close_db();
+  header('Location: $page_name');
+}
+
+function key_to_CRN()
+{
+  $key=$_POST['key'];
+  $crn=0;
+
+  $result=mysql_query("select CRN, valid_begin, valid_end, create_time from student_keys where e_key='$key'");
+  if ($result)
+  {
+    $row=mysql_fetch_array($result);
+    if($row)
+    {
+      $crn=$row;
+    }
+  }
+  return $crn;
+}
+
+?>
+</body>

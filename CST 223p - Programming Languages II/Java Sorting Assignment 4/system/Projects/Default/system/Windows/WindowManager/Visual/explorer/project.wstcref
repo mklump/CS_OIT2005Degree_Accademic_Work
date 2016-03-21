@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tc-ref version="1.0" id="project" >
+    <module name="org.netbeans.modules.projects/1" spec="1.7" />
+    <ui-type type="any" state="opened" constraint="center" selected="false" />
+</tc-ref>

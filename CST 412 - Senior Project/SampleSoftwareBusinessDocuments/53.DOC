@@ -1,0 +1,38 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f16\fswiss\fcharset0\fprq2{\*\panose 020b0a04020102020204}Arial Black;}
+{\f196\fswiss\fcharset238\fprq2 Arial Black CE;}{\f197\fswiss\fcharset204\fprq2 Arial Black Cyr;}{\f199\fswiss\fcharset161\fprq2 Arial Black Greek;}{\f200\fswiss\fcharset162\fprq2 Arial Black Tur;}{\f201\fswiss\fcharset186\fprq2 Arial Black Baltic;}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;
+\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\nowidctlpar\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}{\s1\sa220\sl220\slmult0
+\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \f16\expnd-2\expndtw-10\kerning20 \sbasedon0 \snext15 heading 1;}{\*\cs10 \additive Default Paragraph Font;}{\s15\fi720\sa220\sl220\slmult0\nowidctlpar\widctlpar\adjustright \fs20\cgrid 
+\sbasedon0 \snext15 Body Text;}}{\*\listtable{\list\listtemplateid-1394182432\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat6\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-540\li1260\jclisttab\tx1260 }
+{\listname ;}\listid1101989456}}{\*\listoverridetable{\listoverride\listid1101989456\listoverridecount0\ls1}}{\info{\title I3}{\author Tom Howe}{\operator Tom Howe}{\creatim\yr1997\mo1\dy17\hr22\min10}{\revtim\yr1997\mo1\dy17\hr22\min35}{\version3}
+{\edmins2}{\nofpages2}{\nofwords196}{\nofchars1119}{\*\company  }{\nofcharsws1374}{\vern71}}\margb720 \widowctrl\ftnbj\aenddoc\hyphcaps0\formshade\viewkind4\viewscale50\pgbrdrhead\pgbrdrfoot \fet0\sectd \linex0\endnhere\sectdefaultcl {\*\pnseclvl1
+\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5
+\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \s1\sa220\sl220\slmult0\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \f16\expnd-2\expndtw-10\kerning20 {IINSTALLATION/CUSTOMER BE READY
+}{\fs28 
+\par }{\f0\fs28\expnd0\expndtw0\kerning0 
+\par Dear Jim,
+\par }\pard\plain \s15\fi720\sa220\sl220\slmult0\nowidctlpar\widctlpar\adjustright \fs20\cgrid {\fs28\cgrid0 
+I will be installing our software program at your office on _________. To ensure that the installation goes smoothly, and causes the least amount of disruption at your company, please have your staff take care of the following items before I arrive:
+
+\par }\pard \s15\fi-540\li1260\sa220\sl220\slmult0\nowidctlpar\widctlpar\adjustright {\fs28\cgrid0 1. \tab Please obtain any required security clearances, company ID\rquote s and parking stickers for me.
+\par 4. \tab Make sure all of the computers are working on the network.
+\par 5. \tab Have your network administrator create a working directory on your server named ______________________.
+\par {\pntext\pard\plain\s15 \fs28 \hich\af0\dbch\af0\loch\f0 6.\tab}}\pard \s15\fi-540\li1260\sa220\sl220\slmult0\nowidctlpar\widctlpar\jclisttab\tx1260{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec\pnstart6\pnindent1260\pnhang{\pntxta .}}\ls1\adjustright {
+\fs28\cgrid0 Install the following software that will be needed by our program, on all computers: ______________________.
+\par {\pntext\pard\plain\s15 \fs28 \hich\af0\dbch\af0\loch\f0 7.\tab}}\pard \s15\fi-540\li1260\sa220\sl220\slmult0\nowidctlpar\widctlpar\jclisttab\tx1260{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec\pnstart6\pnindent1260\pnhang{\pntxta .}}\ls1\adjustright {
+\fs28\cgrid0 Please have a list of all Windows users names and passwords.
+\par {\pntext\pard\plain\s15 \fs28 \hich\af0\dbch\af0\loch\f0 8.\tab}}\pard \s15\fi-540\li1260\sa220\sl220\slmult0\nowidctlpar\widctlpar\jclisttab\tx1260{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec\pnstart6\pnindent1260\pnhang{\pntxta .}}\ls1\adjustright {
+\fs28\cgrid0 Please have a list of all names and passwords of any shared network drives.
+\par {\pntext\pard\plain\s15 \fs28 \hich\af0\dbch\af0\loch\f0 9.\tab}}\pard \s15\fi-540\li1260\sa220\sl220\slmult0\nowidctlpar\widctlpar\jclisttab\tx1260{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec\pnstart6\pnindent1260\pnhang{\pntxta .}}\ls1\adjustright {
+\fs28\cgrid0 Please have a list of the names and telephone numbers of the hardware vendor, network administrator and any other computer support companies you deal with.
+\par {\pntext\pard\plain\s15 \fs28 \hich\af0\dbch\af0\loch\f0 10.\tab}}\pard \s15\fi-540\li1260\sa220\sl220\slmult0\nowidctlpar\widctlpar\jclisttab\tx1260{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec\pnstart6\pnindent1260\pnhang{\pntxta .}}\ls1\adjustright {
+\fs28\cgrid0 Please have all manuals for all computers, printers, other hardware, and network systems in a central location for my review.
+\par }\pard \s15\fi-540\li1260\sa220\sl220\slmult0\nowidctlpar\widctlpar\adjustright {\fs28\cgrid0 11. \tab Please provide me with other information as follows: ___________.
+\par }\pard \s15\fi720\sa220\sl220\slmult0\nowidctlpar\widctlpar\adjustright {\fs28\cgrid0 Please also forward a check to my office in the amount of $________ for the deposit as set forth in our agreement.
+\par Thank you! I look forward to seeing you on ______________.
+\par }\pard \s15\li4680\sa220\sl220\slmult0\nowidctlpar\widctlpar\adjustright {\fs28 Sincerely,
+\par 
+\par Joe Developer
+\par }\pard\plain \nowidctlpar\widctlpar\adjustright \fs20\cgrid {
+\par }}

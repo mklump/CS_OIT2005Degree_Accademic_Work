@@ -1,0 +1,17 @@
+import "unknwn.idl";
+
+[object, uuid(7942E65C-8846-473d-9368-99CA23A17CD4)]
+interface ICST407RAMIntf   : IUnknown
+{
+	HRESULT	WriteData(
+							[in]	int	addr,
+							[in, out] int	*pDataLength,
+							[in, size_is(*pDataLength)] int data[]
+							);
+
+	HRESULT	ReadData(
+							[in]	int addr,
+							[in, out]	int	*pDataLength,
+							[out, size_is(*pDataLength), length_is(*pDataLength)] int	data[]
+							);
+};

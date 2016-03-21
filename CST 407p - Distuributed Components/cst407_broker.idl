@@ -1,0 +1,14 @@
+import "unknwn.idl";
+
+[object, uuid(88C5CFAC-7F0A-418c-AED1-57C6774C6749)]
+interface ICST407BrokerIntf  : IUnknown
+{
+	HRESULT	RegisterDeviceComponent([in] int guid_array[4]);
+	HRESULT UnregisterDeviceComponent([in] int guid_array[4]);
+
+	HRESULT GetDeviceComponentList(
+				[in]  int maxGuids,
+				[out] int *pActualGuids, 
+				[out, length_is(*pActualGuids), size_is(maxGuids)] int guid_array[]
+				);
+};

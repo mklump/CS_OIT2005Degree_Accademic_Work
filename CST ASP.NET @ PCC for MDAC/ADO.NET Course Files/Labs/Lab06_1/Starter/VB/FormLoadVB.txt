@@ -1,0 +1,34 @@
+' try to open existing local cached DataSet
+
+Try
+
+    Me.dsNorthwind.ReadXml("OnTheRoad.xml", XmlReadMode.DiffGram)
+
+    ' retrieve default values for EmployeeID and ServerName if found
+    Me.EmployeeID = CInt(Me.dsNorthwind.AppSettings.Rows(0)("EmployeeID"))
+
+    Me.ServerName = Me.dsNorthwind.AppSettings.Rows(0)("ServerName").ToString()
+
+    Me.RefreshUI()
+
+Catch
+
+    ' if local file not found, try to connect to central database and retrieve latest data set
+    If MessageBox.Show("An existing data set was not found or was corrupt. Do you want to connect to the central database to retrieve a new copy?", "Warning!", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) = DialogResult.Yes Then
+
+        Try
+
+            Me.cnNorthwind.Open()
+            mnuFill_Click(sender, e)
+
+        Catch Xcp As System.Exception
+
+            MessageBox.Show("Failed to connect because:" & vbCrLf & Xcp.ToString() & vbCrLf & vbCrLf & "Use Tools, Options to change the name of the SQL Server you are trying to connect to.", "Connect to central database", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Exit Sub
+
+        End Try
+
+    End If
+
+End Try
+

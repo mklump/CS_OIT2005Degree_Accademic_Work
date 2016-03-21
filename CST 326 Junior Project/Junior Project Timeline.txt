@@ -1,0 +1,46 @@
+|----[Deliverable 0]----[Deliverable 1]----[Deliverable 2]----[End of Winter Term]|
+
+Deliverable 0: (Due 01/27/04)
+	-Project name and/or Team name 
+
+	-Team members 
+
+	-Project sponsor 
+
+	-Problem definition 
+
+	-Project goal statement
+
+Deliverable 1: (Due 02/03/04)
+	-Fully define project requirements
+
+	-Use Cases -> 1) Basic
+		      2) Alternate (error paths)
+
+	-Simple Domain Analysis -> 1) Skill set assessment for each team player
+				   2) Project for a document repository/place of review
+					Web Site: (Should Haves)
+					  -sponsor info
+					  -Meeting Minutes
+					  -Status Report
+					  -Documents
+Deliverable 2: (Due 02/10/04)
+	-Risk Analysis
+
+	-Sequence Diagrams
+
+	-All classes & object hierarchy defined
+
+Deliverable 3:
+
+Winter term entails:
+	-Analysis which breaks down into Requirement and further Project Analysis
+
+	-Design
+
+	-Test Plan
+
+Spring term entails:
+	-Implementation
+
+	-Testing

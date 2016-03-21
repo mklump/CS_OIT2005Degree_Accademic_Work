@@ -1,0 +1,32 @@
+The Final
+
+Deliverables
+- output(n).txt for each puzzle
+    -File Naming puzzle1.txt -> output1.txt
+	Make your output file by redirecting to a file:
+		puzzle.exe dictionary.txt puzzle1.txt > output1.txt
+		puzzle.exe dictionary.txt puzzle2.txt > output2.txt
+
+
+I give you:
+- Dictionary(ies)
+- Puzzle(s)
+
+Requirements
+- Sort the output (alphabetically)
+- Reasonably Fast
+
+
+Puzzle:
+- May not be square, will be rectangular
+- Words don't wrap around
+- Search:
+  - Horz, Vert, Diag, both ways, both directions. 8 ways
+- minimum length of a word is 3 letters
+- maximum length, you have the dictionary
+- words, and word subsets both
+- if a word is there twice, output once
+- I will not use apostrophes
+- everything will be lower case
+
+

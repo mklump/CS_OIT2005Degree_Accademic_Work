@@ -1,0 +1,129 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!-- weblogic-cmp-rdbms-jar-Customer.xml ejb descriptor for  -->
+<!-- CustomerEJB defines rdbms properties for WebLogic -->
+
+<!DOCTYPE weblogic-rdbms-bean PUBLIC 
+   '-//BEA Systems, Inc.//DTD WebLogic 5.1.0 EJB RDBMS Persistence//EN'
+   'http://www.bea.com/servers/wls510/dtd/weblogic-rdbms-persistence.dtd'>
+
+<!-- element containing rdbms properties for Customer EJB -->
+<weblogic-rdbms-bean>
+
+   <!-- assigns this bean to pool named BookstorePool -->
+   <pool-name>BookstorePool</pool-name>
+
+   <!-- assigns this bean to table named CUSTOMER -->
+   <table-name>Customer</table-name>
+
+   <!-- element containing field mappings -->
+   <attribute-map>
+
+      <!-- field mapping for customerID -->
+      <object-link>
+         <bean-field>customerID</bean-field>
+         <dbms-column>customerID</dbms-column>
+      </object-link>
+
+      <!-- field mapping for creditCardExpirationDate -->
+      <object-link>
+         <bean-field>creditCardExpirationDate</bean-field>
+         <dbms-column>creditCardExpirationDate</dbms-column>
+      </object-link>
+
+      <!-- field mapping for shippingAddressID -->
+      <object-link>
+         <bean-field>shippingAddressID</bean-field>
+         <dbms-column>shippingAddressID</dbms-column>
+      </object-link>
+      
+      <!-- field mapping for billingAddressID -->
+      <object-link>
+         <bean-field>billingAddressID</bean-field>
+         <dbms-column>billingAddressID</dbms-column>
+      </object-link>
+      
+      <!-- field mapping for passwordHint -->
+      <object-link>
+         <bean-field>passwordHint</bean-field>
+         <dbms-column>passwordHint</dbms-column>
+      </object-link>
+      
+      <!-- field mapping for creditCardName -->
+      <object-link>
+         <bean-field>creditCardName</bean-field>
+         <dbms-column>creditCardName</dbms-column>
+      </object-link>
+
+      <!-- field mapping for firstName -->
+      <object-link>
+         <bean-field>firstName</bean-field>
+         <dbms-column>firstName</dbms-column>
+      </object-link>
+
+      <!-- field mapping for password -->
+      <object-link>
+         <bean-field>password</bean-field>
+         <dbms-column>password</dbms-column>
+      </object-link>
+
+      <!-- field mapping for lastName -->
+      <object-link>
+         <bean-field>lastName</bean-field>
+         <dbms-column>lastName</dbms-column>
+      </object-link>
+
+      <!-- field mapping for userID -->
+      <object-link>
+         <bean-field>userID</bean-field>
+         <dbms-column>userID</dbms-column>
+      </object-link>
+
+      <!-- field mapping for creditCardNumber -->
+      <object-link>
+         <bean-field>creditCardNumber</bean-field>
+         <dbms-column>creditCardNumber</dbms-column>
+      </object-link>
+
+   </attribute-map>
+
+   <!-- list of custom finders -->
+   <finder-list>
+
+      <!-- finder for findByUserID -->
+      <finder>
+         <method-name>findByUserID</method-name>
+         <method-params>
+            <method-param>java.lang.String</method-param>
+         </method-params>
+
+         <!-- get fields where userID matches argument string -->
+         <finder-query> 
+            <![CDATA[( like userID $0 )]]>
+         </finder-query>
+      </finder>
+
+      <!-- finder for findByLogin -->
+      <finder>
+         <method-name>findByLogin</method-name>
+         <method-params>
+            <method-param>java.lang.String</method-param>
+            <method-param>java.lang.String</method-param>
+         </method-params>
+
+         <!-- fields where userID and password match arguments -->
+         <finder-query> 
+            <![CDATA[(& ( like userID $0 )( like password $1 ))]]>
+         </finder-query>
+      </finder>
+
+   </finder-list>
+
+   <!-- additional options -->
+   <options>
+    <use-quoted-names>false</use-quoted-names>
+   </options>
+
+</weblogic-rdbms-bean> 
+<!-- end rdbms descriptor for CustomerEJB -->
+

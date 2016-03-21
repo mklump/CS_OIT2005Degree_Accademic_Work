@@ -1,0 +1,57 @@
+List before bubble sort :
+Oregon
+Washington
+Idaho
+Montana
+West Virginia
+Alaska
+California
+Michigan
+Virginia
+Florida
+Texas
+North Carolina
+Nevada
+New Mexico
+Arizona
+
+Calling Bubble_Sort().
+
+List after bubble sort :
+Alaska
+Arizona
+California
+Florida
+Idaho
+Michigan
+Montana
+Nevada
+New Mexico
+North Carolina
+Oregon
+Texas
+Virginia
+Washington
+West Virginia
+
+List before insertion sort :
+(empty)
+
+Calling Insertion_Sort().
+
+List after insertion sort :
+Alaska
+Arizona
+California
+Florida
+Idaho
+Michigan
+Montana
+Nevada
+New Mexico
+North Carolina
+Oregon
+Texas
+Virginia
+Washington
+West Virginia

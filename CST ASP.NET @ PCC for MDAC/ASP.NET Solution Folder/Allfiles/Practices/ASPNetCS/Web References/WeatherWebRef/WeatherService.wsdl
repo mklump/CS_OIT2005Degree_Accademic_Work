@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="WeatherByCity">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WeatherByCityResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WeatherByCityResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TemperatureByCity">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TemperatureByCityResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="TemperatureByCityResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TravelAdviceByCity">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TravelAdviceByCityResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TravelAdviceByCityResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="WeatherByCitySoapIn">
+    <wsdl:part name="parameters" element="tns:WeatherByCity" />
+  </wsdl:message>
+  <wsdl:message name="WeatherByCitySoapOut">
+    <wsdl:part name="parameters" element="tns:WeatherByCityResponse" />
+  </wsdl:message>
+  <wsdl:message name="TemperatureByCitySoapIn">
+    <wsdl:part name="parameters" element="tns:TemperatureByCity" />
+  </wsdl:message>
+  <wsdl:message name="TemperatureByCitySoapOut">
+    <wsdl:part name="parameters" element="tns:TemperatureByCityResponse" />
+  </wsdl:message>
+  <wsdl:message name="TravelAdviceByCitySoapIn">
+    <wsdl:part name="parameters" element="tns:TravelAdviceByCity" />
+  </wsdl:message>
+  <wsdl:message name="TravelAdviceByCitySoapOut">
+    <wsdl:part name="parameters" element="tns:TravelAdviceByCityResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WeatherServiceSoap">
+    <wsdl:operation name="WeatherByCity">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">This XML Web service method gives the weather forcast for a given city</documentation>
+      <wsdl:input message="tns:WeatherByCitySoapIn" />
+      <wsdl:output message="tns:WeatherByCitySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TemperatureByCity">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">This XML Web service method gives the temperature forcast for a given city in Fahrenheit</documentation>
+      <wsdl:input message="tns:TemperatureByCitySoapIn" />
+      <wsdl:output message="tns:TemperatureByCitySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TravelAdviceByCity">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">This XML Web service method gives advises for travellers</documentation>
+      <wsdl:input message="tns:TravelAdviceByCitySoapIn" />
+      <wsdl:output message="tns:TravelAdviceByCitySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WeatherServiceSoap" type="tns:WeatherServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="WeatherByCity">
+      <soap:operation soapAction="http://tempuri.org/WeatherByCity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TemperatureByCity">
+      <soap:operation soapAction="http://tempuri.org/TemperatureByCity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TravelAdviceByCity">
+      <soap:operation soapAction="http://tempuri.org/TravelAdviceByCity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WeatherService">
+    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
+    <wsdl:port name="WeatherServiceSoap" binding="tns:WeatherServiceSoap">
+      <soap:address location="http://localhost/CSTASPNET/democode/Mod13CS/WeatherService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

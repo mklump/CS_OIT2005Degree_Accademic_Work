@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
+			 xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+			 xmlns:s="http://www.w3.org/2001/XMLSchema"
+			 xmlns:s0="http://tempuri.org/"
+			 xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+			 xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"
+			 xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/"
+			 targetNamespace="http://tempuri.org/"
+			 xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified"
+				 targetNamespace="http://tempuri.org/">
+      <s:element name="title" type="s:string" />
+      <s:element name="checkedOutResult" type="s:boolean" />
+      <s:element name="Id" type="s:string" />
+      <s:element name="checkInResult" type="s:boolean" />
+      <s:element name="isCheckedOutResult" type="s:boolean" />
+      <s:element name="size" type="s:int" />
+      <s:element name="createLibrayResult" type="s:boolean" />
+    </s:schema>
+  </types>
+  <message name="checkedOutSoapIn">
+    <part name="title" element="s0:title" />
+  </message>
+  <message name="checkedOutSoapOut">
+    <part name="checkedOutResult" element="s0:checkedOutResult" />
+  </message>
+  <message name="checkInSoapIn">
+    <part name="Id" element="s0:Id" />
+  </message>
+  <message name="checkInSoapOut">
+    <part name="checkInResult" element="s0:checkInResult" />
+  </message>
+  <message name="isCheckedOutSoapIn">
+    <part name="Id" element="s0:Id" />
+  </message>
+  <message name="isCheckedOutSoapOut">
+    <part name="isCheckedOutResult" element="s0:isCheckedOutResult" />
+  </message>
+  <message name="createLibraySoapIn">
+    <part name="size" element="s0:size" />
+  </message>
+  <message name="createLibraySoapOut">
+    <part name="createLibrayResult" element="s0:createLibrayResult" />
+  </message>
+  <portType name="Service1Soap">
+    <operation name="checkedOut">
+      <input message="s0:checkedOutSoapIn" />
+      <output message="s0:checkedOutSoapOut" />
+    </operation>
+    <operation name="checkIn">
+      <input message="s0:checkInSoapIn" />
+      <output message="s0:checkInSoapOut" />
+    </operation>
+    <operation name="isCheckedOut">
+      <input message="s0:isCheckedOutSoapIn" />
+      <output message="s0:isCheckedOutSoapOut" />
+    </operation>
+    <operation name="createLibray">
+      <input message="s0:createLibraySoapIn" />
+      <output message="s0:createLibraySoapOut" />
+    </operation>
+  </portType>
+  <binding name="Service1Soap" type="s0:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="checkedOut">
+      <soap:operation soapAction="http://tempuri.org/checkedOut" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="checkIn">
+      <soap:operation soapAction="http://tempuri.org/checkIn" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="isCheckedOut">
+      <soap:operation soapAction="http://tempuri.org/isCheckedOut" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="createLibray">
+      <soap:operation soapAction="http://tempuri.org/createLibray" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Service1">
+    <port name="Service1Soap" binding="s0:Service1Soap">
+      <soap:address location="http://localhost/Library/Service1.asmx" />
+    </port>
+  </service>
+</definitions>

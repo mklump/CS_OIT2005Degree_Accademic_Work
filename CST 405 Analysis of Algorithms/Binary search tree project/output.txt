@@ -1,0 +1,38 @@
+
+Test Results for 1000words.txt input:
+It took 29178 data transfers to complete the binary-search tree.
+It took 0 seconds to build the a full tree.
+It took 0.0004 seconds to traverse the tree.
+It took 0 seconds to lookup "sideline".
+When two items had the same value while doing the insertion, it caused a
+data colision, and the copy causing the collision was thrown out.
+After roughly half the items are deleted, it takes 9e-005 seconds to traverse the tree.
+For the timer's precion, there is definitely a difference in traversal time.
+
+Test Results for 10000words.txt input:
+It took 346936 data transfers to complete the binary-search tree.
+It took 0.000211 seconds to build the a full tree.
+It took 0.001632 seconds to traverse the tree.
+It took 0 seconds to lookup "inaccuracies".
+When two items had the same value while doing the insertion, it caused a
+data colision, and the copy causing the collision was thrown out.
+After roughly half the items are deleted, it takes 0.000671 seconds to traverse the tree.
+For the timer's precion, there is definitely a difference in traversal time.
+
+Test Results for 1000words.txt input:
+It took 346936 data transfers to complete the Red-Black tree.
+It took 0.0002 seconds to build the a full tree.
+It took 0 seconds to traverse the tree.
+It took 0 seconds to lookup "sideline".
+When two items had the same value while doing the insertion, it caused a
+data colision, and the copy causing the collision was thrown out.
+After roughly half the items are deleted, it takes 0 seconds to traverse the tree.
+For the timer's precion, there is not a noticable in traversal time.
+
+Test Results for 10000words.txt input:
+It took 346936 data transfers to complete the Red-Black tree.
+It took 0.033559 seconds to build the a full tree.
+It took 0 seconds to traverse the tree.
+It took 0 seconds to lookup "inaccuracies".
+When two items had the same value while doing the insertion, it caused a
+data colision, and the copy causing the collision was thrown out.

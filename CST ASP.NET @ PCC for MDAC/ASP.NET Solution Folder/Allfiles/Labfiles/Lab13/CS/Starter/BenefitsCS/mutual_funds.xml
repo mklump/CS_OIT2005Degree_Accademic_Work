@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<funds>
+	<fund>
+		<name>Large cap stocks</name>
+		<prospectus>lgcap</prospectus>
+	</fund>
+	<fund>
+		<name>Growth stocks</name>
+		<prospectus>growth</prospectus>
+	</fund>
+	<fund>
+		<name>Mid-cap stocks</name>
+		<prospectus>midcap</prospectus>
+	</fund>
+	<fund>
+		<name>Small-cap stocks</name>
+		<prospectus>smcap</prospectus>
+	</fund>
+</funds>

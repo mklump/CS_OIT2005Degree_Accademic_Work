@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+   "DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" 
+   lang="en" xml:lang="en">
+
+   <head>
+      <title>Customer Registration</title>
+      <link href="styles/default.css" rel="StyleSheet" />
+   </head>
+   <body>
+
+   <div>
+      <div class="logo">
+         <table style="width: 100%;">
+            <tr>
+               <td style="text-align: left;">
+                  <img src="images/logotiny.gif" />
+               </td>
+
+               <td style="text-align: right;">
+                  <div style="position: relative; bottom: -50px;">
+                     <form action="ProductSearch" method="get">
+                        <p>
+                           <input type="text" size="15" 
+                              name="searchString" />
+                           <input type="submit" value="Search" />
+                        </p>
+                     </form>
+                  </div>
+               </td>
+            </tr>
+         </table>
+      </div>
+
+      <div class="navigation">
+         <table>
+            <tr>
+            <td class="menu">
+            <a href="GetAllProducts">Product Catalog</a>
+            </td>
+
+            <td class="menu">
+            <a href="registration.html">Create Account</a>
+            </td>
+
+            <td class="menu">
+            <a href="login.html">Log in</a>
+            </td>
+
+            <td class="menu">
+            <a href="ViewCart">Shopping Cart</a>
+            </td>
+
+            <td class="menu">
+            <a href="ViewOrderHistory">Order History</a>
+            </td>
+            </tr>
+         </table>
+      </div>
+   </div>
+
+   <div class="header">Registration</div>
+
+   <div class = "register">
+      <form action = "Register" method = "post">
+      <table>
+         <tr>
+            <td>First Name: </td>
+            <td><input type="text" name="firstName"/></td>
+         </tr>
+         <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="lastName"/></td>
+         </tr>
+         <tr>
+            <td>Email Address (this will be your user ID):</td>
+            <td><input type="text" name="userID"/></td>
+         </tr>
+         <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password"/></td>
+         </tr>
+         <tr>
+            <td>Password Hint: </td>
+            <td><input type="text" name="passwordHint"/></td>
+         </tr>
+      </table>
+   </div>
+
+
+   <div class="header">Billing Information</div>
+   <div class = "register">
+      <table>
+         <tr>
+            <td>Credit Card Type:</td>
+            <td><input type="text" name="creditCardName"/></td>
+         </tr>
+         <tr>
+            <td>Credit Card Number:</td>
+            <td><input type="text" name="creditCardNumber"/></td>
+         </tr>
+         <tr>
+            <td>Credit Card Expiration Date (MM/YYYY):</td>
+            <td><input type="text" name="creditCardExpirationDate"/></td>
+         </tr>
+         <tr>
+            <td>Contact First Name:</td>
+            <td><input type="text" name="billingAddressFirstName"/></td>
+         </tr>
+         <tr>
+            <td>Contact Last Name:</td>
+            <td><input type="text" name="billingAddressLastName"/></td>
+         </tr>
+         <tr>
+            <td>Street Address 1:</td>
+            <td><input type="text" name="billingAddressStreet1"/></td>
+         </tr>
+         <tr>
+            <td>Street Address 2:</td>
+            <td><input type="text" name="billingAddressStreet2"/></td>
+         </tr>
+         <tr>
+            <td>City:</td>
+            <td><input type="text" name="billingAddressCity"/></td>
+         </tr>
+         <tr>
+            <td>State:</td>
+            <td><input type="text" name="billingAddressState"/></td>
+         </tr>
+         <tr>
+            <td>Zip Code:</td>
+            <td><input type="text" name="billingAddressZipCode"/></td>
+         </tr>
+         <tr>
+            <td>Country:</td>
+            <td><input type="text" name="billingAddressCountry"/></td>
+         </tr>
+         <tr>
+            <td>Telephone Number:</td>
+            <td><input type="text" name="billingAddressPhoneNumber"/></td>
+         </tr>
+      </table>
+   </div>
+
+   <div class="header">Shipping Information</div>
+   <div class = "register">
+      <table>
+         <tr>
+            <td>Contact First Name:</td>
+            <td><input type="text" name="shippingAddressFirstName"/></td>
+         </tr>
+         <tr>
+            <td>Contact Last Name:</td>
+            <td><input type="text" name="shippingAddressLastName"/></td>
+         </tr>
+         <tr>
+            <td>Street Address 1:</td>
+            <td><input type="text" name="shippingAddressStreet1"/></td>
+         </tr>
+         <tr>
+            <td>Street Address 2:</td>
+            <td><input type="text" name="shippingAddressStreet2"/></td>
+         </tr>
+         <tr>
+            <td>City:</td>
+            <td><input type="text" name="shippingAddressCity"/></td>
+         </tr>
+         <tr>
+            <td>State:</td>
+            <td><input type="text" name="shippingAddressState"/></td>
+         </tr>
+         <tr>
+            <td>Zip Code:</td>
+            <td><input type="text" name="shippingAddressZipCode"/></td>
+         </tr>
+         <tr>
+            <td>Country:</td>
+            <td><input type="text" name="shippingAddressCountry"/></td>
+         </tr>
+         <tr>
+            <td>Telephone Number:</td>
+            <td><input type="text" name="shippingAddressPhoneNumber"/></td>
+         </tr>
+  
+         <tr>
+            <td colspan = "2" style = "text-align: center;">
+               <input type="submit" value = "Register"/>
+            </td>
+         </tr>
+      </table>
+      </form>
+   </div>
+
+   </body>
+
+<!-- 
+  (C) Copyright 2001 by Deitel & Associates, Inc. and         
+  Prentice Hall. All Rights Reserved.                         
+                                                              
+  DISCLAIMER: The authors and publisher of this book have     
+  used their best efforts in preparing the book. These        
+  efforts include the development, research, and testing of   
+  the theories and programs to determine their effectiveness. 
+  The authors and publisher make no warranty of any kind,     
+  expressed or implied, with regard to these programs or to   
+  the documentation contained in these books. The authors     
+  and publisher shall not be liable in any event for          
+  incidental or consequential damages in connection with, or  
+  arising out of, the furnishing, performance, or use of      
+  these programs.                                             
+ -->
+
+</html>

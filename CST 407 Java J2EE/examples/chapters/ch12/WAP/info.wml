@@ -1,0 +1,19 @@
+<?xml version = "1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD 
+   WML 1.2//EN" "http://www.wapforum.org/DTD/wml12.dtd"> 
+
+<!-- Fig. 26.6 : info.wml -->
+<!-- Tip Test info screen -->
+
+<wml>
+   <card id = "image" title = "Tip Test">
+      <do type = "accept" label = "Begin">
+         <go href = "/advjhtp1/tiptest"/>
+      </do>
+
+      <p>
+         In this exercise, we will test your knowledge 
+            of the Deitel programming tips.
+      </p>
+   </card>
+</wml>

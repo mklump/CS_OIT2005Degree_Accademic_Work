@@ -1,0 +1,71 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" 
+   "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml> 
+   <card title = "Deitel Wireless Shopping" id = "menu">
+      <do label = "Products" type="Products">
+         <go href = "GetAllProducts"/>
+      </do>
+      <do label = "Search" type = "Search">
+         <go href = "#search"/>
+      </do>
+      <do label = "Log In" type = "Log in">
+         <go href = "login.wml"/>
+      </do>
+      <do label = "View Cart" type = "viewCart">
+         <go href = "ViewCart"/>
+      </do>
+      <do label = "Order History" type = "OrderHistory">
+         <go href = "ViewOrderHistory"/>
+      </do>
+
+      <p>Select Options or Scroll Down for Menu</p>
+      <p><a href = "GetAllProducts">Products</a></p>
+      <p><a href = "#search">Search</a></p>
+      <p><a href = "login.wml">Log in</a></p>
+      <p><a href = "ViewCart">View Cart</a></p>
+      <p><a href = "ViewOrderHistory">Order History</a></p>
+   </card>
+	
+   <card title = "Search for Books" id = "search">
+      <onevent type = "onenterforward">
+         <refresh>
+            <setvar value = "" name = "query"/>
+         </refresh>
+      </onevent>
+
+      <p>Enter Query:</p>
+      <p>
+         <input maxlength = "25" type = "text"
+            format = "*" name = "query"/>
+		
+         <anchor title = "search">
+            Search
+            <go href = "ProductSearch">
+               <postfield value = "$(query)" name = "searchString"/>
+            </go>
+         </anchor>	
+      </p>
+
+      <p><a href="#menu">Back</a></p>
+   </card>
+
+<!-- 
+ ************************************************************************** 
+ * (C) Copyright 2002 by Deitel & Associates, Inc. and Prentice Hall.     *
+ * All Rights Reserved.                                                   *
+ *                                                                        *
+ * DISCLAIMER: The authors and publisher of this book have used their     *
+ * best efforts in preparing the book. These efforts include the          *
+ * development, research, and testing of the theories and programs        *
+ * to determine their effectiveness. The authors and publisher make       *
+ * no warranty of any kind, expressed or implied, with regard to these    *
+ * programs or to the documentation contained in these books. The authors *
+ * and publisher shall not be liable in any event for incidental or       *
+ * consequential damages in connection with, or arising out of, the       *
+ * furnishing, performance, or use of these programs.                     *
+ **************************************************************************
+-->
+
+</wml>

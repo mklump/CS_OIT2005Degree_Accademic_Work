@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Quicksort", "Quicksort.vcproj", "{BF525C37-673F-4E7F-9C1A-D585477563E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "List-ArrayADT", "..\..\CST 211 - Data Abstraction\Data Structures C&C++ Projects\List-ArrayADT\List-ArrayADT.vcproj", "{C8D0CADE-0AD5-4241-9D93-AD9562C227DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BF525C37-673F-4E7F-9C1A-D585477563E5}.Debug.ActiveCfg = Debug|Win32
+		{BF525C37-673F-4E7F-9C1A-D585477563E5}.Debug.Build.0 = Debug|Win32
+		{BF525C37-673F-4E7F-9C1A-D585477563E5}.Release.ActiveCfg = Release|Win32
+		{BF525C37-673F-4E7F-9C1A-D585477563E5}.Release.Build.0 = Release|Win32
+		{C8D0CADE-0AD5-4241-9D93-AD9562C227DF}.Debug.ActiveCfg = Debug|Win32
+		{C8D0CADE-0AD5-4241-9D93-AD9562C227DF}.Release.ActiveCfg = Release|Win32
+		{C8D0CADE-0AD5-4241-9D93-AD9562C227DF}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

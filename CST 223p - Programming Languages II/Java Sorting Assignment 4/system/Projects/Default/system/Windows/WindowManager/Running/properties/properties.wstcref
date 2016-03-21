@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tc-ref version="1.0" id="properties" >
+    <ui-type type="any" state="closed" constraint="center" />
+</tc-ref>

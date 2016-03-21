@@ -1,0 +1,12 @@
+' clear any existing rows
+Me.dsNorthwind.AppSettings.Clear()
+
+' insert a new blank row
+Me.dsNorthwind.AppSettings.AddAppSettingsRow(Me.EmployeeID, Me.ServerName)
+
+' accept changes because we do not need to track
+Me.dsNorthwind.AppSettings.AcceptChanges()
+
+' save as local cache
+Me.dsNorthwind.WriteXml("OnTheRoad.xml", XmlWriteMode.DiffGram)
+

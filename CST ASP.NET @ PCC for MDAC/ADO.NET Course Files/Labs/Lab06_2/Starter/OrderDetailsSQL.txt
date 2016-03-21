@@ -1,0 +1,7 @@
+SELECT
+	[Order Details].OrderID, ProductID, UnitPrice, Quantity
+FROM [Order Details] INNER JOIN Orders ON 
+	[Order Details].OrderID = Orders.OrderID
+WHERE
+	(Orders.EmployeeID = @EmployeeID)
+

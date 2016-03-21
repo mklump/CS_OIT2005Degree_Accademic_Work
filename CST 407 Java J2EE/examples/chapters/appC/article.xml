@@ -1,0 +1,5 @@
+<?xml version = "1.0"?>
+
+<!-- Fig. A.1: article.xml       -->
+<!-- Article formatted with XML  -->
+<article><title>Simple XML</title><date>July 31, 2001</date><author><firstName>Tem</firstName><lastName>Nieto</lastName></author><summary>XML is easy.</summary><content>Once you have mastered XHTML, you can easily learn XML. You must remember that XML is not for displaying information but for managing information.</content></article>

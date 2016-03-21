@@ -1,0 +1,9 @@
+x = read()
+
+y = x + 1
+
+x = add(y)
+
+print(x)
+
+print(y)

@@ -1,0 +1,257 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{8897AD2D-964E-474A-9E5A-A5B000D78673}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Mod10CS"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                RootNamespace = "Mod10CS"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "datareader.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "datareader.aspx.cs"
+                    DependentUpon = "datareader.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "datareader.aspx.resx"
+                    DependentUpon = "datareader.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DataReaderCode.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DataReaderCode.aspx.cs"
+                    DependentUpon = "DataReaderCode.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataReaderCode.aspx.resx"
+                    DependentUpon = "DataReaderCode.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DataSetCode.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DataSetCode.aspx.cs"
+                    DependentUpon = "DataSetCode.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DataSetCode.aspx.resx"
+                    DependentUpon = "DataSetCode.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ErrorHandling.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ErrorHandling.aspx.cs"
+                    DependentUpon = "ErrorHandling.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ErrorHandling.aspx.resx"
+                    DependentUpon = "ErrorHandling.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Mod10CS.vsdisco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "SQLSecurityModes.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SQLSecurityModes.aspx.cs"
+                    DependentUpon = "SQLSecurityModes.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SQLSecurityModes.aspx.resx"
+                    DependentUpon = "SQLSecurityModes.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UseDataSet.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UseDataSet.aspx.cs"
+                    DependentUpon = "UseDataSet.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UseDataSet.aspx.resx"
+                    DependentUpon = "UseDataSet.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UseGrid.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UseGrid.aspx.cs"
+                    DependentUpon = "UseGrid.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UseGrid.aspx.resx"
+                    DependentUpon = "UseGrid.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UseRelations.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UseRelations.aspx.cs"
+                    DependentUpon = "UseRelations.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UseRelations.aspx.resx"
+                    DependentUpon = "UseRelations.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.cs"
+                    DependentUpon = "WebForm1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.resx"
+                    DependentUpon = "WebForm1.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

@@ -1,0 +1,188 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0048)http://cs00.pcc.edu/~checkman/cs140u/labs/4.html -->
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2462.0" name=GENERATOR></HEAD>
+<BODY text=#000000 vLink=#0000ff aLink=#ff0000 link=#0000ff bgColor=#ffffff>
+<TABLE cellSpacing=5 cellPadding=0 width=620 border=0>
+  <TBODY>
+  <TR>
+    <TD>
+      <H3><FONT face="Arial, Helvetica, sans-serif">Lab 4</FONT></H3>
+      <HR noShade SIZE=1>
+
+      <P><FONT face="Arial, Helvetica, sans-serif" size=-1><B>Due: 07-Feb-2002 
+      (25 points)</B> </FONT>
+      <P><FONT face="Arial, Helvetica, sans-serif" size=-1>Using a text editor 
+      or word processing program, in your own words, type your answers to the 
+      following questions if applicable. At the top of the document, add the 
+      required information as described by the <A 
+      href="http://cs00.pcc.edu/~checkman/cs140u/labs/index.html">homework 
+      policies</A>. Then print the document, and insert it into a portfolio 
+      before turning it in. </FONT>
+      <P><FONT face="Arial, Helvetica, sans-serif" size=-1><B>Chapter 10, 
+      Advanced File Processing:</B> </FONT>
+      <OL>
+        <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>Assume you have a 
+        file, <FONT face="Courier New, Courier, mono" size=-1>orders.dat</FONT>, 
+        that contains the following data: </FONT>
+        <UL><PRE>Mary  Donald  1020
+Joe   Smith    348
+Jack  Adams    912
+Missy Jenkins  401
+Jim   Donald  1034
+</PRE></UL><FONT face="Arial, Helvetica, sans-serif" size=-1>(the first 
+        column contains first names, the second column contains last names, and 
+        the third column contains quantities) </FONT>
+        <P><FONT face="Arial, Helvetica, sans-serif" size=-1>For each of the 
+        following tasks, give a single command that will perform it: </FONT>
+        <OL type=a>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>Sort the file by 
+          last name </FONT>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>Sort the file by 
+          last name, then by first name </FONT>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>Sort the file by 
+          quanity <BR><BR></FONT></LI></OL>
+        <P><FONT face="Arial, Helvetica, sans-serif" size=-1><I><B>Hint:</B> Use 
+        a text editor to create the file, and then test your answers. 
+</I></FONT>
+        <P></P>
+        <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>For each of the 
+        following, give <I>a single command</I> to find all lines in a file 
+        called <FONT face="Courier New, Courier, mono" 
+        size=-1>customers.txt</FONT> that: </FONT>
+        <OL type=a>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>are empty or 
+          contain only spaces</FONT> 
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>contain at least 
+          one <FONT face="Courier New, Courier, mono" size=-1>A</FONT> </FONT>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>contain at least 
+          one <FONT face="Courier New, Courier, mono" size=-1>A</FONT> or <FONT 
+          face="Courier New, Courier, mono" size=-1>a</FONT> </FONT>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>contain an 
+          uppercase or lowercase vowel </FONT>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>do not contain 
+          an uppercase or lowercase vowel </FONT>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>start with a 
+          <FONT face="Courier New, Courier, mono" size=-1>Z</FONT> </FONT>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>do not start 
+          with a <FONT face="Courier New, Courier, mono" size=-1>Z</FONT> 
+</FONT>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>end with <FONT 
+          face="Courier New, Courier, mono" size=-1>000</FONT> </FONT>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>contain <FONT 
+          face="Courier New, Courier, mono" size=-1>Unix</FONT> or <FONT 
+          face="Courier New, Courier, mono" size=-1>Linux</FONT> </FONT>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>contain <FONT 
+          face="Courier New, Courier, mono" size=-1>Unix</FONT>, followed by any 
+          number of other characters, followed by <FONT 
+          face="Courier New, Courier, mono" 
+          size=-1>Linux<BR><BR></FONT></FONT></LI></OL>
+        <P><FONT face="Arial, Helvetica, sans-serif" size=-1><I><B>Hint:</B> Use 
+        a text editor to create a file that has each of the above, and then test 
+        your answers. </I></FONT>
+        <P><FONT face="Arial, Helvetica, sans-serif" size=-1><I><B>Note:</B> Do 
+        not use Extended Regular Expressions</I> </FONT>
+        <P></P>
+        <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>For each of the 
+        following tasks, give a single command that will perform it, regardless 
+        of your current working directory: </FONT>
+        <OL type=a>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>List files that 
+          end in <FONT face="Courier New, Courier, mono" size=-1>.html</FONT> in 
+          the current directory and all subdirectories </FONT>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>List all 
+          subdirectories of your home directory and all subdirectories </FONT>
+          <LI><FONT face="Arial, Helvetica, sans-serif" 
+          size=-1><I>Unconditionally</I> delete (do not prompt for approval) all 
+          files and directories owned by you in <FONT 
+          face="Courier New, Courier, mono" size=-1>/tmp</FONT> and all 
+          subdirectories </FONT>
+          <LI><FONT face="Arial, Helvetica, sans-serif" 
+          size=-1><I>Conditionally</I> delete (prompt for approval) all files 
+          and directories that are larger than 1 million bytes <I>and</I> owned 
+          by you in <FONT face="Courier New, Courier, mono" size=-1>/tmp</FONT> 
+          and all subdirectories <BR><BR></FONT></LI></OL>
+        <P><FONT face="Arial, Helvetica, sans-serif" size=-1><I><B>Hint:</B> 
+        Test your answers (be careful when testing: use <FONT 
+        face="Courier New, Courier, mono" size=-1>echo rm </FONT>instead of 
+        <FONT face="Courier New, Courier, mono" size=-1>rm</FONT> just to be 
+        safe). </I></FONT></P></LI></OL>
+      <P><B><FONT face="Arial, Helvetica, sans-serif" size=-1>Chapter 8, File 
+      Security</FONT></B> 
+      <OL>
+        <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>For each of the 
+        following permissions, give the command to change permissions on a file, 
+        <FONT face="Courier New, Courier, mono" size=-1>orders.txt</FONT>, to 
+        those permissions, using a numeric mode argument: </FONT>
+        <OL type=a>
+          <LI><FONT face="Courier New, Courier, mono" size=-1>rw-r----- </FONT>
+          <LI><FONT face="Courier New, Courier, mono" size=-1>rwxr-x--x </FONT>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1><FONT 
+          face="Courier New, Courier, mono" size=-1>-ws--Sr-t</FONT> 
+          <BR><BR></FONT></LI></OL>
+        <P><FONT face="Arial, Helvetica, sans-serif" 
+        size=-1><B><I>Hint:</I></B><I> Look at the man pages for the command to 
+        refresh your memory on what each of these symbols means. </I></FONT>
+        <P></P>
+        <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>For each of the 
+        permissions from the previous question, restate the command using a 
+        symbolic mode argument. </FONT>
+        <P></P>
+        <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>What command 
+        should I use if I wanted to grant (give, without changing any of the 
+        other existing file permissions) read and write permissions to just the 
+        group owner of a directory called <FONT 
+        face="Courier New, Courier, mono" size=-1>/usr/lib/work</FONT>, and all 
+        files and subdirectories thereof? </FONT>
+        <P></P>
+        <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>How would I 
+        permanently change my shell configuration if I wanted all newly created 
+        files and directories to have the following permissions by default: 
+        </FONT>
+        <UL>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>Files: <FONT 
+          face="Courier New, Courier, mono" size=-1>rw-rw----</FONT> </FONT>
+          <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>Dirs: <FONT 
+          face="Courier New, Courier, mono" size=-1>rwxrwx--x</FONT> 
+          <BR><BR></FONT></LI></UL>
+        <P></P>
+        <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>What command 
+        should I use if I wanted to change the owner of a directory called <FONT 
+        face="Courier New, Courier, mono" size=-1>data </FONT>to the username 
+        <FONT face="Courier New, Courier, mono" size=-1>charliet</FONT> ? 
+</FONT>
+        <P></P>
+        <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>What command 
+        should I use if I wanted to change the group owner of a directory called 
+        <FONT face="Courier New, Courier, mono" size=-1>data </FONT>to the group 
+        <FONT face="Courier New, Courier, mono" size=-1>acctg</FONT> ? </FONT>
+        <P></P>
+        <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>What command 
+        should I use if I wanted to change both the owner and group owner as 
+        specified in the previous two questions? <B><I>Hint:</I></B><I> See man 
+        pages. </I></FONT></LI></OL>
+      <P><FONT face="Arial, Helvetica, sans-serif" size=-1><B>Chapter 11, 
+      Sharing Files</B> </FONT>
+      <OL>
+        <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>Give the command 
+        to create a link to a file called <FONT 
+        face="Courier New, Courier, mono" size=-1>/common/acctg/data.txt 
+        </FONT>from an entry called <FONT face="Courier New, Courier, mono" 
+        size=-1>results </FONT>in your home directory. </FONT>
+        <P></P>
+        <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>Assuming you typed 
+        the command above correctly, and the target file actually exists, give 
+        one reason why the command would fail (giving you an error message). 
+        </FONT>
+        <P></P>
+        <LI><FONT face="Arial, Helvetica, sans-serif" size=-1>Give the command 
+        to create a link to a directory called <FONT 
+        face="Courier New, Courier, mono" size=-1>/common/acctg </FONT>from an 
+        entry called <FONT face="Courier New, Courier, mono" size=-1>work 
+        </FONT>in your home directory.</FONT> </LI></OL>
+      <P>
+      <HR noShade SIZE=1>
+      <FONT face="Arial, Helvetica, sans-serif" size=-2><B><SMALL>© 2002 R. 
+      Casey Heckman. All rights reserved. 
+</SMALL></B></FONT></TD></TR></TBODY></TABLE></BODY></HTML>

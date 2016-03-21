@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="output">
+        <attr name="OpenIDE-Folder-Order" stringvalue="output.wstcref"/>
+    </fileobject>
+    <fileobject name="Form">
+        <attr name="OpenIDE-Folder-Order" stringvalue="ComponentInspector.wstcref/ComponentPalette.wstcref"/>
+    </fileobject>
+    <fileobject name="explorer">
+        <attr name="filesystems.wstcref/runtime.wstcref" serialvalue="aced0005737200316f72672e6f70656e6964652e66696c6573797374656d732e4d756c746946696c654f626a65637424566f696456616c7565d9ec9c94d5fd3ca40c0000787077040000000178"/>
+        <attr name="OpenIDE-Folder-Order" stringvalue="runtime.wstcref/filesystems.wstcref"/>
+    </fileobject>
+    <fileobject name="properties">
+        <attr name="OpenIDE-Folder-Order" stringvalue="properties.wstcref"/>
+    </fileobject>
+    <fileobject name="options">
+        <attr name="OpenIDE-Folder-Order" stringvalue="Options.wstcref"/>
+    </fileobject>
+    <fileobject name="execution">
+        <attr name="OpenIDE-Folder-Order" stringvalue="execution.wstcref"/>
+    </fileobject>
+</attributes>

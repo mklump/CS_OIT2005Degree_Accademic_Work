@@ -1,0 +1,8 @@
+<?xml version = "1.0"?>
+
+<!-- Fig. D.3 : intro.xml              -->
+<!-- Simple introduction to XML markup -->
+
+<myMessage>
+   <message>Welcome to XSLT!</message>
+</myMessage>

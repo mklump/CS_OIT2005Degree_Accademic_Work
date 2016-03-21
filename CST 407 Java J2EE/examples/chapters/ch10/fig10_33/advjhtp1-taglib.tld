@@ -1,0 +1,93 @@
+<?xml version = "1.0"?>
+<!DOCTYPE taglib PUBLIC 
+   "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+      "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+
+<!-- a tag library descriptor -->
+
+<taglib>
+   <tlibversion>1.0</tlibversion>
+   <jspversion>1.1</jspversion>
+   <shortname>advjhtp1</shortname>
+   
+   <info>
+      A simple tab library for the examples
+   </info>
+
+   <!-- A simple tag that outputs content -->
+   <tag>
+      <name>welcome</name>
+      
+      <tagclass>
+         com.deitel.advjhtp1.jsp.taglibrary.WelcomeTagHandler
+      </tagclass>
+      
+      <bodycontent>empty</bodycontent>
+
+      <info>
+         Inserts content welcoming user to tag libraries
+      </info>
+   </tag>
+
+   <!-- A tag with an attribute -->
+   <tag>
+      <name>welcome2</name>
+      
+      <tagclass>
+         com.deitel.advjhtp1.jsp.taglibrary.Welcome2TagHandler
+      </tagclass>
+      
+      <bodycontent>empty</bodycontent>
+
+      <info>
+         Inserts content welcoming user to tag libraries. Uses 
+         attribute "name" to insert the user's name.
+      </info>
+
+      <attribute>
+         <name>firstName</name>
+         <required>true</required>
+         <rtexprvalue>true</rtexprvalue>
+      </attribute>
+   </tag>
+
+   <!-- A tag that iterates over an ArrayList of GuestBean -->
+   <!-- objects, so they can be output in a JSP            -->
+   <tag>
+      <name>guestlist</name>
+      
+      <tagclass>
+         com.deitel.advjhtp1.jsp.taglibrary.GuestBookTag
+      </tagclass>
+
+      <teiclass>
+         com.deitel.advjhtp1.jsp.taglibrary.GuestBookTagExtraInfo
+      </teiclass>
+      
+      <bodycontent>JSP</bodycontent>
+
+      <info>
+         Iterates over a list of GuestBean objects
+      </info>
+   </tag>
+</taglib>
+
+
+<!--
+ ***************************************************************
+ * (C) Copyright 2002 by Deitel & Associates, Inc. and         *
+ * Prentice Hall. All Rights Reserved.                         *
+ *                                                             *
+ * DISCLAIMER: The authors and publisher of this book have     *
+ * used their best efforts in preparing the book. These        *
+ * efforts include the development, research, and testing of   *
+ * the theories and programs to determine their effectiveness. *
+ * The authors and publisher make no warranty of any kind,     *
+ * expressed or implied, with regard to these programs or to   *
+ * the documentation contained in these books. The authors     *
+ * and publisher shall not be liable in any event for          *
+ * incidental or consequential damages in connection with, or  *
+ * arising out of, the furnishing, performance, or use of      *
+ * these programs.                                             *
+ ***************************************************************
+-->

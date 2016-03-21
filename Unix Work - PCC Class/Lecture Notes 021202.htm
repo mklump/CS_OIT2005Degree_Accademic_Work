@@ -1,0 +1,1473 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0059)http://cs00.pcc.edu/~checkman/cs140u/lectures/20020212.html -->
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="Lecture%20Notes%20021202_files/filelist.xml">
+<link rel=Edit-Time-Data href="Lecture%20Notes%20021202_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><o:SmartTagType
+ namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="date"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Matthew J Klump</o:Author>
+  <o:LastAuthor>Matthew J Klump</o:LastAuthor>
+  <o:Revision>4</o:Revision>
+  <o:TotalTime>42</o:TotalTime>
+  <o:Created>2002-02-13T02:30:00Z</o:Created>
+  <o:LastSaved>2002-02-13T03:13:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1509</o:Words>
+  <o:Characters>8604</o:Characters>
+  <o:Company> </o:Company>
+  <o:Lines>71</o:Lines>
+  <o:Paragraphs>20</o:Paragraphs>
+  <o:CharactersWithSpaces>10093</o:CharactersWithSpaces>
+  <o:Version>10.2625</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Compatibility>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-alt:"\FF2D\FF33 \660E\671D";
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";
+	color:black;}
+h3
+	{color:black;}
+a:link, span.MsoHyperlink
+	{color:red;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:maroon;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";
+	color:black;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:99571347;
+	mso-list-template-ids:599540954;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:479998406;
+	mso-list-template-ids:1210622432;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2
+	{mso-list-id:822694415;
+	mso-list-template-ids:-2118642446;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3
+	{mso-list-id:1123621622;
+	mso-list-template-ids:231125752;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4
+	{mso-list-id:1655257649;
+	mso-list-template-ids:1808836772;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l4:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level3 lfo3
+	{mso-level-start-at:0;
+	mso-level-number-format:arabic;
+	mso-level-numbering:continue;
+	mso-level-text:"%3\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0in;
+	text-indent:0in;}
+@list l1:level3 lfo4
+	{mso-level-start-at:0;
+	mso-level-number-format:arabic;
+	mso-level-numbering:continue;
+	mso-level-text:"%3\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0in;
+	text-indent:0in;}
+@list l1:level4 lfo4
+	{mso-level-start-at:0;
+	mso-level-number-format:alpha-lower;
+	mso-level-numbering:continue;
+	mso-level-text:"%4\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0in;
+	text-indent:0in;}
+@list l1:level3 lfo5
+	{mso-level-start-at:0;
+	mso-level-number-format:arabic;
+	mso-level-numbering:continue;
+	mso-level-text:"%3\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0in;
+	text-indent:0in;}
+@list l1:level3 lfo5
+	{mso-level-start-at:0;
+	mso-level-numbering:continue;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level4 lfo5
+	{mso-level-start-at:0;
+	mso-level-number-format:alpha-lower;
+	mso-level-numbering:continue;
+	mso-level-text:"%4\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0in;
+	text-indent:0in;}
+@list l1:level3 lfo6
+	{mso-level-start-at:0;
+	mso-level-number-format:arabic;
+	mso-level-numbering:continue;
+	mso-level-text:"%3\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0in;
+	text-indent:0in;}
+@list l1:level3 lfo6
+	{mso-level-start-at:0;
+	mso-level-numbering:continue;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level4 lfo6
+	{mso-level-start-at:0;
+	mso-level-numbering:continue;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level3 lfo7
+	{mso-level-start-at:0;
+	mso-level-number-format:arabic;
+	mso-level-numbering:continue;
+	mso-level-text:"%3\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0in;
+	text-indent:0in;}
+@list l1:level3 lfo7
+	{mso-level-start-at:0;
+	mso-level-numbering:continue;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level4 lfo7
+	{mso-level-start-at:0;
+	mso-level-numbering:continue;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level3 lfo8
+	{mso-level-start-at:0;
+	mso-level-number-format:arabic;
+	mso-level-numbering:continue;
+	mso-level-text:"%3\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0in;
+	text-indent:0in;}
+@list l1:level3 lfo8
+	{mso-level-start-at:0;
+	mso-level-numbering:continue;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level4 lfo8
+	{mso-level-start-at:0;
+	mso-level-numbering:continue;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level3 lfo9
+	{mso-level-start-at:0;
+	mso-level-number-format:arabic;
+	mso-level-numbering:continue;
+	mso-level-text:"%3\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0in;
+	text-indent:0in;}
+@list l1:level3 lfo9
+	{mso-level-start-at:0;
+	mso-level-numbering:continue;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level4 lfo9
+	{mso-level-start-at:0;
+	mso-level-numbering:continue;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]-->
+<meta content="?" name=Author>
+<meta content="?" name=Keywords>
+<meta content="?" name=Description>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-US link=red vlink=maroon style='tab-interval:.5in'
+alink="#ff00ff">
+
+<div class=Section1>
+
+<table class=MsoNormalTable border=0 cellspacing=5 cellpadding=0 width=1020
+ style='width:8.5in;mso-cellspacing:3.0pt;mso-padding-alt:0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;mso-yfti-lastrow:yes'>
+  <td width=1010 style='width:606.0pt;padding:0in 0in 0in 0in'>
+  <h3><span style='font-family:Arial'>Lecture Notes </span><st1:date Year="2002"
+  Day="12" Month="2"><span style='font-family:Arial'>12-Feb-2002</span></st1:date></h3>
+  <p><b><span style='font-size:10.0pt;font-family:Arial'>Chapter 12:
+  Redirection and Piping</span></b></p>
+  <ul type=disc>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Each file opened by a process
+       assigned &quot;file descriptor&quot; (an integer)</span> </li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>All processes have three
+       standard file descriptors created automatically: </span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Standard-input for input to
+        the process (file descriptor 0)</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Standard-output for output
+        from the process (file descriptor 1)</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Standard-error for errors
+        reported by the process (file descriptor 2)</span> </li>
+   </ul>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Abbreviated: STDIN, STDOUT,
+       STDERR</span> </li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Default locations: </span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>STDIN comes from the
+        keyboard</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+        mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span style='font-size:
+        10.0pt;font-family:Arial'>STDOUT and STDERR go to the screen</span></li>
+   </ul>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>STDOUT and STDERR may be
+       intermingled</span> </li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+       mso-list:l4 level1 lfo1;tab-stops:list .5in'><span style='font-size:
+       10.0pt;font-family:Arial'>All three can be &quot;redirected&quot; to
+       come from or go to a file by appending the appropriate redirection
+       character(s) and filenames at the end of the command (after all other
+       arguments)</span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>STDIN redirection </span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Two kinds: Simple and
+        &quot;Here-Document&quot;</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Simple </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Useful for commands that
+         usually expect input from the keyboard, and do not have a way to
+         specify an input file</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Uses the
+         &quot;less-than&quot; character followed by the input filename (space
+         optional)</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Syntax: </span><i><span
+         style='font-size:10.0pt;font-family:"Courier New"'>command</span></i><span
+         style='font-size:10.0pt;font-family:"Courier New"'> [<i>arguments</i>]...
+         &lt; <i>input-file</i></span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>If input file does not
+         exist, the shell will issue an error message</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Examples: </span></li>
+     <ul type=square>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;margin-right:-3.0pt;
+          mso-margin-bottom-alt:auto;mso-list:l4 level4 lfo1;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:"Courier New"'>write john &lt;
+          write_msg_to_john</span> <span
+          style='mso-spacerun:yes'> </span>CTRL-D to end the write command.</li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+          mso-list:l4 level4 lfo1;tab-stops:list 2.0in'><span style='font-size:
+          10.0pt;font-family:"Courier New"'>mail checkman@cs00.pcc.edu &lt;
+          invitation.txt </span></li>
+     </ul>
+    </ul>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Here-Document </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Useful in shell-scripts,
+         when you do not want to create a file with the input for the command</span>
+         </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Uses two
+         &quot;less-than&quot; characters followed by any string you pick (no
+         space between them)</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Input will continue until
+         that string appears at the beginning of a line, all by itself</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Syntax: </span></li>
+     <ul type=square>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l4 level4 lfo1;tab-stops:list 2.0in'><i><span
+          style='font-size:10.0pt;font-family:"Courier New"'>command</span></i><span
+          style='font-size:10.0pt;font-family:"Courier New"'> [<i>arguments</i>]...
+          &lt;&lt;<i>anystring</i></span><span style='font-size:10.0pt;
+          font-family:Arial'><br>
+          </span><i><span style='font-size:10.0pt;font-family:"Courier New"'>one
+          or more lines of input text...</span></i><span style='font-size:10.0pt;
+          font-family:Arial'><br>
+          </span><i><span style='font-size:10.0pt;font-family:"Courier New"'>anystring</span></i><span
+          style='font-size:10.0pt;font-family:"Courier New"'> </span></li>
+     </ul>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Often, </span><i><span
+         style='font-size:10.0pt;font-family:"Courier New"'>anystring </span></i><span
+         style='font-size:10.0pt;font-family:Arial'>will be all capital letters
+         and is often something like </span><span style='font-size:10.0pt;
+         font-family:"Courier New"'>END_OF_TEXT</span><span style='font-size:
+         10.0pt;font-family:Arial'>, </span><span style='font-size:10.0pt;
+         font-family:"Courier New"'>EOT</span><span style='font-size:10.0pt;
+         font-family:Arial'>, </span><span style='font-size:10.0pt;font-family:
+         "Courier New"'>EOF</span><span style='font-size:10.0pt;font-family:
+         Arial'> or something similar</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Examples: </span></li>
+     <ul type=square>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+          mso-list:l4 level4 lfo1;tab-stops:list 2.0in'><span style='font-size:
+          10.0pt;font-family:"Courier New"'>mail -s'Report failed'
+          checkman@cs00.pcc.edu &lt;&lt;END_OF_MSG<br>
+          You are receiving this automatically generated message because an
+          error has occurred in the script that generates the weekly accounting
+          reports. Go fix it!<br>
+          END_OF_MSG</span><span style='font-size:10.0pt;font-family:Arial'> </span></li>
+     </ul>
+    </ul>
+   </ul>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>STDOUT redirection: </span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>If output file does not
+        exist, it will be created</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>There are two kinds:
+        Overwrite and Append</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Overwrite: </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Destroys output file if it
+         already exists</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Uses the
+         &quot;greater-than&quot; character followed by the output filename
+         (space optional)</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Syntax: </span><i><span
+         style='font-size:10.0pt;font-family:"Courier New"'>command</span></i><span
+         style='font-size:10.0pt;font-family:"Courier New"'> [<i>command</i>]...
+         &gt; <i>output-file</i></span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Examples: </span></li>
+     <ul type=square>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l4 level4 lfo1;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:"Courier New"'>echo &quot;Total:
+          &quot; $[$quantity * $price] &gt; order </span></li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l4 level4 lfo1;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:"Courier New"'>sort +2 -5
+          cust.dat &gt; cust_sorted.dat</span> </li>
+     </ul>
+    </ul>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Append: </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Adds the output to end of
+         the output file, if it already exists</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Uses two
+         &quot;greater-than&quot; characters followed by the output filename
+         (space optional)</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Syntax: </span><i><span
+         style='font-size:10.0pt;font-family:"Courier New"'>command</span></i><span
+         style='font-size:10.0pt;font-family:"Courier New"'> [<i>arguments</i>]...
+         &gt;&gt; <i>output-file</i></span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Examples: </span></li>
+     <ul type=square>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l4 level4 lfo1;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:"Courier New"'>ls -l *.eps
+          &gt;&gt; eps_files</span> </li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+          mso-list:l4 level4 lfo1;tab-stops:list 2.0in'><span style='font-size:
+          10.0pt;font-family:"Courier New"'>echo `date` &gt;&gt; report.txt</span></li>
+     </ul>
+    </ul>
+   </ul>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>STDERR redirection: </span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Syntax is exactly the same
+        as redirecting STDOUT, except the redirection character is preceded by
+        the number </span><span style='font-size:10.0pt;font-family:"Courier New"'>2</span><span
+        style='font-size:10.0pt;font-family:Arial'> (the file-descriptor)</span>
+        </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>If you want to throw the
+        error messages away, use the &quot;null device&quot; in place of a
+        filename</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Examples: </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:"Courier New"'>grep 'Smith'
+         /common/acctg/cust.dat 2&gt; cust_errors</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+         mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span style='font-size:
+         10.0pt;font-family:"Courier New"'>find / -user checkman -print 2&gt;
+         /dev/null</span></li>
+    </ul>
+   </ul>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Combining Redirection </span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Any of these redirection
+        techniques can be combined for a single command </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+         mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span style='font-size:
+         10.0pt;font-family:Arial'>Example: </span><span style='font-size:10.0pt;
+         font-family:"Courier New"'>sort &lt; cust.dat &gt;&gt; cust_sorted.dat
+         2&gt; sorting_errors</span></li>
+    </ul>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>You can redirect STDERR to
+        the same file as STDOUT </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Use &quot;</span><span
+         style='font-size:10.0pt;font-family:"Courier New"'>&amp;1</span><span
+         style='font-size:10.0pt;font-family:Arial'>&quot; immediately after
+         the STDERR redirection (no spaces)</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>You must use this syntax if
+         you are redirecting both output and errors for overwrite to the same
+         file </span></li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Example: </span></li>
+     <ul type=square>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l4 level4 lfo1;tab-stops:list 2.0in'><s><span
+          style='font-size:10.0pt;font-family:"Courier New"'>sort cust.dat &gt;
+          cust_sorted.dat 2&gt; cust_sorted.dat</span></s> </li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+          mso-list:l4 level4 lfo1;tab-stops:list 2.0in'><span style='font-size:
+          10.0pt;font-family:"Courier New"'>sort cust.dat &gt; cust_sorted.dat
+          2&gt;&amp;1</span></li>
+     </ul>
+    </ul>
+   </ul>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Piping </span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Redirecting the output from
+        one command to the input of another</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Place a vertical bar between
+        commands</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Syntax: </span><i><span
+        style='font-size:10.0pt;font-family:"Courier New"'>command</span></i><span
+        style='font-size:10.0pt;font-family:"Courier New"'> | <i>command</i></span>
+        </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Examples: </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:"Courier New"'>who | grep checkman</span>
+         </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:"Courier New"'>sort data.txt |
+         uniq</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+         mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span style='font-size:
+         10.0pt;font-family:"Courier New"'>tar -c products | gzip -9 | crypt
+         justakey | \<span style='mso-spacerun:yes'>  </span><b
+         style='mso-bidi-font-weight:normal'>gzip get maximum compression</b><br>
+         uuencode products | mail <a href="mailto:bob@unix.com">bob@unix.com</a></span><o:p></o:p></li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+         mso-list:l4 level3 lfo1;tab-stops:list 1.5in'>example: cmd1 2&gt;&gt; &lt;fileerrors&gt;
+         or &lt;/dev/null/&gt; | cmd2 2&gt;&gt; errors | cmd3 2&gt;&gt;errors
+         &gt; out</li>
+    </ul>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Only redirects STDOUT, not
+        STDERR</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Examples: </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:"Courier New"'>sort data.txt |
+         uniq 2&gt; /dev/null</span><span style='font-size:10.0pt;font-family:
+         Arial'><br>
+         In this example, if </span><span style='font-size:10.0pt;font-family:
+         "Courier New"'>data.txt</span><span style='font-size:10.0pt;
+         font-family:Arial'> does not exist, the error message from the sort
+         command will still appear on the screen</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+         mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span style='font-size:
+         10.0pt;font-family:"Courier New"'>sort data.txt 2&gt; /dev/null | uniq</span><span
+         style='font-size:10.0pt;font-family:Arial'><br>
+         In this example, if </span><span style='font-size:10.0pt;font-family:
+         "Courier New"'>data.txt</span><span style='font-size:10.0pt;
+         font-family:Arial'> does not exist, the error message will be thrown
+         away </span></li>
+    </ul>
+   </ul>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Tee </span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Used to redirect STDOUT to a
+        file AND to another command (tee junction in pipeline)</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Syntax: </span><i><span
+        style='font-size:10.0pt;font-family:"Courier New"'>command</span></i><span
+        style='font-size:10.0pt;font-family:"Courier New"'> | tee [-a] <i>file</i>...
+        | <i>command</i></span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>You can specify more than
+        one file</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>To append to files, use the </span><span
+        style='font-size:10.0pt;font-family:"Courier New"'>-a</span><span
+        style='font-size:10.0pt;font-family:Arial'> option</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l4 level2 lfo1;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Examples: </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+         mso-list:l4 level3 lfo1;tab-stops:list 1.5in'><span style='font-size:
+         10.0pt;font-family:"Courier New"'>sort cust.dat | tee cust_sort.dat |
+         uniq &gt; cust_sort_uniq.dat</span></li>
+    </ul>
+   </ul>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>C-Shell Differences</span> </li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Summary: See Table 12.1, pp
+       311-2.</span> </li>
+  </ul>
+  <p><b><span style='font-size:10.0pt;font-family:Arial'>Chapter 13: Processes</span></b></p>
+  <ul type=disc>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>A process is a program that
+       is currently executing</span> </li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Loaded into memory and is (or
+       is about to be) performing the instructions defined in the program file.
+       </span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Daemons </span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l1 level2 lfo2;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Any process that provides a
+        system service--a server program</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l1 level2 lfo2;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Usually started upon boot</span>
+        </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l1 level2 lfo2;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Typically executable ends in
+        &quot;d&quot; (e.g. </span><span style='font-size:10.0pt;font-family:
+        "Courier New"'>lpd</span><span style='font-size:10.0pt;font-family:
+        Arial'>, </span><span style='font-size:10.0pt;font-family:"Courier New"'>syslogd</span><span
+        style='font-size:10.0pt;font-family:Arial'>, </span><span
+        style='font-size:10.0pt;font-family:"Courier New"'>inetd</span><span
+        style='font-size:10.0pt;font-family:Arial'>)</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+        mso-list:l1 level2 lfo2;tab-stops:list 1.0in'><span style='font-size:
+        10.0pt;font-family:Arial'>Same thing as a &quot;Service&quot; in
+        WindowsNT</span></li>
+   </ul>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Every process has a parent
+       process that started it (hierarchy of processes) (try </span><span
+       style='font-size:10.0pt;font-family:"Courier New"'>ps -eH</span><span
+       style='font-size:10.0pt;font-family:Arial'>) </span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+       mso-list:l1 level1 lfo2;tab-stops:list .5in'><span style='font-size:
+       10.0pt;font-family:"Courier New"'>init</span><span style='font-size:
+       10.0pt;font-family:Arial'> is the top of the hierarchy</span></li>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Shell Command Execution </span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l1 level2 lfo2;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>What happens when you type a
+        command and press Enter</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l1 level2 lfo2;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>There are two important
+        System Calls that a shell uses to execute commands </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l1 level3 lfo2;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>fork: Create an exact copy
+         of the process making the call </span></li>
+     <ul type=square>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l1 level4 lfo2;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:Arial'>Parent: The process
+          initiating the fork</span> </li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l1 level4 lfo2;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:Arial'>Child: The process created
+          by the fork</span> </li>
+     </ul>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+         mso-list:l1 level3 lfo2;tab-stops:list 1.5in'><span style='font-size:
+         10.0pt;font-family:Arial'>exec: Replace the process making the call
+         with the one being exec'd</span></li>
+    </ul>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l1 level2 lfo2;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Whenever you type a command
+        at the shell, the following steps are followed: </span></li>
+   </ul>
+  </ul>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:1.5in;text-indent:-.25in;mso-list:l1 level3 lfo3'><![if !supportLists]><span
+  style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>1.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  style='font-size:10.0pt;font-family:Arial'>shell forks a child shell, and
+  waits for the child to exit. <br>
+  child is an exact copy of parent, with environment</span> </p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:1.5in;text-indent:-.25in;mso-list:l1 level3 lfo3'><![if !supportLists]><span
+  style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>2.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  style='font-size:10.0pt;font-family:Arial'>Command Execution: </span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:2.0in;text-indent:-.25in;mso-list:l1 level4 lfo4'><![if !supportLists]><span
+  style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>a.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  style='font-size:10.0pt;font-family:Arial'>Binary Executable: child shell
+  performs substitution/expansion on the command line, and uses exec to replace
+  itself with the command to be executed</span> </p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:2.0in;text-indent:-.25in;mso-list:l1 level4 lfo4'><![if !supportLists]><span
+  style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>b.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  style='font-size:10.0pt;font-family:Arial'>Shell Script: child shell executes
+  each of the commands in the script file (starting at step 1 above for each
+  command)</span> </p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+  margin-left:1.5in;text-indent:-.25in;mso-list:l1 level3 lfo4'><![if !supportLists]><span
+  style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>3.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  style='font-size:10.0pt;font-family:Arial'>The child process exits upon
+  completing the last instruction</span></p>
+  <ul type=disc>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l1 level1 lfo4;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Processes </span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l1 level2 lfo4;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>All processes have
+        attributes </span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l1 level2 lfo4;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Examples of some attributes </span></li>
+   </ul>
+  </ul>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:1.5in;text-indent:-.25in;mso-list:l1 level3 lfo5'><![if !supportLists]><span
+  style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>0.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  style='font-size:10.0pt;font-family:Arial'>State: </span><span
+  style='font-size:10.0pt;font-family:"Courier New"'>{Ready|Running|Swapped|Waiting|Zombie}
+  </span><span style='font-size:10.0pt;font-family:Arial'>(see Figure 13.1, p.
+  320)</span> </p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:1.5in;text-indent:-.25in;mso-list:l1 level3 lfo5'><![if !supportLists]><span
+  style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>1.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  style='font-size:10.0pt;font-family:Arial'>Process ID (PID): A unique number
+  identifying this process from all others that are currently running on the
+  system</span> </p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+  margin-left:1.5in;text-indent:-.25in;mso-list:l1 level3 lfo5'><![if !supportLists]><span
+  style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>2.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  style='font-size:10.0pt;font-family:Arial'>Parent Process ID (PPID): The PID
+  of the process that created (fork'd) this one</span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:1.5in;text-indent:-.25in;mso-list:l1 level3 lfo5'><![if !supportLists]><span
+  style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>3.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  style='font-size:10.0pt;font-family:Arial'>Real User ID (UID): The UserID
+  that actually started the process</span> </p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+  margin-left:1.5in;text-indent:-.25in;mso-list:l1 level3 lfo5'><![if !supportLists]><span
+  style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>4.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  style='font-size:10.0pt;font-family:Arial'>Effective User ID (EUID): The
+  owner of the file that was executed, if SUID-bit was set on that file.
+  Otherise, same as UID.</span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:1.5in;text-indent:-.25in;mso-list:l1 level3 lfo5'><![if !supportLists]><span
+  style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>5.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  style='font-size:10.0pt;font-family:Arial'>Real Group ID (GID): The default
+  Group ID of the UID that started the process</span> </p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+  margin-left:1.5in;text-indent:-.25in;mso-list:l1 level3 lfo5'><![if !supportLists]><span
+  style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>6.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  style='font-size:10.0pt;font-family:Arial'>Effective Group ID (EGID): The
+  group owner of the file that was executed, if SGID-bit was set on that file.
+  Otherwise, same as GID.</span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:1.5in;text-indent:-.25in;mso-list:l1 level3 lfo5'><![if !supportLists]><span
+  style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>7.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  style='font-size:10.0pt;font-family:Arial'>Priority: </span></p>
+  <ul type=disc>
+   <ul type=circle>
+    <ol start=7 type=1>
+     <ul type=square>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l1 level4 lfo6;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:Arial'>A measure of how much CPU
+          time the process will get, relative to other processes</span> </li>
+     </ul>
+    </ol>
+   </ul>
+  </ul>
+  <ul type=disc>
+   <ul type=circle>
+    <ol start=7 type=1>
+     <ul type=square>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l1 level4 lfo7;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:Arial'>Smaller number is higher
+          priority </span></li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l1 level4 lfo7;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:Arial'>Upper and lower bounds are
+          different on different sytems--see p. 319</span> </li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l1 level4 lfo7;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:Arial'>Users can decrease the
+          priority (increase priority value) by using: </span></li>
+      <ul type=square>
+       <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+           auto;mso-list:l1 level5 lfo7;tab-stops:list 2.5in'><span
+           style='font-size:10.0pt;font-family:"Courier New"'>renice [<i>adjustment</i>]<i>
+           pid</i> </span><span style='font-size:10.0pt;font-family:Arial'>(for
+           an existing process) </span></li>
+       <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+           auto;mso-list:l1 level5 lfo7;tab-stops:list 2.5in'><span
+           style='font-size:10.0pt;font-family:"Courier New"'>nice [-n <i>adjustment</i>]
+           <i>command</i> </span><span style='font-size:10.0pt;font-family:
+           Arial'>(prior to execution) </span></li>
+      </ul>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+          mso-list:l1 level4 lfo7;tab-stops:list 2.0in'><span style='font-size:
+          10.0pt;font-family:Arial'>Only superuser can increase the priority
+          (decrease priority value).</span></li>
+     </ul>
+    </ol>
+   </ul>
+  </ul>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  margin-left:1.5in;text-indent:-.25in;mso-list:l1 level3 lfo7'><![if !supportLists]><span
+  style='mso-fareast-font-family:"Times New Roman"'><span style='mso-list:Ignore'>8.<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+  style='font-size:10.0pt;font-family:Arial'>TTY: Device associated with the
+  process</span> </p>
+  <ul type=disc>
+   <ul type=circle>
+    <ol start=8 type=1>
+     <ul type=square>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l1 level4 lfo8;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:Arial'>Device is where it will
+          receive its input and send its output (unless redirected). </span></li>
+     </ul>
+    </ol>
+   </ul>
+  </ul>
+  <ul type=disc>
+   <ul type=circle>
+    <ol start=8 type=1>
+     <ul type=square>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l1 level4 lfo9;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:Arial'>Undefined for processes
+          that are not associated with a TTY device. </span></li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l1 level4 lfo9;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:Arial'>Execute a command with no
+          TTY: </span></li>
+      <ul type=square>
+       <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+           auto;mso-list:l1 level5 lfo9;tab-stops:list 2.5in'><span
+           style='font-size:10.0pt;font-family:"Courier New"'>nohup <i>command</i></span>
+           </li>
+       <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+           auto;mso-list:l1 level5 lfo9;tab-stops:list 2.5in'><span
+           style='font-size:10.0pt;font-family:Arial'>Any output not redirected
+           will be stored in </span><span style='font-size:10.0pt;font-family:
+           "Courier New"'>~/nohup.out</span> </li>
+      </ul>
+     </ul>
+    </ol>
+   </ul>
+  </ul>
+  <ul type=disc>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l3 level2 lfo10;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Listing running processes
+        and their attributes: ps </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l3 level3 lfo10;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>ps has many many options
+         and different styles of expressing them. See man pages</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l3 level3 lfo10;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Examples: </span></li>
+     <ul type=square>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l3 level4 lfo10;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:"Courier New"'>ps</span><span
+          style='font-size:10.0pt;font-family:Arial'> (your processes,
+          associated with the current TTY) </span></li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l3 level4 lfo10;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:"Courier New"'>ps -f</span><span
+          style='font-size:10.0pt;font-family:Arial'> (your processes in a
+          &quot;full&quot; format--more information)</span> </li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l3 level4 lfo10;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:"Courier New"'>ps -l</span><span
+          style='font-size:10.0pt;font-family:Arial'> (your processes in a
+          &quot;long&quot; format--lots of information)</span> </li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l3 level4 lfo10;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:"Courier New"'>ps -a</span><span
+          style='font-size:10.0pt;font-family:Arial'> (processes for all users,
+          but not including login shells)</span> </li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l3 level4 lfo10;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:"Courier New"'>ps -u <i>username</i></span><span
+          style='font-size:10.0pt;font-family:Arial'> (processes for a
+          particular user, e.g. yourself)</span> </li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l3 level4 lfo10;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:"Courier New"'>ps -e</span><span
+          style='font-size:10.0pt;font-family:Arial'> (every process)</span> </li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l3 level4 lfo10;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:"Courier New"'>ps -H</span><span
+          style='font-size:10.0pt;font-family:Arial'> (hierarchical
+          display--indents child processes under their parents)</span> </li>
+     </ul>
+    </ul>
+   </ul>
+  </ul>
+  <ul type=disc>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l2 level1 lfo11;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Job Control </span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l2 level2 lfo11;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Foreground </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l2 level3 lfo11;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Commands are executed in
+         the foreground by default</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l2 level3 lfo11;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Shell waits for child
+         process to exit--user cannot do anything in the meantime</span> </li>
+    </ul>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l2 level2 lfo11;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Background </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l2 level3 lfo11;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Commands can be executed in
+         the background by adding an ampersand, &quot;</span><span
+         style='font-size:10.0pt;font-family:"Courier New"'>&amp;</span><span
+         style='font-size:10.0pt;font-family:Arial'>&quot;, as the last
+         argument</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l2 level3 lfo11;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Shell does not wait for the
+         child process to exit</span> </li>
+    </ul>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+        mso-list:l2 level2 lfo11;tab-stops:list 1.0in'><span style='font-size:
+        10.0pt;font-family:Arial'>It is wise to redirect STDOUT and STDERR for
+        processes running in the background</span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l2 level2 lfo11;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Cancel a job running in the foreground:
+        </span><span style='font-size:10.0pt;font-family:"Courier New"'>^C</span><span
+        style='font-size:10.0pt;font-family:Arial'> </span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+        mso-list:l2 level2 lfo11;tab-stops:list 1.0in'><span style='font-size:
+        10.0pt;font-family:Arial'>Suspend a job running in the foreground: </span><span
+        style='font-size:10.0pt;font-family:"Courier New"'>^Z</span><span
+        style='font-size:10.0pt;font-family:Arial'> (stops it and moves it to
+        the background)</span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l2 level2 lfo11;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Move a (stopped or running)
+        job to the foreground and start it: </span><span style='font-size:10.0pt;
+        font-family:"Courier New"'>fg [<i>jobid</i>]</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l2 level2 lfo11;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Start one or more stopped
+        jobs running in the background: </span><span style='font-size:10.0pt;
+        font-family:"Courier New"'>bg [<i>jobid</i>]...</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l2 level2 lfo11;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>List background jobs: </span><span
+        style='font-size:10.0pt;font-family:"Courier New"'>jobs [<i>jobid</i>]...</span>
+        </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l2 level2 lfo11;tab-stops:list 1.0in'><i><span
+        style='font-size:10.0pt;font-family:"Courier New"'>jobid</span></i><span
+        style='font-size:10.0pt;font-family:"Courier New"'> ::= </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l2 level3 lfo11;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:"Courier New"'>% or %+ </span><span
+         style='font-size:10.0pt;font-family:Arial'>(the most recently stopped
+         job)</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l2 level3 lfo11;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:"Courier New"'>%- </span><span
+         style='font-size:10.0pt;font-family:Arial'>(the next most recently
+         stopped job)</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l2 level3 lfo11;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:"Courier New"'>%<i>N </i></span><span
+         style='font-size:10.0pt;font-family:Arial'>(job number </span><i><span
+         style='font-size:10.0pt;font-family:"Courier New"'>N</span></i><span
+         style='font-size:10.0pt;font-family:Arial'>)</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l2 level3 lfo11;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:"Courier New"'>%<i>name </i></span><span
+         style='font-size:10.0pt;font-family:Arial'>(job beginning with </span><i><span
+         style='font-size:10.0pt;font-family:"Courier New"'>name</span></i><span
+         style='font-size:10.0pt;font-family:Arial'>)</span> </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+         mso-list:l2 level3 lfo11;tab-stops:list 1.5in'><span style='font-size:
+         10.0pt;font-family:"Courier New"'>%?<i>name </i></span><span
+         style='font-size:10.0pt;font-family:Arial'>(command containing </span><i><span
+         style='font-size:10.0pt;font-family:"Courier New"'>name</span></i><span
+         style='font-size:10.0pt;font-family:Arial'>)</span></li>
+    </ul>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l2 level2 lfo11;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Sequential and Parallel
+        Execution </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l2 level3 lfo11;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Sequential: </span><i><span
+         style='font-size:10.0pt;font-family:"Courier New"'>command</span></i><span
+         style='font-size:10.0pt;font-family:"Courier New"'> ; <i>command</i></span>
+         </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l2 level3 lfo11;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>Parallel: </span><i><span
+         style='font-size:10.0pt;font-family:"Courier New"'>command</span></i><span
+         style='font-size:10.0pt;font-family:"Courier New"'> &amp; <i>command</i>
+         &amp;</span> </li>
+    </ul>
+   </ul>
+  </ul>
+  <ul type=disc>
+   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+       auto;mso-list:l0 level1 lfo12;tab-stops:list .5in'><span
+       style='font-size:10.0pt;font-family:Arial'>Killing processes </span></li>
+   <ul type=circle>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo12;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:"Courier New"'>kill [-<i>signal</i>]
+        {<i>pid</i>|<i>jobid</i>}...</span><span style='font-size:10.0pt;
+        font-family:Arial'> (Sends signal to pid or jobid) </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l0 level3 lfo12;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:Arial'>where </span><i><span
+         style='font-size:10.0pt;font-family:"Courier New"'>signal</span></i><span
+         style='font-size:10.0pt;font-family:"Courier New"'> ::=</span><span
+         style='font-size:10.0pt;font-family:Arial'> </span></li>
+     <ul type=square>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l0 level4 lfo12;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:Arial'>15 = Software Termination
+          (default)</span> </li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l0 level4 lfo12;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:Arial'>1 = Hangup (tells process
+          that it has no parent)</span> </li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+          auto;mso-list:l0 level4 lfo12;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:Arial'>2 = Interrupt (equivalent
+          to CTRL-C)</span> </li>
+      <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+          mso-list:l0 level4 lfo12;tab-stops:list 2.0in'><span
+          style='font-size:10.0pt;font-family:Arial'>9 = Sure kill</span></li>
+     </ul>
+    </ul>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo12;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Many programs have cleanup
+        they must do before they terminate (saving data, closing files)</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo12;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>These programs
+        &quot;trap&quot; signals 15 or 1, and perform cleanup first</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo12;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Sending signal 15 or 1 thus
+        should initiate the cleanup and exit procedures </span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo12;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>When you logout (or
+        disconnect), your shell sends the Hangup signal (1) to all its children</span>
+        </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+        mso-list:l0 level2 lfo12;tab-stops:list 1.0in'><span style='font-size:
+        10.0pt;font-family:Arial'>Sometimes these signals do not cause the
+        children to die properly</span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo12;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Zombies: Processes that are
+        ready to exit but dont die</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:12.0pt;
+        mso-list:l0 level2 lfo12;tab-stops:list 1.0in'><span style='font-size:
+        10.0pt;font-family:Arial'>&quot;Gremlins&quot;: Processes that are
+        running, using up lots of resources, not doing anything useful </span></li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo12;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:"Courier New"'>ps -u <i>username </i></span><span
+        style='font-size:10.0pt;font-family:Arial'>shows <i>all</i> processes
+        for </span><i><span style='font-size:10.0pt;font-family:"Courier New"'>username</span></i>
+        <span style='font-size:10.0pt;font-family:Arial'>(associated with all
+        TTYs)</span> </li>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo12;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>If you see processes you
+        own, but not connected to your TTY, you should kill them: </span></li>
+    <ul type=square>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l0 level3 lfo12;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:"Courier New"'>kill -1 <i>pid</i></span><span
+         style='font-size:10.0pt;font-family:Arial'> (use on the child
+         processes first) </span></li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l0 level3 lfo12;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:"Courier New"'>ps -u</span><span
+         style='font-size:10.0pt;font-family:Arial'> (to see if it worked</span>)
+         </li>
+     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+         auto;mso-list:l0 level3 lfo12;tab-stops:list 1.5in'><span
+         style='font-size:10.0pt;font-family:"Courier New"'>kill -9 <i>pid </i></span><span
+         style='font-size:10.0pt;font-family:Arial'>(if it didnt work)</span> </li>
+    </ul>
+    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+        auto;mso-list:l0 level2 lfo12;tab-stops:list 1.0in'><span
+        style='font-size:10.0pt;font-family:Arial'>Then repeat these steps for
+        the parent</span> </li>
+   </ul>
+  </ul>
+  <div class=MsoNormal align=center style='text-align:center'>
+  <hr size=1 width="100%" noshade color=gray align=center>
+  </div>
+  <p class=MsoNormal><b><span style='font-size:7.5pt;font-family:Arial'>© 2002
+  R. Casey Heckman. All rights reserved. </span></b></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='color:windowtext'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="Cp1252"?>
+
+<!DOCTYPE web-app PUBLIC '-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN' 'http://java.sun.com/j2ee/dtds/web-app_2.2.dtd'>
+
+<web-app>
+  <display-name>Servlets</display-name>
+  <description>no description</description>
+  <context-param>
+    <param-name>CLIENT_LIST</param-name>
+    <param-value>/clients.xml</param-value>
+  </context-param>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <display-name>Login</display-name>
+    <description>no description</description>
+    <servlet-class>com.deitel.advjhtp1.bookstore.servlets.LoginServlet</servlet-class>
+    <init-param>
+      <param-name>XSL_FILE</param-name>
+      <param-value>login.xsl</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>ViewCart</servlet-name>
+    <display-name>ViewCart</display-name>
+    <description>no description</description>
+    <servlet-class>com.deitel.advjhtp1.bookstore.servlets.ViewCartServlet</servlet-class>
+    <init-param>
+      <param-name>XSL_FILE</param-name>
+      <param-value>viewCart.xsl</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>Checkout</servlet-name>
+    <display-name>Checkout</display-name>
+    <description>no description</description>
+    <servlet-class>com.deitel.advjhtp1.bookstore.servlets.CheckoutServlet</servlet-class>
+    <init-param>
+      <param-name>XSL_FILE</param-name>
+      <param-value>error.xsl</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateCart</servlet-name>
+    <display-name>UpdateCart</display-name>
+    <description>no description</description>
+    <servlet-class>com.deitel.advjhtp1.bookstore.servlets.UpdateCartServlet</servlet-class>
+    <init-param>
+      <param-name>XSL_FILE</param-name>
+      <param-value>error.xsl</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllProducts</servlet-name>
+    <display-name>GetAllProducts</display-name>
+    <description>no description</description>
+    <servlet-class>com.deitel.advjhtp1.bookstore.servlets.GetAllProductsServlet</servlet-class>
+    <init-param>
+      <param-name>XSL_FILE</param-name>
+      <param-value>products.xsl</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>AddToCart</servlet-name>
+    <display-name>AddToCart</display-name>
+    <description>no description</description>
+    <servlet-class>com.deitel.advjhtp1.bookstore.servlets.AddToCartServlet</servlet-class>
+    <init-param>
+      <param-name>XSL_FILE</param-name>
+      <param-value>error.xsl</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>GetProduct</servlet-name>
+    <display-name>GetProduct</display-name>
+    <description>no description</description>
+    <servlet-class>com.deitel.advjhtp1.bookstore.servlets.GetProductServlet</servlet-class>
+    <init-param>
+      <param-name>XSL_FILE</param-name>
+      <param-value>productDetails.xsl</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>ViewOrderHistory</servlet-name>
+    <display-name>ViewOrderHistory</display-name>
+    <description>no description</description>
+    <servlet-class>com.deitel.advjhtp1.bookstore.servlets.ViewOrderHistoryServlet</servlet-class>
+    <init-param>
+      <param-name>XSL_FILE</param-name>
+      <param-value>viewOrderHistory.xsl</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>ViewOrder</servlet-name>
+    <display-name>ViewOrder</display-name>
+    <description>no description</description>
+    <servlet-class>com.deitel.advjhtp1.bookstore.servlets.ViewOrderServlet</servlet-class>
+    <init-param>
+      <param-name>XSL_FILE</param-name>
+      <param-value>viewOrder.xsl</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <display-name>Register</display-name>
+    <description>no description</description>
+    <servlet-class>com.deitel.advjhtp1.bookstore.servlets.RegisterServlet</servlet-class>
+    <init-param>
+      <param-name>XSL_FILE</param-name>
+      <param-value>error.xsl</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>ProductSearch</servlet-name>
+    <display-name>ProductSearch</display-name>
+    <description>no description</description>
+    <servlet-class>com.deitel.advjhtp1.bookstore.servlets.ProductSearchServlet</servlet-class>
+    <init-param>
+      <param-name>XSL_FILE</param-name>
+      <param-value>products.xsl</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveFromCart</servlet-name>
+    <display-name>RemoveFromCart</display-name>
+    <description>no description</description>
+    <servlet-class>com.deitel.advjhtp1.bookstore.servlets.RemoveFromCartServlet</servlet-class>
+    <init-param>
+      <param-name>XSL_FILE</param-name>
+      <param-value>error.xsl</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>GetPasswordHint</servlet-name>
+    <display-name>GetPasswordHint</display-name>
+    <description>no description</description>
+    <servlet-class>com.deitel.advjhtp1.bookstore.servlets.GetPasswordHintServlet</servlet-class>
+    <init-param>
+      <param-name>XSL_FILE</param-name>
+      <param-value>passwordHint.xsl</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewCart</servlet-name>
+    <url-pattern>ViewCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Checkout</servlet-name>
+    <url-pattern>Checkout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateCart</servlet-name>
+    <url-pattern>UpdateCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllProducts</servlet-name>
+    <url-pattern>GetAllProducts</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddToCart</servlet-name>
+    <url-pattern>AddToCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetProduct</servlet-name>
+    <url-pattern>GetProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewOrderHistory</servlet-name>
+    <url-pattern>ViewOrderHistory</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewOrder</servlet-name>
+    <url-pattern>ViewOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductSearch</servlet-name>
+    <url-pattern>ProductSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveFromCart</servlet-name>
+    <url-pattern>RemoveFromCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPasswordHint</servlet-name>
+    <url-pattern>GetPasswordHint</url-pattern>
+  </servlet-mapping>
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+  <mime-mapping>
+    <extension>wml</extension>
+    <mime-type>text/vnd.wap.wml</mime-type>
+  </mime-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <ejb-ref>
+    <description>no description</description>
+    <ejb-ref-name>ejb/ShoppingCart</ejb-ref-name>
+    <ejb-ref-type>Session</ejb-ref-type>
+    <home>com.deitel.advjhtp1.bookstore.ejb.ShoppingCartHome</home>
+    <remote>com.deitel.advjhtp1.bookstore.ejb.ShoppingCart</remote>
+  </ejb-ref>
+  <ejb-ref>
+    <description>no description</description>
+    <ejb-ref-name>ejb/Product</ejb-ref-name>
+    <ejb-ref-type>Entity</ejb-ref-type>
+    <home>com.deitel.advjhtp1.bookstore.ejb.ProductHome</home>
+    <remote>com.deitel.advjhtp1.bookstore.ejb.Product</remote>
+  </ejb-ref>
+  <ejb-ref>
+    <description>no description</description>
+    <ejb-ref-name>ejb/Customer</ejb-ref-name>
+    <ejb-ref-type>Entity</ejb-ref-type>
+    <home>com.deitel.advjhtp1.bookstore.ejb.CustomerHome</home>
+    <remote>com.deitel.advjhtp1.bookstore.ejb.Customer</remote>
+  </ejb-ref>
+  <ejb-ref>
+    <description>no description</description>
+    <ejb-ref-name>ejb/Order</ejb-ref-name>
+    <ejb-ref-type>Entity</ejb-ref-type>
+    <home>com.deitel.advjhtp1.bookstore.ejb.OrderHome</home>
+    <remote>com.deitel.advjhtp1.bookstore.ejb.Order</remote>
+  </ejb-ref>
+</web-app>
+

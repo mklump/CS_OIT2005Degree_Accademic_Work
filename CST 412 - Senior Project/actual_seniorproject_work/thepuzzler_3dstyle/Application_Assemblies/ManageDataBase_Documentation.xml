@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ManageDB</name>
+    </assembly>
+    <members>
+        <member name="T:ManageDB.ManageDataBase">
+            <summary>
+            Responsible for managing the connection to the Data Base through a
+            provided web service for each application execution to keep record.
+            </summary>
+        </member>
+        <member name="M:ManageDB.ManageDataBase.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+    </members>
+</doc>

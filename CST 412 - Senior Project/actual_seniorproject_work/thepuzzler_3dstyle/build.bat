@@ -1,0 +1,1 @@
+NAnt.exe -l:build.log.txt clean build test_database document

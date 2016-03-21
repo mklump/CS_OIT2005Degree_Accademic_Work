@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsDoctors" targetNamespace="http://www.tempuri.org/dsDoctors.xsd" xmlns:mstns="http://www.tempuri.org/dsDoctors.xsd" xmlns="http://www.tempuri.org/dsDoctors.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsDoctors" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="doctors">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dr_id" type="xs:string" />
+              <xs:element name="dr_lname" type="xs:string" />
+              <xs:element name="dr_fname" type="xs:string" />
+              <xs:element name="phone" type="xs:string" minOccurs="0" />
+              <xs:element name="address" type="xs:string" minOccurs="0" />
+              <xs:element name="city" type="xs:string" minOccurs="0" />
+              <xs:element name="state" type="xs:string" minOccurs="0" />
+              <xs:element name="zip" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:doctors" />
+      <xs:field xpath="mstns:dr_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

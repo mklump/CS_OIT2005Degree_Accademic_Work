@@ -1,0 +1,7 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\CLSID\{10000002-0000-0000-0000-000000000001}]
+@="Inside DCOM Sample"
+
+[HKEY_CLASSES_ROOT\CLSID\{10000002-0000-0000-0000-000000000001}\InprocServer32]
+@="C:\\Program Files\\DevStudio\\MyProjects\\Component\\Debug\\Component.dll"

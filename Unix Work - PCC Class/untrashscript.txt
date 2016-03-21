@@ -1,0 +1,29 @@
+#!/bin/sh
+#untrash
+#Matthew Klump
+#March 13, 2002
+#To allow Unix to have an "unRecycle Bin" feature.
+#This script uses a directory called .trash in
+#the home directory to move deleted files from
+#restore where they were deleted from.
+
+. pathlib.sh
+
+if [ $# = 0 ]; then
+	echo "Error, untrash doesn't take 0 parameters."
+	echo "Usage: untrash filepath1 filepath2 ... filepathx"
+	exit 2
+fi
+if [ ! "$TRASH_DIR" ]; then
+	TRASH_DIR="$HOME/.TRASH"
+fi
+for filename in $@; do
+	absfile=`rel2abs $filename`
+	absdir=`dirname $absfile`
+	trashdir="$TRASHDIR $filename"
+    if [ ! "${filename}.z" ]; then
+	echo "Error, the file(s) could not be found."
+    fi
+    uncompress –f $filename
+    mv ${filename} $trashdir
+done

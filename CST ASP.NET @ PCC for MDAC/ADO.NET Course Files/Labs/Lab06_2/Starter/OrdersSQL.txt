@@ -1,0 +1,2 @@
+SELECT OrderID, OrderDate, EmployeeID, CustomerID
+FROM Orders WHERE (EmployeeID = @EmployeeID)

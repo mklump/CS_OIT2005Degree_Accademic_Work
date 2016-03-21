@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="My Documents">
+        <attr name="Project-Save" intvalue="4"/>
+        <attr name="NetBeansAttrAssignedLoaderModule" stringvalue="org.netbeans.modules.projects"/>
+        <attr name="NetBeansAttrAssignedLoader" stringvalue="org.netbeans.modules.projects.ProjectDataLoader"/>
+    </fileobject>
+    <fileobject name="Samples">
+        <attr name="NetBeansAttrAssignedLoaderModule" stringvalue="org.netbeans.modules.projects"/>
+        <attr name="Project-Save" intvalue="4"/>
+        <attr name="NetBeansAttrAssignedLoader" stringvalue="org.netbeans.modules.projects.ProjectDataLoader"/>
+    </fileobject>
+    <fileobject name="Default">
+        <attr name="Project-Save" intvalue="4"/>
+        <attr name="NetBeansAttrAssignedLoaderModule" stringvalue="org.netbeans.modules.projects"/>
+        <attr name="NetBeansAttrAssignedLoader" stringvalue="org.netbeans.modules.projects.ProjectDataLoader"/>
+        <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.projects.Bundle"/>
+    </fileobject>
+</attributes>

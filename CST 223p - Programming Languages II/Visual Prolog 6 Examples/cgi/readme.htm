@@ -1,0 +1,92 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Visual Prolog Demo Examples of WEB Applications</title>
+</head>
+
+<body>
+
+<h1>Towers of Hanoi</h1>
+<p><font size="3">The solution to the Towers of Hanoi puzzle is a classic
+example of recursion. The ancient puzzle of the Towers Of Hanoi consists of a
+number of wooden disks mounted on three poles, which are in turn attached to a
+baseboard. The disks each have different diameters and a hole in the middle
+large enough for the poles to pass through. In the beginning, all the disks are
+on the left pole as shown in:</font></p>
+<p align="center"><img src="./exe/hanoi.gif" width="341" height="92"></p>
+<p><font size="3">The object of the puzzle is to move all the disks over to the
+right pole, one at a time, so that they end up in the original order on that
+pole. You can use the middle pole as a temporary resting place for disks, but at
+no time is a larger disk to be on top of a smaller one. It's easy to solve the
+Towers of Hanoi with two or three disks, but the process becomes more difficult
+with four or more disks.</font></p>
+<p><font size="3">A simple strategy for solving the puzzle is as follows:</font></p>
+<ul>
+  <li><font size="2">You can move a single disk directly.</font>
+  <li><font size="2">You can move <i>N</i> disks in three general steps:</font>
+  <li><font size="2">Move <i>N</i>-1 disks to the middle pole.</font>
+  <li><font size="2">Move the last (<i>N</i>th) disk directly over to the right
+    pole.</font>
+  <li><font size="2">Move the <i>N</i>-1 disks from the middle pole to the right
+    pole.</font></li>
+</ul>
+<p><font size="3">The Visual Prolog program to solve the Towers Of Hanoi puzzle
+uses three predicates:</font></p>
+<ul>
+  <li><font size="2"><b><i>hanoi</i></b>, with one parameter that indicates the
+    total number of disks you are working with.</font>
+  <li><font size="2"><b><i>move</i></b>, which describes the moving of <i>N</i>
+    disks from one pole to another--using the remaining pole as a temporary
+    resting place for disks.</font>
+  <li><font size="2"><b><i>inform</i></b>, which displays what has happened to a
+    particular disk.</font></li>
+</ul>
+<h2>How to Run CGI Example?</h2>
+<p>To run CGI example &quot;Towers of Hanoi&quot; from the &lt;<i>VIP_root</i>&gt;\demo\cgi
+directory at your local computer, you need to fulfill the following steps:
+<ol>
+  <li>Build hanoi.exe
+  </li>
+  <li>Install MS Personal WEB server.
+  </li>
+  <li>Make the &lt;<i>VIP_root</i>\demo\cgi\exe a virtual directory with alias
+    cgiSample.
+  </li>
+  <li>Provide the possibility to run executables from this directory.&nbsp;<br>
+    There are several ways to do it:</li>
+</ol>
+<blockquote>
+  <ol type="a">
+    <li>Use the &quot;Advanced Options&quot; item in the Personal WEB server.</li>
+  </ol>
+  <blockquote>
+    <ul>
+      <li>Click on&nbsp; the &quot;Edit Properties&quot; button,</li>
+      <li>Check &quot;Execute&quot;.</li>
+    </ul>
+  </blockquote>
+  <ol type="a" start="2">
+    <li>Another way to provide this possibility is to use the File|Properties
+      menu command in the Windows Explorer or Windows Commander to invoke the
+      Properties dialog for this directory.</li>
+  </ol>
+  <blockquote>
+    <ul>
+      <li>Choose &quot;WEB Sharing&quot; tab,</li>
+      <li>Check &quot;Share this directory&quot; checkbox.</li>
+      <li>In the &quot;Edit Alias&quot; dialog check all checkboxes.</li>
+    </ul>
+  </blockquote>
+</blockquote>
+<ol start="4">
+  <li>Start a browser that supports forms.</li>
+  <li>Load http://&lt;<i>your server name</i>&gt;/cgiSample/hanoi.htm.</li>
+  <li>Input number of disks and press &quot;Submit Query&quot; button.</li>
+</ol>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+// try to open existing local cached DataSet
+try	
+{
+	this.dsNorthwind.ReadXml("OnTheRoad.xml", XmlReadMode.DiffGram);
+
+	// retrieve default values for EmployeeID and ServerName if found
+	this.EmployeeID = (int)this.dsNorthwind.AppSettings.Rows[0]["EmployeeID"];
+
+	this.ServerName = this.dsNorthwind.AppSettings.Rows[0]["ServerName"].ToString();
+
+	this.RefreshUI();
+}
+catch
+{
+	// if local file not found try to connect to central database and retrieve latest data set
+	if (MessageBox.Show("An existing data set was not found or was corrupt. Do you want to connect to the central database to retrieve a new copy?", "Warning!", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.Yes)
+	{
+		try
+		{
+			this.cnNorthwind.Open();
+			mnuFill_Click(sender, e);
+		}
+		catch (System.Exception Xcp)
+		{
+			MessageBox.Show("Failed to connect because:\n" + Xcp.ToString() + "\n\nUse Tools, Options to change the name of the SQL Server you are trying to connect to.", "Connect to central database", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			return;
+		}
+	}
+}

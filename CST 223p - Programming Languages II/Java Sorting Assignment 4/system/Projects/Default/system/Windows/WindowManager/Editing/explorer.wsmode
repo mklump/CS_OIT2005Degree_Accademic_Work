@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="1.0">
+    <name unique="explorer" display="CTL_ExplorerWindow" from-bundle="true" bundle="org.netbeans.core.windows.Bundle" />
+    <description display="CTL_ExplorerWindowDescription" bundle="org.netbeans.core.windows.Bundle" />
+    <ui-type type="any" >
+        <bounds x="-2" y="112" width="299" height="441" />
+        <frame type="window" constraints="left" state="normal" />
+        <container type="split" active-tc="filesystems" >
+            <area constraint="center" x="0" y="0" width="291" height="407" />
+        </container>
+        <icon url="nbresboot:/org/netbeans/core/resources/frames/explorer.gif" />
+        <other defined-by="module" mode-state="visible" />
+    </ui-type>
+</mode>

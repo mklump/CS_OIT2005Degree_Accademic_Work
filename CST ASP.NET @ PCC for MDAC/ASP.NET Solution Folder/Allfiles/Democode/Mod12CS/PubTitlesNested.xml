@@ -1,0 +1,141 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Publishers>
+    <pub_id>0736</pub_id>
+    <pub_name>New Moon Books</pub_name>
+    <Titles>
+      <title_id>BU2075</title_id>
+      <title>You Can Combat Computer Stress!</title>
+      <price>2.99</price>
+      <pub_id>0736</pub_id>
+    </Titles>
+    <Titles>
+      <title_id>PS2091</title_id>
+      <title>Is Anger the Enemy?</title>
+      <price>10.95</price>
+      <pub_id>0736</pub_id>
+    </Titles>
+    <Titles>
+      <title_id>PS2106</title_id>
+      <title>Life Without Fear</title>
+      <price>7</price>
+      <pub_id>0736</pub_id>
+    </Titles>
+    <Titles>
+      <title_id>PS3333</title_id>
+      <title>Prolonged Data Deprivation: Four Case Studies</title>
+      <price>19.99</price>
+      <pub_id>0736</pub_id>
+    </Titles>
+    <Titles>
+      <title_id>PS7777</title_id>
+      <title>Emotional Security: A New Algorithm</title>
+      <price>7.99</price>
+      <pub_id>0736</pub_id>
+    </Titles>
+  </Publishers>
+  <Publishers>
+    <pub_id>0877</pub_id>
+    <pub_name>Binnet &amp; Hardley</pub_name>
+    <Titles>
+      <title_id>MC2222</title_id>
+      <title>Silicon Valley Gastronomic Treats</title>
+      <price>19.99</price>
+      <pub_id>0877</pub_id>
+    </Titles>
+    <Titles>
+      <title_id>MC3021</title_id>
+      <title>The Gourmet Microwave</title>
+      <price>2.99</price>
+      <pub_id>0877</pub_id>
+    </Titles>
+    <Titles>
+      <title_id>MC3026</title_id>
+      <title>The Psychology of Computer Cooking</title>
+      <pub_id>0877</pub_id>
+    </Titles>
+    <Titles>
+      <title_id>PS1372</title_id>
+      <title>Computer Phobic AND Non-Phobic Individuals: Behavior Variations</title>
+      <price>21.59</price>
+      <pub_id>0877</pub_id>
+    </Titles>
+    <Titles>
+      <title_id>TC3218</title_id>
+      <title>Onions, Leeks, and Garlic: Cooking Secrets of the Mediterranean</title>
+      <price>20.95</price>
+      <pub_id>0877</pub_id>
+    </Titles>
+    <Titles>
+      <title_id>TC4203</title_id>
+      <title>Fifty Years in Buckingham Palace Kitchens</title>
+      <price>11.95</price>
+      <pub_id>0877</pub_id>
+    </Titles>
+    <Titles>
+      <title_id>TC7777</title_id>
+      <title>Sushi, Anyone?</title>
+      <price>14.99</price>
+      <pub_id>0877</pub_id>
+    </Titles>
+  </Publishers>
+  <Publishers>
+    <pub_id>1389</pub_id>
+    <pub_name>Algodata Infosystems</pub_name>
+    <Titles>
+      <title_id>BU1032</title_id>
+      <title>The Busy Executive's Database Guide</title>
+      <price>19.99</price>
+      <pub_id>1389</pub_id>
+    </Titles>
+    <Titles>
+      <title_id>BU1111</title_id>
+      <title>Cooking with Computers: Surreptitious Balance Sheets</title>
+      <price>11.95</price>
+      <pub_id>1389</pub_id>
+    </Titles>
+    <Titles>
+      <title_id>BU7832</title_id>
+      <title>Straight Talk About Computers</title>
+      <price>19.99</price>
+      <pub_id>1389</pub_id>
+    </Titles>
+    <Titles>
+      <title_id>PC1035</title_id>
+      <title>But Is It User Friendly?</title>
+      <price>22.95</price>
+      <pub_id>1389</pub_id>
+    </Titles>
+    <Titles>
+      <title_id>PC8888</title_id>
+      <title>Secrets of Silicon Valley</title>
+      <price>20</price>
+      <pub_id>1389</pub_id>
+    </Titles>
+    <Titles>
+      <title_id>PC9999</title_id>
+      <title>Net Etiquette</title>
+      <pub_id>1389</pub_id>
+    </Titles>
+  </Publishers>
+  <Publishers>
+    <pub_id>1622</pub_id>
+    <pub_name>Five Lakes Publishing</pub_name>
+  </Publishers>
+  <Publishers>
+    <pub_id>1756</pub_id>
+    <pub_name>Ramona Publishers</pub_name>
+  </Publishers>
+  <Publishers>
+    <pub_id>9901</pub_id>
+    <pub_name>GGG&amp;G</pub_name>
+  </Publishers>
+  <Publishers>
+    <pub_id>9952</pub_id>
+    <pub_name>Scootney Books</pub_name>
+  </Publishers>
+  <Publishers>
+    <pub_id>9999</pub_id>
+    <pub_name>Lucerne Publishing</pub_name>
+  </Publishers>
+</NewDataSet>

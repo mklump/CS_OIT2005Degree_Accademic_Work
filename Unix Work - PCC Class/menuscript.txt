@@ -1,0 +1,40 @@
+#!/bin/sh
+#Filename: menu.sh
+#Author: Matthew Klump
+#Date: March 5, 2002
+#Purpose: To present the user with a menu of several usefull functions
+#Input: Takes none. This program presents the user with a menu of
+#commonly used Unix commands.
+
+while [ x ]
+do
+        clear
+        date
+	trap `echo Exiting Prohibited` INT TSTP
+        echo
+        echo Please select from the following menu:
+        echo "  1) Email (pine)"
+        echo "  2) Edit a file (pico)"
+        echo "  3) Lookup user information (finger)"
+        echo "  4) Check to see if a user is logged on (who | grep)"
+        echo "  9) Exit"
+        echo Please enter a menu item selection now:
+        read choice
+        case $choice in
+          1 ) pine ;;
+          2 ) echo Please type the file to edit with pico:
+	      read file
+	      pico $file ;;
+          3 ) echo Please type the user to look up:
+	      read user
+	      finger $user;;
+          4 ) echo Please type the user name to see
+	      echo if they are on line:
+	      read username
+	      who | grep $username;;
+          9 ) sh exit ;;
+	  * ) echo You did not enter a valid choice ;;
+        esac
+done
+echo Press Enter to continue.
+read y

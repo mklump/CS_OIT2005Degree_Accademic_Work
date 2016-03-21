@@ -1,0 +1,28 @@
+/*
+ *
+ *	File: cst407_modem.idl interface file
+ *		  for Final Project CST 407 Distributed Components
+ *	
+ *	By: Matthew Klump, Febuary 27, 2003
+ *
+ */
+
+import "unknwn.idl";
+
+[object, uuid(7828E364-C822-4b1e-BFB4-7943804848CB)]
+interface ICST407ModemIntf  : IUnknown
+{
+    HRESULT	Connect();
+    
+    HRESULT Disconnect();
+
+    HRESULT	SendData(
+					[in, out] int *pNumDatums, 
+					[in, size_is(*pNumDatums)] int data[]
+					);
+
+    HRESULT RecvData(
+					[in, out] int *pNumDatums,
+					[out, size_is(*pNumDatums), length_is(*pNumDatums)] int data[]
+					);
+};

@@ -1,0 +1,634 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: CST 336 Schedule
+Date: Sat, 6 Nov 2004 00:05:05 -0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.oitpdx.info/mimes/htm/CST412P_Schedule.htm
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1441
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>CST 336 Schedule</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"MSHTML 6.00.2800.1476" name=3DGENERATOR>
+<META content=3D"Microsoft FrontPage 4.0" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV align=3Dcenter>
+<CENTER>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"65%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD align=3Dmiddle width=3D"100%"><BIG><BIG><FONT =
+color=3D#0000ff>Oregon=20
+      Institute of Technology</FONT></BIG></BIG></TD></TR>
+  <TR>
+    <TD align=3Dmiddle width=3D"100%"><BIG><BIG><FONT =
+color=3D#0000ff>Software=20
+      Engineering Technology</FONT></BIG></BIG></TD></TR>
+  <TR>
+    <TD align=3Dmiddle width=3D"100%"><SMALL><SPAN=20
+      style=3D"FONT-SIZE: 14pt; mso-bidi-font-size: 10.0pt">Portland,=20
+      Oregon</SPAN></SMALL></TD></TR>
+  <TR>
+    <TD align=3Dmiddle width=3D"100%">
+      <P align=3Dcenter><SPAN=20
+      style=3D"FONT-SIZE: 14pt; mso-bidi-font-size: 10.0pt">CST 412P =96 =
+Software=20
+      Project =
+Development</SPAN></P></TD></TR></TBODY></TABLE></CENTER></DIV>
+<BLOCKQUOTE>
+  <P>
+  <CENTER><FONT size=3D4>Fall 2004 Tentative Course =
+Schedule&nbsp;<BR></FONT><FONT=20
+  size=3D2>(last update 11/2/04)</FONT></CENTER>
+  <P></P></BLOCKQUOTE>
+<DIV align=3Dcenter>
+<CENTER>
+<TABLE style=3D"BORDER-COLLAPSE: collapse" borderColor=3D#111111 =
+height=3D574=20
+cellSpacing=3D0 cellPadding=3D3 width=3D726>
+  <TBODY>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 =
+height=3D35><B>Date<BR></B><FONT=20
+      size=3D2>(Tuesdays 6-9:50PM) </FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: =
+0in; BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; =
+BORDER-BOTTOM: windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D35>
+      <P class=3DMsoNormal align=3Dcenter><B>Topic/Activity</B></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D35><B>Reading <FONT =
+
+      size=3D2><BR></FONT></B><FONT size=3D2>(for next =
+class)</FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: =
+0in; BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; =
+BORDER-BOTTOM: windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D35>
+      <P class=3DMsoNormal align=3Dcenter><B>Due on this =
+Date</B></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: =
+0in; BORDER-LEFT: medium none; WIDTH: 144px; PADDING-TOP: 0in; =
+BORDER-BOTTOM: windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D35><B>Development Phase</B></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D25>
+      <P=20
+      style=3D"MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; =
+LINE-HEIGHT: 100%"=20
+      align=3Dcenter><FONT size=3D2><B>Week 1</B> <BR>9/28/04<O:P> =
+</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D24>
+      <P class=3DMsoNormal><FONT size=3D2>Class overview, process, =
+return project=20
+      proposals, discuss project component requirements and =
+risks</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D25>
+      <P></P>
+      <P></P>
+      <P><FONT size=3D2>Larman <BR>Chaps 1-3</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D24>
+      <P class=3DMsoNormal><FONT size=3D2></FONT>&nbsp;</P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 144px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D64 rowSpan=3D3>&nbsp;
+      <P>Inception Phase -<BR>Revisited</P></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D1><FONT =
+size=3D2>10/2/04</FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D1><FONT size=3D2>Saturday Lab: 8-12:50 =
+CANCELLED</FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D1></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D1></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D40>
+      <P=20
+      style=3D"MARGIN: 0px; WORD-SPACING: 0px; TEXT-INDENT: 0px; =
+LINE-HEIGHT: 100%"=20
+      align=3Dcenter><FONT size=3D2><B>Week 2 <BR></B>10/5/04<O:P> =
+</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D39>
+      <P class=3DMsoNormal><FONT size=3D2>Review SW lifecycle and =
+processes, review=20
+      deliverables and milestones for CST 412, Start on requirements =
+development=20
+      and use cases</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D40><FONT =
+size=3D2>Larman<BR>Chaps=20
+      4, 5 &amp; 7</FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D39>
+      <P class=3DMsoNormal><FONT size=3D2>Notebook due with Checkpoint =
+'A' sections=20
+      completed</FONT></P></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D45>
+      <P=20
+      style=3D"MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; WORD-SPACING: 0px; =
+LINE-HEIGHT: 100%"=20
+      align=3Dcenter><FONT size=3D2><B>Week 3 <BR></B>10/12/04<O:P> =
+</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D44>
+      <P class=3DMsoNormal><FONT size=3D2>Documenting requirements and =
+use=20
+      cases,<BR>User Interface Specifications<BR>Using UML for =
+requirements,=20
+      architecture, and design</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D45>
+      <P class=3DDefaultText><FONT size=3D2>Larman<BR>Chap 6, 8 &amp;=20
+9</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D44>
+      <P class=3DMsoNormal>&nbsp;</P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 144px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D126 rowSpan=3D6>&nbsp;
+      <P>&nbsp;</P>
+      <P>Elaboration Phase - <BR>Iteration 1</P></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D21><FONT=20
+size=3D2>10/16/04</FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D20><FONT size=3D2>Saturday Lab: =
+8-12:50</FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D21>&nbsp;</TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D20>&nbsp;</TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D18>
+      <P=20
+      style=3D"MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; WORD-SPACING: 0px; =
+LINE-HEIGHT: 100%"><SPAN=20
+      style=3D"FONT-WEIGHT: 700; mso-bidi-font-style: normal; =
+mso-bidi-font-weight: normal"><FONT=20
+      size=3D2>Week 4<BR></FONT></SPAN><FONT size=3D2>1<SPAN=20
+      style=3D"mso-bidi-font-style: normal; mso-bidi-font-weight: =
+normal">0/19/04</SPAN>=20
+      </FONT></P></TD></CENTER>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D17>
+      <P class=3DMsoNormal><FONT size=3D2>Requirement specification, use =
+case=20
+      analysis</FONT></P></TD>
+    <CENTER>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D18>
+      <P align=3Dleft><FONT size=3D2>&nbsp; Chap 10-15</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D17>
+      <P class=3DMsoNormal></P></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D9>
+      <P=20
+      style=3D"MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; WORD-SPACING: 0px; =
+LINE-HEIGHT: 100%"=20
+      align=3Dcenter><FONT size=3D2><B>Week 5<BR></B>10/2604<O:P> =
+</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D8>
+      <P class=3DMsoNormal><FONT size=3D2>System Architecture, =
+documenting=20
+      subsystems and interfaces</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D9>
+      <P class=3DDefaultText><FONT size=3D2>Chap 16-20</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D8>
+      <P class=3DMsoNormal><FONT size=3D2></FONT>&nbsp;</P></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D10><FONT=20
+size=3D2>10/30/04</FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D9><FONT size=3D2>Saturday Lab: =
+8-12:50</FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D10></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D9></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D29>
+      <P align=3Dcenter><FONT size=3D2><B>Week 6<BR></B>11/2/04<O:P> =
+</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D28>
+      <P class=3DMsoNormal><FONT size=3D2>QA Plan, test plans, =
+preliminary=20
+      schedules</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D29>
+      <P class=3DDefaultText></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D28>
+      <P class=3DMsoNormal><FONT size=3D2>Notebook due with Checkpoint =
+'B' sections=20
+      completed</FONT></P></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D34>
+      <P class=3DDefaultText><FONT size=3D2><B>Week =
+7<BR></B>11/9/04<O:P>=20
+    </FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D33>
+      <P class=3DMsoNormal><FONT size=3D2>Project checkpoint =96 review =
+requirements,=20
+      use cases, test plans, architecture, risks</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D34>
+      <P align=3Dleft></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D33>
+      <P class=3DMsoNormal>&nbsp;</P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 144px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D140 rowSpan=3D5>&nbsp;
+      <P>Elaboration Phase - <BR>Iteration 2</P></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D21><FONT=20
+size=3D2>11/12/04</FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D20><FONT size=3D2>Saturday Lab: =
+8-12:50</FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D21>&nbsp;</TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D20>&nbsp;</TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D34>
+      <P=20
+      style=3D"MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; WORD-SPACING: 0px; =
+LINE-HEIGHT: 100%"><FONT=20
+      size=3D2><B>Week 8<BR></B>11/16/04<O:P> </FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D33>
+      <P class=3DMsoNormal><FONT size=3D2>Work on detailed designs, =
+Prototyping (UI=20
+      and high risk features/use cases)</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D34>
+      <P></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D33>
+      <P class=3DMsoNormal><FONT size=3D2>&nbsp;Notebook due with =
+Checkpoint 'C'=20
+      sections completed</FONT></P></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D34>
+      <P=20
+      style=3D"MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; WORD-SPACING: 0px; =
+LINE-HEIGHT: 100%"><FONT=20
+      size=3D2><B>Week 9<BR></B>11/23/04<O:P> </FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D33>
+      <P class=3DMsoNormal><FONT size=3D2>No Class -<BR>Project =
+Planning, refining=20
+      the schedule</FONT></P></TD></CENTER>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D34>
+      <P class=3DDefaultText align=3Dleft></P></TD>
+    <CENTER>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D33>
+      <P class=3DMsoNormal><FONT size=3D2></FONT>&nbsp;</P></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D22><FONT=20
+size=3D2>11/27/04</FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D21><FONT size=3D2>Saturday Lab: 8-12:50=20
+CANCELLED</FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D22>&nbsp;</TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D21>&nbsp;</TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D32>
+      <P=20
+      style=3D"MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; WORD-SPACING: 0px; =
+LINE-HEIGHT: 100%"><FONT=20
+      size=3D2><B>Week 10&nbsp; <BR></B>11/30/04<O:P> </FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D31>
+      <P class=3DMsoNormal><FONT size=3D2>Presentations</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D32>
+      <P></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D31>
+      <P class=3DMsoNormal><FONT size=3D2>&nbsp;Notebook due with =
+Checkpoint 'D=20
+      sections completed</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 144px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D115 rowSpan=3D4>Elaboration Phase - =
+<BR>Iteration 3</TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D34>
+      <P=20
+      style=3D"MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; WORD-SPACING: 0px; =
+LINE-HEIGHT: 100%"><FONT=20
+      size=3D2><B>Week 11<BR></B>12/7/04<O:P> </FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D33>
+      <P class=3DMsoNormal><FONT size=3D2>Presentations</FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D34>
+      <P=20
+      style=3D"MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; WORD-SPACING: 0px; =
+LINE-HEIGHT: 100%"><FONT=20
+      size=3D2>&nbsp; </FONT></P></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D33>
+      <P class=3DMsoNormal>&nbsp;</P></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D21><FONT=20
+size=3D2>12/11/04</FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D20><FONT size=3D2>Saturday Lab: =
+8-12:50</FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D21>&nbsp;</TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D20>&nbsp;</TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D114 height=3D32><FONT =
+size=3D2><B>Week=20
+      12<BR></B>12/14/04<O:P> </FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 322px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D31><FONT size=3D2>Finals Week</FONT></TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; =
+BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid"=20
+    vAlign=3Dtop align=3Dmiddle width=3D111 height=3D32>&nbsp;</TD>
+    <TD=20
+    style=3D"BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; =
+BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; =
+BORDER-LEFT: medium none; WIDTH: 151px; PADDING-TOP: 0in; BORDER-BOTTOM: =
+windowtext 1pt solid"=20
+    vAlign=3Dtop height=3D31><FONT size=3D2>Notebook due with Checkpoint =
+'E'=20
+      sections =
+completed</FONT></TD></TR></TBODY></TABLE></CENTER></DIV></BODY></HTML>

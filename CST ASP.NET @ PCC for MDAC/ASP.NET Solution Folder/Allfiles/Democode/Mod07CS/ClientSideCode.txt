@@ -1,0 +1,9 @@
+function MyClientValidation(source, arguments) { 
+	alert("I am running on the client! ");
+	var intValue = arguments.Value;
+	if (intValue % 2 == 0) {
+		arguments.IsValid = true;
+		} else {
+		arguments.IsValid = false;
+	}
+}

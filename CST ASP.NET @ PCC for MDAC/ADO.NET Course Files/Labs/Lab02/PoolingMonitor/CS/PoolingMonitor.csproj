@@ -1,0 +1,131 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{E46776FA-95A2-443D-9901-41E318AD17E0}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "PoolingMonitor"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                RootNamespace = "PoolingMonitor"
+                StartupObject = "PoolingMonitor.LaunchConnection"
+            >
+                <Config
+                    Name = "Debug"
+                  AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                  CheckForOverFlowUnderFlow = "false"
+                    ConfigurationOverrideFile = ""
+                 DefineConstants = "DEBUG;TRACE"
+                    DefineTrace = "true"
+                  DocumentationFile = ""
+                    DebugSymbols = "true"
+                  FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                  NoStdLib = "false"
+                  NoWarn = ""
+                    Optimize = "false"
+                   OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                 WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                  AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                  CheckForOverFlowUnderFlow = "false"
+                    ConfigurationOverrideFile = ""
+                 DefineConstants = "TRACE"
+                    DefineTrace = "true"
+                  DocumentationFile = ""
+                    DebugSymbols = "false"
+                  FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                  NoStdLib = "false"
+                  NoWarn = ""
+                    Optimize = "false"
+                   OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                 WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+      <Reference
+          Name = "Microsoft.VisualBasic"
+          AssemblyName = "Microsoft.VisualBasic"
+      />
+      <Reference
+          Name = "mscorlib"
+          AssemblyName = "mscorlib"
+      />
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LaunchConnection.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LaunchConnection.resx"
+                    DependentUpon = "LaunchConnection.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "licenses.licx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "OpenNewConnection.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OpenNewConnection.resx"
+                    DependentUpon = "OpenNewConnection.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
+

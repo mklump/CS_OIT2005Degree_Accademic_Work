@@ -1,0 +1,29 @@
+if ( exp ) then stmt
+
+	jmp	{eq, %r0, $0}, l1
+	
+	< code for statement >
+	^l1
+
+if ( exp ) then stmt else stmt
+	
+	jmp	{eq, %r0, $0}, l1
+
+	<code for if-stmt>
+	jmp	{},	l2
+
+	^l1 
+		<code for else stmt>
+
+	^l2
+
+while( exp ) statement
+
+	^l1
+	jmp	{},	l2
+
+	<code for statement>
+
+	jmp	l1
+	^l2
+	

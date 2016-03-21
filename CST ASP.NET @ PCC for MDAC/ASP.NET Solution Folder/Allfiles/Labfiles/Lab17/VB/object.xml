@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="UTF-8" standalone="YES" ?>
+<DOCUMENT>
+	<NOTES> This field is populated by the &lt;NOTES&gt; node of the &quot;objects.xml&quot; document.
+  Simply paste/edit text between the &lt;NOTES&gt;&lt;/NOTES&gt; tags. Formatted text can be used here. 
+  However, do not use &quot;, &amp;, &lt; or &gt;. Instead, use &quot;&amp;quot;&quot;, &quot;&amp;amp;&quot;, &quot;&amp;lt;&quot; and &quot;&amp;gt;&quot;. 
+  </NOTES>
+	<OBJECT ObjectNumber="1" ObjectId="browser" ObjectXPos="28" ObjectYPos="168" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="2" ObjectId="webConfig" ObjectXPos="260" ObjectYPos="87" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="3" ObjectId="machineConfig" ObjectXPos="358" ObjectYPos="87" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="4" ObjectId="globalAsax" ObjectXPos="455" ObjectYPos="87" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="5" ObjectId="loginAspx" ObjectXPos="260" ObjectYPos="178" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="6" ObjectId="checkoutAspx" ObjectXPos="358" ObjectYPos="178" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="7" ObjectId="productsAspx" ObjectXPos="455" ObjectYPos="178" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="8" ObjectId="prosXml" ObjectXPos="260" ObjectYPos="269" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="9" ObjectId="cartAspx" ObjectXPos="358" ObjectYPos="269" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="10" ObjectId="menuAscx" ObjectXPos="455" ObjectYPos="269" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="11" ObjectId="outputCache" ObjectXPos="246" ObjectYPos="397" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="12" ObjectId="cache" ObjectXPos="353" ObjectYPos="397" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="13" ObjectId="bin" ObjectXPos="461" ObjectYPos="382" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="14" ObjectId="serviceAsmx" ObjectXPos="632" ObjectYPos="67" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="15" ObjectId="component" ObjectXPos="622" ObjectYPos="235" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="16" ObjectId="database" ObjectXPos="642" ObjectYPos="374" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="17" ObjectId="blip" ObjectXPos="88" ObjectYPos="148" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="false"></OBJECT>
+	<OBJECT ObjectNumber="18" ObjectId="arrow" ObjectXPos="642" ObjectYPos="374" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="false"></OBJECT>
+	<OBJECT ObjectNumber="19" ObjectId="storedProc" ObjectXPos="600" ObjectYPos="380" ObjectXScale="70" ObjectYScale="70" ObjectRotation="0" ObjectVisible="true"></OBJECT>
+	<OBJECT ObjectNumber="20" ObjectId="proxy" ObjectXPos="540" ObjectYPos="230" ObjectXScale="60" ObjectYScale="60" ObjectRotation="0" ObjectVisible="false"></OBJECT>
+	<OBJECT ObjectNumber="21" ObjectId="credentials" ObjectXPos="170" ObjectYPos="180" ObjectXScale="250" ObjectYScale="250" ObjectRotation="0" ObjectVisible="false"></OBJECT>
+	<OBJECT ObjectNumber="22" ObjectId="locker" ObjectXPos="358" ObjectYPos="259" ObjectXScale="115" ObjectYScale="115" ObjectRotation="0" ObjectVisible="false"></OBJECT>
+	<OBJECT ObjectNumber="23" ObjectId="lockerOpen" ObjectXPos="350" ObjectYPos="259" ObjectXScale="115" ObjectYScale="115" ObjectRotation="0" ObjectVisible="false"></OBJECT>
+	<OBJECT ObjectNumber="24" ObjectId="internet" ObjectXPos="620" ObjectYPos="65" ObjectXScale="80" ObjectYScale="80" ObjectRotation="0" ObjectVisible="false"></OBJECT>
+	<OBJECT ObjectNumber="25" ObjectId="clock" ObjectXPos="625" ObjectYPos="65" ObjectXScale="60" ObjectYScale="60" ObjectRotation="0" ObjectVisible="false"></OBJECT>
+	<OBJECT ObjectNumber="26" ObjectId="traceAxd" ObjectXPos="28" ObjectYPos="168" ObjectXScale="250" ObjectYScale="250" ObjectRotation="0" ObjectVisible="false"></OBJECT>
+	<OBJECT ObjectNumber="26" ObjectId="arrowUp" ObjectXPos="475" ObjectYPos="210" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectVisible="false"></OBJECT>
+	<QUESTION QuestionNumber="1" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>You want to secure the access of the Cart.aspx page by using Forms-based authentication.</QuestionLead>
+		<QuestionText>Where do you have to do that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="webConfig" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerId AnswerSelect="globalAsax" ResultValue="Global.asax is used to catch the events, but it is not used to configure the application. Try something else." IsCorrect="false"></AnswerId>
+			<AnswerId AnswerSelect="cartAspx" ResultValue="The page does not set its own security. Try something else." IsCorrect="false"></AnswerId>
+			<AnswerWrong>Wrong choice, try something else.</AnswerWrong>
+			<AnswerText>Web.Config</AnswerText>
+			<AnswerAnimId>animationSequence1</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="2" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>Now, you want to be able to let the user enter their credentials and create a non-persistent authentication cookie. The authenticated user will then be redirected to the requested page.</QuestionLead>
+		<QuestionText>Where do you have to do that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="loginAspx" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerId AnswerSelect="globalAsax" ResultValue="Global.asax is used to catch the events, but it is not used to enter the credentials. Try something else." IsCorrect="false"></AnswerId>
+			<AnswerId AnswerSelect="webConfig" ResultValue="Web.config is used to configure the application, but it is not used to enter the credentials. Try something else." IsCorrect="false"></AnswerId>
+			<AnswerWrong>Wrong choice, try something else.</AnswerWrong>
+			<AnswerText>Login.aspx</AnswerText>
+			<AnswerAnimId>animationSequence2</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="3" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>By using the ProductID parameter, cache the products page for 90 seconds to improve its performance.</QuestionLead>
+		<QuestionText>Where do you have to do that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="productsAspx" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerId AnswerSelect="globalAsax" ResultValue="Global.asax is used to catch the events, but it is not used to set up the cache. Try something else." IsCorrect="false"></AnswerId>
+			<AnswerId AnswerSelect="webConfig" ResultValue="Web.config is used to configure the application, but it is not used to set up the cache. Try something else." IsCorrect="false"></AnswerId>
+			<AnswerId AnswerSelect="machineConfig" ResultValue="Machine.config is used to set up the default configuration that is used for all of the ASP.NET Web applications. Try something else." IsCorrect="false"></AnswerId>
+			<AnswerWrong>Wrong choice, try something else.</AnswerWrong>
+			<AnswerText>Products.aspx</AnswerText>
+			<AnswerAnimId>animationSequence3</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="4" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>You want to create a price watcher public function that returns the price of any product item based on the item number. You want to let any Web developer have access to this function.</QuestionLead>
+		<QuestionText>Where do you have to do that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="serviceAsmx" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerWrong>Wrong choice. This page does not allow you to expose a method through the Web. Try something else.</AnswerWrong>
+			<AnswerText>Web Service</AnswerText>
+			<AnswerAnimId>animationSequence4</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="5" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>To display the price of a product in the product page, you want to consume your XML Web service method GetPrice(intItemNumber).</QuestionLead>
+		<QuestionText>Where do you have to do that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="productsAspx" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Products.aspx</AnswerText>
+			<AnswerAnimId>animationSequence5</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="6" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>Oops! Sometimes, the XML Web service method GetPrice does not respond, and the user of your application complains that there is no response and no message to inform of the lack of a response.</QuestionLead>
+		<QuestionText>Where do you have to fix this issue to have a timeout of 10 seconds?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="productsAspx" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Products.aspx</AnswerText>
+			<AnswerAnimId>animationSequence6</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="7" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>You want to call a parametrized stored procedure to access the shopping cart in a SQL Server database. You then want to display the shopping cart.</QuestionLead>
+		<QuestionText>Where do you have to do that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="cartAspx" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Cart.aspx</AnswerText>
+			<AnswerAnimId>animationSequence7</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="8" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>Your manager wants you to use a DataGrid to display the checkout data that is coming from the SQL Server database.</QuestionLead>
+		<QuestionText>Where do you have to implement that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="checkoutAspx" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Checkout.aspx</AnswerText>
+			<AnswerAnimId>animationSequence8</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="9" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>You want to place the connection string somewhere else, so that you are able to use it in any page of your application.</QuestionLead>
+		<QuestionText>Where should you place the connection string?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="webConfig" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Web.config</AnswerText>
+			<AnswerAnimId>animationSequence9</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="10" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>Now you have to read this connection string from Web.config (key: SQLconn), before you can fill in your dsCheckout DataSet.</QuestionLead>
+		<QuestionText>Where do you have to do that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="checkoutAspx" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Checkout.aspx</AnswerText>
+			<AnswerAnimId>animationSequence10</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="11" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>You want to validate the username during the login process on the browser (Microsoft Internet Explorer 4.0 or later) and double-check a valid username entry on the server-side.</QuestionLead>
+		<QuestionText>Where do you have to do this?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="loginAspx" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Login.aspx</AnswerText>
+			<AnswerAnimId>animationSequence11</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="12" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>You need to create a reusable class that can access the product information that is in the database.</QuestionLead>
+		<QuestionText>Where do you create that class?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="component" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Component</AnswerText>
+			<AnswerAnimId>animationSequence12</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="13" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>You want to use the component (class Products, Method GetProducts) that you just created to display the products in the product page.</QuestionLead>
+		<QuestionText>Where do you have to do that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="productsAspx" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Products.aspx</AnswerText>
+			<AnswerAnimId>animationSequence13</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="14" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>You want to display a trace output at the end of the product.aspx page, as well as display it with all of the other pages of your ASP.NET Web application. You want to display this information alphabetically, by user-defined category.</QuestionLead>
+		<QuestionText>Where do you have to do all of that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="webConfig" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerId AnswerSelect="machineConfig" ResultValue="You could do that in machine.config, but it is not a good practice. Try something else." IsCorrect="false"></AnswerId>
+			<AnswerId AnswerSelect="productsAspx" ResultValue="We wanned to trace not only in the product.aspx page, but in all pages. Try something else." IsCorrect="false"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Web.config</AnswerText>
+			<AnswerAnimId>animationSequence14</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="15" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>You have decided that you do not want to have the trace output at the end of the pages; you only want trace output accessible through the trace utility (trace.axd). You want to make sure that you can access the trace utility from a remote computer.</QuestionLead>
+		<QuestionText>Where do you have to do all of that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="webConfig" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerId AnswerSelect="machineConfig" ResultValue="You could do that in machine.config, but it is not a good practice. Try something else." IsCorrect="false"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Web.config</AnswerText>
+			<AnswerAnimId>animationSequence15</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="16" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>You want to have a custom trace in a component.</QuestionLead>
+		<QuestionText>Where do you have to do that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="component" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Component</AnswerText>
+			<AnswerAnimId>animationSequence16</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="17" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>In the product page, you want to include a user control named _menu.ascx that accesses the component to then display a menu.</QuestionLead>
+		<QuestionText>Where do you have to do that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="productsAspx" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Products.aspx</AnswerText>
+			<AnswerAnimId>animationSequence17</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="18" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>You want to fill a DataSet, located in the products page, with the prospectus XML file named Pros.xml.</QuestionLead>
+		<QuestionText>Where do you have to do that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="productsAspx" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerId AnswerSelect="prosXml" ResultValue="Pros.xml is the prospectus XML file. Try something else." IsCorrect="false"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Products.aspx</AnswerText>
+			<AnswerAnimId>animationSequence18</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="19" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>You are using a Session variable (named: CartID) to store the ID of the shopping cart. You want to initialize this variable to zero.</QuestionLead>
+		<QuestionText>Where do you have to do that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="globalAsax" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerId AnswerSelect="webConfig" ResultValue="Web.config is used to configure the application, but it is not used to initialize session variables. Try something else." IsCorrect="false"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Global.asax</AnswerText>
+			<AnswerAnimId>animationSequence19</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<QUESTION QuestionNumber="20" QuestionScoreValue="5" PenaltyScoreValue="1">
+		<QuestionLead>Some customer complains that, when they block the cookies, the shopping cart crashes because the session variables are not set correctly.</QuestionLead>
+		<QuestionText>Where do you have to fix that?</QuestionText>
+		<Answer>
+			<AnswerId AnswerSelect="webConfig" ResultValue="" IsCorrect="true"></AnswerId>
+			<AnswerId AnswerSelect="machineConfig" ResultValue="You could fix that in machine.config, but it is not a good practice. Try something else." IsCorrect="false"></AnswerId>
+			<AnswerWrong>Wrong choice. It is not here that you have to do this. Try something else.</AnswerWrong>
+			<AnswerText>Web.config</AnswerText>
+			<AnswerAnimId>animationSequence20</AnswerAnimId>
+		</Answer>
+	</QUESTION>
+	<CODEQUESTION CodeQuestionNumber="1" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="0">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;security&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>&lt;authentication mode=&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="192" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Forms" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentCompare EnterValue="Cookies" ResultValue="It was correct with Beta 1, but it has now changed." IsCorrect="false" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>The code here is not the correct authentication mechanism.</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="216" SegmentType="static">
+				<SegmentText>&quot;&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60"> 
+    		<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>&lt;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="40" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="forms" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentCompare EnterValue="cookies" ResultValue="It was correct with Beta 1, but it has now changed." IsCorrect="false" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>The code here is not the correct section name for Forms-based authentication.</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="75" SegmentType="static">
+				<SegmentText>name=&quot;name&quot; loginUrl=&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="250" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="login.aspx" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>That is not the correct login URL. Think about the page name that you want to redirect a non-authenticated user to.</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="274" SegmentType="static">
+				<SegmentText>&quot;/&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="90">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>&lt;/authentication&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="120">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;/security&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="150">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>&lt;location path=&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="142" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Cart.aspx" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this page is the one that you want to secure?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="168" SegmentType="static">
+				<SegmentText>&quot;&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="180">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>&lt;security&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="210">
+			<LineSegment SegmentXPos="48" SegmentType="static">
+				<SegmentText>&lt;authorization&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="240">
+			<LineSegment SegmentXPos="64" SegmentType="static">
+				<SegmentText>&lt;deny users=&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="172" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="?" ResultValue="" IsCorrect="true" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentCompare EnterValue="*" ResultValue="Oops! Do you really want to let anybody access your secured page?" IsCorrect="false" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentWrong>Which symbol will deny access to all anonymous users?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="196" SegmentType="static">
+				<SegmentText>&quot;/&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="270">
+			<LineSegment SegmentXPos="48" SegmentType="static">
+				<SegmentText>&lt;/authorization&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="300">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>&lt;/security&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="330">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>&lt;/location&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="2" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Sub cmdLogin_Click(ByVal sender As Object, ByVal e As EventArgs) _</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>Handles cmdLogin.Click</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="90">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>If (login(txtUserName.Text, txtPassword.Text))</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="120">
+			<LineSegment SegmentXPos="32" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="FormsAuthentication" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentCompare EnterValue="CookiesAuthentication" ResultValue="It was correct with Beta 1, but it has now changed." IsCorrect="false" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>The code here is not correct.</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="55" SegmentType="static">
+				<SegmentText>.RedirectFromLoginPage(txtUserName.Text, </SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="375" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="False" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentCompare EnterValue="0" ResultValue="" IsCorrect="true" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentCompare EnterValue="True" ResultValue="That will create a persistent cookie." IsCorrect="false" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentCompare EnterValue="1" ResultValue="That will create a persistent cookie." IsCorrect="false" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentWrong>The persistency parameter must be boolean.</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="400" SegmentType="static">
+				<SegmentText>)</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="150">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>End If</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="180">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>End Sub</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="3" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="0">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;!</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>This page is called as followed:</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>http://serverName/applicationName/products.aspx?ProductID=3</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="90">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="120">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>&lt;%@ Page Language=&quot;VB&quot; %&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="150">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>&lt;%@ </SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="64" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="OutputCache" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>The name of the directive is wrong.</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="88" SegmentType="static">
+				<SegmentText> Duration=&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="176" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="90" ResultValue="" IsCorrect="true" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentCompare EnterValue="90000" ResultValue="The duration must be entered in seconds, not in milliseconds." IsCorrect="false" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentWrong>The cache duration is wrong.</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="200" SegmentType="static">
+				<SegmentText>&quot; VaryByParam=&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="320" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="ProductID" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>The name of the parameter is wrong.</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="344" SegmentType="static">
+				<SegmentText>&quot; %&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="180">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;html&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="240">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>...</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="300">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;/html&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="4" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="0">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;%@ WebService class=&quot;PriceWatcher&quot; %&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>Imports System.Web.Services</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>Public Class PriceWatcher</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="120">
+			<LineSegment SegmentXPos="16" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="&lt;WebMethod()&gt;" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>You have to declare the function open to the Web.</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="48" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Public" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>The function should be declared as Public.</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="80" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Function" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentCompare EnterValue="&lt;WebMethod()&gt;" ResultValue="It was correct with Beta 1, but it has now changed." IsCorrect="false" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>You have to declare the function.</SegmentWrong>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="150">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>GetPrice(intItemNumber As Integer) As Currency</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="180">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>...</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="210">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>End Function</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="240">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>End Class</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="5" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Dim intItemNb As Integer = Request.Params("ProductID")</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Dim ProxyPriceWatcher As New MyAppName.WebRefName.PriceWatcher()</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="90">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>'Display the price in a label</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="120">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>lblPrice.Text = </SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="130" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="ProxyPriceWatcher" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>The proxy name is wrong.</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="156" SegmentType="static">
+				<SegmentText>.</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="166" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="GetPrice" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>The XML Web Method name is wrong.</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="188" SegmentType="static">
+				<SegmentText>(intItemNb)</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="6" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Dim intItemNb As Integer = Request.Params("ProductID")</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Dim ProxyPriceWatcher As New MyAppName.WebRefName.PriceWatcher()</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="90">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>ProxyPriceWatcher.</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="144" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Timeout" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>The proxy method name is wrong.</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="170" SegmentType="static">
+				<SegmentText>=</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="180" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="10000" ResultValue="" IsCorrect="true" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentCompare EnterValue="10" ResultValue="The duration must be entered in milliseconds, not in seconds." IsCorrect="false" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentWrong>The duration is not correct.</SegmentWrong>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="120">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>'Display the price in a label</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="150">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>lblPrice.Text = ProxyPriceWatcher.GetPrice(intItemNb)</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="7" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="0">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Dim myParam as SqlParameter</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>myParam = New </SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="120" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="SqlParameter" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that the constructor of the SQL parameter has this name?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="145" SegmentType="static">
+				<SegmentText>("@SqlParam", SqlDbType.Int)</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>myParam.</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="65" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Direction" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that the method to set the direction has this name?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="95" SegmentType="static">
+				<SegmentText> = ParameterDirection.Input</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="90">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>myParam.</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="65" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Value" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that the method to set the value has this name?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="95" SegmentType="static">
+				<SegmentText> = CInt(txtUserInput.Text)</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="8" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="0">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Dim conn As SqlConnection</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Dim daCheckout As SqlDataAdapter</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Dim dsCheckout As New DataSet()</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="120">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>conn = New SqlConnection(" ... ")</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="150">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>daCheckout = New SqlDataAdapter("select * from chkout", conn)</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="180">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>daCheckout.Fill(dsCheckout, "chkout")</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="210">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>'Set the source of the DataGrid dgCheckout dynamically</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="240">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>dgCheckout.</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="88" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="DataSource" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the right property of the DataGrid control?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="120" SegmentType="static">
+				<SegmentText>=</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="135" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="dsCheckout" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct name of the DataSet?</SegmentWrong>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="270">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>'Connect the control to the DataSet</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="300">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>dgCheckout.</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="88" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="DataBind()" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct property of the DataGrid control?</SegmentWrong>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="9" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="0">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;configuration&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>&lt;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="25" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="appSettings" ResultValue="" IsCorrect="true" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentCompare EnterValue="appsettings" ResultValue="It is camelCase sensitive." IsCorrect="false" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentCompare EnterValue="Appsettings" ResultValue="It is camelCase sensitive." IsCorrect="false" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentCompare EnterValue="AppSettings" ResultValue="It is camelCase sensitive." IsCorrect="false" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct name of the section?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="50" SegmentType="static">
+				<SegmentText>&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>&lt;add key="SQLconn" value=" ... "</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="90">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>&lt;/</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="30" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="appSettings" ResultValue="" IsCorrect="true" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentCompare EnterValue="appsettings" ResultValue="It is camelCase sensitive." IsCorrect="false" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentCompare EnterValue="Appsettings" ResultValue="It is camelCase sensitive." IsCorrect="false" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentCompare EnterValue="AppSettings" ResultValue="It is camelCase sensitive." IsCorrect="false" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct name of the section?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="55" SegmentType="static">
+				<SegmentText>&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="120">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;/configuration&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="10" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="0">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Dim conn As SqlConnection</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Dim daCheckout As SqlDataAdapter</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Dim dsCheckout As New DataSet()</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="90">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Dim strSQLconn As String = ConfigurationSettings.</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="392" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="AppSettings(&quot;SQLconn&quot;)" ResultValue="" IsCorrect="true" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentWrong>That is not the correct way to read a key from the appSettings section.</SegmentWrong>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="150">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>conn = New SqlConnection(strSQLconn)</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="180">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>daCheckout = New SqlDataAdapter("select * from chkout", conn)</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="210">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>daCheckout.Fill(dsCheckout, "chkout")</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="240">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>'Dynamically set the source of the DataGrid dgCheckout</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="270">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>dgCheckout.DataSource = dsCheckout</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="300">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>'Connect the DataSet to the DataGrid</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="330">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>dgCheckout.DataBind()</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="11" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;form id="Form1" method="post" runat="server"&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>&lt;asp:TextBox id="txtUserName" runat="server"&gt;&lt;/asp:TextBox&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="90">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>&lt;asp:TextBox id="txtPassword" runat="server"&gt;&lt;/asp:TextBox&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="120">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>&lt;asp:</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="56" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="RequiredFieldValidator" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct name of the validation control?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="85" SegmentType="static">
+				<SegmentText>id="vldUserName" runat="</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="276" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="server" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct setting?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="300" SegmentType="static">
+				<SegmentText>&quot;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="150">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>ErrorMessage="UserName cannot be blank."</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="180">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>ControlToValidate=&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="183" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="txtUserName" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct name?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="208" SegmentType="static">
+				<SegmentText>&quot;&gt;*&lt;/asp:RequiredFieldValidator&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="210">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;/form&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="12" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Imports System.Data</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Imports System.Data.SqlClient</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="120">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Public Class Products</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="150">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>Public Function GetProducts() As</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="281" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="DataSet" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct returned type?</SegmentWrong>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="180">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>Dim daProducts As SqlDataAdapter</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="210">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>Dim dsProducts As New DataSet()</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="240">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>...</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="270">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>daProducts.</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="118" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Fill" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct method name?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="140" SegmentType="static">
+				<SegmentText>(</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="148" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="dsProducts" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct DataSet name?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="172" SegmentType="static">
+				<SegmentText>,&quot;Products&quot;)</SegmentText>
+			</LineSegment>
+		</CodeLine>	
+		<CodeLine LineYPos="300">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>Return dsProducts</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="330">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>End Function</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="360">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>End Class</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="13" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Dim objProducts As New ProductsList.</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="288" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Products()" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct class name?</SegmentWrong>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Dim dsProducts As New DataSet()</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="90">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>dsProducts = objProduct.</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="192" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="GetProducts()" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct method name?</SegmentWrong>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="120">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>dgProducts.DataSource = dsProducts.Tables(0)</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="180">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>dgProducts.DataBind()</SegmentText>
+			</LineSegment>
+		</CodeLine>				
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="14" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;trace enabled=&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="128" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="true" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="152" SegmentType="static">
+				<SegmentText>&quot; pageOutput=&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="264" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="true" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="288" SegmentType="static">
+				<SegmentText>&quot;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="90">
+		<LineSegment SegmentXPos="0" SegmentType="entry">
+			<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="traceMode=&quot;SortByCategory&quot;" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="30" SegmentType="static">
+				<SegmentText>/&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="15" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;trace enabled=&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="128" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="true" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="152" SegmentType="static">
+				<SegmentText>&quot; pageOutput=&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="264" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="false" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="288" SegmentType="static">
+				<SegmentText>&quot;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="90">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>traceMode=&quot;SortByCategory&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="220" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="localOnly=&quot;false&quot;" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="250" SegmentType="static">
+				<SegmentText>/&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="16" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Imports</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="65" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="System" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="90" SegmentType="static">
+				<SegmentText>.</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="97" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Web" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Public Class Menus</SegmentText>
+			</LineSegment>
+		</CodeLine>	
+		<CodeLine LineYPos="90">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>Public Function GetMenu(categoryID As Integer) As DataSet</SegmentText>
+			</LineSegment>
+		</CodeLine>	
+		<CodeLine LineYPos="120">
+			<LineSegment SegmentXPos="32" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="HttpContext" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="57" SegmentType="static">
+				<SegmentText>.</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="64" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Current" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="89" SegmentType="static">
+				<SegmentText>.Trace.IsEnabled=</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="228" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="True" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="150">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>Dim dsMenus As New DataSet()</SegmentText>
+			</LineSegment>
+		</CodeLine>	
+		<CodeLine LineYPos="180">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>...</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="210">
+			<LineSegment SegmentXPos="32" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="HttpContext" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="57" SegmentType="static">
+				<SegmentText>.</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="64" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Current" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="89" SegmentType="static">
+				<SegmentText>.Trace.Warn(&quot;Component&quot;, &quot;Custom trace&quot;)</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="240">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>Return dsMenus</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="270">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>End Function</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="300">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>End Class</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="17" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;%@ </SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="33" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Register" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="64" SegmentType="static">
+				<SegmentText>TagPrefix=&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="154" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="ucMenu" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="179" SegmentType="static">
+				<SegmentText>&quot; TagName=&quot;menu&quot; Src=&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="356" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="_menu.ascx" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="381" SegmentType="static">
+				<SegmentText>&quot; %&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;ucMenu:</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="65" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="menu" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="92" SegmentType="static">
+				<SegmentText> id=&quot;menuID&quot; </SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="200" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="runat=&quot;server&quot;" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="225" SegmentType="static">
+				<SegmentText> /&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="18" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Dim dsPropectus As New DataSet()</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="90">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>dsProspectus.</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="104" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="ReadXml" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct method name?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="129" SegmentType="static">
+				<SegmentText>(</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="137" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Server.MapPath" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct function name?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="162" SegmentType="static">
+				<SegmentText>(&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="178" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Pros.xml" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct filename?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="203" SegmentType="static">
+				<SegmentText>&quot;))</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="120">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>dgProspectus.DataSource = dsProspectus.Tables(0)</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="150">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>dgProspectus.DataBind()</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="19" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Sub Application_Start(ByVal sender As Object, ByVal e As EventArgs)</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>'Fires when the application is started</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="90">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>End Sub</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="150">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>Sub Session_Start(ByVal sender As Object, ByVal e As EventArgs)</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="180">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>'Fires when the session is started</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="210">
+			<LineSegment SegmentXPos="16" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="Session(&quot;CartID&quot;)" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct name?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="41" SegmentType="static">
+				<SegmentText> = </SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="66" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="0" ResultValue="" IsCorrect="true" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="240">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>End Sub</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="270">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>...</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<CODEQUESTION CodeQuestionNumber="20" CodeScoreValue="10" PenaltyScoreValue="2">
+		<CodeLine LineYPos="30">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;configuration&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="60">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>&lt;system.web&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="90">
+			<LineSegment SegmentXPos="32" SegmentType="static">
+				<SegmentText>&lt;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="40" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="sessionState" ResultValue="" IsCorrect="true" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="73" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="cookieless" ResultValue="" IsCorrect="true" IsCaseSensitive="true"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="98" SegmentType="static">
+				<SegmentText>=&quot;</SegmentText>
+			</LineSegment>
+			<LineSegment SegmentXPos="114" SegmentType="entry">
+				<SegmentText>---</SegmentText>
+				<SegmentCompare EnterValue="true" ResultValue="" IsCorrect="true" IsCaseSensitive="false"></SegmentCompare>
+				<SegmentWrong>Are you sure that this is the correct value?</SegmentWrong>
+			</LineSegment>
+			<LineSegment SegmentXPos="139" SegmentType="static">
+				<SegmentText>&quot; /&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="120">
+			<LineSegment SegmentXPos="16" SegmentType="static">
+				<SegmentText>&lt;/system.web&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+		<CodeLine LineYPos="150">
+			<LineSegment SegmentXPos="0" SegmentType="static">
+				<SegmentText>&lt;/configuration&gt;</SegmentText>
+			</LineSegment>
+		</CodeLine>
+	</CODEQUESTION>
+	<ANIMATION>
+		<Object ObjectNumber="1" ObjectId="browser" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="A non-authenticated user requests the cart.aspx page ..."></Object>
+		<Object ObjectNumber="9" ObjectId="cartAspx" Duration="2" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="Microsoft ASP.NET recognizes that the cart.aspx page is secure, but the user is not authenticated ..."></Object>
+		<Object ObjectNumber="22" ObjectId="locker" Duration="4" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="Microsoft ASP.NET recognizes that the cart.aspx page is secure, but the user is not authenticated ..."></Object>
+		<Object ObjectNumber="5" ObjectId="loginAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The non-authenticated user is then redirected to the login page."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="1" ObjectId="browser" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="A non-authenticated user requests the cart.aspx page ..."></Object>
+		<Object ObjectNumber="9" ObjectId="cartAspx" Duration="2" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="Microsoft ASP.NET recognizes that the cart.aspx page is secure, but the user is not authenticated ..."></Object>
+		<Object ObjectNumber="22" ObjectId="locker" Duration="4" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="Microsoft ASP.NET recognizes that the cart.aspx page is secure, but the user is not authenticated ..."></Object>
+		<Object ObjectNumber="5" ObjectId="loginAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The user is then redirected to the login page ..."></Object>
+		<Object ObjectNumber="21" ObjectId="credentials" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The user enters his or her credentials ..."></Object>
+		<Object ObjectNumber="9" ObjectId="cartAspx" Duration="2" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="After the user&#145;s credentials are verified, ASP.NET then redirects the user to the requested cart.aspx page."></Object>
+		<Object ObjectNumber="23" ObjectId="lockerOpen" Duration="4" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="After the user&#145;s credentials are verified, ASP.NET then redirects the user to the requested cart.aspx page."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="1" ObjectId="browser" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="A user requests the product.aspx page ..."></Object>
+		<Object ObjectNumber="7" ObjectId="productAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The product.aspx page is sent to the user and ..."></Object>
+		<Object ObjectNumber="11" ObjectId="outputCache" Duration="9" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The product.aspx page is also stored in the output cache for 90 seconds to ensure better performance if there is another request for the product.aspx page."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="14" ObjectId="serviceAsmx" Duration="4" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="Your XML Web service can be used from anywhere by using the Internet."></Object>
+		<Object ObjectNumber="24" ObjectId="internet" Duration="4" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="Your XML Web service can be used from anywhere by using the Internet."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="7" ObjectId="productAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The product.aspx page calls the XML Web service method GetPrice by using the proxy of the XML Web service ..."></Object>
+		<Object ObjectNumber="20" ObjectId="proxy" Duration="9" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The proxy of the XML Web service calls the XML Web service method GetPrice through the Internet by using a SOAP message (with the request packed in the SOAP message) ..."></Object>
+		<Object ObjectNumber="14" ObjectId="serviceAsmx" Duration="9" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The XML Web service gets the SOAP message, unpacks it, extracts the parameter ItemID, and gets the price of the item by using GetPrice XML Web service method ..."></Object>
+		<Object ObjectNumber="14" ObjectId="serviceAsmx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The XML Web service then packs the result in a SOAP message ..."></Object>
+		<Object ObjectNumber="20" ObjectId="proxy" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The proxy of the XML Web service unpacks the SOAP message that was received by the XML Web service method GetPrice ..."></Object>
+		<Object ObjectNumber="20" ObjectId="proxy" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The proxy then gives the returned price to the product.aspx page ..."></Object>
+		<Object ObjectNumber="7" ObjectId="productAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The product.aspx page then displays the price of the item."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="7" ObjectId="productAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The product.aspx page calls the XML Web service method GetPrice by using the proxy of the XML Web service ..."></Object>
+		<Object ObjectNumber="20" ObjectId="proxy" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The proxy of the XML Web service calls the XML Web service method GetPrice through the Internet by using a SOAP message (with the request packed in the SOAP message) ..."></Object>
+		<Object ObjectNumber="25" ObjectId="clock" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The XML Web service is not responding ..."></Object>
+		<Object ObjectNumber="20" ObjectId="proxy" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The timeout that is set in the proxy of the XML Web service has reached the end of its waiting time ..."></Object>
+		<Object ObjectNumber="7" ObjectId="productAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="An error is caught in the product.aspx page and a message of non-availability of the XML Web service is then displayed to the user."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="9" ObjectId="cartAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The cart.aspx page calls the stored procedure ..."></Object>
+		<Object ObjectNumber="19" ObjectId="storedProc" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The stored procedure accesses the database ..."></Object>
+		<Object ObjectNumber="16" ObjectId="database" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The query to the database is performed ..."></Object>
+		<Object ObjectNumber="19" ObjectId="storedProc" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The stored procedure gets the results of the query ..."></Object>
+		<Object ObjectNumber="9" ObjectId="cartAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The cart.aspx page displays the returned information from the stored procedure."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="6" ObjectId="checkoutAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The checkout.aspx page directly calls the database ..."></Object>
+		<Object ObjectNumber="16" ObjectId="database" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The query to the database is performed ..."></Object>
+		<Object ObjectNumber="6" ObjectId="checkoutAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The checkout.aspx page then displays the result of the query in a DataGrid."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="2" ObjectId="webConfig" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="Every time you need the connection string in a Web page, you can programmatically access it from any of the pages."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="6" ObjectId="checkoutAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The checkout.aspx page directly calls the database ..."></Object>
+		<Object ObjectNumber="2" ObjectId="webConfig" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The connection string to the database is retrieved from the Web.config file..."></Object>
+		<Object ObjectNumber="16" ObjectId="database" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The query to the database is performed ..."></Object>
+		<Object ObjectNumber="6" ObjectId="checkoutAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The checkout.aspx page then displays the result of the query in a DataGrid."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="5" ObjectId="loginAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="A user is on the login page and has entered his or her credentials ..."></Object>
+		<Object ObjectNumber="1" ObjectId="browser" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The validation (RequierdFieldValidator on the input control txtUserName) is first performed on the client-side (if the browser is Internet Explorer 4.0 or later) ..."></Object>
+		<Object ObjectNumber="5" ObjectId="loginAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="If the credentials are recognized as valid on the client-side, then Microsoft ASP.NET performs a double-check on the server-side to avoid spoofing."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="15" ObjectId="component" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="A component is compiled and it can then be reused from any Web pages ..."></Object>
+		<Object ObjectNumber="7" ObjectId="productAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="For example, the products.aspx page could use this component to get the list of products from the database."></Object>
+	</ANIMATION>
+		<ANIMATION>
+		<Object ObjectNumber="7" ObjectId="productAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The products.aspx page is about to display a list of products ..."></Object>
+		<Object ObjectNumber="15" ObjectId="component" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="A component is called to get a DataSet with all of the products listed ..."></Object>
+		<Object ObjectNumber="7" ObjectId="productAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The products.aspx page binds the DataSet to a DataGrid to display the products list to the user."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="2" ObjectId="webConfig" Duration="8" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="Now, the Web.config file is set up to trace in all of the pages of your ASP.NET Web application and then display the information at the end of the pages (alphabetically ordered)."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="2" ObjectId="webConfig" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="With your new trace settings, the Web.config file is now set up to trace in all of the pages of your ASP.NET Web application, but it will not display the information at the end of the pages ..."></Object>
+		<Object ObjectNumber="26" ObjectId="traceAxd" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The trace information is accessible through the trace utility (trace.axd). You can also access the trace utility from a remote computer."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="15" ObjectId="component" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="Now, you can trace into the component and then display the trace directly in the calling page (or through the trace utility) ..."></Object>
+		<Object ObjectNumber="6" ObjectId="checkoutAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="For instance, if checkout.aspx page calls the component, your custom trace that was done in your component will be added to the trace information on the checkout.aspx page."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="10" ObjectId="menuAscx" Duration="4" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="Now, the user control named _menu.ascx is included in the product.aspx page."></Object>
+		<Object ObjectNumber="27" ObjectId="arrowUp" Duration="4" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="Now, the user control named _menu.ascx is included in the product.aspx page."></Object>
+		<Object ObjectNumber="7" ObjectId="productAspx" Duration="4" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="Now, the user control named _menu.ascx is included in the product.aspx page."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="7" ObjectId="productAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="The product.aspx page fills its DataSet dsProspectus ..."></Object>
+		<Object ObjectNumber="8" ObjectId="prosXml" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="by reading the file Pros.xml ..."></Object>
+		<Object ObjectNumber="7" ObjectId="productAspx" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="And then the product.aspx page binds the DataSet in a DataGrid."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="4" ObjectId="globalAsax" Duration="6" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="When a new session starts, the Session_Start event in the global.asax file is fired and the session variable CartID is initialized to zero ..."></Object>
+		<Object ObjectNumber="9" ObjectId="cartAspx" Duration="8" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="Then, you can programmatically assign a real cart ID when the user uses the shopping cart for the first time, or when the user logs on to enter their credentials in your ASP.NET Web application."></Object>
+	</ANIMATION>
+	<ANIMATION>
+		<Object ObjectNumber="1" ObjectId="browser" Duration="8" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="When a user blocks the cookies in the browser (or uses an older browser that does not supports cookies), the session variables can still be used because now the session ID is sent through the URL ..."></Object>
+		<Object ObjectNumber="1" ObjectId="browser" Duration="5" AnimType="flasher" ObjectXMove="0" ObjectYMove="0" ObjectXScale="100" ObjectYScale="100" ObjectRotation="0" ObjectAlpha="100" ObjectVisible="true" TextToDisplay="instead of being sent by using a cookie."></Object>
+	</ANIMATION>

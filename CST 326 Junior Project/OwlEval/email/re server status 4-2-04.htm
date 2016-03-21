@@ -1,0 +1,238 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0144)http://e12.email.excite.com/msg_read.php?m=0&s=1&d=1&mid=2330&pr=1&ArdSI=cff840ed9363cb49ddd3173deea511ae&ArdSI=cff840ed9363cb49ddd3173deea511ae -->
+<HTML><HEAD><TITLE>Inbox Message List</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><!-- INSERT META JUNK -->
+<STYLE type=text/css>UNKNOWN {
+	SCROLLBAR-BASE-COLOR: #6699cc
+}
+.navOn {
+	BORDER-RIGHT: #6699cc 2px solid; BORDER-TOP: #487bae 3px solid; BORDER-LEFT: #487bae 3px solid; BORDER-BOTTOM: #6699cc 2px solid; BACKGROUND-COLOR: #6699cc
+}
+.navOnHglt {
+	BORDER-RIGHT: #487bae 3px solid; BORDER-TOP: #84b7ea 2px solid; BORDER-LEFT: #84b7ea 2px solid; BORDER-BOTTOM: #487bae 3px solid; BACKGROUND-COLOR: #6699cc
+}
+.navOff {
+	BORDER-RIGHT: #e2e2e2 2px solid; BORDER-TOP: #cecece 3px solid; BORDER-LEFT: #cecece 3px solid; BORDER-BOTTOM: #e2e2e2 2px solid; BACKGROUND-COLOR: #e2e2e2
+}
+.navOffHglt {
+	BORDER-RIGHT: #cecece 3px solid; BORDER-TOP: #f6f6f6 2px solid; BORDER-LEFT: #f6f6f6 2px solid; BORDER-BOTTOM: #cecece 3px solid; BACKGROUND-COLOR: #e2e2e2
+}
+.folLst {
+	BORDER-BOTTOM: #e2e2e2 1px solid; BACKGROUND-COLOR: #6699cc; text-decoratation: none
+}
+.folLstHover {
+	BORDER-BOTTOM: #e2e2e2 1px solid; BACKGROUND-COLOR: #75a8db
+}
+.btnDsp {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #6699cc; FONT-FAMILY: geneva,arial; BACKGROUND-COLOR: #ffffff
+}
+.txtDsp {
+	FONT-SIZE: 12px; COLOR: #6699cc; FONT-FAMILY: geneva,arial; BACKGROUND-COLOR: #ffffff
+}
+.msgBxHdr {
+	BORDER-RIGHT: #e2e2e2 2px solid
+}
+.msgBxBrdr {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.msgBxBdy {
+	BORDER-RIGHT: #e2e2e2 2px solid; BORDER-BOTTOM: #e2e2e2 3px solid
+}
+.chkBxSel {
+	BORDER-BOTTOM: #6699cc 1px solid; BACKGROUND-COLOR: #7aade0
+}
+.chkBxDesel {
+	BORDER-BOTTOM: #e2e2e2 1px solid
+}
+.vertSep {
+	BORDER-LEFT: #6699cc 1px solid
+}
+</STYLE>
+
+<SCRIPT language=javascript>
+//caVal = 3;
+function deleteMsgs() {
+        f = document.msg_action;
+	f.act.value = 'del';
+        f.submit();
+}
+function moveMsgs(dest) {
+	
+        f = document.msg_action;
+        g = document.msg_list.msg_move;
+	f.m_to.value = dest.options[dest.selectedIndex].value;
+	if ( f.m_to.value == 'ARD' ) return false;
+	f.act.value = 'mve';
+        f.submit();
+}
+function caTog(dest) {
+ 	document.msg_list.ca.value = dest.options[dest.selectedIndex].value;
+}
+function forwardMsgs() {
+	location.href = "compose.php?m=0&s=1&d=1&mid=2330&ca=" + document.msg_list.ca.value + "&ArdSI=cff840ed9363cb49ddd3173deea511ae";
+}
+function bsThis( type, addy ) {
+	m = document.msg_action;
+	m.action = 'prefs.php';
+	m.indBS.value = addy;
+	m.act.value = (type == 's')?'nspm':'blk';
+	m.pg.value = (type == 's')?4:5;
+	m.submit();
+}
+function chgSte (pg) {
+                
+	f = document.msg_action;
+	f.pg.value  = pg;
+     	f.act.value = 'ufs';
+     	f.url.value = escape(document.URL);
+        f.submit();
+}
+function rSpam() {
+	if (confirm("Are you sure you want to report this message as Spam?")) {
+		m = document.msg_action;
+		m.act.value = 'spm';
+        	m.submit();
+	} else 
+		return false;
+}
+</SCRIPT>
+
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR></HEAD>
+<BODY vLink=#000066 aLink=#ff0000 link=#000066 leftMargin=3 topMargin=3 
+marginwidth="3" marginheight="3"><BASEFONT face=geneva,arial>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <FORM name=msg_list action="" method=post><INPUT type=hidden 
+  value=cff840ed9363cb49ddd3173deea511ae name=ArdSI> <INPUT type=hidden value=4 
+  name=ca></FORM>
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE cellSpacing=0 cellPadding=3 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD align=right><A href="javascript:window.close();"><FONT 
+            face=geneva,arial size=1>[ Close This Window 
+        ]</FONT></A></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD><IMG height=2 src="re server status 4-2-04_files/spacer.gif" width=1 
+      border=0><BR>
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top bgColor=#ffffff>
+          <TD><FONT face=geneva,arial color=black size=2><IMG height=16 
+            hspace=10 src="re server status 4-2-04_files/msg_flagged_no.gif" 
+            width=14 align=absMiddle border=0> Message is not flagged. [ <A 
+            onclick="chgSte('sflg'); return false;" 
+            href="http://e12.email.excite.com/msg_read.php?ArdSI=cff840ed9363cb49ddd3173deea511ae"><FONT 
+            color=black>Flag for Follow Up</FONT></A> 
+      ]</FONT></TD></TR></TBODY></TABLE><IMG height=2 
+      src="re server status 4-2-04_files/spacer.gif" width=1 border=0><BR>
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top bgColor=#ffffff>
+          <TD align=right><FONT face=geneva,arial color=black 
+            size=2><B>Date:&nbsp;&nbsp;</B></FONT></TD>
+          <TD width="100%"><FONT face=geneva,arial color=black size=2>Fri, 2 
+            Apr 2004 11:04:43 -0500 (EST)</FONT></TD></TR>
+        <TR vAlign=top bgColor=#ffffff>
+          <TD align=right><FONT face=geneva,arial color=black 
+            size=2><B>From:&nbsp;&nbsp;</B></FONT></TD>
+          <TD width="100%"><FONT face=geneva,arial color=black size=2>Larry 
+            Bell &lt;larrycbell@excite.com&gt;<BR><FONT size=1>[ <A 
+            href="http://e12.email.excite.com/abook.php?a=0&amp;w=0&amp;msg=1&amp;m=0&amp;mid=2330&amp;ArdSI=cff840ed9363cb49ddd3173deea511ae&amp;ArdSI=cff840ed9363cb49ddd3173deea511ae"><FONT 
+            color=#0000ff>Add to Address Book</FONT></A> | <A 
+            onclick="bsThis('b', 'larrycbell@excite.com'); return false;" 
+            href="http://e12.email.excite.com/msg_read.php?ArdSI=cff840ed9363cb49ddd3173deea511ae"><FONT 
+            color=#0000ff>Block Address</FONT></A> | <A 
+            onclick="rSpam(); return false;" 
+            href="http://e12.email.excite.com/msg_read.php?ArdSI=cff840ed9363cb49ddd3173deea511ae"><FONT 
+            color=#0000ff>Report as Spam</FONT></A> ]</FONT></FONT></TD></TR>
+        <TR vAlign=top bgColor=#ffffff>
+          <TD align=right><FONT face=geneva,arial color=black 
+            size=2><B>To:&nbsp;&nbsp;</B></FONT></TD>
+          <TD width="100%"><FONT face=geneva,arial color=black 
+            size=2>&lt;mike@culbertson.info&gt;, &lt;robertsg@oit.edu&gt;, 
+            &lt;gdiviney@comcast.net&gt;, &lt;larrycbell@excite.com&gt;, 
+            &lt;mklump@comcast.net&gt;</FONT></TD></TR>
+        <TR vAlign=top bgColor=#ffffff>
+          <TD align=right><FONT face=geneva,arial color=black 
+            size=2><B>Subject:&nbsp;&nbsp;</B></FONT></TD>
+          <TD width="100%"><FONT face=geneva,arial color=black size=2>RE: 
+            server status</FONT></TD></TR></TBODY></TABLE><FONT 
+      size=1><BR></FONT></FONT></TD></TR>
+  <TR>
+    <TD>
+      <TABLE cellSpacing=0 cellPadding=3 width="100%" border=0>
+        <TBODY>
+        <TR bgColor=#ffffff>
+          <TD width="100%"><FONT size=2>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><FONT face=geneva,arial size=2>
+                  <TABLE cellSpacing=0 cellPadding=3 width="100%" bgColor=white 
+                  border=0>
+                    <TBODY>
+                    <TR vAlign=top>
+                      <TD width="100%"><FONT color=black size=2>Mike,<BR>I was 
+                        able to log into the accounts on the servers. I am not 
+                        sure what to do with the PostgreSQL management 
+                        interface.<BR><BR>Team,<BR>I am dialup only at home so 
+                        please don't send any large files via email. Please post 
+                        them to a web site and send the URL.<BR><BR>I am home 
+                        today trying to let my body recouperate from muscle 
+                        spasms. I hope to be at school tomorrow but I may have 
+                        to take some breaks or leave early.<BR><BR>I will try to 
+                        get my homework done today since I am 
+                        resting.<BR><BR>Thanks,<BR>Larry<BR><BR>Alternate email 
+                        addresses:<BR>lcbell@access-4-free.com<BR>lcbell44@hotmail.com<BR>9715639144@messaging.nextel.com 
+                        (direct to my phone)<BR><BR><BR>--- On Wed 03/31, Mike 
+                        Culbertson &lt; mike@culbertson.info &gt; wrote:<BR><BR>
+                        <BLOCKQUOTE 
+                        style="PADDING-LEFT: 7px; MARGIN-LEFT: 7px; BORDER-LEFT: orange 2px solid"><B>From: 
+                          </B>Mike Culbertson [mailto: 
+                          mike@culbertson.info]<BR><B>To: </B>robertsg@oit.edu, 
+                          gdiviney@comcast.net, larrycbell@excite.com, 
+                          mklump@comcast.net<BR><B>Date: </B>Wed, 31 Mar 2004 
+                          20:23:18 -0800 (PST)<BR><B>Subject: </B>server 
+                          status<BR><BR>Howdy Guys,<BR>I set the server up 
+                          today. Log in using SSH with your first initial 
+                          and<BR>last name. Your password is the same as the 
+                          default at the OIT labs.<BR>Please change from the 
+                          default password to something more secure using 
+                          the<BR>'passwd' command the first time you log 
+                          in.<BR><BR>You each have your own account, and we're 
+                          all in a group called blues. In<BR>order for us to be 
+                          able to erase and modify one anothers work, you have 
+                          to<BR>make sure to give the files you upload to the 
+                          server group write<BR>permissions. You do this by 
+                          using the command 'chmod 775 <FILENAME>' at<BR>the 
+                          prompt. There is a directory called /home/blues, and 
+                          in that<BR>directory, there's a folder called html. 
+                          That html folder is linked to my<BR>web site at 
+                          http://www.culbertson.info/blues. The only thing in 
+                          the folder<BR>right now is a test index.html, you can 
+                          erase that if you'd like.<BR><BR>I set up an account 
+                          for our group on the Webmin interface as well. 
+                          The<BR>only thing we have access to is the PostgreSQL 
+                          management interface. It<BR>should pop up as soon as 
+                          you log in. The URL 
+                          is<BR>https://www.culbertson.info:10000 the login is 
+                          blues and the password is<BR>the same as the default 
+                          at the OIT labs.<BR><BR>Feel free to poke around. Try 
+                          not to break anything.<BR><BR>-- <BR>Mike 
+                          Culbertson<BR>mike@culbertson.info<BR></BLOCKQUOTE></FONT></TD></TR></TBODY></TABLE>
+                  <P>
+                  <HR>
+                  <FONT face=geneva size=2><B>Join Excite! - <A 
+                  href="http://www.excite.com/" target=_blank><FONT 
+                  color=#0033cc>http://www.excite.com</FONT></A></B><BR>The most 
+                  personalized portal on the Web!</FONT>
+                  <P></FONT></P></TD></TR></TBODY></TABLE></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<FORM name=msg_action action=msg_proc.php method=post><INPUT type=hidden 
+value=cff840ed9363cb49ddd3173deea511ae name=ArdSI> <INPUT type=hidden 
+value=cff840ed9363cb49ddd3173deea511ae name=ArdSI> <INPUT type=hidden name=act> 
+<INPUT type=hidden name=url> <INPUT type=hidden value=0|1|1 name=m_back> <INPUT 
+type=hidden name=m_to> <INPUT type=hidden value=2330 name=mid> <INPUT 
+type=hidden name=indBS> <INPUT type=hidden name=pg> 
+</FORM></BASEFONT></BODY></HTML>

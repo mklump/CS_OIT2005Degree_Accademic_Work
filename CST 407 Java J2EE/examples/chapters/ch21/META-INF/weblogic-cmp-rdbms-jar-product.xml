@@ -1,0 +1,99 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!-- weblogic-cmp-rdbms-jar-product.xml ejb descriptor for  -->
+<!-- ProductEJB defines rdbms properties for WebLogic -->
+
+<!DOCTYPE weblogic-rdbms-bean PUBLIC 
+   '-//BEA Systems, Inc.//DTD WebLogic 5.1.0 EJB RDBMS Persistence//EN'
+   'http://www.bea.com/servers/wls510/dtd/weblogic-rdbms-persistence.dtd'>
+
+<!-- element containing rdbms properties for ProductEJB -->
+<weblogic-rdbms-bean>
+
+   <!-- assigns this bean to pool named BookstorePool -->
+   <pool-name>BookstorePool</pool-name>
+
+   <!-- assigns this bean to table named PRODUCT -->
+   <table-name>Product</table-name>
+
+   <!-- element containing field mappings -->
+   <attribute-map>
+
+      <!-- field mapping for pages -->
+      <object-link>
+         <bean-field>pages</bean-field>
+         <dbms-column>pages</dbms-column>
+      </object-link>
+
+      <!-- field mapping for author -->
+      <object-link>
+         <bean-field>author</bean-field>
+         <dbms-column>author</dbms-column>
+      </object-link>
+
+      <!-- field mapping for publisher -->
+      <object-link>
+         <bean-field>publisher</bean-field>
+         <dbms-column>publisher</dbms-column>
+      </object-link>
+
+      <!-- field mapping for price -->
+      <object-link>
+         <bean-field>price</bean-field>
+         <dbms-column>price</dbms-column>
+      </object-link>
+
+      <!-- field mapping for image -->
+      <object-link>
+         <bean-field>image</bean-field>
+         <dbms-column>image</dbms-column>
+      </object-link>
+
+      <!-- field mapping for ISBN -->
+      <object-link>
+         <bean-field>ISBN</bean-field>
+         <dbms-column>ISBN</dbms-column>
+      </object-link>
+
+      <!-- field mapping for title -->
+      <object-link>
+         <bean-field>title</bean-field>
+         <dbms-column>title</dbms-column>
+      </object-link>
+
+   </attribute-map>
+   
+   <finder-list>
+
+     <!-- finder for findAllProducts -->
+      <finder> 
+         <method-name>findAllProducts</method-name>
+
+         <!-- select fields where ISBN is not null -->
+         <finder-query>
+            <![CDATA[( isNotNull ISBN )]]>
+         </finder-query>
+      </finder>
+
+     <!-- finder for findByTitle -->
+      <finder>
+         <method-name>findByTitle</method-name>
+         <method-params>
+            <method-param>java.lang.String</method-param>
+         </method-params>
+
+         <!-- select fields that title matches argument -->
+         <finder-query>
+            <![CDATA[( like title $0 )]]>
+         </finder-query>
+      </finder>
+
+   </finder-list>
+
+
+   <!-- additional options -->
+   <options>
+      <use-quoted-names>false</use-quoted-names>
+   </options>
+
+</weblogic-rdbms-bean> <!-- end ProductEJB Descriptor -->

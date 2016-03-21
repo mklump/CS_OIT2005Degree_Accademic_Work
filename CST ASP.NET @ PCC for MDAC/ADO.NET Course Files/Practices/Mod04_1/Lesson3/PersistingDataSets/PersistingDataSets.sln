@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PersistingDataSets", "PersistingDataSets.vbproj", "{EB96DC92-E001-497E-89C4-88F00FB7D2C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{EB96DC92-E001-497E-89C4-88F00FB7D2C5}.Debug.ActiveCfg = Debug|.NET
+		{EB96DC92-E001-497E-89C4-88F00FB7D2C5}.Debug.Build.0 = Debug|.NET
+		{EB96DC92-E001-497E-89C4-88F00FB7D2C5}.Release.ActiveCfg = Release|.NET
+		{EB96DC92-E001-497E-89C4-88F00FB7D2C5}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

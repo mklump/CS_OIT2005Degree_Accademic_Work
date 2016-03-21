@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<xs:schema id="NewDataSet" targetNamespace="http://tempuri.org/purchase order.xsd" xmlns:mstns="http://tempuri.org/purchase order.xsd" xmlns="http://tempuri.org/purchase order.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="order">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Vendor" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="Name" form="unqualified" type="xs:string" />
+            <xs:attribute name="Company" form="unqualified" type="xs:string" />
+            <xs:attribute name="Address" form="unqualified" type="xs:string" />
+            <xs:attribute name="Phone" form="unqualified" type="xs:string" />
+            <xs:attribute name="Fax" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="To" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="Name" form="unqualified" type="xs:string" />
+            <xs:attribute name="Company" form="unqualified" type="xs:string" />
+            <xs:attribute name="Address" form="unqualified" type="xs:string" />
+            <xs:attribute name="Phone" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="From" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="Name" form="unqualified" type="xs:string" />
+            <xs:attribute name="Company" form="unqualified" type="xs:string" />
+            <xs:attribute name="Address" form="unqualified" type="xs:string" />
+            <xs:attribute name="Phone" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="item_1" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="Quantity" form="unqualified" type="xs:string" />
+            <xs:attribute name="Unit" form="unqualified" type="xs:string" />
+            <xs:attribute name="Description" form="unqualified" type="xs:string" />
+            <xs:attribute name="Unit_Price" form="unqualified" type="xs:string" />
+            <xs:attribute name="Item_Total" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="item_2" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="Quantity" form="unqualified" type="xs:string" />
+            <xs:attribute name="Unit" form="unqualified" type="xs:string" />
+            <xs:attribute name="Description" form="unqualified" type="xs:string" />
+            <xs:attribute name="Unit_Price" form="unqualified" type="xs:string" />
+            <xs:attribute name="Item_Total" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="item_3" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="Quantity" form="unqualified" type="xs:string" />
+            <xs:attribute name="Unit" form="unqualified" type="xs:string" />
+            <xs:attribute name="Description" form="unqualified" type="xs:string" />
+            <xs:attribute name="Unit_Price" form="unqualified" type="xs:string" />
+            <xs:attribute name="Item_Total" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="total" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="value" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="PO_NUMBER" form="unqualified" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:EnforceConstraints="False">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="order" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

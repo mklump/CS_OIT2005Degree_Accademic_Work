@@ -1,0 +1,43 @@
+<?xml version = "1.0"?>
+
+<!-- Fig. A.4 : cdata.xml              -->
+<!-- CDATA section containing C++ code -->
+
+<book title = "C++ How to Program" edition = "3">
+
+   <sample>
+         // C++ comment
+         if ( this-&gt;getX() &lt; 5 &amp;&amp; value[ 0 ] != 3 )
+            cerr &lt;&lt; this-&gt;displayError();
+   </sample>
+
+   <sample>
+      <![CDATA[
+ 
+         // C++ comment
+         if ( this->getX() < 5 && value[ 0 ] != 3 )
+            cerr << this->displayError();
+      ]]>
+   </sample>
+   
+   C++ How to Program by Deitel &amp; Deitel
+
+   <?button cpp = "sample.cpp" ansi = "yes"?>
+</book>
+
+<!-- 
+ ************************************************************************** 
+ * (C) Copyright 2002 by Deitel & Associates, Inc. and Prentice Hall.     *
+ * All Rights Reserved.                                                   *
+ *                                                                        *
+ * DISCLAIMER: The authors and publisher of this book have used their     *
+ * best efforts in preparing the book. These efforts include the          *
+ * development, research, and testing of the theories and programs        *
+ * to determine their effectiveness. The authors and publisher make       *
+ * no warranty of any kind, expressed or implied, with regard to these    *
+ * programs or to the documentation contained in these books. The authors *
+ * and publisher shall not be liable in any event for incidental or       *
+ * consequential damages in connection with, or arising out of, the       *
+ * furnishing, performance, or use of these programs.                     *
+ **************************************************************************
+-->

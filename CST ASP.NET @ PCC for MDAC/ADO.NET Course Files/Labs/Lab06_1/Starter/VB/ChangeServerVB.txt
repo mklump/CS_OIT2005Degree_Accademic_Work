@@ -1,0 +1,22 @@
+' instantiate form
+Dim frmOptions As New Options()
+
+' display last selected server
+frmOptions.txtServer.Text = Me.ServerName
+
+
+' if user selects OK, change employee and load related data
+If frmOptions.ShowDialog(Me) = DialogResult.OK Then
+
+    ' retrieve server name entered in the text box
+    Me.ServerName = frmOptions.txtServer.Text
+
+    ' set connection string using new server name
+    Me.cnNorthwind.ConnectionString = _
+        "data source=" & Me.ServerName & ";" & _
+        "initial catalog=Northwind;" & _
+        "integrated security=SSPI;" & _
+        "persist security info=False;"
+
+End If
+

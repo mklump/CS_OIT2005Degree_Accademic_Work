@@ -1,0 +1,20 @@
+
+Test Results for 1000 random numbers input:
+It took 1122750 data transfers to complete the binary-search tree.
+It took 3e-005 seconds to build the a full tree.
+It took 0 seconds to traverse the tree.
+It took 0 seconds to lookup 1000.
+When two items had the same value while doing the insertion, it caused a
+data colision, and the copy causing the collision was thrown out.
+After roughly half the items are deleted, it takes 0 seconds to traverse the tree.
+For the timer's precion, there is definitely a difference in traversal time.
+
+Test Results for 10000 random numbers input:
+It took 112477500 data transfers to complete the binary-search tree.
+It took 0.003144 seconds to build the a full tree.
+It took 0 seconds to traverse the tree.
+It took 0 seconds to lookup 10000.
+When two items had the same value while doing the insertion, it caused a
+data colision, and the copy causing the collision was thrown out.
+After roughly half the items are deleted, it takes 0 seconds to traverse the tree.
+For the timer's precion, there is definitely a difference in traversal time.

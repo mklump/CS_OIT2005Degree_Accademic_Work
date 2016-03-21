@@ -1,0 +1,8 @@
+// allow ChatServerAdministrator to connect to
+// activation daemon
+grant {
+   permission java.net.SocketPermission "hostname:1024-", 
+      "connect, accept, resolve";
+
+   permission java.lang.RuntimePermission "setFactory";
+};

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetCS", "http://localhost/CSTASPNET/Practices/ASPNetCS/ASPNetCS.csproj", "{1DE09A16-4523-4E46-BC1D-2741CFDF82B6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1DE09A16-4523-4E46-BC1D-2741CFDF82B6}.Debug.ActiveCfg = Debug|.NET
+		{1DE09A16-4523-4E46-BC1D-2741CFDF82B6}.Debug.Build.0 = Debug|.NET
+		{1DE09A16-4523-4E46-BC1D-2741CFDF82B6}.Release.ActiveCfg = Release|.NET
+		{1DE09A16-4523-4E46-BC1D-2741CFDF82B6}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

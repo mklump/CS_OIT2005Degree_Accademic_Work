@@ -1,0 +1,22 @@
+Sort how?
+['a' for ascending (Z - A) or 'd' for descending (A - z)]: a
+
+sort1.dat sorted is: 23, 17, 15, 10, 9, 8, 7, 7, 6, 4, 3
+
+Sort how?
+['a' for ascending (Z - A) or 'd' for descending (A - z)]: d
+
+sort1.dat sorted is: 3, 4, 6, 7, 7, 8, 9, 10, 15, 17, 23
+
+Sort how?
+['a' for ascending (Z - A) or 'd' for descending (A - z)]: a
+
+sort2.dat sorted is: number3, integer17, alligator, a1z3, 8zebra, 73456, 6*3, 30
+/2, 23, 18, 15, 10, -3
+
+Sort how?
+['a' for ascending (Z - A) or 'd' for descending (A - z)]: d
+
+sort2.dat sorted is: -3, 10, 15, 18, 23, 30/2, 6*3, 73456, 8zebra, a1z3, alligat
+or, integer17, number3
+Press any key to continue

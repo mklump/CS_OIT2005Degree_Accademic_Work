@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<!-- weblogic-cmp-rdbms-jar-address.xml rdbms deployment -->
+<!-- descriptor for EJB Address. Defines database properties --> 
+
+<!DOCTYPE weblogic-rdbms-bean PUBLIC 
+   '-//BEA Systems, Inc.//DTD WebLogic 5.1.0 EJB RDBMS Persistence//EN'
+   'http://www.bea.com/servers/wls510/dtd/weblogic-rdbms-persistence.dtd'>
+
+<!-- main block for rdbms descriptor -->
+<weblogic-rdbms-bean>
+
+      <!-- Sets data pool to BookstorePool -->
+      <pool-name>BookstorePool</pool-name>
+
+      <!-- Sets database table to ADDRESS -->
+      <table-name>Address</table-name>
+      
+      <!-- maps EJB fields to database fields -->
+      <attribute-map>
+         <object-link>
+            <bean-field>zipCode</bean-field>
+            <dbms-column>zipCode</dbms-column>
+         </object-link>
+
+         <object-link>
+            <bean-field>state</bean-field>
+            <dbms-column>state</dbms-column>
+         </object-link>
+
+         <object-link>
+            <bean-field>addressID</bean-field>
+            <dbms-column>addressID</dbms-column>
+         </object-link>
+
+         <object-link>
+            <bean-field>streetAddressLine2</bean-field>
+            <dbms-column>streetAddressLine2</dbms-column>
+         </object-link>
+
+         <object-link>
+            <bean-field>country</bean-field>
+            <dbms-column>country</dbms-column>
+         </object-link>
+
+         <object-link>
+            <bean-field>streetAddressLine1</bean-field>
+            <dbms-column>streetAddressLine1</dbms-column>
+         </object-link>
+
+         <object-link>
+            <bean-field>city</bean-field>
+            <dbms-column>city</dbms-column>
+         </object-link>
+
+         <object-link>
+            <bean-field>firstName</bean-field>
+            <dbms-column>firstName</dbms-column>
+         </object-link>
+
+         <object-link>
+            <bean-field>lastName</bean-field>
+            <dbms-column>lastName</dbms-column>
+         </object-link>
+
+         <object-link>
+            <bean-field>phoneNumber</bean-field>
+            <dbms-column>phoneNumber</dbms-column>
+         </object-link>
+      </attribute-map>
+
+  <options>
+    <use-quoted-names>false</use-quoted-names>
+  </options>
+
+</weblogic-rdbms-bean> <!-- end Address RDBMS descriptor -->

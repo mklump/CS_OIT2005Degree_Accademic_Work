@@ -1,0 +1,42 @@
+
+Pinging www.klump-pdx.com [66.102.133.21] with 32 bytes of data:
+
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=35ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=35ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=35ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=37ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=36ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=35ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=35ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=40ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=35ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=45ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=35ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=41ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=35ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=35ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=38ms TTL=119
+Reply from 66.102.133.21: bytes=32 time=34ms TTL=119
+
+Ping statistics for 66.102.133.21:
+    Packets: Sent = 33, Received = 33, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 34ms, Maximum = 45ms, Average = 35ms
+Control-C

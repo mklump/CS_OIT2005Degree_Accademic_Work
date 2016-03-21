@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ScalarValues", "ScalarValues.vbproj", "{6C8EA2CE-14C9-4AB4-BB95-CBFCE804727E}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6C8EA2CE-14C9-4AB4-BB95-CBFCE804727E}.Debug.ActiveCfg = Debug|.NET
+		{6C8EA2CE-14C9-4AB4-BB95-CBFCE804727E}.Debug.Build.0 = Debug|.NET
+		{6C8EA2CE-14C9-4AB4-BB95-CBFCE804727E}.Release.ActiveCfg = Release|.NET
+		{6C8EA2CE-14C9-4AB4-BB95-CBFCE804727E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,556 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/F06BB24E/Iteration1_Introduction.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"
+xmlns:st2=3D"urn:schemas-microsoft-com:office:smarttags"
+xmlns:st1=3D"urn:schemas:contacts" xmlns=3D"http://www.w3.org/TR/REC-html40=
+">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<meta name=3DProgId content=3DWord.Document>
+<meta name=3DGenerator content=3D"Microsoft Word 11">
+<meta name=3DOriginator content=3D"Microsoft Word 11">
+<link rel=3DFile-List href=3D"Iteration1_Introduction_files/filelist.xml">
+<title>1</title>
+<o:SmartTagType namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"PlaceName"/>
+<o:SmartTagType namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"PlaceType"/>
+<o:SmartTagType namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"place"/>
+<o:SmartTagType namespaceuri=3D"urn:schemas:contacts" name=3D"Sn"/>
+<o:SmartTagType namespaceuri=3D"urn:schemas:contacts" name=3D"GivenName"/>
+<o:SmartTagType namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"PersonName" downloadurl=3D"http://www.microsoft.com"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Matthew Klump</o:Author>
+  <o:LastAuthor>Matthew Klump</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>143</o:TotalTime>
+  <o:Created>2004-10-29T21:12:00Z</o:Created>
+  <o:LastSaved>2004-10-29T21:12:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>515</o:Words>
+  <o:Characters>2942</o:Characters>
+  <o:Company>Software Engineering Student</o:Company>
+  <o:Lines>24</o:Lines>
+  <o:Paragraphs>6</o:Paragraphs>
+  <o:CharactersWithSpaces>3451</o:CharactersWithSpaces>
+  <o:Version>11.6360</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:UseWord2002TableStyleRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState=3D"false" LatentStyleCount=3D"156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid=3D"clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=3Dieooui></objec=
+t>
+<style>
+st2\:*{behavior:url(#ieooui) }st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Comic Sans MS";
+	panose-1:3 15 7 2 3 3 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:script;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.3in;
+	text-indent:-.3in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-list:l0 level1 lfo1;
+	tab-stops:list .3in;
+	text-autospace:none;
+	font-size:14.0pt;
+	font-family:Arial;
+	mso-font-kerning:14.0pt;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.4in;
+	text-indent:-.4in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	mso-list:l0 level2 lfo1;
+	tab-stops:list .4in;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Arial;
+	font-style:italic;}
+h3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	mso-list:l0 level3 lfo1;
+	tab-stops:list .5in;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Arial;}
+h4
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.6in;
+	text-indent:-.6in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	mso-list:l0 level4 lfo1;
+	tab-stops:list .6in;
+	text-autospace:none;
+	font-size:14.0pt;
+	font-family:"Times New Roman";}
+h5
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.7in;
+	text-indent:-.7in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	mso-list:l0 level5 lfo1;
+	tab-stops:list .7in;
+	text-autospace:none;
+	font-size:13.0pt;
+	font-family:"Times New Roman";
+	font-style:italic;}
+h6
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.8in;
+	text-indent:-.8in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	mso-list:l0 level6 lfo1;
+	tab-stops:list .8in;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Times New Roman";}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.9in;
+	text-indent:-.9in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:7;
+	mso-list:l0 level7 lfo1;
+	tab-stops:list .9in;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:1.0in;
+	text-indent:-1.0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:8;
+	mso-list:l0 level8 lfo1;
+	tab-stops:list 1.0in;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:1.1in;
+	text-indent:-1.1in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:9;
+	mso-list:l0 level9 lfo1;
+	tab-stops:list 1.1in;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+p.comment, li.comment, div.comment
+	{mso-style-name:comment;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	text-autospace:none;
+	font-size:14.0pt;
+	font-family:"Comic Sans MS";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:#9900CC;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:125896153;
+	mso-list-template-ids:1656023980;}
+@list l0:level1
+	{mso-level-style-link:"Heading 1";
+	mso-level-text:%1;
+	mso-level-tab-stop:.3in;
+	mso-level-number-position:left;
+	margin-left:.3in;
+	text-indent:-.3in;}
+@list l0:level2
+	{mso-level-style-link:"Heading 2";
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:.4in;
+	mso-level-number-position:left;
+	margin-left:.4in;
+	text-indent:-.4in;}
+@list l0:level3
+	{mso-level-style-link:"Heading 3";
+	mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	margin-left:.5in;
+	text-indent:-.5in;}
+@list l0:level4
+	{mso-level-style-link:"Heading 4";
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:.6in;
+	mso-level-number-position:left;
+	margin-left:.6in;
+	text-indent:-.6in;}
+@list l0:level5
+	{mso-level-style-link:"Heading 5";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:.7in;
+	mso-level-number-position:left;
+	margin-left:.7in;
+	text-indent:-.7in;}
+@list l0:level6
+	{mso-level-style-link:"Heading 6";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:.8in;
+	mso-level-number-position:left;
+	margin-left:.8in;
+	text-indent:-.8in;}
+@list l0:level7
+	{mso-level-style-link:"Heading 7";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:.9in;
+	mso-level-number-position:left;
+	margin-left:.9in;
+	text-indent:-.9in;}
+@list l0:level8
+	{mso-level-style-link:"Heading 8";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-1.0in;}
+@list l0:level9
+	{mso-level-style-link:"Heading 9";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:1.1in;
+	mso-level-number-position:left;
+	margin-left:1.1in;
+	text-indent:-1.1in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=3DEN-US style=3D'tab-interval:.5in'>
+
+<div class=3DSection1>
+
+<h1 style=3D'margin-left:0in;text-indent:0in;mso-list:none;tab-stops:.5in'>=
+<a
+name=3D"_Toc35236031"><i style=3D'mso-bidi-font-style:normal'><u><span
+style=3D'font-size:18.0pt'>Iteration 1: The </span></u></i></a><st2:place w=
+:st=3D"on"><st2:PlaceName
+ w:st=3D"on"><span style=3D'mso-bookmark:_Toc35236031'><i style=3D'mso-bidi=
+-font-style:
+  normal'><u><span style=3D'font-size:18.0pt'>First</span></u></i></span></=
+st2:PlaceName><span
+ style=3D'mso-bookmark:_Toc35236031'><i style=3D'mso-bidi-font-style:normal=
+'><u><span
+ style=3D'font-size:18.0pt'> <st2:PlaceType w:st=3D"on">Pass</st2:PlaceType=
+></span></u></i></span></st2:place><span
+style=3D'mso-bookmark:_Toc35236031'><i style=3D'mso-bidi-font-style:normal'=
+><u><span
+style=3D'font-size:18.0pt'> Through<o:p></o:p></span></u></i></span></h1>
+
+<h1><span style=3D'mso-bookmark:_Toc35236031'><![if !supportLists]><span
+style=3D'mso-fareast-font-family:Arial'><span style=3D'mso-list:Ignore'>1<s=
+pan
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;
+</span></span></span><![endif]><u>Project Info</u></span></h1>
+
+<h2><span style=3D'mso-bookmark:_Toc35236031'><![if !supportLists]><span
+style=3D'mso-fareast-font-family:Arial'><span style=3D'mso-list:Ignore'>1.1=
+<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]>Name: The Puzzler &#8211; 3D Style</span></h=
+2>
+
+<h2><span style=3D'mso-bookmark:_Toc35236031'><![if !supportLists]><span
+style=3D'mso-fareast-font-family:Arial'><span style=3D'mso-list:Ignore'>1.2=
+<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]>Project Lead: <st2:PersonName w:st=3D"on"><s=
+t1:GivenName
+ w:st=3D"on">Matthew</st1:GivenName> <st1:Sn w:st=3D"on">Klump</st1:Sn></st=
+2:PersonName></span></h2>
+
+<h2><span style=3D'mso-bookmark:_Toc35236031'><![if !supportLists]><span
+style=3D'mso-fareast-font-family:Arial'><span style=3D'mso-list:Ignore'>1.3=
+<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]>Project Sponsor: <st2:PersonName w:st=3D"on"=
+><st1:GivenName
+ w:st=3D"on">Jay</st1:GivenName> <st1:Sn w:st=3D"on">Bockelman</st1:Sn></st=
+2:PersonName></span></h2>
+
+<h2><span style=3D'mso-bookmark:_Toc35236031'><![if !supportLists]><span
+style=3D'mso-fareast-font-family:Arial'><span style=3D'mso-list:Ignore'>1.4=
+<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]>Project Goal: &#8220;To write a web-based ap=
+plication
+that will create, solve, display, and compare performances of a 3D hidden w=
+ord
+puzzle generator/solver by the middle of June, 2005.&#8221;</span></h2>
+
+<h2><span style=3D'mso-bookmark:_Toc35236031'><![if !supportLists]><span
+style=3D'mso-fareast-font-family:Arial'><span style=3D'mso-list:Ignore'>1.5=
+<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]>Project Development Methodology: This will be
+iteratively driven starting NOW.</span></h2>
+
+<h2><span style=3D'mso-bookmark:_Toc35236031'><![if !supportLists]><span
+style=3D'mso-fareast-font-family:Arial'><span style=3D'mso-list:Ignore'>1.6=
+<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]>Project Cycle Point: At this point, I am
+drafting plans for the under lying data structure(s), design documentation =
+for
+requirements, use cases, risks, testing, and flow of control.</span></h2>
+
+<h2><span style=3D'mso-bookmark:_Toc35236031'><![if !supportLists]><span
+style=3D'mso-fareast-font-family:Arial'><span style=3D'mso-list:Ignore'>1.7=
+<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]>At this point my number one risk would be not
+finishing what I set out to do for this iteration, and having to carry some=
+ of
+it over (hopefully not!).</span></h2>
+
+<h2><span style=3D'mso-bookmark:_Toc35236031'><![if !supportLists]><span
+style=3D'mso-fareast-font-family:Arial'><span style=3D'mso-list:Ignore'>1.8=
+<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]>Next Steps to move on: If everything actually
+gets done listed for this iteration, the next thing to do would be the sequ=
+ence
+and class (CRC) diagrams, the work break down structure, and completion of =
+the
+high-level flow of program control diagram. Then after this and in later
+iterations this term, we&#8217;ll be refining most of what was done for the
+first and second pass throughs that should show at a not-so-high level how =
+the
+user interface and the code will be organized.</span></h2>
+
+<h1><span style=3D'mso-bookmark:_Toc35236031'><![if !supportLists]><span
+style=3D'mso-fareast-font-family:Arial'><span style=3D'mso-list:Ignore'>2<s=
+pan
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;
+</span></span></span><![endif]>Introduction</span> <span class=3DGramE>For<=
+/span>
+this first iteration, I intend to do the following action items:</h1>
+
+<h2><![if !supportLists]><span style=3D'mso-fareast-font-family:Arial'><span
+style=3D'mso-list:Ignore'>2.1<span style=3D'font:7.0pt "Times New Roman"'>&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Rewrite this introduction to provide a more
+descriptive explanation for this iteration&#8217;s action items.</h2>
+
+<h2><![if !supportLists]><span style=3D'mso-fareast-font-family:Arial'><span
+style=3D'mso-list:Ignore'>2.2<span style=3D'font:7.0pt "Times New Roman"'>&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Rewrite the &#8220;Requirements.xls&#8221;
+document correcting certain grammatical errors, spelling errors, and items =
+that
+belong more in the pseudo code section of the project design and documentat=
+ion
+such as requirement #1: &#8220;Create an automatic method&#8230;&#8221;, and
+lastly add certain critically overlooked requirements such as (1) bench mar=
+king
+measurements for performance of the application, (2) collecting the benched
+marked statistics for logging, and (3) help/documentation which will have t=
+he
+install and uninstall instructions.</h2>
+
+<h2><![if !supportLists]><span style=3D'mso-fareast-font-family:Arial'><span
+style=3D'mso-list:Ignore'>2.3<span style=3D'font:7.0pt "Times New Roman"'>&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Rewrite the &#8220;UseCases.doc&#8221; and t=
+he
+&#8220;Use Cases Diagram.vsd&#8221; to reflect the missing requirements with
+the use cases, display the correct ways in which each use case in some form=
+ or
+another &#8220;uses&#8221; another use case or actor on a use case (this sh=
+ould
+also communicate the flow of control to some extent), and last but not least
+compile together the missing preconditions and postconditions parallel to t=
+he
+&#8220;uses&#8221; head and tail arrows of the diagram in a separate docume=
+nt.
+This separate document will have references to the corresponding use cases.=
+</h2>
+
+<h2><![if !supportLists]><span style=3D'mso-fareast-font-family:Arial'><span
+style=3D'mso-list:Ignore'>2.4<span style=3D'font:7.0pt "Times New Roman"'>&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Rewrite the &#8220;Risk Management.doc&#8221;
+file explaining which risk have been mitigated as described earlier, and wh=
+ich
+ones are sill being worked on as we speak.</h2>
+
+<h2><![if !supportLists]><span style=3D'mso-fareast-font-family:Arial'><span
+style=3D'mso-list:Ignore'>2.5<span style=3D'font:7.0pt "Times New Roman"'>&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Write a Software Quality Assurance Plan (SQA=
+P)
+document using the &#8220;CST412_SQAPLAN.doc&#8221; template document that =
+will
+talk about how I plan to go about doing my test plans and my unit tests.</h=
+2>
+
+<h2><![if !supportLists]><span style=3D'mso-fareast-font-family:Arial'><span
+style=3D'mso-list:Ignore'>2.6<span style=3D'font:7.0pt "Times New Roman"'>&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Begin drafting the over all Test Plan and Un=
+it
+Test Plan in the &#8220;CST412_Unit-Test-Plan_Template.doc&#8221; document =
+that
+will supplement the Software Quality Assurance Plan content.</h2>
+
+<h2><![if !supportLists]><span style=3D'mso-fareast-font-family:Arial'><span
+style=3D'mso-list:Ignore'>2.7<span style=3D'font:7.0pt "Times New Roman"'>&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Begin drafting a plan for the underlining da=
+ta
+structure (The Red/Black Tree) in which we&#8217;ll use for processing the
+dictionary and the puzzle (This will help to perpetuate how the algorithms I
+already have will be reused without truly starting from scratch and also how
+the ADO.NET database connection will use it&#8217;s notion of the
+&#8220;RecordSet&#8221;).</h2>
+
+<h2><![if !supportLists]><span style=3D'mso-fareast-font-family:Arial'><span
+style=3D'mso-list:Ignore'>2.8<span style=3D'font:7.0pt "Times New Roman"'>&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Begin drafting the user interface prototype.
+This will help to perpetuate the UI design ideas we can up with on the boar=
+d a
+few weeks back.</h2>
+
+</div>
+
+</body>
+
+</html>

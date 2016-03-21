@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Page-1" NameU="Page-1">
+			<Layer IX="0">
+				<Name>Connector</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="1" UniqueID="{D9F69F27-DA7E-4AFE-A9A6-7BBD61994953}" Name="Box" NameU="Box" Master="0">
+					<Text>“The Puzzler – 3D Style” Welcome and Configuration Screen</Text>
+					<XForm>
+						<PinX Unit="MM">2.755905511811024</PinX>
+						<PinY Unit="MM">9.251968503937007</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{AAE0E9C8-E657-4CA6-909A-49F9DE27498A}" Name="Mid-arrow" NameU="Mid-arrow" Master="2">
+					<Text>Links To</Text>
+					<XForm>
+						<PinX Unit="MM">4.133858267716535</PinX>
+						<PinY Unit="MM">9.251968503937007</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{90D1D67F-AD67-4ABF-B487-85986C72A1EB}" Name="Box.3" NameU="Box.3" Master="0">
+					<Text>Help and Documentation</Text>
+					<XForm>
+						<PinX Unit="MM">5.511811023622046</PinX>
+						<PinY Unit="MM">9.251968503937006</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{6ADEBE5D-0B04-4E32-BF4A-909855E072A0}" Name="Box.4" NameU="Box.4" Master="0">
+					<Text>Review Configuration
+Screen</Text>
+					<XForm>
+						<PinX Unit="MM">2.755905511811024</PinX>
+						<PinY Unit="MM">7.578740157480313</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{3700A6D3-4FA7-4612-B793-19A8410608DB}" Name="Mid-arrow.5" NameU="Mid-arrow.5" Master="2">
+					<Text>Links To</Text>
+					<XForm>
+						<PinX Unit="MM">2.755905511811024</PinX>
+						<PinY Unit="MM">8.366141732283463</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{BE28D516-A833-4BA7-B50B-15365D8D11E4}" Name="Box.6" NameU="Box.6" Master="0">
+					<Text>Main User Interface - based on the web page prototype “High Fidelity Prototype”</Text>
+					<XForm>
+						<PinX Unit="MM">2.755905511811024</PinX>
+						<PinY Unit="MM">5.511811023622046</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{C8B7418A-EB31-4EEE-A87B-9CC710FC0353}" Name="Mid-arrow.7" NameU="Mid-arrow.7" Master="2">
+					<Text>Links To</Text>
+					<XForm>
+						<PinX Unit="MM">4.133858267716535</PinX>
+						<PinY Unit="MM">8.415354330708659</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{3A85F317-936E-4E7A-938D-15F65B390320}" Name="Mid-arrow.8" NameU="Mid-arrow.8" Master="2">
+					<Text>Links To</Text>
+					<XForm>
+						<PinX Unit="MM">4.133858267716535</PinX>
+						<PinY Unit="MM">7.381889763779527</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{C66A96F9-F535-46F9-9770-90521AE8957F}" Name="Mid-arrow.9" NameU="Mid-arrow.9" Master="2">
+					<Text>Links To</Text>
+					<XForm>
+						<PinX Unit="MM">2.755905511811024</PinX>
+						<PinY Unit="MM">6.692913385826771</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{C2907DD6-2CAF-4068-A13A-B3C967969C43}" Name="Box.10" NameU="Box.10" Master="0">
+					<Text>“Thanks For Visiting” Exit Screen</Text>
+					<XForm>
+						<PinX Unit="MM">2.755905511811024</PinX>
+						<PinY Unit="MM">3.543307086614172</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{C398F57A-1109-4A99-9C97-9E52678DA231}" Name="Mid-arrow.11" NameU="Mid-arrow.11" Master="2">
+					<Text>Links To</Text>
+					<XForm>
+						<PinX Unit="MM">2.755905511811024</PinX>
+						<PinY Unit="MM">4.527559055118109</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{0CF273BF-3EAE-445F-8B25-23EE6843A9FE}" Name="Sheet.12" NameU="Sheet.12">
+					<Text>Web Site Map</Text>
+					<XForm>
+						<PinX Unit="MM">4.232283464566929</PinX>
+						<PinY Unit="MM">10.531496062992126</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

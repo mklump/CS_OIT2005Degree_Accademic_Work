@@ -1,0 +1,96 @@
+<!DOCTYPE web-app PUBLIC
+   "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN"
+   "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+
+<web-app>
+
+   <!-- General description of your Web application -->
+   <display-name>
+      Advanced Java How to Program JSP
+      and Servlet Chapter Examples
+   </display-name>
+
+   <description>
+      This is the Web application in which we
+      demonstrate our JSP and Servlet examples
+   </description>
+
+   <!-- Servlet definitions -->
+   <servlet>
+      <servlet-name>welcome</servlet-name>
+
+      <description>
+         A servlet that returns a "Welcome" screen through 
+	 an HTTP get request
+      </description>
+
+      <servlet-class>
+         com.deitel.advjhtp1.wireless.WelcomeServlet
+      </servlet-class>
+   </servlet>
+
+   <servlet>
+      <servlet-name>tiptest</servlet-name>
+
+      <description>
+         A servlet access a database to generate tests for 
+	 Deitel programming tips
+      </description>
+
+      <init-param>
+        <param-name>DATABASE_URL</param-name>
+        <param-value>jdbc:cloudscape:rmi:tips</param-value>
+      </init-param>
+
+      <init-param>
+        <param-name>JDBC_DRIVER</param-name>
+        <param-value>
+	   COM.cloudscape.core.RmiJdbcDriver
+	</param-value>
+      </init-param>
+
+      <servlet-class>
+         com.deitel.advjhtp1.wireless.TipTestServlet
+      </servlet-class>
+   </servlet>
+
+   <!-- Servlet mappings -->
+   <servlet-mapping>
+      <servlet-name>welcome</servlet-name>
+      <url-pattern>/welcome</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+      <servlet-name>tiptest</servlet-name>
+      <url-pattern>/tiptest</url-pattern>
+   </servlet-mapping>
+
+   <mime-mapping> <!-- WML Source -->
+     <extension>wml</extension>
+     <mime-type>text/vnd.wap.wml</mime-type>
+   </mime-mapping>
+
+   <mime-mapping> <!-- Wireless Bitmap -->
+     <extension>wbmp</extension>
+     <mime-type>image/vnd.wap.wbmp</mime-type>
+   </mime-mapping>
+
+
+<!-- 
+ ************************************************************************** 
+ * (C) Copyright 2002 by Deitel & Associates, Inc. and Prentice Hall.     *
+ * All Rights Reserved.                                                   *
+ *                                                                        *
+ * DISCLAIMER: The authors and publisher of this book have used their     *
+ * best efforts in preparing the book. These efforts include the          *
+ * development, research, and testing of the theories and programs        *
+ * to determine their effectiveness. The authors and publisher make       *
+ * no warranty of any kind, expressed or implied, with regard to these    *
+ * programs or to the documentation contained in these books. The authors *
+ * and publisher shall not be liable in any event for incidental or       *
+ * consequential damages in connection with, or arising out of, the       *
+ * furnishing, performance, or use of these programs.                     *
+ **************************************************************************
+-->
+
+</web-app>

@@ -1,0 +1,30 @@
+!/bin/sh
+#Filename: 15_6.sh
+#Author: Matthew Klump
+#Date: March 5, 2002
+#Purpose: Script will find all files of zero length.
+#Description: This is a modified version of previous program 15_6.sh
+
+#Input: Accepts up to two directories as an arguement.
+
+usage()
+{
+        echo "usage: 15_6.sh directory directory"
+        echo "Finds all files in directory(ies) that have a 0 size."
+}
+if [ ! -d $* ]; then
+        usage
+        echo Please reenter your directories to search.
+        read $*
+fi
+if [ ! -d $* -o `! find $* -perm 444` ]; then
+        usage
+        echo You didn't give me a directory.
+        exec 1>&2
+        echo Your entries are not a directory or have read
+        echo permission.
+        echo "usage"
+        exec > /dev/tty
+        exit 2
+fi
+`find $* -maxdepth 1 -size 0c -a -type f -print`

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Documents and Settings\ACER USER\My Documents\Visual Studio Projects\Accademic_Work\CST 412 - Senior Project\actual_seniorproject_work\thepuzzler_3dstyle\ManageDB\bin\Debug\ManageDB.dll" total="3" failures="0" not-run="0" date="5/23/2005" time="7:13 PM">
+  <test-suite name="C:\Documents and Settings\ACER USER\My Documents\Visual Studio Projects\Accademic_Work\CST 412 - Senior Project\actual_seniorproject_work\thepuzzler_3dstyle\ManageDB\bin\Debug\ManageDB.dll" success="True" time="0.8311952" asserts="0">
+    <results>
+      <test-suite name="ManageDB" success="True" time="0.8311952" asserts="0">
+        <results>
+          <test-suite name="ManageDB_TestClass" success="True" time="0.8211808" asserts="0">
+            <results>
+              <test-case name="ManageDB.ManageDB_TestClass.TestConnectivity" executed="True" success="True" time="0.070" asserts="1" />
+              <test-case name="ManageDB.ManageDB_TestClass.TestCreateDataBase" executed="True" success="True" time="0.250" asserts="1" />
+              <test-case name="ManageDB.ManageDB_TestClass.TestQueryingTheDataBase" executed="True" success="True" time="0.120" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

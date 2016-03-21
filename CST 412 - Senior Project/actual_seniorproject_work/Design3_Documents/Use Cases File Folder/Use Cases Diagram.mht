@@ -1,0 +1,1055 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/D845548D/UseCasesDiagram.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<meta name=3DProgId content=3DWord.Document>
+<meta name=3DGenerator content=3D"Microsoft Word 11">
+<meta name=3DOriginator content=3D"Microsoft Word 11">
+<link rel=3DFile-List href=3D"UseCasesDiagram_files/filelist.xml">
+<title>Use Cases Explained:</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Matthew Klump</o:Author>
+  <o:LastAuthor>Matthew Klump</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>1267</o:TotalTime>
+  <o:LastPrinted>2004-11-27T20:49:00Z</o:LastPrinted>
+  <o:Created>2004-12-07T20:18:00Z</o:Created>
+  <o:LastSaved>2004-12-07T20:18:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>759</o:Words>
+  <o:Characters>4330</o:Characters>
+  <o:Company>Software Engineering Student</o:Company>
+  <o:Lines>36</o:Lines>
+  <o:Paragraphs>10</o:Paragraphs>
+  <o:CharactersWithSpaces>5079</o:CharactersWithSpaces>
+  <o:Version>11.6360</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:UseWord2002TableStyleRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState=3D"false" LatentStyleCount=3D"156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:118963164;
+	mso-list-template-ids:-238930718;}
+@list l0:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:87.0pt;
+	mso-level-number-position:left;
+	margin-left:87.0pt;
+	text-indent:-51.0pt;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:1.75in;
+	mso-level-number-position:right;
+	margin-left:1.75in;
+	text-indent:-9.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:2.25in;
+	mso-level-number-position:left;
+	margin-left:2.25in;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:2.75in;
+	mso-level-number-position:left;
+	margin-left:2.75in;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:3.25in;
+	mso-level-number-position:right;
+	margin-left:3.25in;
+	text-indent:-9.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:3.75in;
+	mso-level-number-position:left;
+	margin-left:3.75in;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:4.25in;
+	mso-level-number-position:left;
+	margin-left:4.25in;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:4.75in;
+	mso-level-number-position:right;
+	margin-left:4.75in;
+	text-indent:-9.0pt;}
+@list l1
+	{mso-list-id:120609308;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1157123576 1478499760 67698713 67698715 67698703 676=
+98713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:156464520;
+	mso-list-template-ids:-1462477638;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	margin-left:1.5in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	margin-left:2.0in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l2:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	margin-left:2.5in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l2:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	margin-left:3.0in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l2:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	margin-left:3.5in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l2:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	margin-left:4.0in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l2:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	margin-left:4.5in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l2:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:5.0in;
+	mso-level-number-position:left;
+	margin-left:5.0in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l3
+	{mso-list-id:325523159;
+	mso-list-template-ids:535168240;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	margin-left:1.5in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	margin-left:2.0in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	margin-left:2.5in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l3:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	margin-left:3.0in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l3:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	margin-left:3.5in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l3:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	margin-left:4.0in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l3:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	margin-left:4.5in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l3:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:5.0in;
+	mso-level-number-position:left;
+	margin-left:5.0in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l4
+	{mso-list-id:386033127;
+	mso-list-type:hybrid;
+	mso-list-template-ids:852627036 1471566346 67698713 67698715 67698703 6769=
+8713 67698715 67698703 67698713 67698715;}
+@list l4:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5
+	{mso-list-id:395056803;
+	mso-list-type:hybrid;
+	mso-list-template-ids:535168240 67698689 67698691 67698693 67698689 676986=
+91 67698693 67698689 67698691 67698693;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l6
+	{mso-list-id:395325916;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-238930718 -339452120 67698713 67698715 67698703 676=
+98713 67698715 67698703 67698713 67698715;}
+@list l6:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:87.0pt;
+	mso-level-number-position:left;
+	margin-left:87.0pt;
+	text-indent:-51.0pt;}
+@list l7
+	{mso-list-id:398940259;
+	mso-list-type:hybrid;
+	mso-list-template-ids:724882748 1471566346 67698713 67698715 67698703 6769=
+8713 67698715 67698703 67698713 67698715;}
+@list l7:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8
+	{mso-list-id:404375105;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-340380636 -1156432024 67698713 67698715 67698703 67=
+698713 67698715 67698703 67698713 67698715;}
+@list l8:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l9
+	{mso-list-id:693308192;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1544178054 -1316318232 67698713 67698715 67698703 67=
+698713 67698715 67698703 67698713 67698715;}
+@list l9:level1
+	{mso-level-start-at:4;
+	mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l10
+	{mso-list-id:707410716;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1146579442 1471566346 67698691 67698693 67698689 67=
+698691 67698693 67698689 67698691 67698693;}
+@list l10:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l11
+	{mso-list-id:874317690;
+	mso-list-template-ids:535855338;}
+@list l11:level1
+	{mso-level-start-at:4;
+	mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l11:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l11:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l12
+	{mso-list-id:1147092417;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1462477638 67698689 67698691 67698693 67698689 6769=
+8691 67698693 67698689 67698691 67698693;}
+@list l12:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l13
+	{mso-list-id:1367215261;
+	mso-list-type:hybrid;
+	mso-list-template-ids:748462304 1471566346 67698713 67698715 67698703 6769=
+8713 67698715 67698703 67698713 67698715;}
+@list l13:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l14
+	{mso-list-id:1461344981;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-474342450 -1156432024 67698713 67698715 67698703 67=
+698713 67698715 67698703 67698713 67698715;}
+@list l14:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l15
+	{mso-list-id:1477530668;
+	mso-list-template-ids:957007768;}
+@list l15:level1
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;}
+@list l15:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	margin-left:1.5in;
+	text-indent:-.25in;}
+@list l15:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:right;
+	margin-left:2.0in;
+	text-indent:-9.0pt;}
+@list l15:level4
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	margin-left:2.5in;
+	text-indent:-.25in;}
+@list l15:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	margin-left:3.0in;
+	text-indent:-.25in;}
+@list l15:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:right;
+	margin-left:3.5in;
+	text-indent:-9.0pt;}
+@list l15:level7
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	margin-left:4.0in;
+	text-indent:-.25in;}
+@list l15:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	margin-left:4.5in;
+	text-indent:-.25in;}
+@list l15:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:5.0in;
+	mso-level-number-position:right;
+	margin-left:5.0in;
+	text-indent:-9.0pt;}
+@list l16
+	{mso-list-id:1844054608;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1049049128 67698703 67698713 67698715 67698703 6769=
+8713 67698715 67698703 67698713 67698715;}
+@list l16:level1
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;}
+@list l17
+	{mso-list-id:1865249038;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-179021784 1471566346 67698691 67698693 67698689 676=
+98691 67698693 67698689 67698691 67698693;}
+@list l17:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l18
+	{mso-list-id:1987707109;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1766741706 1373505324 67698713 67698715 67698703 676=
+98713 67698715 67698703 67698713 67698715;}
+@list l18:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l19
+	{mso-list-id:2051878224;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-490163172 1877660350 67698713 67698715 67698703 676=
+98713 67698715 67698703 67698713 67698715;}
+@list l19:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l20
+	{mso-list-id:2065567113;
+	mso-list-type:hybrid;
+	mso-list-template-ids:150119886 67698703 67698713 67698715 67698703 676987=
+13 67698715 67698703 67698713 67698715;}
+@list l20:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l21
+	{mso-list-id:2099516651;
+	mso-list-template-ids:-398955802;}
+@list l21:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l21:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l21:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l21:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l21:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l21:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l21:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l21:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l21:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l22
+	{mso-list-id:2123375691;
+	mso-list-type:hybrid;
+	mso-list-template-ids:957007768 67698703 67698713 67698715 67698703 676987=
+13 67698715 67698703 67698713 67698715;}
+@list l22:level1
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=3DEN-US style=3D'tab-interval:.5in'>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><b style=3D'mso-bidi-font-weight:normal'><span
+style=3D'font-size:16.0pt'>Use Cases Explained:<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><b style=3D'mso-bidi-font-weight:normal'><span
+style=3D'font-size:16.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=3DMsoNormal>C1: User Invokes Application</p>
+
+<p class=3DMsoNormal>Precondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>User has compatible browser
+available.</p>
+
+<p class=3DMsoNormal>Postcondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>&quot;The Puzzler - 3D Styl=
+e&quot;
+Welcome and Configuration Screen has appeared in the user's client computer
+browser by entering a URL address into their browser. </p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>C2: User Configures Puzzle (actual &#8220;Configuratio=
+n /
+Welcome&#8221; screen)</p>
+
+<p class=3DMsoNormal>Precondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>&quot;The Puzzler - 3D Styl=
+e&quot;
+Welcome and Configuration screen has appeared.</p>
+
+<p class=3DMsoNormal>Postcondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>The &#8220;Review
+Configuration&#8221; screen is displayed by setting the size of the generat=
+ed
+puzzle cube, the size of the dictionary, the base dictionary selection, the
+minimum size that each hidden word will be (not less than three), and the u=
+ser pressing
+the &#8220;submit configuration&#8221; button.</p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>C3: User Reviews Configuration (actual &#8220;Review
+Configuration&#8221; screen)</p>
+
+<p class=3DMsoNormal>Precondition: </p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>The user has pressed the &#=
+8220;submit
+configuration&#8221; button on the &#8220;Review Configuration&#8221; scree=
+n.</p>
+
+<p class=3DMsoNormal>Postcondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>The &#8220;Generating Puzzl=
+e&#8221;
+screen is displayed or the &#8220;The Puzzler - 3D Style&#8221; is done by =
+the
+user doing one of two things:</p>
+
+<p class=3DMsoNormal style=3D'margin-left:1.0in;text-indent:-.25in;mso-list=
+:l16 level1 lfo15;
+tab-stops:list 1.0in'><![if !supportLists]><span style=3D'mso-list:Ignore'>=
+1.<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]>The
+user has reviews the configuration, and presses the &#8220;no&#8221; button=
+ to
+go back to the confirmation screen, or</p>
+
+<p class=3DMsoNormal style=3D'margin-left:1.0in;text-indent:-.25in;mso-list=
+:l16 level1 lfo15;
+tab-stops:list 1.0in'><![if !supportLists]><span style=3D'mso-list:Ignore'>=
+2.<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]>The
+user presses the &#8220;yes&#8221; button to display the &quot;Generating
+Puzzle&quot; screen.</p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>C4: RUN (Dictionary and Puzzle creation logic running)=
+</p>
+
+<p class=3DMsoNormal>Precondition:</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.75in;text-indent:-.25in;mso-list=
+:l18 level1 lfo16;
+tab-stops:list .75in'><![if !supportLists]><span style=3D'mso-list:Ignore'>=
+a)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]>The
+user has selected &quot;yes&quot; button on the Configuration Confirmation
+screen, and</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.75in;text-indent:-.25in;mso-list=
+:l18 level1 lfo16;
+tab-stops:list .75in'><![if !supportLists]><span style=3D'mso-list:Ignore'>=
+b)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]><span
+class=3DGramE>the</span> &#8220;Generating Puzzle&#8221; Page was Displayed=
+.</p>
+
+<p class=3DMsoNormal>Postcondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>The &quot;The Puzzler &#821=
+1; 3D
+Style&quot; Main Interaction GUI Screen is displayed, with all the main con=
+trols
+grayed out (not useable) except for the &#8220;Solve Puzzle&#8221; button, =
+by
+two events having taken place:</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.75in;text-indent:-.25in;mso-list=
+:l10 level1 lfo19;
+tab-stops:list .75in'><![if !supportLists]><span style=3D'mso-list:Ignore'>=
+a)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]>The
+user selected the &#8220;yes&#8221; button on the Configuration Confirmation
+screen, and</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.75in;text-indent:-.25in;mso-list=
+:l10 level1 lfo19;
+tab-stops:list .75in'><![if !supportLists]><span style=3D'mso-list:Ignore'>=
+b)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]><span
+class=3DGramE>the</span> &#8220;Generating Puzzle&#8221; Page was Displayed=
+.</p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>C5: Display User Interface (Main User Interface,
+&#8220;Solve Puzzle&#8221; button)</p>
+
+<p class=3DMsoNormal>Precondition:</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l19 level1 lfo4;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'mso-list:Ignore'>a=
+)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]>The
+system has displayed the puzzle interaction screen.</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l19 level1 lfo4;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'mso-list:Ignore'>b=
+)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]>The
+generated dictionary is displayed in the &quot;Dictionary&quot; list box.</=
+p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l19 level1 lfo4;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'mso-list:Ignore'>c=
+)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]>The
+generated puzzle is displayed in its text area control.</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l19 level1 lfo4;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'mso-list:Ignore'>d=
+)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></sp=
+an><![endif]>The
+puzzle has NOT been solved yet.</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l19 level1 lfo4;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'mso-list:Ignore'>e=
+)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]>The
+puzzle display control(s) are grayed out (not usable), and the &quot;Solve
+Puzzle&quot; button is enabled.</p>
+
+<p class=3DMsoNormal>Postcondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>&quot;The Puzzler &#8211; 3=
+D Style&quot;
+Main Interaction GUI <span class=3DGramE>screen</span> is displayed again w=
+ith <b
+style=3D'mso-bidi-font-weight:normal'><u>new content</u></b> by the user cl=
+icking
+the &quot;Solve Puzzle&quot; button, and the following controls are enabled=
+:</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.75in;text-indent:-.25in;mso-list=
+:l1 level1 lfo23;
+tab-stops:list .75in'><![if !supportLists]><span style=3D'mso-list:Ignore'>=
+a)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]>The
+&#8220;Start Over&#8221; button, and</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.75in;text-indent:-.25in;mso-list=
+:l1 level1 lfo23;
+tab-stops:list .75in'><![if !supportLists]><span style=3D'mso-list:Ignore'>=
+b)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]><span
+class=3DGramE>the</span> &#8220;Get Statistics&#8221; button.</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>For this use case, the <b
+style=3D'mso-bidi-font-weight:normal'><u>new content</u></b> is defined as:=
+</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.75in;text-indent:-.25in;mso-list=
+:l17 level1 lfo22;
+tab-stops:list .75in'><![if !supportLists]><span style=3D'mso-list:Ignore'>=
+a)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]>The
+first cross sectional layer of the puzzle is selected in the &#8220;Current
+Layer&#8221; list box control, and has populated the puzzle text/display ar=
+ea
+by default,</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.75in;text-indent:-.25in;mso-list=
+:l17 level1 lfo22;
+tab-stops:list .75in'><![if !supportLists]><span style=3D'mso-list:Ignore'>=
+b)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]>the
+dictionary is displayed in the &#8220;Words to Find&#8221; list box control=
+,</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.75in;text-indent:-.25in;mso-list=
+:l17 level1 lfo22;
+tab-stops:list .75in'><![if !supportLists]><span style=3D'mso-list:Ignore'>=
+c)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]><span
+class=3DGramE>the</span> words that were found in the (default) first cross
+sectional layer are displayed is the &#8220;Words Found&#8221; list box con=
+trol.
+</p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>C6: Select Different Layer (Current Cross Section list=
+ box)</p>
+
+<p class=3DMsoNormal>Precondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>&quot;The Puzzler &#8211; 3=
+D Style&quot;
+Main Interaction GUI <span class=3DGramE>screen</span> is displayed, and th=
+e <b
+style=3D'mso-bidi-font-weight:normal'><u>new content</u></b> is populated, =
+per
+the Display User Interface use case C5.</p>
+
+<p class=3DMsoNormal>Postcondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>The system displays the sel=
+ected
+puzzle layer in the puzzle layer display area and concurrently displays the
+words that matched for that puzzle layer in the &quot;Word that Matched&quo=
+t;
+list box.</p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>C7: Collect Statistics (Get Statistics button)</p>
+
+<p class=3DMsoNormal>Precondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>&quot;The Puzzler &#8211; 3=
+D Style&quot;
+Main Interaction GUI <span class=3DGramE>screen</span> is displayed again, =
+and
+the &#8220;Get Statistics&#8221; button is enabled as a result of the user
+pressing the &#8220;Solve Puzzle&#8221; button at the use case &#8220;Displ=
+ay
+User Interface&#8221; C5.</p>
+
+<p class=3DMsoNormal>Postcondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>&quot;The Puzzler &#8211; 3=
+D Style&quot;
+Main Interaction GUI screen is displayed again with the &quot;Statistics for
+This Puzzle&quot; area control repopulated with data by taking the timing
+statistics for generating the dictionary, timing statistics for generating =
+the
+puzzle, and timing comparisons for execution are written to a log as well as
+the configuration. </p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>C8: Help / Documentation (Help / Documentation button)=
+</p>
+
+<p class=3DMsoNormal>Precondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>The user selects the &quot;=
+Help /
+Documentation&quot; Button that is enable and available on the Config/Welco=
+me
+Screen, the Review Configuration Screen, and the Main UI Screen.</p>
+
+<p class=3DMsoNormal>Postcondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>The &quot;Help /
+Documentation&quot; page is displayed with a back button that shows:</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l4 level1 lfo14;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'mso-list:Ignore'>a=
+)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]>How
+to deploy and undeploy the wed application.</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l4 level1 lfo14;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'mso-list:Ignore'>b=
+)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]>The
+Glossary of Terms.</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l4 level1 lfo14;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'mso-list:Ignore'>c=
+)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </spa=
+n></span><![endif]>More
+information on the underlying algorithms for the red-black tree and the
+&quot;brute force array indexing&quot; for the puzzle.</p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l4 level1 lfo14;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'mso-list:Ignore'>d=
+)<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></sp=
+an><![endif]>A
+conceptual visual aid for the puzzle.</p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>C9: &quot;Regenerate Puzzle?&quot; (Start Over button)=
+</p>
+
+<p class=3DMsoNormal>Precondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>&quot;The Puzzler &#8211; 3=
+D Style&quot;
+Main Interaction GUI <span class=3DGramE>screen</span> is refreshed with the
+&quot;Start Over&#8221; button enabled by the using pressing the &#8220;Sol=
+ve
+Puzzle&#8221; button back at the &#8220;Display User Interface&#8221; use c=
+ase
+C5.</p>
+
+<p class=3DMsoNormal>Postcondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>The &quot;Welcome and Puzzle
+Configuration&quot; screen is displayed.</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>C10: Exit? (EXIT button)</p>
+
+<p class=3DMsoNormal>Precondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>&quot;The Puzzler &#8211; 3=
+D Style&quot;
+Main Interaction GUI screen is displayed with the &quot;Exit?&quot; button =
+enabled
+at all times start with the first appearance of the main UI display back at=
+ use
+case C5.</p>
+
+<p class=3DMsoNormal>Postcondition:</p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'>The &quot;Thanks for
+Visiting!&quot; screen is displayed with no back button.</p>
+
+</div>
+
+</body>
+
+</html>

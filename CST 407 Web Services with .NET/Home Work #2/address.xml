@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Address xmlns="http://ShippingService.org">
+	<StreetAddress>16669 SW Rigert Rd.</StreetAddress>
+	<City>Portland</City>
+	<State>OR</State>
+	<Zip>97007</Zip>
+</Address>

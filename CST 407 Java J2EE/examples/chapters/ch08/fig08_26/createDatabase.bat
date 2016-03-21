@@ -1,0 +1,1 @@
+java -Dij.protocol=jdbc:db2j: com.ibm.db2j.tools.ij %1

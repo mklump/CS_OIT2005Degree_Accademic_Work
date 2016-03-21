@@ -1,0 +1,11 @@
+System.Data.SqlClient.SqlException: Procedure or function ngCreateAlbum has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at nGallerySQLConnectionTesting.Form1..ctor() in C:\Documents and Settings\ACER USER\My Documents\Visual Studio Projects\Accademic_Work\CST ASP.NET @ PCC for MDSC\nGallerySolution\nGallerySQLConnectionTesting\Form1.cs:line 53

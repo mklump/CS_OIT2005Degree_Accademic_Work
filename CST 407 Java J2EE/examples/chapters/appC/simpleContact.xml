@@ -1,0 +1,19 @@
+<?xml version = "1.0"?>
+
+<!-- Fig C.14 : simpleContact.xml    -->
+<!-- Input file for traverseDOM.java -->
+
+<!DOCTYPE contacts [
+   <!ELEMENT contacts ( contact+ )>
+   <!ELEMENT contact ( FirstName, LastName )>
+   <!ATTLIST contact gender ( M | F ) "M">
+   <!ELEMENT FirstName ( #PCDATA )>
+   <!ELEMENT LastName ( #PCDATA )>
+]>
+
+<contacts>
+   <contact gender = "M">
+      <FirstName>John</FirstName>
+      <LastName>Black</LastName>
+   </contact>
+</contacts>

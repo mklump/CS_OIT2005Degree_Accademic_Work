@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace version="1.1">
+    <name unique="Editing" display="CTL_Workspace_Editing" from-bundle="true" bundle="org.netbeans.core.windows.Bundle" />
+    <description display="CTL_Workspace_EditingDescription" bundle="org.netbeans.core.windows.Bundle" />
+    <ui-type type="any">
+        <cascade origin-x="0" origin-y="0" step-x="20" step-y="20" count="1" current-x="20" current-y="136" />
+        <active mode="" />
+        <mode z-order="editor,explorer,properties,AutoComment,Form,execution,options,output" />
+        <toolbar configuration="Standard" />
+    </ui-type>
+</workspace>

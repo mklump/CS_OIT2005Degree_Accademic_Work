@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<xsd:schema id="PersonPet" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:element name="PersonPet" msdata:IsDataSet="true">
+    <xsd:complexType>
+      <xsd:choice maxOccurs="unbounded">
+        <xsd:element name="Person">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="ID" msdata:AutoIncrement="true" type="xsd:int" />
+              <xsd:element name="Name" type="xsd:string" minOccurs="0" />
+              <xsd:element name="Age" type="xsd:int" minOccurs="0" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="Pet">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="ID" msdata:AutoIncrement="true" type="xsd:int" />
+              <xsd:element name="OwnerID" type="xsd:int" minOccurs="0" />
+              <xsd:element name="Name" type="xsd:string" minOccurs="0" />
+              <xsd:element name="Type" type="xsd:string" minOccurs="0" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:choice>
+    </xsd:complexType>
+    <xsd:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xsd:selector xpath=".//Person" />
+      <xsd:field xpath="ID" />
+    </xsd:unique>
+    <xsd:unique name="Pet_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xsd:selector xpath=".//Pet" />
+      <xsd:field xpath="ID" />
+    </xsd:unique>
+  </xsd:element>
+  <xsd:annotation>
+    <xsd:appinfo>
+      <msdata:Relationship name="PersonPet" msdata:parent="Person" msdata:child="Pet" msdata:parentkey="ID" msdata:childkey="OwnerID" />
+    </xsd:appinfo>
+  </xsd:annotation>
+</xsd:schema>

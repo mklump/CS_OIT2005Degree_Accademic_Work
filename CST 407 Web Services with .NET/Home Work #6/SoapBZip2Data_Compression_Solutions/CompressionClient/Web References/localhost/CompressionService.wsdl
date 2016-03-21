@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://localhost/mywebprojects/SoapBZip2Data_Compression" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://localhost/mywebprojects/SoapBZip2Data_Compression" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://localhost/mywebprojects/SoapBZip2Data_Compression">
+      <s:element name="your_structure" type="tns:ArrayOfBase64Binary" />
+      <s:complexType name="ArrayOfBase64Binary">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="base64Binary" nillable="true" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SetLargeStructureResult" type="s:boolean" />
+      <s:element name="GetLargeStructureResult" type="tns:ArrayOfBase64Binary" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SetLargeStructureSoapIn">
+    <wsdl:part name="your_structure" element="tns:your_structure" />
+  </wsdl:message>
+  <wsdl:message name="SetLargeStructureSoapOut">
+    <wsdl:part name="SetLargeStructureResult" element="tns:SetLargeStructureResult" />
+  </wsdl:message>
+  <wsdl:message name="GetLargeStructureSoapIn" />
+  <wsdl:message name="GetLargeStructureSoapOut">
+    <wsdl:part name="GetLargeStructureResult" element="tns:GetLargeStructureResult" />
+  </wsdl:message>
+  <wsdl:portType name="CompressionServiceSoap">
+    <wsdl:operation name="SetLargeStructure">
+      <wsdl:input message="tns:SetLargeStructureSoapIn" />
+      <wsdl:output message="tns:SetLargeStructureSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLargeStructure">
+      <wsdl:input message="tns:GetLargeStructureSoapIn" />
+      <wsdl:output message="tns:GetLargeStructureSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CompressionServiceSoap" type="tns:CompressionServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="SetLargeStructure">
+      <soap:operation soapAction="http://localhost/mywebprojects/SoapBZip2Data_Compression/SetLargeStructure" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLargeStructure">
+      <soap:operation soapAction="http://localhost/mywebprojects/SoapBZip2Data_Compression/GetLargeStructure" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CompressionService">
+    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
+    <wsdl:port name="CompressionServiceSoap" binding="tns:CompressionServiceSoap">
+      <soap:address location="http://localhost/matts_projects/compressionservice/CompressionService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

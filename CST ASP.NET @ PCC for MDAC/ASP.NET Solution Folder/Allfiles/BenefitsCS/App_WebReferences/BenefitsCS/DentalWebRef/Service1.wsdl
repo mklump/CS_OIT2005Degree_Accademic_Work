@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://microsoft.com/webservices/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://microsoft.com/webservices/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://microsoft.com/webservices/">
+      <s:import namespace="http://www.w3.org/2001/XMLSchema" />
+      <s:element name="GetAllDentists">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllDentistsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllDentistsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDentistsByPostalCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strPostalCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDentistsByPostalCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDentistsByPostalCodeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetAllDentistsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllDentists" />
+  </wsdl:message>
+  <wsdl:message name="GetAllDentistsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllDentistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDentistsByPostalCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDentistsByPostalCode" />
+  </wsdl:message>
+  <wsdl:message name="GetDentistsByPostalCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDentistsByPostalCodeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DentalService1Soap">
+    <wsdl:operation name="GetAllDentists">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">This XML Web service method returns all the dentists.</documentation>
+      <wsdl:input message="tns:GetAllDentistsSoapIn" />
+      <wsdl:output message="tns:GetAllDentistsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDentistsByPostalCode">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">This XML Web service method returns the dentists from a supplied postal code.</documentation>
+      <wsdl:input message="tns:GetDentistsByPostalCodeSoapIn" />
+      <wsdl:output message="tns:GetDentistsByPostalCodeSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DentalService1Soap" type="tns:DentalService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="GetAllDentists">
+      <soap:operation soapAction="http://microsoft.com/webservices/GetAllDentists" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDentistsByPostalCode">
+      <soap:operation soapAction="http://microsoft.com/webservices/GetDentistsByPostalCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DentalService1">
+    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">This XML Web Service contains information about dentists.</documentation>
+    <wsdl:port name="DentalService1Soap" binding="tns:DentalService1Soap">
+      <soap:address location="http://localhost/CSTASPNET/2310LabApplication/DentalServiceCS/Service1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

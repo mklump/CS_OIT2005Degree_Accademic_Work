@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{27613738-6A27-11D4-A358-00104B732442} = s 'HelloServ'
+		'HelloServ.EXE'
+		{
+			val AppID = s {27613738-6A27-11D4-A358-00104B732442}
+		}
+	}
+}

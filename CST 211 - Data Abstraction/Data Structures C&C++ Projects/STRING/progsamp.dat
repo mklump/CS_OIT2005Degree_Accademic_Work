@@ -1,0 +1,7 @@
+void main ( )
+{
+    int j ,
+        total = 0 ;
+    for ( j = 1 ; j <= 20 ; j ++ )
+        total += j ;
+}

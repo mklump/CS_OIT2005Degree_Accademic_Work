@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="ModemServComp"
+	SccProjectName=""
+	SccLocalPath=""
+	Keyword="AtlProj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Unicode Release MinSize|Win32"
+			OutputDirectory=".\ReleaseUMinSize"
+			IntermediateDirectory=".\ReleaseUMinSize"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			UseOfATL="2"
+			ATLMinimizesCRunTimeLibraryUsage="TRUE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool"
+				InlineFunctionExpansion="1"
+				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\ReleaseUMinSize/ModemServComp.pch"
+				AssemblerListingLocation=".\ReleaseUMinSize/"
+				ObjectFile=".\ReleaseUMinSize/"
+				ProgramDataBaseFileName=".\ReleaseUMinSize/"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCCustomBuildTool"
+				Description="Performing registration"
+				CommandLine="if &quot;%OS%&quot;==&quot;&quot; goto NOTNT
+if not &quot;%OS%&quot;==&quot;Windows_NT&quot; goto NOTNT
+regsvr32 /s /c &quot;$(TargetPath)&quot;
+echo regsvr32 exec. time &gt; &quot;$(OutDir)\regsvr32.trg&quot;
+goto end
+:NOTNT
+echo Warning : Cannot register Unicode DLL on Windows 95
+:end
+"
+				Outputs="$(OutDir)\regsvr32.trg"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions="/MACHINE:I386"
+				AdditionalDependencies="odbc32.lib odbccp32.lib"
+				OutputFile=".\ReleaseUMinSize/ModemServComp.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				ModuleDefinitionFile=".\ModemServComp.def"
+				ProgramDatabaseFile=".\ReleaseUMinSize/ModemServComp.pdb"
+				SubSystem="2"
+				ImportLibrary=".\ReleaseUMinSize/ModemServComp.lib"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\ReleaseUMinSize/ModemServComp.tlb"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release MinDependency|Win32"
+			OutputDirectory=".\ReleaseMinDependency"
+			IntermediateDirectory=".\ReleaseMinDependency"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			UseOfATL="1"
+			ATLMinimizesCRunTimeLibraryUsage="TRUE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				InlineFunctionExpansion="1"
+				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\ReleaseMinDependency/ModemServComp.pch"
+				AssemblerListingLocation=".\ReleaseMinDependency/"
+				ObjectFile=".\ReleaseMinDependency/"
+				ProgramDataBaseFileName=".\ReleaseMinDependency/"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCCustomBuildTool"
+				Description="Performing registration"
+				CommandLine="regsvr32 /s /c &quot;$(TargetPath)&quot;
+echo regsvr32 exec. time &gt; &quot;$(OutDir)\regsvr32.trg&quot;
+"
+				Outputs="$(OutDir)\regsvr32.trg"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions="/MACHINE:I386"
+				AdditionalDependencies="odbc32.lib odbccp32.lib"
+				OutputFile=".\ReleaseMinDependency/ModemServComp.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				ModuleDefinitionFile=".\ModemServComp.def"
+				ProgramDatabaseFile=".\ReleaseMinDependency/ModemServComp.pdb"
+				SubSystem="2"
+				ImportLibrary=".\ReleaseMinDependency/ModemServComp.lib"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\ReleaseMinDependency/ModemServComp.tlb"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Release MinDependency|Win32"
+			OutputDirectory=".\ReleaseUMinDependency"
+			IntermediateDirectory=".\ReleaseUMinDependency"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			UseOfATL="1"
+			ATLMinimizesCRunTimeLibraryUsage="TRUE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool"
+				InlineFunctionExpansion="1"
+				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\ReleaseUMinDependency/ModemServComp.pch"
+				AssemblerListingLocation=".\ReleaseUMinDependency/"
+				ObjectFile=".\ReleaseUMinDependency/"
+				ProgramDataBaseFileName=".\ReleaseUMinDependency/"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCCustomBuildTool"
+				Description="Performing registration"
+				CommandLine="if &quot;%OS%&quot;==&quot;&quot; goto NOTNT
+if not &quot;%OS%&quot;==&quot;Windows_NT&quot; goto NOTNT
+regsvr32 /s /c &quot;$(TargetPath)&quot;
+echo regsvr32 exec. time &gt; &quot;$(OutDir)\regsvr32.trg&quot;
+goto end
+:NOTNT
+echo Warning : Cannot register Unicode DLL on Windows 95
+:end
+"
+				Outputs="$(OutDir)\regsvr32.trg"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions="/MACHINE:I386"
+				AdditionalDependencies="odbc32.lib odbccp32.lib"
+				OutputFile=".\ReleaseUMinDependency/ModemServComp.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				ModuleDefinitionFile=".\ModemServComp.def"
+				ProgramDatabaseFile=".\ReleaseUMinDependency/ModemServComp.pdb"
+				SubSystem="2"
+				ImportLibrary=".\ReleaseUMinDependency/ModemServComp.lib"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\ReleaseUMinDependency/ModemServComp.tlb"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release MinSize|Win32"
+			OutputDirectory=".\ReleaseMinSize"
+			IntermediateDirectory=".\ReleaseMinSize"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			UseOfATL="2"
+			ATLMinimizesCRunTimeLibraryUsage="TRUE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				InlineFunctionExpansion="1"
+				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\ReleaseMinSize/ModemServComp.pch"
+				AssemblerListingLocation=".\ReleaseMinSize/"
+				ObjectFile=".\ReleaseMinSize/"
+				ProgramDataBaseFileName=".\ReleaseMinSize/"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCCustomBuildTool"
+				Description="Performing registration"
+				CommandLine="regsvr32 /s /c &quot;$(TargetPath)&quot;
+echo regsvr32 exec. time &gt; &quot;$(OutDir)\regsvr32.trg&quot;
+"
+				Outputs="$(OutDir)\regsvr32.trg"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions="/MACHINE:I386"
+				AdditionalDependencies="odbc32.lib odbccp32.lib"
+				OutputFile=".\ReleaseMinSize/ModemServComp.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				ModuleDefinitionFile=".\ModemServComp.def"
+				ProgramDatabaseFile=".\ReleaseMinSize/ModemServComp.pdb"
+				SubSystem="2"
+				ImportLibrary=".\ReleaseMinSize/ModemServComp.lib"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\ReleaseMinSize/ModemServComp.tlb"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory=".\Debug"
+			IntermediateDirectory=".\Debug"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\Debug/ModemServComp.pch"
+				AssemblerListingLocation=".\Debug/"
+				ObjectFile=".\Debug/"
+				ProgramDataBaseFileName=".\Debug/"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"/>
+			<Tool
+				Name="VCCustomBuildTool"
+				Description="Performing registration"
+				CommandLine="regsvr32 /s /c &quot;$(TargetPath)&quot;
+echo regsvr32 exec. time &gt; &quot;$(OutDir)\regsvr32.trg&quot;
+"
+				Outputs="$(OutDir)\regsvr32.trg"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions="/MACHINE:I386"
+				AdditionalDependencies="odbc32.lib odbccp32.lib"
+				OutputFile=".\Debug/ModemServComp.dll"
+				LinkIncremental="2"
+				SuppressStartupBanner="TRUE"
+				ModuleDefinitionFile=".\ModemServComp.def"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\Debug/ModemServComp.pdb"
+				SubSystem="2"
+				ImportLibrary=".\Debug/ModemServComp.lib"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\Debug/ModemServComp.tlb"/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				Description="Building and registering Proxy-Stub DLL... "
+				CommandLine="start /wait nmake -f ModemServCompps.mk
+regsvr32 Debug\ModemServComp.dll"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Debug|Win32"
+			OutputDirectory=".\DebugU"
+			IntermediateDirectory=".\DebugU"
+			ConfigurationType="2"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\DebugU/ModemServComp.pch"
+				AssemblerListingLocation=".\DebugU/"
+				ObjectFile=".\DebugU/"
+				ProgramDataBaseFileName=".\DebugU/"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"/>
+			<Tool
+				Name="VCCustomBuildTool"
+				Description="Performing registration"
+				CommandLine="if &quot;%OS%&quot;==&quot;&quot; goto NOTNT
+if not &quot;%OS%&quot;==&quot;Windows_NT&quot; goto NOTNT
+regsvr32 /s /c &quot;$(TargetPath)&quot;
+echo regsvr32 exec. time &gt; &quot;$(OutDir)\regsvr32.trg&quot;
+goto end
+:NOTNT
+echo Warning : Cannot register Unicode DLL on Windows 95
+:end
+"
+				Outputs="$(OutDir)\regsvr32.trg"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions="/MACHINE:I386"
+				AdditionalDependencies="odbc32.lib odbccp32.lib"
+				OutputFile=".\DebugU/ModemServComp.dll"
+				LinkIncremental="2"
+				SuppressStartupBanner="TRUE"
+				ModuleDefinitionFile=".\ModemServComp.def"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\DebugU/ModemServComp.pdb"
+				SubSystem="2"
+				ImportLibrary=".\DebugU/ModemServComp.lib"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\DebugU/ModemServComp.tlb"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+			<File
+				RelativePath=".\cst407_modem.idl">
+			</File>
+			<File
+				RelativePath=".\ModemServComp.cpp">
+			</File>
+			<File
+				RelativePath=".\ModemServComp.def">
+			</File>
+			<File
+				RelativePath=".\ModemServComp.idl">
+				<FileConfiguration
+					Name="Unicode Release MinSize|Win32">
+					<Tool
+						Name="VCMIDLTool"
+						GenerateStublessProxies="TRUE"
+						TypeLibraryName=".\ModemServComp.tlb"
+						HeaderFileName="ModemServComp.h"
+						InterfaceIdentifierFileName="ModemServComp_i.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release MinDependency|Win32">
+					<Tool
+						Name="VCMIDLTool"
+						GenerateStublessProxies="TRUE"
+						TypeLibraryName=".\ModemServComp.tlb"
+						HeaderFileName="ModemServComp.h"
+						InterfaceIdentifierFileName="ModemServComp_i.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release MinDependency|Win32">
+					<Tool
+						Name="VCMIDLTool"
+						GenerateStublessProxies="TRUE"
+						TypeLibraryName=".\ModemServComp.tlb"
+						HeaderFileName="ModemServComp.h"
+						InterfaceIdentifierFileName="ModemServComp_i.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release MinSize|Win32">
+					<Tool
+						Name="VCMIDLTool"
+						GenerateStublessProxies="TRUE"
+						TypeLibraryName=".\ModemServComp.tlb"
+						HeaderFileName="ModemServComp.h"
+						InterfaceIdentifierFileName="ModemServComp_i.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCMIDLTool"
+						GenerateStublessProxies="TRUE"
+						TypeLibraryName=".\ModemServComp.tlb"
+						HeaderFileName="ModemServComp.h"
+						InterfaceIdentifierFileName="ModemServComp_i.c"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCMIDLTool"
+						GenerateStublessProxies="TRUE"
+						TypeLibraryName=".\ModemServComp.tlb"
+						HeaderFileName="ModemServComp.h"
+						InterfaceIdentifierFileName="ModemServComp_i.c"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\ModemServComp.rc">
+				<FileConfiguration
+					Name="Unicode Release MinSize|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						AdditionalIncludeDirectories="$(OUTDIR);$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release MinDependency|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						AdditionalIncludeDirectories="$(OUTDIR);$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release MinDependency|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						AdditionalIncludeDirectories="$(OUTDIR);$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release MinSize|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						AdditionalIncludeDirectories="$(OUTDIR);$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						AdditionalIncludeDirectories="$(OUTDIR);$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						AdditionalIncludeDirectories="$(OUTDIR);$(NoInherit)"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\StdAfx.cpp">
+				<FileConfiguration
+					Name="Unicode Release MinSize|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release MinDependency|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release MinDependency|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release MinSize|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl">
+			<File
+				RelativePath="ModemServComp.h">
+			</File>
+			<File
+				RelativePath=".\Resource.h">
+			</File>
+			<File
+				RelativePath=".\StdAfx.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

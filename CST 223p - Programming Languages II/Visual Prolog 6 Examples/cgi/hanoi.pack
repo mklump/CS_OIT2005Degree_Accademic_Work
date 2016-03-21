@@ -1,0 +1,20 @@
+/*****************************************************************************
+
+                        Copyright (c) PDC
+
+ Written by: ST
+******************************************************************************/
+
+#include "hanoi.ph"
+
+% privately used packages
+#include @"pfc\application\exe\exe.ph"
+#include @"pfc\stream\stream.ph"
+#include @"pfc\console\console.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include "hanoi.pro"

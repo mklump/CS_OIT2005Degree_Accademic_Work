@@ -1,0 +1,13 @@
+ALTER PROC spTestTriggerDebugging
+AS
+BEGIN
+	-- This one should work
+	UPDATE Products
+	SET UnitsInStock = UnitsInStock - 1
+	WHERE ProductID = 6;
+	 
+	-- This one shouldn't
+	UPDATE Products
+	SET UnitsInStock = UnitsInStock - 12
+	WHERE ProductID = 26;
+END

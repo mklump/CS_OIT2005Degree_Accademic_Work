@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RememberedThings xmlns="http://CST407/AppliedWebServices/FinalExam/FinalExamDataSample.xsd">
+    <RememberedThing>
+        <TimeRemembered>Saturday, July 28, 1979 10:36:05 PM</TimeRemembered>
+        <StringRemembered>I remembered to place this time stamp now.</StringRemembered>
+    </RememberedThing>
+    <RememberedThing>
+        <TimeRemembered>Saturday, July 28, 1979 10:37:05 PM</TimeRemembered>
+        <StringRemembered>I remembered to place this time stamp then.</StringRemembered>
+    </RememberedThing>
+    <RememberedThing>
+        <TimeRemembered>Saturday, July 28, 1979 10:38:05 PM</TimeRemembered>
+        <StringRemembered>I will remember to place this time stamp later.</StringRemembered>
+    </RememberedThing>
+</RememberedThings>

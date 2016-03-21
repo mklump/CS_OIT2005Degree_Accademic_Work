@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSA5_Service", "http://localhost/mywebprojects/WSA5_Service/WSA5_Service.csproj", "{26D6B9B3-BF3A-42BB-8770-59F10BDD6944}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSA5Client", "WSA5Client\WSA5Client.csproj", "{65594BDE-95FD-43A8-AEC4-B0E67A1E6337}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSA5_WebService", "http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/WSA5_WebService.csproj", "{1816AB9F-5290-4A06-82BB-EA5A320F03D9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{26D6B9B3-BF3A-42BB-8770-59F10BDD6944}.Debug.ActiveCfg = Debug|.NET
+		{26D6B9B3-BF3A-42BB-8770-59F10BDD6944}.Debug.Build.0 = Debug|.NET
+		{26D6B9B3-BF3A-42BB-8770-59F10BDD6944}.Release.ActiveCfg = Release|.NET
+		{26D6B9B3-BF3A-42BB-8770-59F10BDD6944}.Release.Build.0 = Release|.NET
+		{65594BDE-95FD-43A8-AEC4-B0E67A1E6337}.Debug.ActiveCfg = Debug|.NET
+		{65594BDE-95FD-43A8-AEC4-B0E67A1E6337}.Debug.Build.0 = Debug|.NET
+		{65594BDE-95FD-43A8-AEC4-B0E67A1E6337}.Release.ActiveCfg = Release|.NET
+		{65594BDE-95FD-43A8-AEC4-B0E67A1E6337}.Release.Build.0 = Release|.NET
+		{1816AB9F-5290-4A06-82BB-EA5A320F03D9}.Debug.ActiveCfg = Debug|.NET
+		{1816AB9F-5290-4A06-82BB-EA5A320F03D9}.Debug.Build.0 = Debug|.NET
+		{1816AB9F-5290-4A06-82BB-EA5A320F03D9}.Release.ActiveCfg = Release|.NET
+		{1816AB9F-5290-4A06-82BB-EA5A320F03D9}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

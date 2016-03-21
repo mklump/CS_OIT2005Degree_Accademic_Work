@@ -1,0 +1,78 @@
+#define   INTEGER  256
+
+INTEGER;
+
+#define CHARACTER   'g'
+
+CHARACTER;
+
+#define     FLOAT +3.46E-10
+
+FLOAT;
+
+/* This is a comment */
+/*
+	This
+	is
+	another
+	comment
+	*/
+		
+		/* This is a another comment */ int x = 0, y = 0;
+#define  STRING   "This is yet another string."
+
+STRING;
+		
+/* This is a another comment */ int x = 0, y = 0; /* And another comment */
+04311363454
+
+0342557553
+0xAD34F
+
+0xABCDEF09
+
+0x6456ABCD
+
+-143130769
+
+123412
+
+-464871346999
+
+1.41
+1.0
+.53
+-.53
+-1.53
+-1.53E+10
++1.53E-10
+1.53E10
+
+unsigned int cCount = 0;
+
+signed int cCounter = 1;
+
+double pi = 3.14159265359;
+
+char ccAlpha_X = 'X';
+
+char ccAlpha_Y = '7';
+
+char *szPointer = "This is a legal string";
+
+char *pString   = "This is a legal string that spans more  \
+			than one line";
+
+char szArray[] = "Cstring style  \
+		initialization";
+
+char sz_123Array123[256] = "Another cstring    \
+	initialization";
+						
+char sz_12Array12[MAX_SIZE] = "Another cstring\
+initialization";
+
+char this_cannt_be_right = ' duh? ';
+
+char *bad_string = "Huh?
+	";

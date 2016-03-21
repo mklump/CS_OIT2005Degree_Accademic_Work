@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateOrderXML", "ValidateOrderXML.csproj", "{B3F118AB-CC72-4A8F-86DB-583C524A74FB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B3F118AB-CC72-4A8F-86DB-583C524A74FB}.Debug.ActiveCfg = Debug|.NET
+		{B3F118AB-CC72-4A8F-86DB-583C524A74FB}.Debug.Build.0 = Debug|.NET
+		{B3F118AB-CC72-4A8F-86DB-583C524A74FB}.Release.ActiveCfg = Release|.NET
+		{B3F118AB-CC72-4A8F-86DB-583C524A74FB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

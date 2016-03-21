@@ -1,0 +1,8 @@
+v* when errors are found, assert out
+v* add support for constants in expression
+v* add support for -, *, / NO MODULUS
+v* add code for relationals: >, <=, >=, ==, !=...
+v* provide support for the goto statment
+v* provide support for break and catch error when in wrong place
+* can't return 'wrong' types
+* 

@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0077)http://www.capital.ous.edu/~rksaripa/cst320spring2003/assignments/1/descr.htm -->
+<HTML><HEAD><TITLE>Instructor Ramakrishna Saripalli</TITLE>
+<META http-equiv=Content-Language content=en-us>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2800.1141" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId></HEAD>
+<BODY>
+<H2>Instructor Ramakrishna Saripalli.</H2>
+<P>CST 320 Compilers Assignment 1. Updated on 04/1/2003.</P>
+<P>Submitted by instructor on 03/31/2003.</P>
+<P>Students MUST return it on 04/15/2003 before the class starts to <A 
+href="mailto:rksaripa@capital.ous.edu">rksaripa@capital.ous.edu</A>.&nbsp;</P>
+<HR>
+
+<H2>Submission.</H2>
+<UL>
+  <LI>Each student MUST submit a single C file. 
+  <UL>
+    <LI>A student MAY not submit other files. </LI></UL>
+  <LI>The name of the student, e-mail address and date submitted should be 
+  included in the C file. </LI></UL>
+<HR>
+
+<P>&nbsp;</P>
+<H2>Assignment details.</H2>
+<BLOCKQUOTE>
+  <P>The goal of this assignment is to build a tokenizer for the C language by 
+  hand. The tokenizer consists of 2 parts, the driver and the actual tokenizer. 
+  The driver is provided by the instructor and is in the file <A 
+  href="http://www.capital.ous.edu/~rksaripa/cst320spring2003/assignments/1/assg1_test.c">assg1_test.c</A>. 
+  The driver program does the following.</P>
+  <UL>
+    <LI>Initialize the tokenizer by calling init_tokenizer and provide it the 
+    file to tokenize. 
+    <LI>Run the tokenizer by calling run_tokenizer. 
+    <UL>
+      <LI>The tokenizer tokenizes the input program and builds a list of tokens 
+      called the symbol table. </LI></UL>
+    <LI>The driver program then invokes get_next_token to get the next token. 
+    <UL>
+      <LI>IF there are no more tokens, a NULL is returned. </LI></UL>
+    <LI>For a sample tokenizer which does nothing, look at the file token.c 
+  </LI></UL></BLOCKQUOTE>
+<UL>
+  <LI>Each student MUST completely implement the following functions(refer to 
+  the template file <B><A 
+  href="http://www.capital.ous.edu/~rksaripa/cst320spring2003/assignments/1/token.c">token.c</A></B>). 
+
+  <UL>
+    <LI><B>init_tokenizer(FILE *).</B> 
+    <LI><B>run_tokenizer().</B> 
+    <LI><B>get_next_token().</B> </LI></UL>
+  <LI>You will need to include the header file <A 
+  href="http://www.capital.ous.edu/~rksaripa/cst320spring2003/assignments/1/assg1_val.h">assg1_val.h</A>. 
+  This is the interface between the driver and the student's tokenizer 
+  functions. 
+  <LI><B>It is the student's responsibility to ensure that their tokenizer 
+  functions compile with the provided assg1_test.c. It is also the student's 
+  responsibility to ensure that they work correctly.</B> 
+  <LI><B><FONT size=5>If the tokenizer sees an unknown token( token that is not 
+  described in the known list of tokens), the tokenizer must return the token in 
+  the <I>token_unknown field of the token structure.</I></FONT></B> </LI></UL>
+<P><B>init_tokenizer.</B></P>
+<BLOCKQUOTE>
+  <P>This function is called by the main program to initialize the tokenizer. If 
+  the initialization is successful, this function returns a non-zero +ve value. 
+  If failure, this function returns 0.</P>
+  <P>This function takes as input a pointer to a FILE object. This parameter 
+  points to the C program to be tokenized.</P></BLOCKQUOTE>
+<P><B>run_tokenizer</B>.</P>
+<BLOCKQUOTE>
+  <P>This function runs the tokenizer. As each token is recognized, this 
+  function stores the token into a symbol table. A token has the following 
+  properties.</P>
+  <UL>
+    <LI>Type of the token. See the constants TOKEN_XXX in assg1_val.h 
+    <LI>Value of the token. A token may be an integer, real, string, identifier, 
+    operator, keyword or other unknown token. 
+    <LI>Line #. This is the line # where the token occurs in the input program. 
+    <LI>This function returns 0 if this fails for any reason. Else this function 
+    returns a +ve value. A +ve value indicates that the file has been tokenized 
+    correctly. </LI></UL></BLOCKQUOTE>
+<P><B>get_next_token.</B></P>
+<BLOCKQUOTE>
+  <P>This function returns a pointer to the next token. The main program calls 
+  this in a loop to get the next token. When there are no more tokens, this 
+  function SHOULD return NULL.</P>
+  <HR>
+
+  <P>&nbsp;</P></BLOCKQUOTE></BODY></HTML>

@@ -1,0 +1,90 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Blues Template Page</title>
+<style>
+<!--
+ p.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	margin-left:0in; margin-right:0in; margin-top:0in}
+-->
+</style>
+</head>
+
+<body background=http://nelson.capital.ous.edu/~blues/dna_bkgd.gif>
+
+<!---- table setup, title, and header ------->
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="8" width=100% height="815">
+    <tr>
+      <td align="right" valign="top" width=20% bgcolor="#FFFFFF" height="91">
+	<img border="0" src="http://nelson.capital.ous.edu/~blues/oitlogo.gif" align="top" width="173" height="121"></td>
+      <td width="10" height="91">&nbsp;</td>
+      <td valign="middle" width=80% height="91" align="center"><font size="5">
+        Software Engineering Design and Implementation<br>
+        Blue Team</font></td>
+    </tr>
+
+<!---- left column links ------->
+    <tr>
+      <td valign="top" width=10% height="708"><font size="2"><strong>Software Engineering Technology</strong></font>
+<br><br>
+<a href=main_page.html>Blues Home Page</a><br>
+
+</td>
+      <td width="10" height="708">&nbsp;</td>
+      <td valign="top" width=90% height="708">
+		<p class="MsoNormal"><b>Student login page:</b></p>
+		<p class="MsoNormal">&nbsp;</p>
+		<p class="MsoNormal">No active code. Just HTML containing a field for 
+		the key to be entered in and a submit button that sends the input text 
+		to the next page (in addition to some graphics and junk)</p>
+		<p class="MsoNormal">&nbsp;</p>
+		<p class="MsoNormal"><b>Course evaluation page:</b></p>
+		<p class="MsoNormal">&nbsp;</p>
+		<p class="MsoNormal">Receive key</p>
+		<p class="MsoNormal">Access DB to see if key exists</p>
+		<p class="MsoNormal">If key does not exist:</p>
+		<p class="MsoNormal">&nbsp; display error and exit.</p>
+		<p class="MsoNormal">&nbsp;</p>
+		<p class="MsoNormal">If key does exist</p>
+		<p class="MsoNormal">&nbsp; Mark key as in use for next 30 minutes</p>
+		<p class="MsoNormal">&nbsp; access DB an get all evaluation questions 
+		associated with the key</p>
+		<p class="MsoNormal">&nbsp; Display each evaluation question in HTML with 
+		appropriate answer fields</p>
+		<p class="MsoNormal">&nbsp; Present submit button to page responsible for 
+		storing the evaluation</p>
+		<p class="MsoNormal">&nbsp;</p>
+		<p class="MsoNormal"><b>Evaluation storage page:</b></p>
+		<p class="MsoNormal">&nbsp;</p>
+		<p class="MsoNormal">Check all questions on the passed evaluation for 
+		violations of preset criteria (question not answered, valid key, etc…)</p>
+		<p class="MsoNormal">If evaluation passes check:</p>
+		<p class="MsoNormal">&nbsp; Store responses in DB for retrieval later</p>
+		<p class="MsoNormal">&nbsp; Destroy key in DB used to access evaluation to 
+		prevent duplicate access</p>
+		<p class="MsoNormal">&nbsp; Present the student with success message. Exit 
+		system.</p>
+		<p class="MsoNormal">&nbsp;</p>
+		<p class="MsoNormal">If evaluation does not pass check:</p>
+		<p class="MsoNormal">&nbsp; Present student with reason why and optional 
+		solutions (depending on what went wrong).</p>
+&nbsp;</td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

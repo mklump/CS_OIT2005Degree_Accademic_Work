@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://matthew.klump-pdx.com/thepuzzler_3dstyle/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://matthew.klump-pdx.com/thepuzzler_3dstyle/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://matthew.klump-pdx.com/thepuzzler_3dstyle/">
+      <s:element name="StorePuzzlerRun">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dictionary" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="puzzle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="wordsFound" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dictionaryTime" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="puzzleTime" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="solutionTime" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StorePuzzlerRunResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StorePuzzlerRunResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetExecutionStatistics">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetExecutionStatisticsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetExecutionStatisticsResult" type="tns:ArrayOfLong" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfLong">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="long" type="s:long" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="StorePuzzlerRunSoapIn">
+    <wsdl:part name="parameters" element="tns:StorePuzzlerRun" />
+  </wsdl:message>
+  <wsdl:message name="StorePuzzlerRunSoapOut">
+    <wsdl:part name="parameters" element="tns:StorePuzzlerRunResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetExecutionStatisticsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetExecutionStatistics" />
+  </wsdl:message>
+  <wsdl:message name="GetExecutionStatisticsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetExecutionStatisticsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DataBaseInterfaceSoap">
+    <wsdl:operation name="StorePuzzlerRun">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Use this web service to save an execution set.</documentation>
+      <wsdl:input message="tns:StorePuzzlerRunSoapIn" />
+      <wsdl:output message="tns:StorePuzzlerRunSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExecutionStatistics">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Use this web service to retrieve the average execution times,the expected execution times, and the difference between these two.</documentation>
+      <wsdl:input message="tns:GetExecutionStatisticsSoapIn" />
+      <wsdl:output message="tns:GetExecutionStatisticsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DataBaseInterfaceSoap" type="tns:DataBaseInterfaceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="StorePuzzlerRun">
+      <soap:operation soapAction="http://matthew.klump-pdx.com/thepuzzler_3dstyle/StorePuzzlerRun" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExecutionStatistics">
+      <soap:operation soapAction="http://matthew.klump-pdx.com/thepuzzler_3dstyle/GetExecutionStatistics" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DataBaseInterface">
+    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
+    <wsdl:port name="DataBaseInterfaceSoap" binding="tns:DataBaseInterfaceSoap">
+      <soap:address location="http://localhost/thepuzzler_3dstyle/ManageStatsWebService/ManageStatsWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

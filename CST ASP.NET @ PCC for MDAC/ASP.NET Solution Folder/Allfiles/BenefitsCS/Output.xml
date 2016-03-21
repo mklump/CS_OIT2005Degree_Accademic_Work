@@ -1,0 +1,291 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <doctors>
+    <dr_id>123 </dr_id>
+    <dr_lname>Abbar               </dr_lname>
+    <dr_fname>Anas                </dr_fname>
+    <phone>206-555-0100</phone>
+    <address>123 Main St.                            </address>
+    <city>Kirkland            </city>
+    <state>WA</state>
+    <zip>02703     </zip>
+  </doctors>
+  <doctors>
+    <dr_id>124 </dr_id>
+    <dr_lname>Brown               </dr_lname>
+    <dr_fname>Jo                  </dr_fname>
+    <phone>206-555-0111</phone>
+    <address>456 North St.                           </address>
+    <city>Seattle             </city>
+    <state>WA</state>
+    <zip>02703     </zip>
+  </doctors>
+  <doctors>
+    <dr_id>125 </dr_id>
+    <dr_lname>Dirksen             </dr_lname>
+    <dr_fname>Tony                </dr_fname>
+    <phone>206-555-0122</phone>
+    <address>678 Water St.                           </address>
+    <city>Seattle             </city>
+    <state>WA</state>
+    <zip>02703     </zip>
+  </doctors>
+  <doctors>
+    <dr_id>126 </dr_id>
+    <dr_lname>Buhl                </dr_lname>
+    <dr_fname>Karl                </dr_fname>
+    <phone>206-555-0133</phone>
+    <address>789 Smith Dr.                           </address>
+    <city>Seattle             </city>
+    <state>WA</state>
+    <zip>02703     </zip>
+  </doctors>
+  <doctors>
+    <dr_id>127 </dr_id>
+    <dr_lname>Dunn                </dr_lname>
+    <dr_fname>Micheal             </dr_fname>
+    <phone>617-555-0123</phone>
+    <address>23 West St.                             </address>
+    <city>Seattle             </city>
+    <state>WA</state>
+    <zip>02703     </zip>
+  </doctors>
+  <doctors>
+    <dr_id>200 </dr_id>
+    <dr_lname>Danseglio           </dr_lname>
+    <dr_fname>Mike                </dr_fname>
+    <phone>617-555-0101</phone>
+    <address>12 1st. Ave.                            </address>
+    <city>Bellevue            </city>
+    <state>WA</state>
+    <zip>02173     </zip>
+  </doctors>
+  <doctors>
+    <dr_id>201 </dr_id>
+    <dr_lname>Nikore              </dr_lname>
+    <dr_fname>Simi                </dr_fname>
+    <phone>425-555-0120</phone>
+    <address>345 5th Ave.                            </address>
+    <city>Bellevue            </city>
+    <state>WA</state>
+    <zip>02173     </zip>
+  </doctors>
+  <doctors>
+    <dr_id>202 </dr_id>
+    <dr_lname>Hooper              </dr_lname>
+    <dr_fname>Stephanie           </dr_fname>
+    <phone>425-555-0110</phone>
+    <address>45 Mountain St.                         </address>
+    <city>Bellevue            </city>
+    <state>WA</state>
+    <zip>02173     </zip>
+  </doctors>
+  <doctors>
+    <dr_id>203 </dr_id>
+    <dr_lname>Kim                 </dr_lname>
+    <dr_fname>Jim                 </dr_fname>
+    <phone>508-555-0188</phone>
+    <address>456 Ocean St.                           </address>
+    <city>Renton              </city>
+    <state>WA</state>
+    <zip>98052     </zip>
+  </doctors>
+  <doctors>
+    <dr_id>205 </dr_id>
+    <dr_lname>Hamilton            </dr_lname>
+    <dr_fname>David               </dr_fname>
+    <phone>508-555-0177</phone>
+    <address>345 Main St.                            </address>
+    <city>Renton              </city>
+    <state>WA</state>
+    <zip>98052     </zip>
+  </doctors>
+  <doctors>
+    <dr_id>207 </dr_id>
+    <dr_lname>Brooke              </dr_lname>
+    <dr_fname>Patricia            </dr_fname>
+    <phone>508-555-0165</phone>
+    <address>890 James Pl.                           </address>
+    <city>Bellevue            </city>
+    <state>WA</state>
+    <zip>02173     </zip>
+  </doctors>
+  <doctors>
+    <dr_id>210 </dr_id>
+    <dr_lname>Thorson             </dr_lname>
+    <dr_fname>John                </dr_fname>
+    <phone>508-555-0122</phone>
+    <address>4567 Buffalo St.                        </address>
+    <city>Bellevue            </city>
+    <state>WA</state>
+    <zip>02173     </zip>
+  </doctors>
+  <doctors>
+    <dr_id>222 </dr_id>
+    <dr_lname>Culp                </dr_lname>
+    <dr_fname>Scott               </dr_fname>
+    <phone>617-555-0144</phone>
+    <address>1234 John St.                           </address>
+    <city>Seattle             </city>
+    <state>WA</state>
+    <zip>02703     </zip>
+  </doctors>
+  <doctors>
+    <dr_id>224 </dr_id>
+    <dr_lname>Berry               </dr_lname>
+    <dr_fname>Jo                  </dr_fname>
+    <phone>508-555-0135</phone>
+    <address>56 Western Ave.                         </address>
+    <city>Renton              </city>
+    <state>WA</state>
+    <zip>98052     </zip>
+  </doctors>
+  <doctors>
+    <dr_id>300 </dr_id>
+    <dr_lname>Nash                </dr_lname>
+    <dr_fname>Mike                </dr_fname>
+    <phone>415-555-0129</phone>
+    <address>45 George St.                           </address>
+    <city>Seattle             </city>
+    <state>WA</state>
+    <zip>02703     </zip>
+  </doctors>
+  <doctors>
+    <dr_id>301 </dr_id>
+    <dr_lname>Verboot             </dr_lname>
+    <dr_fname>Kevin               </dr_fname>
+    <phone>415-555-0178</phone>
+    <address>8901 First St.                          </address>
+    <city>Bellevue            </city>
+    <state>WA</state>
+    <zip>02173     </zip>
+  </doctors>
+  <specialties>
+    <spec_id>1</spec_id>
+    <specialty>Family Medicine     </specialty>
+    <drspecialties>
+      <dr_id>123 </dr_id>
+      <specialty_id>1</specialty_id>
+    </drspecialties>
+    <drspecialties>
+      <dr_id>200 </dr_id>
+      <specialty_id>1</specialty_id>
+    </drspecialties>
+    <drspecialties>
+      <dr_id>207 </dr_id>
+      <specialty_id>1</specialty_id>
+    </drspecialties>
+  </specialties>
+  <specialties>
+    <spec_id>2</spec_id>
+    <specialty>Sports Medicine     </specialty>
+    <drspecialties>
+      <dr_id>125 </dr_id>
+      <specialty_id>2</specialty_id>
+    </drspecialties>
+  </specialties>
+  <specialties>
+    <spec_id>3</spec_id>
+    <specialty>Pediatrics          </specialty>
+    <drspecialties>
+      <dr_id>123 </dr_id>
+      <specialty_id>3</specialty_id>
+    </drspecialties>
+    <drspecialties>
+      <dr_id>200 </dr_id>
+      <specialty_id>3</specialty_id>
+    </drspecialties>
+    <drspecialties>
+      <dr_id>222 </dr_id>
+      <specialty_id>3</specialty_id>
+    </drspecialties>
+  </specialties>
+  <specialties>
+    <spec_id>4</spec_id>
+    <specialty>Podiatry            </specialty>
+    <drspecialties>
+      <dr_id>203 </dr_id>
+      <specialty_id>4</specialty_id>
+    </drspecialties>
+    <drspecialties>
+      <dr_id>224 </dr_id>
+      <specialty_id>4</specialty_id>
+    </drspecialties>
+  </specialties>
+  <specialties>
+    <spec_id>5</spec_id>
+    <specialty>Psychiatry          </specialty>
+    <drspecialties>
+      <dr_id>210 </dr_id>
+      <specialty_id>5</specialty_id>
+    </drspecialties>
+  </specialties>
+  <specialties>
+    <spec_id>6</spec_id>
+    <specialty>Neurology           </specialty>
+    <drspecialties>
+      <dr_id>205 </dr_id>
+      <specialty_id>6</specialty_id>
+    </drspecialties>
+    <drspecialties>
+      <dr_id>300 </dr_id>
+      <specialty_id>6</specialty_id>
+    </drspecialties>
+  </specialties>
+  <specialties>
+    <spec_id>7</spec_id>
+    <specialty>Gynecology          </specialty>
+    <drspecialties>
+      <dr_id>301 </dr_id>
+      <specialty_id>7</specialty_id>
+    </drspecialties>
+  </specialties>
+  <specialties>
+    <spec_id>8</spec_id>
+    <specialty>Obstetrics          </specialty>
+    <drspecialties>
+      <dr_id>126 </dr_id>
+      <specialty_id>8</specialty_id>
+    </drspecialties>
+    <drspecialties>
+      <dr_id>201 </dr_id>
+      <specialty_id>8</specialty_id>
+    </drspecialties>
+  </specialties>
+  <specialties>
+    <spec_id>9</spec_id>
+    <specialty>Surgery             </specialty>
+    <drspecialties>
+      <dr_id>123 </dr_id>
+      <specialty_id>9</specialty_id>
+    </drspecialties>
+    <drspecialties>
+      <dr_id>301 </dr_id>
+      <specialty_id>9</specialty_id>
+    </drspecialties>
+  </specialties>
+  <specialties>
+    <spec_id>10</spec_id>
+    <specialty>Dentistry           </specialty>
+  </specialties>
+  <specialties>
+    <spec_id>11</spec_id>
+    <specialty>Cardiology          </specialty>
+    <drspecialties>
+      <dr_id>124 </dr_id>
+      <specialty_id>11</specialty_id>
+    </drspecialties>
+    <drspecialties>
+      <dr_id>127 </dr_id>
+      <specialty_id>11</specialty_id>
+    </drspecialties>
+  </specialties>
+  <specialties>
+    <spec_id>12</spec_id>
+    <specialty>Orthopedics         </specialty>
+    <drspecialties>
+      <dr_id>202 </dr_id>
+      <specialty_id>12</specialty_id>
+    </drspecialties>
+  </specialties>
+</NewDataSet>

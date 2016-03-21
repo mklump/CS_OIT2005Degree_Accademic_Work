@@ -1,0 +1,10 @@
+final_project_resources\parser.y: warning: 2 useless nonterminals and 6 useless rules
+final_project_resources\\parser.y:180.1-14: warning: useless nonterminal: unary_operator
+final_project_resources\\parser.y:462.1-19: warning: useless nonterminal: type_qualifier_list
+final_project_resources\\parser.y:180.15: warning: useless rule: unary_operator: /* empty */
+final_project_resources\\parser.y:181.11-30: warning: useless rule: unary_operator: '+'
+final_project_resources\\parser.y:182.11-29: warning: useless rule: unary_operator: '-'
+final_project_resources\\parser.y:183.11-30: warning: useless rule: unary_operator: '!'
+final_project_resources\\parser.y:463.9-22: warning: useless rule: type_qualifier_list: type_qualifier
+final_project_resources\\parser.y:464.11-44: warning: useless rule: type_qualifier_list: type_qualifier_list type_qualifier
+final_project_resources\parser.y: conflicts: 1 shift/reduce

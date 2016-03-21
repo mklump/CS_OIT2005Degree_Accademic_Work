@@ -1,0 +1,4 @@
+System.Data.SqlClient.SqlCommand, System.Data, Version=1.0.2411.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+System.Data.SqlClient.SqlDataAdapter, System.Data, Version=1.0.2411.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+System.Web.Services.WebService, System.Web.Services, Version=1.0.2411.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.Data.SqlClient.SqlConnection, System.Data, Version=1.0.2411.0, Culture=neutral, PublicKeyToken=b77a5c561934e089

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<TITLES>
+		<title_id>BU1032</title_id>
+		<title>The Busy Executive&apos;s Database Guide</title>
+		<type>business    </type>
+		<pub_id>1389</pub_id>
+		<price>19.99</price>
+		<advance>5000</advance>
+		<royalty>10</royalty>
+		<ytd_sales>4095</ytd_sales>
+		<pubdate>1991-06-12T00:00:00</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>BU1111</title_id>
+		<title>Cooking with Computers: Surreptitious Balance Sheets</title>
+		<type>business    </type>
+		<pub_id>1389</pub_id>
+		<price>11.95</price>
+		<advance>5000</advance>
+		<royalty>10</royalty>
+		<ytd_sales>3876</ytd_sales>
+		<pubdate>1991-06-09T00:00:00</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>BU2075</title_id>
+		<title>You Can Combat Computer Stress!</title>
+		<type>business    </type>
+		<pub_id>0736</pub_id>
+		<price>2.99</price>
+		<advance>10125</advance>
+		<royalty>24</royalty>
+		<ytd_sales>18722</ytd_sales>
+		<pubdate>1991-06-30T00:00:00</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>BU7832</title_id>
+		<title>Straight Talk About Computers</title>
+		<type>business    </type>
+		<pub_id>1389</pub_id>
+		<price>19.99</price>
+		<advance>5000</advance>
+		<royalty>10</royalty>
+		<ytd_sales>4095</ytd_sales>
+		<pubdate>1991-06-22T00:00:00</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>MC2222</title_id>
+		<title>Silicon Valley Gastronomic Treats</title>
+		<type>mod_cook    </type>
+		<pub_id>0877</pub_id>
+		<price>19.99</price>
+		<advance>0</advance>
+		<royalty>12</royalty>
+		<ytd_sales>2032</ytd_sales>
+		<pubdate>1991-06-09T00:00:00</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>MC3021</title_id>
+		<title>The Gourmet Microwave</title>
+		<type>mod_cook    </type>
+		<pub_id>0877</pub_id>
+		<price>2.99</price>
+		<advance>15000</advance>
+		<royalty>24</royalty>
+		<ytd_sales>22246</ytd_sales>
+		<pubdate>1991-06-18T00:00:00</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>MC3026</title_id>
+		<title>The Psychology of Computer Cooking</title>
+		<type>UNDECIDED   </type>
+		<pub_id>0877</pub_id>
+		<pubdate>2000-08-06T01:33:54.123</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>PC1035</title_id>
+		<title>But Is It User Friendly?</title>
+		<type>popular_comp</type>
+		<pub_id>1389</pub_id>
+		<price>22.95</price>
+		<advance>7000</advance>
+		<royalty>16</royalty>
+		<ytd_sales>8780</ytd_sales>
+		<pubdate>1991-06-30T00:00:00</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>PC8888</title_id>
+		<title>Secrets of Silicon Valley</title>
+		<type>popular_comp</type>
+		<pub_id>1389</pub_id>
+		<price>20</price>
+		<advance>8000</advance>
+		<royalty>10</royalty>
+		<ytd_sales>4095</ytd_sales>
+		<pubdate>1994-06-12T00:00:00</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>PC9999</title_id>
+		<title>Net Etiquette</title>
+		<type>popular_comp</type>
+		<pub_id>1389</pub_id>
+		<pubdate>2000-08-06T01:33:54.140</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>PS1372</title_id>
+		<title>Computer Phobic AND Non-Phobic Individuals: Behavior Variations</title>
+		<type>psychology  </type>
+		<pub_id>0877</pub_id>
+		<price>21.59</price>
+		<advance>7000</advance>
+		<royalty>10</royalty>
+		<ytd_sales>375</ytd_sales>
+		<pubdate>1991-10-21T00:00:00</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>PS2091</title_id>
+		<title>Is Anger the Enemy?</title>
+		<type>psychology  </type>
+		<pub_id>0736</pub_id>
+		<price>10.95</price>
+		<advance>2275</advance>
+		<royalty>12</royalty>
+		<ytd_sales>2045</ytd_sales>
+		<pubdate>1991-06-15T00:00:00</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>PS2106</title_id>
+		<title>Life Without Fear</title>
+		<type>psychology  </type>
+		<pub_id>0736</pub_id>
+		<price>7</price>
+		<advance>6000</advance>
+		<royalty>10</royalty>
+		<ytd_sales>111</ytd_sales>
+		<pubdate>1991-10-05T00:00:00</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>PS3333</title_id>
+		<title>Prolonged Data Deprivation: Four Case Studies</title>
+		<type>psychology  </type>
+		<pub_id>0736</pub_id>
+		<price>19.99</price>
+		<advance>2000</advance>
+		<royalty>10</royalty>
+		<ytd_sales>4072</ytd_sales>
+		<pubdate>1991-06-12T00:00:00</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>PS7777</title_id>
+		<title>Emotional Security: A New Algorithm</title>
+		<type>psychology  </type>
+		<pub_id>0736</pub_id>
+		<price>7.99</price>
+		<advance>4000</advance>
+		<royalty>10</royalty>
+		<ytd_sales>3336</ytd_sales>
+		<pubdate>1991-06-12T00:00:00</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>TC3218</title_id>
+		<title>Onions, Leeks, and Garlic: Cooking Secrets of the Mediterranean</title>
+		<type>trad_cook   </type>
+		<pub_id>0877</pub_id>
+		<price>20.95</price>
+		<advance>7000</advance>
+		<royalty>10</royalty>
+		<ytd_sales>375</ytd_sales>
+		<pubdate>1991-10-21T00:00:00</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>TC4203</title_id>
+		<title>Fifty Years in Buckingham Palace Kitchens</title>
+		<type>trad_cook   </type>
+		<pub_id>0877</pub_id>
+		<price>11.95</price>
+		<advance>4000</advance>
+		<royalty>14</royalty>
+		<ytd_sales>15096</ytd_sales>
+		<pubdate>1991-06-12T00:00:00</pubdate>
+	</TITLES>
+	<TITLES>
+		<title_id>TC7777</title_id>
+		<title>Sushi, Anyone?</title>
+		<type>trad_cook   </type>
+		<pub_id>0877</pub_id>
+		<price>14.99</price>
+		<advance>8000</advance>
+		<royalty>10</royalty>
+		<ytd_sales>4095</ytd_sales>
+		<pubdate>1991-06-12T00:00:00</pubdate>
+	</TITLES>
+</root>

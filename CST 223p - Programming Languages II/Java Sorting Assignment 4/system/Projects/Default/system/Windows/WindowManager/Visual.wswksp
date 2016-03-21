@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace version="1.1">
+    <name unique="Visual" display="CTL_GuiEditingWorkspaceName" from-bundle="true" bundle="org.netbeans.modules.form.Bundle" />
+    <module name="org.netbeans.modules.form/2" spec="1.7" />
+    <ui-type type="any">
+        <cascade origin-x="0" origin-y="0" step-x="20" step-y="20" count="0" current-x="0" current-y="116" />
+        <active mode="" />
+        <mode z-order="Form,editor,explorer,output,properties" />
+        <toolbar configuration="Standard" />
+    </ui-type>
+</workspace>

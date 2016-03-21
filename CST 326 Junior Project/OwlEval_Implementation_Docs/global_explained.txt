@@ -1,0 +1,51 @@
+-- Global variables:
+
+error_str="" //this is where all the errors will be stored. Stored errors will be in HTML format.
+conn=""      //this will be the connection to the DB.
+user_type="" //the string identifying the user type in the system. (Can be admin, faculty, adfac, student, invalid.)
+
+
+-- Global functions:
+
+//opens the connection to the database and begins the transaction for the page
+open_db()
+
+//closes the connection to the DB and commits or rollsback the transaction (depending on the state of error_str)
+close_db()      
+
+//enters a string in the log table of the DB
+log_entry(entry_str)
+
+//checks the user for login and sets the user_type variable
+validate()
+
+//this is for instances where a redirect is required. Since redirects are handled in the middle of script execution,
+//they will take control from the script before a commit is able to happen, making the script prior to rediredtion
+//useless
+send_me(some_page)
+
+//this will handle page formatting
+begin_page()
+
+
+-- Standard flow of the Global file:
+
+begin_page();
+open_db();
+if ($error_str="")
+{
+  validate();
+  if ($error_str="")
+  {  
+    main();
+  }
+  else
+  {
+    print("$error_str");
+  }
+  close_db();
+}
+else
+{
+  print("$error_str");
+}

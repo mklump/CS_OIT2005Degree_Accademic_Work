@@ -1,0 +1,10 @@
+START
+ VAR I : INTEGER ; 
+
+ I := 5 + 5;
+
+ I := READ() + I;
+
+ PRINT(I);
+
+END

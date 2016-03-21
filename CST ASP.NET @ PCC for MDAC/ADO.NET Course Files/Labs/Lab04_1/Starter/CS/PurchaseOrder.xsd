@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="PurchaseOrder" targetNamespace="http://tempuri.org/PurchaseOrder.xsd" elementFormDefault="qualified"
+	xmlns="http://tempuri.org/PurchaseOrder.xsd" xmlns:mstns="http://tempuri.org/PurchaseOrder.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="PurchaseOrder">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="BillTo" type="Address" />
+				<xs:element name="ShipTo" type="Address" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="Address">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string" />
+			<xs:element name="City" type="xs:string" />
+			<xs:element name="Street" type="xs:string" />
+			<xs:element name="Zip" type="xs:integer" />
+		</xs:sequence>
+		<xs:attribute name="Country" type="xs:string" />
+	</xs:complexType>
+</xs:schema>

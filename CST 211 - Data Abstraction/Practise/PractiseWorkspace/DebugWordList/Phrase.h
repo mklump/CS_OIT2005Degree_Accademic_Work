@@ -1,0 +1,36 @@
+// Name: Dom Virgilio
+// Class: CST 136
+// Assignment #1, Part II
+
+// BUGS ARE INTENTIONAL FOR LECTURE #4
+
+// Phrase.h: interface for the CPhrase class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#if !defined(AFX_PHRASE_H__10E61D94_381F_4588_8CFE_7CF0CB507726__INCLUDED_)
+#define AFX_PHRASE_H__10E61D94_381F_4588_8CFE_7CF0CB507726__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+#include "WordList.h"
+
+#define MAX_PHRASE_SIZE 256
+
+class CPhrase  
+{
+public:
+	CPhrase();
+	virtual ~CPhrase();
+	void GetPhraseFromUser();
+	bool Tokenize();
+	bool LetterLoop();
+
+private:
+	char phrase[MAX_PHRASE_SIZE];
+	CWordList wordList;
+};
+
+#endif // !defined(AFX_PHRASE_H__10E61D94_381F_4588_8CFE_7CF0CB507726__INCLUDED_)

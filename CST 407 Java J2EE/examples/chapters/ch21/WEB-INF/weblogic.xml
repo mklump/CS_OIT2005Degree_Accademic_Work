@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!-- weblogic.xml Deployment descriptor for servlets -->
+<!-- maps ejb references to JNDI names -->
+
+<!DOCTYPE weblogic-web-app PUBLIC 
+   "-//BEA Systems, Inc.//DTD Web Application 6.0//EN"
+   "http://www.bea.com/servers/wls600/dtd/weblogic-web-jar.dtd">
+
+<!-- main block for descriptor -->
+<weblogic-web-app>
+
+   <!-- optional, provides description for war file. -->
+   <description>
+      Bookstore servlets
+   </description>
+
+   <!-- block contains ejb reference maps -->
+   <reference-descriptor>
+
+      <!-- individual reference map -->
+      <ejb-reference-description>
+      
+         <!-- reference name defined in web.xml -->
+         <ejb-ref-name>ejb/ShoppingCart</ejb-ref-name>
+
+         <!-- JNDI name specified within weblogic-ejb-jar.xml -->
+         <jndi-name>ejb/ShoppingCart</jndi-name>
+      </ejb-reference-description>
+
+      <!-- individual reference map -->
+      <ejb-reference-description>
+         <ejb-ref-name>ejb/Product</ejb-ref-name>
+         <jndi-name>ejb/Product</jndi-name>
+       </ejb-reference-description>
+
+      <!-- individual reference map -->
+      <ejb-reference-description>
+         <ejb-ref-name>ejb/Customer</ejb-ref-name>
+         <jndi-name>ejb/Customer</jndi-name>
+      </ejb-reference-description>
+
+      <!-- individual reference map -->
+      <ejb-reference-description>
+         <ejb-ref-name>ejb/Order</ejb-ref-name>
+         <jndi-name>ejb/Order</jndi-name>
+      </ejb-reference-description>
+
+   </reference-descriptor>
+
+</weblogic-web-app>
+<!-- end servlet descriptor -->

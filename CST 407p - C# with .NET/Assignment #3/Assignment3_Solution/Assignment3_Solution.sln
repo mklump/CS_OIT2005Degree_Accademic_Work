@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness_Car", "TestHarness_Car\TestHarness_Car.csproj", "{368F780D-5E58-4DAC-9E64-B2AF69182BA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car_ClassLibrary", "Car_ClassLibrary\Car_ClassLibrary.csproj", "{EC55D2A1-89EA-4AA8-A3FC-0238D4D5FD68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicLoader", "ClassLibrary1\DynamicLoader.csproj", "{8D3296CA-359B-4691-BA08-596950774F66}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{368F780D-5E58-4DAC-9E64-B2AF69182BA7}.Debug.ActiveCfg = Debug|.NET
+		{368F780D-5E58-4DAC-9E64-B2AF69182BA7}.Debug.Build.0 = Debug|.NET
+		{368F780D-5E58-4DAC-9E64-B2AF69182BA7}.Release.ActiveCfg = Release|.NET
+		{368F780D-5E58-4DAC-9E64-B2AF69182BA7}.Release.Build.0 = Release|.NET
+		{EC55D2A1-89EA-4AA8-A3FC-0238D4D5FD68}.Debug.ActiveCfg = Debug|.NET
+		{EC55D2A1-89EA-4AA8-A3FC-0238D4D5FD68}.Debug.Build.0 = Debug|.NET
+		{EC55D2A1-89EA-4AA8-A3FC-0238D4D5FD68}.Release.ActiveCfg = Release|.NET
+		{EC55D2A1-89EA-4AA8-A3FC-0238D4D5FD68}.Release.Build.0 = Release|.NET
+		{8D3296CA-359B-4691-BA08-596950774F66}.Debug.ActiveCfg = Debug|.NET
+		{8D3296CA-359B-4691-BA08-596950774F66}.Debug.Build.0 = Debug|.NET
+		{8D3296CA-359B-4691-BA08-596950774F66}.Release.ActiveCfg = Release|.NET
+		{8D3296CA-359B-4691-BA08-596950774F66}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video Store", "Video Store.csproj", "{60C2A276-D8D2-4806-9515-90B105C28B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test ClassLibrary", "ClassLibrary1\Test ClassLibrary.csproj", "{98E45CF3-7ABC-452A-8AA4-21D5B834D2E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{60C2A276-D8D2-4806-9515-90B105C28B1B}.Debug.ActiveCfg = Debug|.NET
+		{60C2A276-D8D2-4806-9515-90B105C28B1B}.Debug.Build.0 = Debug|.NET
+		{60C2A276-D8D2-4806-9515-90B105C28B1B}.Release.ActiveCfg = Release|.NET
+		{60C2A276-D8D2-4806-9515-90B105C28B1B}.Release.Build.0 = Release|.NET
+		{98E45CF3-7ABC-452A-8AA4-21D5B834D2E5}.Debug.ActiveCfg = Debug|.NET
+		{98E45CF3-7ABC-452A-8AA4-21D5B834D2E5}.Debug.Build.0 = Debug|.NET
+		{98E45CF3-7ABC-452A-8AA4-21D5B834D2E5}.Release.ActiveCfg = Release|.NET
+		{98E45CF3-7ABC-452A-8AA4-21D5B834D2E5}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

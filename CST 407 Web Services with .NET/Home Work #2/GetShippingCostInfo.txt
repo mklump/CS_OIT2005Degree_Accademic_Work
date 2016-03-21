@@ -1,0 +1,35 @@
+Request:
+POST http://ShippingService/ShippingService.asmx HTTP/1.1
+Host: ShippingService
+Content-Type: text/xml;
+Content-Length: 50
+SOAPAction: “http://ShippingService.org/CalculateShippingCost”
+
+<?xml version="1.0" ?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <soap:Body>
+      	<CalculateShippingCost xmlns="http://ShippingService.org/">
+      		<OrigZipCode>My Original Zipcode</OrigZipCode>
+      <DestZipCode>My Destination Zipcode</DestZipCode>
+      <ShippingWeight>12.96</ShippingWeight>
+      </CalculateShippingCost>
+      </soap:Body>
+</soap:Envelope>
+
+Response:
+HTTP/1.1 200 OK
+Content-Type: text/xml;
+Content-Length: 10
+
+<?xml version="1.0" ?>
+<soap:Envelope xmlns:xsi=”http://www.w3.org/2001/XMLSchema-instance”
+xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <soap:Body>
+      <CalculateShippingCostResponse xmlns="http://ShippingService.org/">
+      <CalculateShippingCostResult>
+      21.50
+      </CalculateShippingCostResult>
+      </CalculateShippingCostResponse>
+      </soap:Body>
+</soap:Envelope>

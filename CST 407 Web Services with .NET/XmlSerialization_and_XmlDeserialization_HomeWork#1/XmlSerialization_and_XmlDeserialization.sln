@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "order", "order\order.csproj", "{0C5AD7AD-D6F6-4AEF-AFC6-80139D0D8AC0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDeserialization_Practise", "XmlDeserialization_Practise\XmlDeserialization_Practise.csproj", "{C0A1D182-64C3-4B74-8DA1-09599DA562C4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1", "Catalog\Assignment1.csproj", "{8108B9AB-7422-4877-9B6E-625C7D9978BB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0C5AD7AD-D6F6-4AEF-AFC6-80139D0D8AC0}.Debug.ActiveCfg = Debug|.NET
+		{0C5AD7AD-D6F6-4AEF-AFC6-80139D0D8AC0}.Release.ActiveCfg = Release|.NET
+		{0C5AD7AD-D6F6-4AEF-AFC6-80139D0D8AC0}.Release.Build.0 = Release|.NET
+		{C0A1D182-64C3-4B74-8DA1-09599DA562C4}.Debug.ActiveCfg = Debug|.NET
+		{C0A1D182-64C3-4B74-8DA1-09599DA562C4}.Release.ActiveCfg = Release|.NET
+		{C0A1D182-64C3-4B74-8DA1-09599DA562C4}.Release.Build.0 = Release|.NET
+		{8108B9AB-7422-4877-9B6E-625C7D9978BB}.Debug.ActiveCfg = Debug|.NET
+		{8108B9AB-7422-4877-9B6E-625C7D9978BB}.Debug.Build.0 = Debug|.NET
+		{8108B9AB-7422-4877-9B6E-625C7D9978BB}.Release.ActiveCfg = Release|.NET
+		{8108B9AB-7422-4877-9B6E-625C7D9978BB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

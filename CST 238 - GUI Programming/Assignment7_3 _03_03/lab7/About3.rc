@@ -1,0 +1,242 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ABOUTBOX DIALOG  32, 32, 180, 100
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "OK",IDOK,"EllipPush",WS_GROUP | WS_TABSTOP,73,79,32,14
+    ICON            "ABOUT3",IDC_STATIC,7,7,20,20
+    CTEXT           "About3",IDC_STATIC,40,12,100,8
+    CTEXT           "About Box Demo Program",IDC_STATIC,7,40,166,8
+    CTEXT           "(c) Charles Petzold, 1998",IDC_STATIC,7,52,166,8
+END
+
+IDD_MODALDIALOG DIALOGEX 30, 30, 286, 210
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Modal Dialog Box"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,171,189,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,229,189,50,14,NOT WS_TABSTOP
+    GROUPBOX        "Push Button Group Box",IDC_STATIC,7,62,96,72,BS_NOTIFY,
+                    WS_EX_TRANSPARENT
+    GROUPBOX        "Label/Edit Group Box",IDC_STATIC,7,7,101,52,BS_NOTIFY,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "Button1",IDC_BUTTON1,21,78,68,12,WS_GROUP
+    PUSHBUTTON      "Button2",IDC_BUTTON2,21,95,68,12
+    PUSHBUTTON      "Message",IDC_MESSAGE,21,112,68,12
+    CONTROL         "Check1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,15,153,58,12
+    CONTROL         "Check2",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,167,58,12
+    CONTROL         "Check3",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,182,58,12
+    GROUPBOX        "Check Group Box",IDC_STATIC,7,141,73,62,BS_NOTIFY,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Radio Button 1",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,125,32,80,10
+    CONTROL         "Radio Button 2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,125,44,80,10
+    CONTROL         "Radio Button 3",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,125,57,80,10
+    CONTROL         "Radio Button 4",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,125,69,80,10
+    CONTROL         "Radio Button 5",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,125,82,80,10
+    CONTROL         "Radio Button 6",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,125,96,80,10
+    CONTROL         "Radio Button 7",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,125,109,80,10
+    CONTROL         "Radio Button 8",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,125,122,80,10
+    GROUPBOX        "Radio Button Group Box",IDC_STATIC,118,17,94,126,
+                    BS_NOTIFY,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT5,50,19,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,50,38,51,14,ES_AUTOHSCROLL
+    LTEXT           "Edit Box 1",IDC_STATIC,14,22,36,8
+    LTEXT           "Edit Box 2",IDC_STATIC,14,40,35,8
+END
+
+IDD_MODELESSDIALOG DIALOGEX 100, 100, 313, 229
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Modeless Dialog Box"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,202,208,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,256,208,50,14
+    PUSHBUTTON      "Button1",IDC_BUTTON1,27,25,68,14,WS_GROUP
+    PUSHBUTTON      "Button2",IDC_BUTTON3,27,44,68,14
+    PUSHBUTTON      "Message",IDC_MESSAGE2,27,63,68,14
+    GROUPBOX        "Button Group Box",IDC_STATIC,19,14,84,73
+    LTEXT           "Label 2",IDC_STATIC,21,108,66,8
+    LTEXT           "Label 1",IDC_STATIC,21,95,63,8
+    CONTROL         "Check Box 1",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,29,140,55,10
+    CONTROL         "Check Box 2",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,29,155,55,10
+    CONTROL         "Check Box 3",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,29,170,55,10
+    CONTROL         "Check Box 4",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,29,186,55,10
+    GROUPBOX        "Check Group Box",IDC_STATIC,19,124,77,82
+    EDITTEXT        IDC_EDIT1,161,27,69,14,ES_AUTOHSCROLL | WS_GROUP
+    EDITTEXT        IDC_EDIT2,161,42,69,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,161,56,69,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,161,71,69,14,ES_AUTOHSCROLL
+    LTEXT           "Edit Box 1",IDC_STATIC,119,30,41,8
+    LTEXT           "Edit Box 2",IDC_STATIC,119,45,41,8
+    LTEXT           "Edit Box 3",IDC_STATIC,119,60,41,8
+    LTEXT           "Edit Box 4",IDC_STATIC,119,73,41,8
+    GROUPBOX        "Label and Edit Group Box",IDC_STATIC,108,14,134,78
+    CONTROL         "Radio Button 1",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,113,111,70,10
+    CONTROL         "Radio Button 2",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,113,122,70,10
+    CONTROL         "Radio Button 3",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,113,135,70,10
+    CONTROL         "Radio Button 4",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,113,148,70,10
+    GROUPBOX        "Radio Group Box",IDC_STATIC,105,98,82,68
+    COMBOBOX        IDC_COMBO1,237,115,56,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_COMBO2,237,131,56,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO3,237,147,56,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Combo Group Box",IDC_STATIC,195,102,103,79
+    COMBOBOX        IDC_COMBO4,237,162,56,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Combo1",IDC_STATIC,206,118,31,8
+    LTEXT           "Combo2",IDC_STATIC,205,132,31,8
+    LTEXT           "Combo4",IDC_STATIC,206,163,31,8
+    LTEXT           "Combo3",IDC_STATIC,205,149,31,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+ABOUT3 MENU 
+BEGIN
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About About3...",            IDM_APP_ABOUT
+        MENUITEM "&Modal Dialog...",            IDM_MODALDIALOG
+        MENUITEM "&Modeless Dialog...",         IDM_MODELESSDIALOG
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    "ABOUTBOX", DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_MODALDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 279
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_MODELESSDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 306
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 222
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ABOUT3                  ICON                    "icon1.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

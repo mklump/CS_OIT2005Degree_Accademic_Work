@@ -1,0 +1,71 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file BenefitsCS.csproj at December 07 2005, 16:26:39.
+
+=========================ERRORS===================
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Added folder Web References\BenefitsCS\DentalWebRef.
+Moved file Web References\DentalWebRef\Service1.disco to the Web References\BenefitsCS\DentalWebRef\ directory.
+Moved file Web References\DentalWebRef\Service1.wsdl to the Web References\BenefitsCS\DentalWebRef\ directory.
+Warning: Renamed file Web References\DentalWebRef\Reference.map to file Service1.discomap.
+Moved file Web References\DentalWebRef\Service1.discomap to the Web References\BenefitsCS\DentalWebRef\ directory.
+Added folder App_Code.
+Moved file daDoctors.xsd to the App_Code\ directory.
+Warning: Renamed file App_Code\daDoctors.xsd to file BenefitsCS.daDoctors.xsd.
+Removed file daDoctors.cs.
+Removed attribute AutoEventWireup from file default.aspx.
+Removed attribute Codebehind from file default.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file default.aspx.cs (Line 23).
+Warning: Access level of 'cmdSubmit_Click' changed to 'protected' in file default.aspx.cs (Line 59).
+Removed attribute AutoEventWireup from file dental.aspx.
+Removed attribute Codebehind from file dental.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file dental.aspx.cs (Line 20).
+Warning: Access level of 'cmdSubmit_Click' changed to 'protected' in file dental.aspx.cs (Line 44).
+Warning: Access level of 'cmdGetAllDentists_Click' changed to 'protected' in file dental.aspx.cs (Line 56).
+Warning: Access level of 'txtPostalCode_TextChanged' changed to 'protected' in file dental.aspx.cs (Line 66).
+Warning: Access level of 'dgDentists_SelectedIndexChanged' changed to 'protected' in file dental.aspx.cs (Line 71).
+Removed attribute Codebehind from file doctors.aspx.
+Removed attribute AutoEventWireup from file doctors.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file doctors.aspx.cs (Line 29).
+Warning: Access level of 'cmdSubmit_Click' changed to 'protected' in file doctors.aspx.cs (Line 211).
+Warning: Access level of 'lstCities_SelectedIndexChanged' changed to 'protected' in file doctors.aspx.cs (Line 220).
+Warning: Access level of 'dgDoctors_SelectedIndexChanged' changed to 'protected' in file doctors.aspx.cs (Line 236).
+Removed attribute Codebehind from file Global.asax.
+Removed attribute AutoEventWireup from file header.ascx.
+Removed attribute CodeBehind from file header.ascx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file header.ascx.cs (Line 16).
+Removed attribute Codebehind from file life.aspx.
+Removed attribute AutoEventWireup from file life.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file life.aspx.cs (Line 20).
+Warning: Access level of 'cmdSave_Click' changed to 'protected' in file life.aspx.cs (Line 48).
+Removed attribute Codebehind from file medical.aspx.
+Removed attribute AutoEventWireup from file medical.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file medical.aspx.cs (Line 21).
+Warning: Access level of 'cmdSave_Click' changed to 'protected' in file medical.aspx.cs (Line 50).
+Removed attribute TargetSchema from file namedate.ascx.
+Removed attribute Codebehind from file namedate.ascx.
+Removed attribute AutoEventWireup from file namedate.ascx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file namedate.ascx.cs (Line 16).
+Removed attribute AutoEventWireup from file nestedData.aspx.
+Removed attribute Codebehind from file nestedData.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file nestedData.aspx.cs (Line 36).
+'Reference' tag with reference to '~/doctors.aspx' added to file nestedData.aspx.
+Removed attribute AutoEventWireup from file prospectus.aspx.
+Removed attribute Codebehind from file prospectus.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file prospectus.aspx.cs (Line 20).
+Removed attribute AutoEventWireup from file retirement.aspx.
+Removed attribute Codebehind from file retirement.aspx.
+Removed the id attribute from the <form> tag in file retirement.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file retirement.aspx.cs (Line 23).
+Moved file Global.asax.cs to the App_Code\ directory.
+Moved file AssemblyInfo.cs to the App_Code\ directory.
+Warning: Renamed folder Web References\ to App_WebReferences.
+Changed HTML validation schema for all projects to 'Internet Explorer 6.0'.
+Removed file Bin\BenefitsCS.dll.
+Removed file Bin\BenefitsCS.pdb.
+Removed file BenefitsCS.csproj.
+Removed file BenefitsCS.csproj.webinfo.
+Project BenefitsCS.csproj has been converted successfully at December 07 2005, 16:26:44.

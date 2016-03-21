@@ -1,0 +1,12 @@
+# English language strings for internationalized WebBrowser
+# application title
+applicationTitle = Deitel Web Browser
+
+# title for WebToolBar
+toolBarTitle = Web Navigation
+
+# tooltip for forward toolbar button
+forwardToolTip = Next Page
+
+# tooltip for back button
+backToolTip = Previous Page

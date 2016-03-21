@@ -1,0 +1,26 @@
+/* CST 407 Fall 2002 Input program 1.
+*   This program demonstrates C code
+*   using a single function (add) and using
+*   built in functions accept and print.
+*
+*
+*
+*/
+
+int add( int a, int b )
+{
+   int k;
+
+   k = a + b;
+
+   return k;
+}
+
+void main(int k, int l)
+{
+   int j;
+   k = 2;
+   l = 3;
+   j = add( k , l );
+   print( j );
+}

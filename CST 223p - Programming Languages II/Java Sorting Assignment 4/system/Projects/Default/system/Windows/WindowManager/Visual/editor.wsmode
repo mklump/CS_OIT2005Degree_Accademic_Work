@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="1.0">
+    <name unique="editor" display="CTL_EditorWindow" from-bundle="true" bundle="org.netbeans.core.windows.Bundle" />
+    <module name="org.netbeans.modules.form/2" spec="1.7" />
+    <ui-type type="any" >
+        <bounds x="405" y="112" width="614" height="625" />
+        <frame type="window" state="normal" />
+        <container type="split" >
+        </container>
+        <icon url="nbresboot:/org/openide/resources/editorMode.gif" />
+        <other defined-by="module" mode-state="hidden" />
+    </ui-type>
+</mode>

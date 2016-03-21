@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:i0="http://www.tempuri.org/NWDataSet.xsd" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <import namespace="http://www.tempuri.org/NWDataSet.xsd" location="http://localhost/2389/Labs/Lab07/Solution/CS/OnTheRoadWS/SalesManager.asmx?schema=NWDataSet" />
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://www.tempuri.org/NWDataSet.xsd" />
+      <s:element name="GetDataSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="iEmployeeID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sServerName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataSetResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any namespace="http://www.tempuri.org/NWDataSet.xsd" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDatabase">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsNorthwind">
+              <s:complexType>
+                <s:sequence>
+                  <s:any namespace="http://www.tempuri.org/NWDataSet.xsd" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateDatabaseResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="NWDataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:any namespace="http://www.tempuri.org/NWDataSet.xsd" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="GetDataSetSoapIn">
+    <part name="parameters" element="s0:GetDataSet" />
+  </message>
+  <message name="GetDataSetSoapOut">
+    <part name="parameters" element="s0:GetDataSetResponse" />
+  </message>
+  <message name="UpdateDatabaseSoapIn">
+    <part name="parameters" element="s0:UpdateDatabase" />
+  </message>
+  <message name="UpdateDatabaseSoapOut">
+    <part name="parameters" element="s0:UpdateDatabaseResponse" />
+  </message>
+  <message name="GetDataSetHttpGetIn">
+    <part name="iEmployeeID" type="s:string" />
+    <part name="sServerName" type="s:string" />
+  </message>
+  <message name="GetDataSetHttpGetOut">
+    <part name="Body" element="s0:NWDataSet" />
+  </message>
+  <message name="GetDataSetHttpPostIn">
+    <part name="iEmployeeID" type="s:string" />
+    <part name="sServerName" type="s:string" />
+  </message>
+  <message name="GetDataSetHttpPostOut">
+    <part name="Body" element="s0:NWDataSet" />
+  </message>
+  <portType name="SalesManagerSoap">
+    <operation name="GetDataSet">
+      <input message="s0:GetDataSetSoapIn" />
+      <output message="s0:GetDataSetSoapOut" />
+    </operation>
+    <operation name="UpdateDatabase">
+      <input message="s0:UpdateDatabaseSoapIn" />
+      <output message="s0:UpdateDatabaseSoapOut" />
+    </operation>
+  </portType>
+  <portType name="SalesManagerHttpGet">
+    <operation name="GetDataSet">
+      <input message="s0:GetDataSetHttpGetIn" />
+      <output message="s0:GetDataSetHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="SalesManagerHttpPost">
+    <operation name="GetDataSet">
+      <input message="s0:GetDataSetHttpPostIn" />
+      <output message="s0:GetDataSetHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="SalesManagerSoap" type="s0:SalesManagerSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="GetDataSet">
+      <soap:operation soapAction="http://tempuri.org/GetDataSet" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="UpdateDatabase">
+      <soap:operation soapAction="http://tempuri.org/UpdateDatabase" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="SalesManagerHttpGet" type="s0:SalesManagerHttpGet">
+    <http:binding verb="GET" />
+    <operation name="GetDataSet">
+      <http:operation location="/GetDataSet" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="SalesManagerHttpPost" type="s0:SalesManagerHttpPost">
+    <http:binding verb="POST" />
+    <operation name="GetDataSet">
+      <http:operation location="/GetDataSet" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="SalesManager">
+    <port name="SalesManagerSoap" binding="s0:SalesManagerSoap">
+      <soap:address location="http://localhost/2389/Labs/Lab07/Solution/CS/OnTheRoadWS/SalesManager.asmx" />
+    </port>
+    <port name="SalesManagerHttpGet" binding="s0:SalesManagerHttpGet">
+      <http:address location="http://localhost/2389/Labs/Lab07/Solution/CS/OnTheRoadWS/SalesManager.asmx" />
+    </port>
+    <port name="SalesManagerHttpPost" binding="s0:SalesManagerHttpPost">
+      <http:address location="http://localhost/2389/Labs/Lab07/Solution/CS/OnTheRoadWS/SalesManager.asmx" />
+    </port>
+  </service>
+</definitions>

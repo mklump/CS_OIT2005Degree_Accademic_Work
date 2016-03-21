@@ -1,0 +1,49 @@
+Please enter the input file name including extension : --- Test Auto Constructors ----
+Auto Trip 1 :                 -                 is    0 Miles 
+Auto Trip 2 :       Beaverton -     Wilsonville is   12 Miles 
+Auto Trip 3 :       Beaverton -     Wilsonville is   12 Miles 
+
+--- Test Plane Constructors ----
+Plane Trip 1 :                 -                 is    0 Miles 
+Plane Trip 2 :        Portland -         Seattle is  180 Miles 
+Plane Trip 3 :        Portland -         Seattle is  180 Miles 
+--- Possible Plane Trips ----
+       Portland -         NewYork is 2900 Miles Bag 1:    35 Bag 2:    11 
+       Portland -         Seattle is  180 Miles Bag 1:    36 Bag 2:     9 
+       Portland -    KlamathFalls is  275 Miles Bag 1:    56 Bag 2:    10 
+       Portland -     Albuquerque is 1370 Miles Bag 1:    48 
+       Portland -       RapidCity is 1260 Miles Bag 1:     5 Bag 2:     7 
+        Seattle -    Philadelphia is 2820 Miles Bag 1:    20 Bag 2:    12 
+        Seattle -    WashingtonDC is 2720 Miles Bag 1:     6 Bag 2:    27 
+        Seattle -           Fargo is 1420 Miles Bag 1:    19 
+
+--- Possible Auto Trips ----
+       Portland -         NewYork is 2900 Miles  
+       Portland -         Seattle is  180 Miles  
+       Portland -    KlamathFalls is  275 Miles  
+       Portland -     Albuquerque is 1370 Miles  
+       Portland -       RapidCity is 1260 Miles  
+        Seattle -    Philadelphia is 2820 Miles  
+        Seattle -    WashingtonDC is 2720 Miles  
+        Seattle -           Fargo is 1420 Miles  
+
+
+--- Plane Trips sorted from shortest to longest ----
+       Portland -         Seattle is  180 Miles Bag 1:    36 Bag 2:     9 
+       Portland -    KlamathFalls is  275 Miles Bag 1:    56 Bag 2:    10 
+       Portland -       RapidCity is 1260 Miles Bag 1:     5 Bag 2:     7 
+       Portland -     Albuquerque is 1370 Miles Bag 1:    48 
+        Seattle -           Fargo is 1420 Miles Bag 1:    19 
+        Seattle -    WashingtonDC is 2720 Miles Bag 1:     6 Bag 2:    27 
+        Seattle -    Philadelphia is 2820 Miles Bag 1:    20 Bag 2:    12 
+       Portland -         NewYork is 2900 Miles Bag 1:    35 Bag 2:    11 
+
+--- Auto Trips sorted from shortest to longest ----
+       Portland -         Seattle is  180 Miles  
+       Portland -    KlamathFalls is  275 Miles  
+       Portland -       RapidCity is 1260 Miles  
+       Portland -     Albuquerque is 1370 Miles  
+        Seattle -           Fargo is 1420 Miles  
+        Seattle -    WashingtonDC is 2720 Miles  
+        Seattle -    Philadelphia is 2820 Miles  
+       Portland -         NewYork is 2900 Miles  

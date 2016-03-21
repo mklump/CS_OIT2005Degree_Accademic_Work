@@ -1,0 +1,5 @@
+Provider=SQLOLEDB.1;Integrated Security=SSPI;Server=localhost;Database=thepuzzler_3dstyle;ConnectionTimeout=10
+
+Provider=SQLOLEDB.1;Server=localhost;UID=thepuzzler_3dstyle;Pwd=aaaa1111;Database=thepuzzler_3dstyle;Integrated Security=True;ConnectionTimeout=5;
+
+Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=thepuzzler_3dstyle;Data Source=ACER-EXCELLENCE;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=ACER-EXCELLENCE;Use Encryption for Data=False;Tag with column collation when possible=False

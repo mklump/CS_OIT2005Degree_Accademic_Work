@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nGallery7.1Project", "nGallery7.1Project\nGallery7.1Project.csproj", "{DDF4BBF4-5DBD-4D15-933D-D7D99FB30D1E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DDF4BBF4-5DBD-4D15-933D-D7D99FB30D1E}.Debug.ActiveCfg = Debug|.NET
+		{DDF4BBF4-5DBD-4D15-933D-D7D99FB30D1E}.Debug.Build.0 = Debug|.NET
+		{DDF4BBF4-5DBD-4D15-933D-D7D99FB30D1E}.Release.ActiveCfg = Release|.NET
+		{DDF4BBF4-5DBD-4D15-933D-D7D99FB30D1E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

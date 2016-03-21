@@ -1,0 +1,11 @@
+//
+// File: systemclock.idl
+//
+
+module dii
+{
+    interface SystemClock
+    {
+        long long currentTimeMillis();
+    };
+};

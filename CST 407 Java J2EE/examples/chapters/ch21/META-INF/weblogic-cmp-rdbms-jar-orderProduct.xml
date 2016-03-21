@@ -1,0 +1,65 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!-- weblogic-cmp-rdbms-jar-orderProduct.xml ejb descriptor for -->
+<!-- OrderProductEJB defines rdbms properties for WebLogic -->
+
+<!DOCTYPE weblogic-rdbms-bean PUBLIC 
+   '-//BEA Systems, Inc.//DTD WebLogic 5.1.0 EJB RDBMS Persistence//EN'
+   'http://www.bea.com/servers/wls510/dtd/weblogic-rdbms-persistence.dtd'>
+
+<!-- element containing rdbms properties for OrderProductsEJB -->
+<weblogic-rdbms-bean>
+
+   <!-- assigns this bean to pool named BookstorePool -->
+   <pool-name>BookstorePool</pool-name>
+
+   <!-- assigns this bean to table named ORDERPRODUCT -->
+   <table-name>OrderProduct</table-name>
+
+   <!-- element containing field mappings -->
+   <attribute-map> 
+   
+      <!-- field mapping for quantity -->
+      <object-link>
+         <bean-field>quantity</bean-field>
+         <dbms-column>quantity</dbms-column>
+      </object-link>
+
+      <!-- field mapping for ISBN -->
+      <object-link>
+         <bean-field>ISBN</bean-field>
+         <dbms-column>ISBN</dbms-column>
+      </object-link>
+
+      <!-- field mapping for orderID -->
+      <object-link>
+         <bean-field>orderID</bean-field>
+         <dbms-column>orderID</dbms-column>
+      </object-link>
+
+   </attribute-map>
+
+
+   <finder-list>
+
+     <!-- finder for findByOrderID -->
+      <finder>
+         <method-name>findByOrderID</method-name>
+         <method-params>
+            <method-param>java.lang.Integer</method-param>
+         </method-params>
+
+         <!-- select fields where orderID matches argument -->
+         <finder-query>
+            <![CDATA[( like orderID $0 )]]>
+         </finder-query>
+      </finder>
+
+   </finder-list>
+
+   <!-- additional options -->
+   <options>
+    <use-quoted-names>false</use-quoted-names>
+   </options>
+
+</weblogic-rdbms-bean> <!-- end OrderProduct Descriptor -->

@@ -1,0 +1,4 @@
+This is a library that produces various graphs and legends and returns them as Images so that they can be easily consumed by a Windows Forms or Web application. 
+
+
+-Matt

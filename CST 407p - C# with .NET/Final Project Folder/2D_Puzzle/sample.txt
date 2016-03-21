@@ -1,0 +1,30 @@
+/// <summary>
+		/// two arguement ArrayList constructor
+		/// </summary>
+		/// <param name="diction"></param>
+		/// <param name="puzzle"></param>
+		public HorizontalWords( ref ArrayList dictionary, ref ArrayList puzzle )
+			: this()
+		{
+			ArrayList [] lists = new ArrayList[2] { dictionary, puzzle };
+			StringCollection [] strings = ArrayListToStringCollection( lists );
+			dictionaryWords = strings[0];
+			buffer = strings[1]; 
+		}
+		/// <summary>
+		/// Accepts an object array of the System.Collection.ArrayList(s) to be Converted
+		/// Returns a System.Collections.Specialized.StringCollection array with deep copies
+		/// </summary>
+		/// <param name="arrayLists"></param>
+		/// <returns></returns>
+		public static
+			StringCollection []
+			ArrayListToStringCollection( params ArrayList[] arrayLists )
+		{
+			StringCollection [] strings = new StringCollection[arrayLists.Length];
+			for( int ix = 0; ix < arrayLists.Length; ++ix )
+				for( int iy = 0; iy < arrayLists.Length; ++iy )
+					strings[ix][iy] = (string)(arrayLists[ix][iy]);
+
+			return strings;
+		}

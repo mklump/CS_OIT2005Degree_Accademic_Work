@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="1.0">
+    <name unique="debugger" display="CTL_Debugger_window" from-bundle="true" bundle="org.netbeans.modules.debugger.resources.Bundle" />
+    <module name="org.netbeans.modules.debugger.core/3" spec="2.1" />
+    <ui-type type="any" >
+        <bounds x="-4" y="112" width="358" height="625" />
+        <frame type="window" constraints="left" state="normal" />
+        <container type="tabbed" active-tc="DebuggerWindow" >
+        </container>
+        <icon url="nbresboot:/org/netbeans/core/resources/debuggerView.gif" />
+        <other defined-by="module" mode-state="visible" />
+    </ui-type>
+</mode>

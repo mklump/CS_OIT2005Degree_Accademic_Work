@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="1.0">
+    <name unique="properties" display="CTL_PropertiesWindow" from-bundle="true" bundle="org.netbeans.core.windows.Bundle" />
+    <ui-type type="any" >
+        <bounds x="2" y="552" width="295" height="186" />
+        <frame type="window" state="normal" />
+        <container type="tabbed" active-tc="properties" >
+        </container>
+        <icon url="nbresboot:/org/netbeans/core/resources/frames/properties.gif" />
+        <other defined-by="module" mode-state="visible" />
+    </ui-type>
+</mode>

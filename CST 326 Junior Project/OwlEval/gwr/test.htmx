@@ -1,0 +1,101 @@
+<head> 
+
+</head>
+<body bgcolor=ffcc00>
+
+<table>
+<tr><td>
+</td><td>
+  <table>
+  <tr><td></td>
+  <td width=127><center><b>Strongly<br>Disagree</td>
+  <td width=127><center><b>Disagree</td>
+  <td width=127><center><b>Neutral</td>
+  <td width=127><center><b>Agree</td>
+  <td width=127><center><b>Strongly<br>Agree</td>
+  </table>
+</td></tr>
+
+<tr><td width=175>
+Jack and jill went up the hill Jack and jill went up the hill Jack and jill went up the hill Jack and jill went up the hill Jack and jill went up the hill
+</td><td>
+  <table>
+  <tr><td width=57></td><td colspan=5>
+    <table><tr>
+
+<!-- calculate the three width numbers in the following three lines>
+    <td bgcolor=ffCC00><img src=gold.bmp height=15 width=347.5></td>
+    <td bgcolor=0000ff><img src=blue.bmp height=15 width=6></td>
+    <td bgcolor=ffCC00><img src=gold.bmp height=15 width=160.5></td>
+    <td></td>
+    </tr></table>
+  </td><td>Total</td></tr>
+  <tr><td></td><td colspan=5><img src="scale.bmp"></td>
+
+<!-- calculate the total here>
+  <td>11</td></tr>
+  <tr><td colspan=7><center>
+    <table><tr>
+
+<!-- Aggregate here>
+    <td width=127><center>0</td>
+    <td width=127><center>3</td>
+    <td width=127><center>4</td>
+    <td width=127><center>1</td>
+    <td width=127><center>4</td>
+    </tr></table>
+  </td></tr>
+  </table>
+</td></tr>
+
+
+<tr><td width=175>
+Jack and jill went up the hill Jack and jill went up the hill Jack and jill went up the hill Jack and jill went up the hill Jack and jill went up the hill
+</td><td>
+  <table>
+  <tr><td width=57></td><td colspan=5>
+    <table><tr>
+    <td bgcolor=ffCC00><img src=gold.bmp height=15 width=224></td>
+    <td bgcolor=0000ff><img src=blue.bmp height=15 width=6></td>
+    <td bgcolor=ffCC00><img src=gold.bmp height=15 width=284></td>
+    <td></td>
+    </tr></table>
+  </td><td>Total</td></tr>
+  <tr><td></td><td colspan=5><img src="scale.bmp"></td><td>20</td></tr>
+  <tr><td colspan=7><center>
+    <table><tr>
+    <td width=127><center>2</td>
+    <td width=127><center>5</td>
+    <td width=127><center>10</td>
+    <td width=127><center>2</td>
+    <td width=127><center>1</td>
+    </tr></table>
+  </td></tr>
+  </table>
+</td></tr>
+
+<tr><td width=175>
+Jack and jill went up the hill Jack and jill went up the hill Jack and jill went up the hill Jack and jill went up the hill Jack and jill went up the hill
+</td><td>
+  <table>
+  <tr><td width=57></td><td colspan=5>
+    <table><tr>
+    <td bgcolor=ffCC00><img src=gold.bmp height=15 width=224></td>
+    <td bgcolor=0000ff><img src=blue.bmp height=15 width=6></td>
+    <td bgcolor=ffCC00><img src=gold.bmp height=15 width=284></td>
+    <td></td>
+    </tr></table>
+  </td><td>Total</td></tr>
+  <tr><td></td><td colspan=5><img src="scale.bmp"></td><td>20</td></tr>
+  <tr><td colspan=7><center>
+    <table><tr>
+    <td width=127><center>2</td>
+    <td width=127><center>5</td>
+    <td width=127><center>10</td>
+    <td width=127><center>2</td>
+    <td width=127><center>1</td>
+    </tr></table>
+  </td></tr>
+  </table>
+</td></tr>
+</table>

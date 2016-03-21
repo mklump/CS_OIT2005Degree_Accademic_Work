@@ -1,0 +1,259 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f36\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Arial Black;}
+{\f37\froman\fcharset238\fprq2 Times New Roman CE;}{\f38\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f40\froman\fcharset161\fprq2 Times New Roman Greek;}{\f41\froman\fcharset162\fprq2 Times New Roman Tur;}
+{\f42\froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f43\froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f44\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f45\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\f47\fswiss\fcharset238\fprq2 Arial CE;}{\f48\fswiss\fcharset204\fprq2 Arial Cyr;}{\f50\fswiss\fcharset161\fprq2 Arial Greek;}{\f51\fswiss\fcharset162\fprq2 Arial Tur;}{\f52\fswiss\fcharset177\fprq2 Arial (Hebrew);}
+{\f53\fswiss\fcharset178\fprq2 Arial (Arabic);}{\f54\fswiss\fcharset186\fprq2 Arial Baltic;}{\f55\fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f397\fswiss\fcharset238\fprq2 Arial Black CE;}{\f398\fswiss\fcharset204\fprq2 Arial Black Cyr;}
+{\f400\fswiss\fcharset161\fprq2 Arial Black Greek;}{\f401\fswiss\fcharset162\fprq2 Arial Black Tur;}{\f404\fswiss\fcharset186\fprq2 Arial Black Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;
+\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;
+\red192\green192\blue192;}{\stylesheet{\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\s1\ql \li0\ri0\sa220\sl220\slmult0
+\keep\keepn\widctlpar\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \f36\fs24\expnd-2\expndtw-10\lang1033\langfe1033\kerning20\cgrid\langnp1033\langfenp1033 \sbasedon29 \snext17 heading 1;}{\s2\ql \li0\ri0\sl220\slmult0
+\keep\keepn\widctlpar\faauto\outlinelevel1\adjustright\rin0\lin0\itap0 \f36\fs18\expnd-2\expndtw-10\lang1033\langfe1033\kerning20\cgrid\langnp1033\langfenp1033 \sbasedon29 \snext17 heading 2;}{\s3\ql \li0\ri0\sa220\sl220\slmult0
+\keep\keepn\widctlpar\abslock1\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \f1\fs22\expnd-2\expndtw-10\lang1033\langfe1033\kerning20\cgrid\langnp1033\langfenp1033 \sbasedon29 \snext17 heading 3;}{\s4\ql \li360\ri0\sl220\slmult0
+\keep\keepn\widctlpar\abslock1\faauto\outlinelevel3\adjustright\rin0\lin360\itap0 \f36\fs18\expnd-1\expndtw-5\lang1033\langfe1033\kerning20\cgrid\langnp1033\langfenp1033 \sbasedon29 \snext17 heading 4;}{\s5\ql \li720\ri0\sl220\slmult0
+\keep\keepn\widctlpar\abslock1\faauto\outlinelevel4\adjustright\rin0\lin720\itap0 \f36\fs18\expnd-1\expndtw-5\lang1033\langfe1033\kerning20\cgrid\langnp1033\langfenp1033 \sbasedon29 \snext17 heading 5;}{\s6\ql \li1080\ri0\sl220\slmult0
+\keep\keepn\widctlpar\abslock1\faauto\outlinelevel5\adjustright\rin0\lin1080\itap0 \f36\fs18\expnd-1\expndtw-5\lang1033\langfe1033\kerning20\cgrid\langnp1033\langfenp1033 \sbasedon29 \snext17 heading 6;}{
+\s7\ql \li0\ri0\keepn\widctlpar\faauto\outlinelevel6\adjustright\rin0\lin0\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 7;}{\s8\qc \li0\ri0\keepn\widctlpar\faauto\outlinelevel7\adjustright\rin0\lin0\itap0 
+\b\fs32\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 heading 8;}{\s9\qc \fi-720\li720\ri0\keepn\widctlpar\faauto\outlinelevel8\adjustright\rin0\lin720\itap0 \f1\fs36\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext0 heading 9;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\s15\ql \li42\ri150\widctlpar
+\tx42\tqc\tx237\tx1172\tqr\tx10749\faauto\adjustright\rin150\lin42\itap0 \fs20\lang1024\langfe1024\cgrid\noproof\langnp1033\langfenp1033 \sbasedon0 \snext15 OmniPage #1;}{\s16\ql \li46\ri100\widctlpar
+\tx46\tqr\tx10799\faauto\adjustright\rin100\lin46\itap0 \fs20\lang1024\langfe1024\cgrid\noproof\langnp1033\langfenp1033 \sbasedon0 \snext16 OmniPage #6;}{\s17\ql \fi720\li0\ri0\sa220\sl220\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 
+\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext17 Body Text;}{\s18\ql \li0\ri0\sb220\sa220\sl220\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext39 
+Salutation;}{\s19\ql \li4320\ri0\sa60\sl220\slmult0\keepn\widctlpar\faauto\adjustright\rin0\lin4320\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext24 Closing;}{\s20\ql \li0\ri0\widctlpar
+\tqc\tx4320\tqr\tx8640\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext20 header;}{\s21\ql \li0\ri0\widctlpar\tqc\tx4320\tqr\tx8640\faauto\adjustright\rin0\lin0\itap0 
+\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext21 footer;}{\s22\ql \li0\ri0\sb220\sa220\sl220\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext18 
+Attention Line;}{\s23\ql \fi-360\li360\ri0\sl220\slmult0\keep\widctlpar\faauto\adjustright\rin0\lin360\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext23 Cc List;}{\s24\ql \li4320\ri0\sb880\sl220\slmult0
+\keepn\widctlpar\faauto\adjustright\rin0\lin4320\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext37 Signature;}{\s25\ql \li0\ri0\sl280\slmult0
+\widctlpar\pvpg\phmrg\posy893\absh1584\absw3845\abslock1\dxfrtext187\dfrmtxtx187\dfrmtxty187\nowrap\faauto\adjustright\rin0\lin0\itap0 \f36\fs32\expnd-5\expndtw-25\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext25 Company Name;}{
+\s26\ql \li4320\ri0\sa220\sl220\slmult0\widctlpar\abslock1\faauto\adjustright\rin0\lin4320\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext31 Date;}{\*\cs27 \additive \f36\fs18 \sbasedon10 Emphasis;}{
+\s28\ql \li0\ri0\sa220\sl220\slmult0\keep\keepn\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext23 Enclosure;}{\s29\ql \li0\ri0\sl220\slmult0
+\keep\keepn\widctlpar\faauto\adjustright\rin0\lin0\itap0 \f36\fs20\expnd-2\expndtw-10\lang1033\langfe1033\kerning20\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext17 Heading Base;}{\s30\ql \li0\ri0\sl220\slmult0
+\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext30 Inside Address;}{\s31\ql \li0\ri0\sb220\sl220\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 
+\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon30 \snext30 Inside Address Name;}{\s32\ql \li0\ri0\sa220\sl220\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \caps\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext31 Mailing Instructions;}{\s33\ql \li0\ri0\sb220\sl220\slmult0\keep\keepn\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext28 Reference Initials;}{
+\s34\ql \li0\ri0\sa220\sl220\slmult0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext32 Reference Line;}{\s35\ql \li0\ri0\sl160\slmult0\keep\widctlpar
+\tx2160\pvpg\phmrg\posxr\posy965\absh965\absw4320\abslock1\dxfrtext187\dfrmtxtx187\dfrmtxty187\nowrap\faauto\adjustright\rin0\lin0\itap0 \fs14\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext35 Return Address;}{
+\s36\ql \li4320\ri0\sl220\slmult0\keepn\widctlpar\faauto\adjustright\rin0\lin4320\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon24 \snext33 Signature Company;}{\s37\ql \li4320\ri0\sl220\slmult0
+\keepn\widctlpar\faauto\adjustright\rin0\lin4320\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon24 \snext36 Signature Job Title;}{\*\cs38 \additive \f36\fs18 \sbasedon10 Slogan;}{\s39\ql \li0\ri0\sa220\sl220\slmult0
+\widctlpar\faauto\adjustright\rin0\lin0\itap0 \f36\fs20\expnd-2\expndtw-10\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext17 Subject Line;}{\s40\ql \fi-360\li360\ri0\sa220\sl220\slmult0\widctlpar\faauto\adjustright\rin0\lin360\itap0 
+\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon17 \snext40 List;}{\s41\ql \fi-360\li360\ri0\sa220\sl220\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\faauto\ls14\adjustright\rin0\lin360\itap0 
+\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon40 \snext41 \sautoupd List Bullet;}{\s42\ql \fi-360\li360\ri0\sa220\sl220\slmult0\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls15\pnrnot0\pndec }
+\faauto\ls15\adjustright\rin0\lin360\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon17 \snext42 List Number;}{\s43\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext0 \sautoupd \ssemihidden toc 1;}{\s44\ql \li200\ri0\widctlpar\faauto\adjustright\rin0\lin200\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 2;}{
+\s45\ql \li400\ri0\widctlpar\faauto\adjustright\rin0\lin400\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 3;}{\s46\ql \li600\ri0\widctlpar\faauto\adjustright\rin0\lin600\itap0 
+\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 4;}{\s47\ql \li800\ri0\widctlpar\faauto\adjustright\rin0\lin800\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext0 \sautoupd \ssemihidden toc 5;}{\s48\ql \li1000\ri0\widctlpar\faauto\adjustright\rin0\lin1000\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 6;}{
+\s49\ql \li1200\ri0\widctlpar\faauto\adjustright\rin0\lin1200\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 7;}{\s50\ql \li1400\ri0\widctlpar\faauto\adjustright\rin0\lin1400\itap0 
+\fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \sautoupd \ssemihidden toc 8;}{\s51\ql \li1600\ri0\widctlpar\faauto\adjustright\rin0\lin1600\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext0 \sautoupd \ssemihidden toc 9;}{\s52\qc \li0\ri0\widctlpar\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \f36\fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext52 Title;}{
+\s53\ql \fi720\li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs28\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext53 Body Text 2;}{\*\cs54 \additive \ul\cf2 \sbasedon10 Hyperlink;}{\*\cs55 \additive \fs16 
+\sbasedon10 \ssemihidden annotation reference;}{\s56\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext56 \ssemihidden annotation text;}{
+\s57\ql \fi720\li0\ri0\sb120\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext57 Body Text Indent 2;}}{\*\listtable{\list\listtemplateid-1125454268\listsimple{\listlevel\levelnfc0
+\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid-120}{\list\listtemplateid1894013370\listsimple{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid-119}{\list\listtemplateid67698703\listsimple{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat46\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid59720047}{\list\listtemplateid1496845922\listsimple
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat7\levelspace0\levelindent0{\leveltext\'01-;}{\levelnumbers;}\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid674115054}{\list\listtemplateid937579172
+\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \s41\fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid680279710}
+{\list\listtemplateid67698689\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname 
+;}\listid719210198}{\list\listtemplateid-1861961420\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 
+}{\listname ;}\listid750011421}{\list\listtemplateid1694118170\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li1080
+\jclisttab\tx1080\lin1080 }{\listname ;}\listid974143603}{\list\listtemplateid67698689\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 
+\fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid1089811194}{\list\listtemplateid-1394182432\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat6\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers
+\'01;}\fbias0 \fi-540\li1260\jclisttab\tx1260\lin1260 }{\listname ;}\listid1101989456}{\list\listtemplateid67698689\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid1108311364}{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat13\levelspace0\levelindent0
+{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid1440025329}{\list\listtemplateid67698689\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid1507941012}{\list\listtemplateid956310172\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat13
+\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listname ;}\listid1712728517}{\list\listtemplateid-896887238\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00);}{\levelnumbers\'01;}\s42\fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid1713573880}}{\*\listoverridetable{\listoverride\listid-119\listoverridecount0\ls1}{\listoverride\listid-120
+\listoverridecount0\ls2}{\listoverride\listid-119\listoverridecount0\ls3}{\listoverride\listid-120\listoverridecount0\ls4}{\listoverride\listid-119\listoverridecount0\ls5}{\listoverride\listid-120\listoverridecount0\ls6}{\listoverride\listid-119
+\listoverridecount0\ls7}{\listoverride\listid-120\listoverridecount0\ls8}{\listoverride\listid719210198\listoverridecount0\ls9}{\listoverride\listid1089811194\listoverridecount0\ls10}{\listoverride\listid1507941012\listoverridecount0\ls11}
+{\listoverride\listid-119\listoverridecount0\ls12}{\listoverride\listid-120\listoverridecount0\ls13}{\listoverride\listid680279710\listoverridecount0\ls14}{\listoverride\listid1713573880\listoverridecount0\ls15}{\listoverride\listid1108311364
+\listoverridecount0\ls16}{\listoverride\listid674115054\listoverridecount0\ls17}{\listoverride\listid750011421\listoverridecount0\ls18}{\listoverride\listid974143603\listoverridecount0\ls19}{\listoverride\listid1101989456\listoverridecount0\ls20}
+{\listoverride\listid1440025329\listoverridecount0\ls21}{\listoverride\listid59720047\listoverridecount0\ls22}{\listoverride\listid1712728517\listoverridecount0\ls23}}{\*\rsidtbl \rsid2827414}{\*\generator Microsoft Word 10.0.2627;}{\info{\title Normal}
+{\author Tom Howe}{\operator Tom Howe}{\creatim\yr1997\mo1\dy19\min27}{\revtim\yr2001\mo7\dy27\hr10\min39}{\printim\yr1997\mo1\dy19\min24}{\version6}{\edmins4}{\nofpages3}{\nofwords590}{\nofchars3364}{\*\company  }{\nofcharsws3947}{\vern16437}}
+\margl1440\margr1440\margt720\margb720 \widowctrl\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3
+\jcompress\doctype1\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\nolnhtadjtbl\rsidroot2827414 \fet0{\*\template C:\\Program Files\\Microsoft Office 2000\\Templates\\1033\\Professional Letter.dot}\sectd \linex0\colsx144\endnhere\sectdefaultcl\sftnbj 
+{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \s1\qc \li0\ri0\sb80\keepn\widctlpar\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 
+\f36\fs24\expnd-2\expndtw-10\lang1033\langfe1033\kerning20\cgrid\langnp1033\langfenp1033 {\expnd0\expndtw0\kerning0\insrsid2827414 {\*\bkmkstart _Toc377712585}{\*\bkmkstart _Toc377715836}{\*\bkmkstart _Toc377718792}{\*\bkmkstart _Toc377719241}
+{\*\bkmkstart _Toc377718777}{\*\bkmkstart _Toc377719226}{\*\bkmkstart _Toc377712575}{\*\bkmkstart _Toc377715826}
+\par 
+\par Legal Notice
+\par }\pard\plain \ql \fi720\li720\ri810\sb80\widctlpar\faauto\adjustright\rin810\lin720\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid2827414 These files are owned and copyrighted by Tom Howe. The documents are provided for educa
+tional purposes only. Users of this CD are strictly prohibited from selling, or otherwise distributing these documents, for profit.
+\par All persons making use of this information should first consult their own attorney, accountant or business advisor. Anyone using these documents without consulting their attorney or other professional advisors does so at their own risk. 
+\par }\pard\plain \s57\ql \fi720\li720\ri810\sb80\widctlpar\faauto\adjustright\rin810\lin720\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid2827414 
+These documents contain fictitious names so that the documents make sense to the reader. Any names mentioned in this book are entirely fictitious and no resemblance to persons living or dead, or corporate entities, is intended to be made.
+\par }\pard\plain \ql \fi720\li720\ri810\sb80\widctlpar\faauto\adjustright\rin810\lin720\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid2827414 Advisor Publications, Inc., Microsoft, any oth
+er sponsor of the conference, as well as the speaker, disclaim all liability with respect to the use of these documents.
+\par All other legal notices contained on this conference CD are applicable to these documents as well.
+\par }\pard \qc \li720\ri810\sb80\widctlpar\faauto\adjustright\rin810\lin720\itap0 {\i\insrsid2827414 Copyright }{\i\insrsid2827414 {\field{\*\fldinst SYMBOL 227 \\f "Symbol" \\s 10}{\fldrslt\f3\fs20}}}{\i\insrsid2827414  1997 Tom Howe
+\par }\pard \qc \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\i\insrsid2827414 All rights reserved
+\par }\pard \ql \li720\ri630\widctlpar\faauto\adjustright\rin630\lin720\itap0 {\insrsid2827414 
+\par \sect }\sectd \sbknone\linex0\colsx144\endnhere\sectdefaultcl\sftnbj \pard\plain \s7\qc \li720\ri630\keepn\widctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrb\brdrs\brdrw15\brsp20 \faauto\outlinelevel6\adjustright\rin630\lin720\rtlgutter\itap0 
+\b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b0\f36\fs32\insrsid2827414 LEGAL DOCUMENTS}{\insrsid2827414 
+\par }\pard\plain \ql \fi-360\li720\ri630\widctlpar\faauto\adjustright\rin630\lin720\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f36\fs16\insrsid2827414 
+\par }\pard\plain \s1\ql \li720\ri630\sl220\slmult0\keep\keepn\widctlpar\faauto\outlinelevel0\adjustright\rin630\lin720\itap0 \f36\fs24\expnd-2\expndtw-10\lang1033\langfe1033\kerning20\cgrid\langnp1033\langfenp1033 {
+\fs20\expnd0\expndtw0\kerning0\insrsid2827414 BETA
+\par }\pard\plain \ql \li720\ri630\widctlpar\tx1080\faauto\adjustright\rin630\lin720\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid2827414 1.\tab Beta Application Form
+\par 2.\tab Beta Evaluation Questionnaire
+\par 3.\tab Beta License Agreement
+\par 4.\tab Bug Report
+\par }\pard \ql \li720\ri630\widctlpar\faauto\adjustright\rin630\lin720\itap0 {\f36\fs16\insrsid2827414 
+\par }{\f36\insrsid2827414 COPYRIGHT
+\par }\pard \ql \li720\ri630\widctlpar\tx1080\faauto\adjustright\rin630\lin720\itap0 {\f1\insrsid2827414 5.\tab Copyright Infringement Letter
+\par 6.\tab Copyright Notice for Program
+\par }\pard \ql \li720\ri630\widctlpar\faauto\adjustright\rin630\lin720\itap0 {\f36\fs16\insrsid2827414 
+\par }{\f36\insrsid2827414 EMPLOYMENT CONTRACT
+\par }\pard \ql \li720\ri630\widctlpar\tx1080\faauto\adjustright\rin630\lin720\itap0 {\f1\insrsid2827414 7.\tab Employment Contract
+\par }\pard \ql \li720\ri630\widctlpar\faauto\adjustright\rin630\lin720\itap0 {\f36\fs16\insrsid2827414 
+\par }{\f36\insrsid2827414 SOFTWARE LICENSE CONTRACT & PROVISIONS 
+\par }\pard \ql \li720\ri630\widctlpar\tx1080\faauto\adjustright\rin630\lin720\itap0 {\f1\insrsid2827414 8.\tab Contract Modification Agreement
+\par 9.\tab License Provision
+\par 10.\tab Limitation of Damages Provision
+\par 11.\tab Software License Contract
+\par 12.\tab Warranty and Disclaimer Provisions
+\par }\pard \ql \li720\ri630\widctlpar\faauto\adjustright\rin630\lin720\itap0 {\f36\fs16\insrsid2827414 
+\par }{\f36\insrsid2827414 WARRANTY REGISTRATION CARD 
+\par {\pntext\pard\plain\f1\fs20 \hich\af1\dbch\af0\loch\f1 13.\tab}}\pard \ql \fi-360\li1080\ri630\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls23\pnrnot0\pndec\pnstart13\pnindent360\pnsp120\pnhang {\pntxta .}}
+\faauto\ls23\adjustright\rin630\lin1080\itap0 {\f1\insrsid2827414 Warranty Registration Card
+\par }\pard \ql \li720\ri630\widctlpar\tx1080\faauto\adjustright\rin630\lin720\itap0 {\f1\insrsid2827414 
+\par }{\f36\insrsid2827414 COMPUTER CONSULTING AGREEMENT}{\f1\insrsid2827414 
+\par 68. Computer Consulting Agreement
+\par 
+\par 
+\par }{\f36\insrsid2827414 LEGAL PROTECTION MEMO}{\f1\insrsid2827414 
+\par }\pard \ql \li720\ri630\widctlpar\faauto\adjustright\rin630\lin720\itap0 {\f1\insrsid2827414 69. }{\f1\insrsid2827414 Legal Protection}{\f1\insrsid2827414 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \qc \li720\ri630\widctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrb\brdrs\brdrw15\brsp20 \faauto\adjustright\rin630\lin720\rtlgutter\itap0 {\f36\fs32\insrsid2827414 BUSINESS & MARKETING
+\par }\pard \ql \li720\ri630\widctlpar\faauto\adjustright\rin630\lin720\itap0 {\f36\fs16\insrsid2827414 
+\par }\pard\plain \s1\ql \li720\ri630\sl220\slmult0\keep\keepn\widctlpar\faauto\outlinelevel0\adjustright\rin630\lin720\itap0 \f36\fs24\expnd-2\expndtw-10\lang1033\langfe1033\kerning20\cgrid\langnp1033\langfenp1033 {
+\fs20\expnd0\expndtw0\kerning0\insrsid2827414 BUSINESS & MARKETING PLAN}{\f1\insrsid2827414 
+\par }\pard\plain \ql \li720\ri630\widctlpar\tx1080\faauto\adjustright\rin630\lin720\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid2827414 14.\tab Investor Letter
+\par 15.\tab Non-Disclosure
+\par 16.\tab Business and Marketing Plan
+\par 17.\tab Business Plan Financials
+\par }\pard \ql \li720\ri0\widctlpar\faauto\adjustright\rin0\lin720\itap0 {\i\insrsid2827414 
+\par }\pard \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 {\i\insrsid2827414 
+\par }{\insrsid2827414 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \qc \li0\ri0\widctlpar\brdrt\brdrs\brdrw15\brsp20 \brdrb\brdrs\brdrw15\brsp20 \faauto\adjustright\rin0\lin0\rtlgutter\itap0 {\f36\fs32\insrsid2827414 LETTER TEMPLATES}{\insrsid2827414 
+\par }\pard \ql \li0\ri0\widctlpar\brdrt\brdrs\brdrw15\brsp20 \faauto\adjustright\rin0\lin0\rtlgutter\itap0 {\insrsid2827414 \sect }\sectd \sbknone\linex0\cols2\colsx144\endnhere\sectdefaultcl\sftnbj \pard\plain 
+\ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid2827414 
+\par }\pard\plain \s7\ql \li0\ri0\keepn\widctlpar\brdrt\brdrs\brdrw30\brsp20 \brdrb\brdrs\brdrw10\brsp20 \faauto\outlinelevel6\adjustright\rin0\lin0\rtlgutter\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b0\f36\fs32\insrsid2827414 
+\sect }\sectd \sbknone\linex0\cols2\colsx144\linebetcol\endnhere\sectdefaultcl\sftnbj \pard\plain \s7\ql \li0\ri0\keepn\widctlpar\faauto\outlinelevel6\adjustright\rin0\lin0\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {
+\b0\f36\fs20\insrsid2827414 BILLING{\*\bkmkend _Toc377712585}{\*\bkmkend _Toc377715836}{\*\bkmkend _Toc377718792}{\*\bkmkend _Toc377719241} LETTERS}{\fs20\insrsid2827414 
+\par }\pard\plain \ql \fi-360\li360\ri0\widctlpar\faauto\adjustright\rin0\lin360\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid2827414 18.\tab Apologize For Our Billing Error
+\par 19.\tab Disregard Our Extra Bill Sent to Client
+\par }\pard\plain \s7\ql \fi-360\li360\ri0\keepn\widctlpar\faauto\outlinelevel6\adjustright\rin0\lin360\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b0\f36\fs20\insrsid2827414 {\*\bkmkstart _Toc377712612}{\*\bkmkstart _Toc377715862}
+{\*\bkmkstart _Toc377718818}{\*\bkmkstart _Toc377719267}
+\par COLLECTION LETTERS
+\par }\pard\plain \ql \fi-360\li360\ri0\widctlpar\faauto\adjustright\rin0\lin360\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid2827414 {\*\bkmkstart _Toc377712609}{\*\bkmkstart _Toc377715859}{\*\bkmkstart _Toc377718815}
+{\*\bkmkstart _Toc377719264}{\*\bkmkend _Toc377712612}{\*\bkmkend _Toc377715862}{\*\bkmkend _Toc377718818}{\*\bkmkend _Toc377719267}20.\tab Casual Reminder{\*\bkmkend _Toc377712609}{\*\bkmkend _Toc377715859}{\*\bkmkend _Toc377718815}
+{\*\bkmkend _Toc377719264}
+\par {\*\bkmkstart _Toc377712610}{\*\bkmkstart _Toc377715860}{\*\bkmkstart _Toc377718816}{\*\bkmkstart _Toc377719265}21.\tab Moderate Reminder{\*\bkmkend _Toc377712610}{\*\bkmkend _Toc377715860}{\*\bkmkend _Toc377718816}{\*\bkmkend _Toc377719265}
+\par {\*\bkmkstart _Toc377712611}{\*\bkmkstart _Toc377715861}{\*\bkmkstart _Toc377718817}{\*\bkmkstart _Toc377719266}22.\tab Stronger Reminder{\*\bkmkend _Toc377712611}{\*\bkmkend _Toc377715861}{\*\bkmkend _Toc377718817}{\*\bkmkend _Toc377719266}
+\par 23.\tab Appeal for Discussion
+\par }\pard\plain \s1\ql \fi-360\li360\ri0\keepn\widctlpar\faauto\outlinelevel0\adjustright\rin0\lin360\itap0 \f36\fs24\expnd-2\expndtw-10\lang1033\langfe1033\kerning20\cgrid\langnp1033\langfenp1033 {\f1\fs20\expnd0\expndtw0\kerning0\insrsid2827414 
+{\*\bkmkstart _Toc377712613}{\*\bkmkstart _Toc377715863}{\*\bkmkstart _Toc377718819}{\*\bkmkstart _Toc377719268}24.\tab Urgent Demand{\*\bkmkend _Toc377712613}{\*\bkmkend _Toc377715863}{\*\bkmkend _Toc377718819}{\*\bkmkend _Toc377719268}
+\par }\pard\plain \ql \fi-360\li360\ri0\widctlpar\faauto\adjustright\rin0\lin360\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid2827414 {\*\bkmkstart _Toc377712614}{\*\bkmkstart _Toc377715864}{\*\bkmkstart _Toc377718820}
+{\*\bkmkstart _Toc377719269}25.\tab Final Demand{\*\bkmkend _Toc377712614}{\*\bkmkend _Toc377715864}{\*\bkmkend _Toc377718820}{\*\bkmkend _Toc377719269} and Threat of Legal Action
+\par }\pard\plain \s7\ql \fi-360\li360\ri0\keepn\widctlpar\faauto\outlinelevel6\adjustright\rin0\lin360\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b0\f36\fs20\insrsid2827414 
+\par CONFIRMATION LETTERS}{\fs20\insrsid2827414 
+\par }\pard\plain \s1\ql \fi-360\li360\ri0\keepn\widctlpar\faauto\outlinelevel0\adjustright\rin0\lin360\itap0 \f36\fs24\expnd-2\expndtw-10\lang1033\langfe1033\kerning20\cgrid\langnp1033\langfenp1033 {\f1\fs20\expnd0\expndtw0\kerning0\insrsid2827414 
+{\*\bkmkend _Toc377718777}{\*\bkmkend _Toc377719226}26.\tab Confirm Date of Demo
+\par }\pard\plain \ql \fi-360\li360\ri0\widctlpar\faauto\adjustright\rin0\lin360\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid2827414 27.\tab Confirm Date of Meeting to Discuss Contract
+\par 28.\tab Confirm Date to Evaluate Clients Computer System
+\par 29.\tab Confirm Installation Date
+\par 30.\tab Confirm Date Of Meeting To Handle Technical Support Issues
+\par {\*\bkmkstart _Toc377712589}{\*\bkmkstart _Toc377715840}{\*\bkmkstart _Toc377718796}{\*\bkmkstart _Toc377719245}31.\tab Confirm Phone Conversation{\*\bkmkend _Toc377712589}{\*\bkmkend _Toc377715840}{\*\bkmkend _Toc377718796}{\*\bkmkend _Toc377719245}
+
+\par }\pard\plain \s7\ql \fi-360\li360\ri0\keepn\widctlpar\faauto\outlinelevel6\adjustright\rin0\lin360\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b0\f36\fs20\insrsid2827414 {\*\bkmkstart _Toc377712606}{\*\bkmkstart _Toc377712607}
+{\*\bkmkstart _Toc377715857}{\*\bkmkstart _Toc377718813}{\*\bkmkstart _Toc377719262}
+\par CREDIT LETTERS}{\b0\fs20\insrsid2827414 
+\par }\pard\plain \ql \fi-360\li360\ri0\widctlpar\faauto\adjustright\rin0\lin360\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid2827414 32.\tab Canceling Credit{\*\bkmkend _Toc377712606}{\*\bkmkend _Toc377712607}
+{\*\bkmkend _Toc377715857}{\*\bkmkend _Toc377718813}{\*\bkmkend _Toc377719262} of Customer
+\par {\*\bkmkend _Toc377712575}{\*\bkmkend _Toc377715826}33.\tab Credit Granted To Customer
+\par {\*\bkmkstart _Toc377712600}{\*\bkmkstart _Toc377715851}{\*\bkmkstart _Toc377718807}{\*\bkmkstart _Toc377719256}34.\tab Creditor{\*\bkmkend _Toc377712600}{\*\bkmkend _Toc377715851}{\*\bkmkend _Toc377718807}{\*\bkmkend _Toc377719256} Bill Is Incorrect
+
+\par 35.\tab Get Credit Information from Credit References
+\par 36.\tab Get Credit Information from Customer
+\par {\*\bkmkstart _Toc377712604}{\*\bkmkstart _Toc377715855}{\*\bkmkstart _Toc377718811}{\*\bkmkstart _Toc377719260}37.\tab Refusing Credit{\*\bkmkend _Toc377712604}{\*\bkmkend _Toc377715855}{\*\bkmkend _Toc377718811}{\*\bkmkend _Toc377719260} to Customer
+
+\par {\*\bkmkstart _Toc377712597}{\*\bkmkstart _Toc377715849}{\*\bkmkstart _Toc377718805}{\*\bkmkstart _Toc377719254}38.\tab To Creditors{\*\bkmkend _Toc377712597}{\*\bkmkend _Toc377715849}{\*\bkmkend _Toc377718805}{\*\bkmkend _Toc377719254}
+ Cannot Pay Bill At This Time (30-day extension)
+\par 39.\tab To Creditors Cannot Pay Bill At This Time (payment plan)
+\par }\pard\plain \s7\ql \fi-360\li360\ri0\keepn\widctlpar\faauto\outlinelevel6\adjustright\rin0\lin360\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b0\f36\fs20\insrsid2827414 
+\par CUSTOMER RELATIONS LETTERS}{\b0\fs20\insrsid2827414 
+\par }\pard\plain \ql \fi-360\li360\ri0\widctlpar\faauto\adjustright\rin0\lin360\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid2827414 {\*\bkmkstart _Toc377718781}{\*\bkmkstart _Toc377719230}{\*\bkmkstart _Toc377718780}
+{\*\bkmkstart _Toc377719229}40.\tab Congratulations Regarding Promotion  
+\par {\*\bkmkend _Toc377718781}{\*\bkmkend _Toc377719230}41.\tab Response to Congratulations
+\par 42.\tab Congratulations for Birth of Baby
+\par 43.\tab Congratulations for Marriage
+\par 44.\tab Congratulations for Publication of Book 
+\par 45.\tab Congratulations for Retirement
+\par {\*\bkmkstart _Toc377712590}{\*\bkmkstart _Toc377715841}{\*\bkmkstart _Toc377718797}{\*\bkmkstart _Toc377719246}{\pntext\pard\plain\f1\fs20 \hich\af1\dbch\af0\loch\f1 46.\tab}}\pard \ql \fi-360\li360\ri0\widctlpar\jclisttab\tx360{\*\pn 
+\pnlvlbody\ilvl0\ls22\pnrnot0\pndec\pnstart46\pnindent360\pnsp120\pnhang {\pntxta .}}\faauto\ls22\adjustright\rin0\lin360\itap0 {\f1\insrsid2827414 Congratulations for Receipt of an Award{\*\bkmkstart _Toc377712588}{\*\bkmkstart _Toc377715839}
+{\*\bkmkstart _Toc377718795}{\*\bkmkstart _Toc377719244}{\*\bkmkend _Toc377712590}{\*\bkmkend _Toc377715841}{\*\bkmkend _Toc377718797}{\*\bkmkend _Toc377719246}
+\par {\pntext\pard\plain\f1\fs20 \hich\af1\dbch\af0\loch\f1 47.\tab}}\pard \ql \fi-360\li360\ri0\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls22\pnrnot0\pndec\pnstart46\pnindent360\pnsp120\pnhang {\pntxta .}}\faauto\ls22\adjustright\rin0\lin360\itap0 {
+\f1\insrsid2827414 Condolences of Death{\*\bkmkend _Toc377712588}{\*\bkmkend _Toc377715839}{\*\bkmkend _Toc377718795}{\*\bkmkend _Toc377719244}
+\par }\pard\plain \s7\ql \li0\ri0\keepn\widctlpar\faauto\outlinelevel6\adjustright\rin0\lin0\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b0\f36\fs20\insrsid2827414 DEVELOPMENT LETTERS}{\b0\fs20\insrsid2827414 
+\par }\pard\plain \ql \fi-360\li360\ri0\widctlpar\faauto\adjustright\rin0\lin360\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid2827414 48.\tab Work At Customer Site Checklist
+\par }\pard\plain \s7\ql \fi-360\li360\ri0\keepn\widctlpar\faauto\outlinelevel6\adjustright\rin0\lin360\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b0\f36\fs20\insrsid2827414 {\*\bkmkstart _Toc377712587}{\*\bkmkstart _Toc377715838}
+{\*\bkmkstart _Toc377718794}{\*\bkmkstart _Toc377719243}{\*\bkmkend _Toc377718780}{\*\bkmkend _Toc377719229}
+\par EMPLOYMENT{\*\bkmkend _Toc377712587}{\*\bkmkend _Toc377715838}{\*\bkmkend _Toc377718794}{\*\bkmkend _Toc377719243} LETTERS}{\b0\fs20\insrsid2827414 
+\par }\pard\plain \ql \fi-360\li360\ri0\widctlpar\faauto\adjustright\rin0\lin360\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid2827414 49.\tab Thank You for Help with Extra Project
+\par }\pard\plain \s7\ql \fi-360\li360\ri0\keepn\widctlpar\faauto\outlinelevel6\adjustright\rin0\lin360\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b0\f36\fs20\insrsid2827414 
+\par INDEPENDENT CONTRACTOR LETTERS}{\b0\fs20\insrsid2827414 
+\par }\pard\plain \ql \fi-360\li360\ri0\widctlpar\faauto\adjustright\rin0\lin360\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid2827414 50.\tab Accept Contractors Work Proposal
+\par }\pard\plain \s7\ql \fi-360\li360\ri0\keepn\widctlpar\faauto\outlinelevel6\adjustright\rin0\lin360\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b0\f36\fs20\insrsid2827414 
+\par INSTALLATION LETTERS}{\b0\fs20\insrsid2827414 
+\par }\pard\plain \ql \fi-360\li360\ri0\widctlpar\faauto\adjustright\rin0\lin360\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid2827414 51.\tab Appointment to Evaluate Current Computer System and Network
+\par 52.\tab Appointment to Install Program
+\par 53.\tab Customer Be Ready
+\par }\pard\plain \s7\ql \fi-360\li360\ri0\keepn\widctlpar\faauto\outlinelevel6\adjustright\rin0\lin360\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b0\f36\fs20\insrsid2827414 {\*\bkmkstart _Toc377712636}{\*\bkmkstart _Toc377715887}
+{\*\bkmkstart _Toc377718850}{\*\bkmkstart _Toc377719297}
+\par LAW LETTERS}{\b0\fs20\insrsid2827414 
+\par }\pard\plain \ql \fi-360\li360\ri0\widctlpar\faauto\adjustright\rin0\lin360\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid2827414 54.\tab Express an Opinion to a Public Official{\*\bkmkend _Toc377712636}
+{\*\bkmkend _Toc377715887}{\*\bkmkend _Toc377718850}{\*\bkmkend _Toc377719297}
+\par }\pard\plain \s7\ql \fi-360\li360\ri0\keepn\widctlpar\faauto\outlinelevel6\adjustright\rin0\lin360\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b0\f36\fs20\insrsid2827414 {\*\bkmkstart _Toc377712577}{\*\bkmkstart _Toc377715828}
+{\*\bkmkstart _Toc377718784}{\*\bkmkstart _Toc377719233}
+\par SALES LETTERS}{\b0\fs20\insrsid2827414 
+\par }\pard\plain \ql \fi-360\li360\ri0\widctlpar\faauto\adjustright\rin0\lin360\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid2827414 55.\tab Anniversary Date of Our {\*\bkmkend _Toc377712577}{\*\bkmkend _Toc377715828}
+{\*\bkmkend _Toc377718784}{\*\bkmkend _Toc377719233}Company
+\par 56.\tab Appointment Request For Demo
+\par 57.\tab Appointment to Discuss Contract
+\par {\*\bkmkstart _Toc377718778}{\*\bkmkstart _Toc377719227}58.\tab First Meeting Follow-up{\*\bkmkend _Toc377718778}{\*\bkmkend _Toc377719227}
+\par {\*\bkmkstart _Toc377712615}{\*\bkmkstart _Toc377715865}{\*\bkmkstart _Toc377718828}{\*\bkmkstart _Toc377719275}{\*\bkmkstart _Toc377712622}{\*\bkmkstart _Toc377715873}{\*\bkmkstart _Toc377718836}{\*\bkmkstart _Toc377719283}59.\tab Holiday Greetings
+{\*\bkmkend _Toc377712615}{\*\bkmkend _Toc377715865}{\*\bkmkend _Toc377718828}{\*\bkmkend _Toc377719275}{\*\bkmkend _Toc377712622}{\*\bkmkend _Toc377715873}{\*\bkmkend _Toc377718836}{\*\bkmkend _Toc377719283}
+\par 60.\tab Nice To Meet You
+\par 61.\tab Seminar Speaker Thank You Letter
+\par 62.\tab Unable To Reach Customer
+\par }\pard\plain \s7\ql \fi-360\li360\ri0\keepn\widctlpar\faauto\outlinelevel6\adjustright\rin0\lin360\itap0 \b\f1\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b0\f36\fs20\insrsid2827414 {\*\bkmkstart _Toc377712576}{\*\bkmkstart _Toc377715827}
+{\*\bkmkstart _Toc377718783}{\*\bkmkstart _Toc377719232}
+\par SUPPORT {\*\bkmkend _Toc377712576}{\*\bkmkend _Toc377715827}{\*\bkmkend _Toc377718783}{\*\bkmkend _Toc377719232}LETTERS}{\b0\fs20\insrsid2827414 
+\par }\pard\plain \ql \fi-360\li360\ri0\widctlpar\faauto\adjustright\rin0\lin360\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\insrsid2827414 63.\tab Customer Problem after Support Contract Ended
+\par {\*\bkmkstart _Toc377712579}{\*\bkmkstart _Toc377715830}{\*\bkmkstart _Toc377718786}{\*\bkmkstart _Toc377719235}64.\tab Admitting Error{\*\bkmkend _Toc377712579}{\*\bkmkend _Toc377715830}{\*\bkmkend _Toc377718786}{\*\bkmkend _Toc377719235}
+ for Inadequate Support
+\par 65.\tab Apology for Staff Rudeness
+\par 66.\tab Appointment To Handle Technical Support Issues
+\par 67.\tab Computer Problem We Have No Obligation to Support
+\par 68.\tab Unable To Reach Customer
+\par 
+\par 
+\par 
+\par \sect }\sectd \sbknone\linex0\endnhere\sectdefaultcl\sftnbj \pard\plain \ql \li0\ri0\widctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid2827414 
+\par }}

@@ -1,0 +1,22 @@
+#!/bin/sh
+#Filename: mathex.sh
+#Author: Matthew Klump
+#Date: March 5, 2002
+#Purpose: To execute a test of the various functions given in mathlib.sh
+#Input: Accepts one parrameter for math op testing. Displays output to
+#STDOUT.
+
+. mathlib.sh
+
+echo Please enter a list of numbers:
+read $@
+if [ $# != 1 ]; then
+	echo “usage: mathex.sh number”
+	exit
+fi
+sum $@
+echo The sum of your numbers is: $sum
+min $@
+echo The min of your numbers is: $min
+max $@
+echo The sum of your numbers is: $max

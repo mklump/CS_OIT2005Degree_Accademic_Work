@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<AccountList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://banking.corillian.com/Account.xsd">
+  <Account>
+    <Number>543678</Number>
+    <Description>Scott's Checking</Description>
+    <Type>Checking</Type>
+    <NickName>Primary Checking</NickName>
+    <CurrentBalance>5784.25</CurrentBalance>
+    <AvailableBalance>5744.25</AvailableBalance>
+  </Account>
+  <Account>
+    <Number>567482</Number>
+    <Description>Scott's Savings</Description>
+    <Type>Savings</Type>
+    <NickName>Money Market</NickName>
+    <CurrentBalance>12442.64</CurrentBalance>
+    <AvailableBalance>12422.64</AvailableBalance>
+  </Account>
+  <Account>
+    <Number>5635482</Number>
+    <Description>Retirement</Description>
+    <Type>401k</Type>
+    <NickName>Corillian 401k</NickName>
+    <CurrentBalance>4242.63</CurrentBalance>
+    <AvailableBalance>4243.64</AvailableBalance>
+  </Account>
+  <Account>
+    <Number>2345435</Number>
+    <Description>Retirement</Description>
+    <Type>401k</Type>
+    <NickName>NWEA 401k</NickName>
+    <CurrentBalance>46742.63</CurrentBalance>
+    <AvailableBalance>44243.64</AvailableBalance>
+  </Account>
+  <Account>
+    <Number>75883</Number>
+    <Description>My Car Loan with 1stTech</Description>
+    <Type>Loan</Type>
+    <NickName>Car Note</NickName>
+    <CurrentBalance>12000</CurrentBalance>
+    <AvailableBalance>12000</AvailableBalance>
+  </Account>
+  <Account>
+    <Number>75676572</Number>
+    <Description>Our Mortgage with Wells Fargo</Description>
+    <Type>Mortgage</Type>
+    <NickName>Mortgage</NickName>
+    <CurrentBalance>168999</CurrentBalance>
+    <AvailableBalance>168994</AvailableBalance>
+  </Account>
+</AccountList>

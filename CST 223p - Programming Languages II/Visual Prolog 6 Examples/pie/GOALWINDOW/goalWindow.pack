@@ -1,0 +1,27 @@
+/*****************************************************************************
+
+                        Copyright (c) Prolog Development Center A/S
+
+******************************************************************************/
+
+#include @"goalWindow\goalWindow.ph"
+
+% privately used packages
+#include @"engine\engine.ph"
+#include @"taskwindow\taskwindow.ph"
+#include @"pfc\vpi\vpitoolbar\vpitoolbar.ph"
+#include @"pie.ph"
+#include @"configuration\configuration.ph"
+#include @"pfc\5xvip\5xfile\5xfile.ph"
+#include @"pfc\5xvip\5xstring\5xstring.ph"
+#include @"pfc\vpi\vpieditor\vpieditor.ph"
+#include @"pfc\vpi\vpimessage\vpimessage.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\exception\exception.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"goalWindow\goalWindow.pro"

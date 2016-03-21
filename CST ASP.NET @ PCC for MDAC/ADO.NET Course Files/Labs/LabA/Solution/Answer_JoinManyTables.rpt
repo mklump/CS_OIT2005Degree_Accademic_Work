@@ -1,0 +1,82 @@
+productname                              categoryname    companyname                              
+---------------------------------------- --------------- ---------------------------------------- 
+Côte de Blaye                            Beverages       Aux joyeux ecclésiastiques
+Chartreuse verte                         Beverages       Aux joyeux ecclésiastiques
+Sasquatch Ale                            Beverages       Bigfoot Breweries
+Steeleye Stout                           Beverages       Bigfoot Breweries
+Laughing Lumberjack Lager                Beverages       Bigfoot Breweries
+Queso Cabrales                           Dairy Products  Cooperativa de Quesos 'Las Cabras'
+Queso Manchego La Pastora                Dairy Products  Cooperativa de Quesos 'Las Cabras'
+Escargots de Bourgogne                   Seafood         Escargots Nouveaux
+Chai                                     Beverages       Exotic Liquids
+Chang                                    Beverages       Exotic Liquids
+Aniseed Syrup                            Condiments      Exotic Liquids
+Sirop d'érable                           Condiments      Forêts d'érables
+Tarte au sucre                           Confections     Forêts d'érables
+Gorgonzola Telino                        Dairy Products  Formaggi Fortini s.r.l.
+Mascarpone Fabioli                       Dairy Products  Formaggi Fortini s.r.l.
+Mozzarella di Giovanni                   Dairy Products  Formaggi Fortini s.r.l.
+Raclette Courdavault                     Dairy Products  Gai pâturage
+Camembert Pierrot                        Dairy Products  Gai pâturage
+Manjimup Dried Apples                    Produce         G'day, Mate
+Filo Mix                                 Grains/Cereals  G'day, Mate
+Perth Pasties                            Meat/Poultry    G'day, Mate
+Grandma's Boysenberry Spread             Condiments      Grandma Kelly's Homestead
+Uncle Bob's Organic Dried Pears          Produce         Grandma Kelly's Homestead
+Northwoods Cranberry Sauce               Condiments      Grandma Kelly's Homestead
+NuNuCa Nuß-Nougat-Creme                  Confections     Heli Süßwaren GmbH & Co. KG
+Gumbär Gummibärchen                      Confections     Heli Süßwaren GmbH & Co. KG
+Schoggi Schokolade                       Confections     Heli Süßwaren GmbH & Co. KG
+Maxilaku                                 Confections     Karkki Oy
+Valkoinen suklaa                         Confections     Karkki Oy
+Lakkalikööri                             Beverages       Karkki Oy
+Singaporean Hokkien Fried Mee            Grains/Cereals  Leka Trading
+Ipoh Coffee                              Beverages       Leka Trading
+Gula Malacca                             Condiments      Leka Trading
+Rogede sild                              Seafood         Lyngbysild
+Spegesild                                Seafood         Lyngbysild
+Tourtière                                Meat/Poultry    Ma Maison
+Pâté chinois                             Meat/Poultry    Ma Maison
+Konbu                                    Seafood         Mayumi's
+Tofu                                     Produce         Mayumi's
+Genen Shouyu                             Condiments      Mayumi's
+Boston Crab Meat                         Seafood         New England Seafood Cannery
+Jack's New England Clam Chowder          Seafood         New England Seafood Cannery
+Chef Anton's Cajun Seasoning             Condiments      New Orleans Cajun Delights
+Chef Anton's Gumbo Mix                   Condiments      New Orleans Cajun Delights
+Louisiana Fiery Hot Pepper Sauce         Condiments      New Orleans Cajun Delights
+Louisiana Hot Spiced Okra                Condiments      New Orleans Cajun Delights
+Nord-Ost Matjeshering                    Seafood         Nord-Ost-Fisch Handelsgesellschaft mbH
+Geitost                                  Dairy Products  Norske Meierier
+Gudbrandsdalsost                         Dairy Products  Norske Meierier
+Flotemysost                              Dairy Products  Norske Meierier
+Gnocchi di nonna Alice                   Grains/Cereals  Pasta Buttini s.r.l.
+Ravioli Angelo                           Grains/Cereals  Pasta Buttini s.r.l.
+Pavlova                                  Confections     Pavlova, Ltd.
+Alice Mutton                             Meat/Poultry    Pavlova, Ltd.
+Carnarvon Tigers                         Seafood         Pavlova, Ltd.
+Vegie-spread                             Condiments      Pavlova, Ltd.
+Outback Lager                            Beverages       Pavlova, Ltd.
+Gustaf's Knäckebröd                      Grains/Cereals  PB Knäckebröd AB
+Tunnbröd                                 Grains/Cereals  PB Knäckebröd AB
+Rössle Sauerkraut                        Produce         Plutzer Lebensmittelgroßmärkte AG
+Thüringer Rostbratwurst                  Meat/Poultry    Plutzer Lebensmittelgroßmärkte AG
+Wimmers gute Semmelknödel                Grains/Cereals  Plutzer Lebensmittelgroßmärkte AG
+Rhönbräu Klosterbier                     Beverages       Plutzer Lebensmittelgroßmärkte AG
+Original Frankfurter grüne Soße          Condiments      Plutzer Lebensmittelgroßmärkte AG
+Guaraná Fantástica                       Beverages       Refrescos Americanas LTDA
+Teatime Chocolate Biscuits               Confections     Specialty Biscuits, Ltd.
+Sir Rodney's Marmalade                   Confections     Specialty Biscuits, Ltd.
+Sir Rodney's Scones                      Confections     Specialty Biscuits, Ltd.
+Scottish Longbreads                      Confections     Specialty Biscuits, Ltd.
+Inlagd Sill                              Seafood         Svensk Sjöföda AB
+Gravad lax                               Seafood         Svensk Sjöföda AB
+Röd Kaviar                               Seafood         Svensk Sjöföda AB
+Mishi Kobe Niku                          Meat/Poultry    Tokyo Traders
+Ikura                                    Seafood         Tokyo Traders
+Longlife Tofu                            Produce         Tokyo Traders
+Zaanse koeken                            Confections     Zaanse Snoepfabriek
+Chocolade                                Confections     Zaanse Snoepfabriek
+
+(77 row(s) affected)
+

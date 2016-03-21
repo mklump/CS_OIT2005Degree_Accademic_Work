@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# infinite while loop script file
+#
+
+
+while [ 1 ]
+do
+    echo "Output, MORE OUTPUT!!!!!!"
+    echo "Output, MORE OUTPUT!!!!!!" >> output.txt
+done

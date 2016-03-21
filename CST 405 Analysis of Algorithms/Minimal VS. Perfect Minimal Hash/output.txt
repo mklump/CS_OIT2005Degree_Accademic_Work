@@ -1,0 +1,86 @@
+This program allows for string input, that it later places into a record structure.
+
+I think that in terms of running time, the two programs are very close in terms
+of efficiency. I think that in terms of size of the code, the minimal hash code
+is much less complicated than the code for the perfect minimal hash.
+
+For the minimal hash. I used a combination dynamic-array/linked-list data structure
+for the minimal hashing algorithm, with data colisions resolved by chaining.
+For the perfect minimal hash, I used an array/dynamic-array/linked-list data structure
+for the perfect minimal algorithm, with data colisions resolved by hashing a
+second time.
+
+I think that the difficulty of re-implementing a different data structure for the
+perfect minimal hash, for example, would be extensive. You have have to throw away
+the every method that related to or operated on the previous data structure.
+
+The minimal proved to hold up to a little more than a million record structures before
+causing an unrecoverable heap error.
+The perfect minimal held up to a little less than a million record structures before
+causing an unrecoverable heap error.
+
+Results for the minimal hash:
+Test Results for 1000words.txt inputfile:
+It took 1000 data transfers to complete building the hash table.
+It took 1e-005 seconds to build the a full hash table.
+It took 0 seconds to lookup a data item within the hash table.
+It took 0 seconds to lookup a data item not within the table.
+After roughly half the items are deleted, it takes 0 seconds to traverse the table.
+For the timer's precion, there is not a noticable in traversal time.
+
+Test Results for 10000words.txt inputfile:
+It took 11000 data transfers to complete building the hash table.
+It took 5e-005 seconds to build the a full hash table.
+It took 0 seconds to lookup a data item within the hash table.
+It took 0 seconds to lookup a data item not within the table.
+After roughly half the items are deleted, it takes 0 seconds to traverse the table.
+For the timer's precion, there is not a noticable in traversal time.
+
+Test Results for 100000words.txt inputfile:
+It took 111000 data transfers to complete building the hash table.
+It took 0.00049 seconds to build the a full hash table.
+It took 0 seconds to lookup a data item within the hash table.
+It took 0 seconds to lookup a data item not within the table.
+After roughly half the items are deleted, it takes 0 seconds to traverse the table.
+For the timer's precion, there is not a noticable in traversal time.
+
+Test Results for 1000000words.txt inputfile:
+It took 1111000 data transfers to complete building the hash table.
+It took 0.005087 seconds to build the a full hash table.
+It took 0 seconds to lookup a data item within the hash table.
+It took 1e-006 seconds to lookup a data item not within the table.
+After roughly half the items are deleted, it takes 5e-007 seconds to traverse the table.
+For the timer's precion, there is not a noticable in traversal time.
+
+Results for the perfect minimal hash:
+Test Results for 1000words.txt inputfile:
+It took 2000 data transfers to complete building the hash table.
+It took 0.0001 seconds to build the a full hash table.
+It took 0 seconds to lookup a data item within the hash table.
+It took 0 seconds to lookup a data item not within the table.
+After roughly half the items are deleted, it takes 0 seconds to traverse the table.
+For the timer's precion, there is not a noticable in traversal time.
+
+Test Results for 10000words.txt inputfile:
+It took 22000 data transfers to complete building the hash table.
+It took 5e-007 seconds to build the a full hash table.
+It took 0 seconds to lookup a data item within the hash table.
+It took 0 seconds to lookup a data item not within the table.
+After roughly half the items are deleted, it takes 0 seconds to traverse the table.
+For the timer's precion, there is not a noticable in traversal time.
+
+Test Results for 100000words.txt inputfile:
+It took 222000 data transfers to complete building the hash table.
+It took 0.00052 seconds to build the a full hash table.
+It took 0 seconds to lookup a data item within the hash table.
+It took 0 seconds to lookup a data item not within the table.
+After roughly half the items are deleted, it takes 0 seconds to traverse the table.
+For the timer's precion, there is not a noticable in traversal time.
+
+Test Results for 1000000words.txt inputfile:
+It took 2222000 data transfers to complete building the hash table.
+It took 0.006087 seconds to build the a full hash table.
+It took 0 seconds to lookup a data item within the hash table.
+It took 1e-007 seconds to lookup a data item not within the table.
+After roughly half the items are deleted, it takes 5e-008 seconds to traverse the table.
+For the timer's precion, there is not a noticable in traversal time.

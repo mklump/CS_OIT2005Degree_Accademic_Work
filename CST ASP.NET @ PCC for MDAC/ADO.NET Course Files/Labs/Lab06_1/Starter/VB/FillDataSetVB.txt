@@ -1,0 +1,56 @@
+' instantiate the data set
+Dim tempNW As New OnTheRoad.NWDataSet()
+
+If Me.cnNorthwind.State <> ConnectionState.Open Then
+
+    Try
+
+        Me.cnNorthwind.Open()
+
+    Catch Xcp As System.Exception
+
+        MessageBox.Show("Failed to connect because:" & vbCrLf & Xcp.ToString() & vbCrLf & vbCrLf & "Try a different server name.", "Get from central database", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Exit Sub
+
+    End Try
+
+End If
+
+
+Try
+
+    ' fill the Employees DataTable
+    Me.daEmployees.Fill(tempNW.Employees)
+
+Catch Xcp As System.Exception
+
+    MessageBox.Show("Failed to retrieve employee list because: " & vbCrLf & Xcp.ToString(), "Get from central database", MessageBoxButtons.OK, MessageBoxIcon.Error)
+
+End Try
+
+
+' create instance of logon form
+Dim frmLogon As New Logon()
+
+' set the data properties to link the list box to the Employees table
+frmLogon.lstEmployees.DataSource = tempNW.Employees
+frmLogon.lstEmployees.DisplayMember = "FullName"
+frmLogon.lstEmployees.ValueMember = "EmployeeID"
+
+' display the last selected employee
+frmLogon.lstEmployees.SelectedValue = Me.EmployeeID
+
+' if user selects OK...
+If frmLogon.ShowDialog(Me) = DialogResult.OK Then
+
+    ' change employee and load related data
+    Me.EmployeeID = CInt(frmLogon.lstEmployees.SelectedValue)
+
+    Me.dsNorthwind = tempNW
+
+    Me.RefreshUI()
+
+End If
+
+Me.cnNorthwind.Close()
+

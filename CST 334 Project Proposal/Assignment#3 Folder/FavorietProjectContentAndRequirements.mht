@@ -1,0 +1,1022 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/510446F3/FavorietProjectContentAndRequirements.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" xmlns:st1=3D"urn:schemas:=
+contacts"
+xmlns:st2=3D"urn:schemas-microsoft-com:office:smarttags"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<meta name=3DProgId content=3DWord.Document>
+<meta name=3DGenerator content=3D"Microsoft Word 11">
+<meta name=3DOriginator content=3D"Microsoft Word 11">
+<link rel=3DFile-List
+href=3D"FavorietProjectContentAndRequirements_files/filelist.xml">
+<title>1</title>
+<o:SmartTagType namespaceuri=3D"urn:schemas:contacts" name=3D"Sn"/>
+<o:SmartTagType namespaceuri=3D"urn:schemas:contacts" name=3D"GivenName"/>
+<o:SmartTagType namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"PersonName"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Matthew Klump</o:Author>
+  <o:LastAuthor>Matthew Klump</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>166</o:TotalTime>
+  <o:Created>2004-04-27T17:37:00Z</o:Created>
+  <o:LastSaved>2004-04-27T20:21:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>540</o:Words>
+  <o:Characters>3082</o:Characters>
+  <o:Company>Software Engineering Student</o:Company>
+  <o:Lines>25</o:Lines>
+  <o:Paragraphs>7</o:Paragraphs>
+  <o:CharactersWithSpaces>3615</o:CharactersWithSpaces>
+  <o:Version>11.5703</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:UseWord2002TableStyleRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState=3D"false" LatentStyleCount=3D"156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid=3D"clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=3Dieooui></objec=
+t>
+<style>
+st1\:*{behavior:url(#ieooui) }st2\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"Comic Sans MS";
+	panose-1:3 15 7 2 3 3 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:script;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.3in;
+	text-indent:-.3in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-list:l1 level1 lfo1;
+	tab-stops:list .3in;
+	text-autospace:none;
+	font-size:14.0pt;
+	font-family:Arial;
+	mso-font-kerning:14.0pt;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.4in;
+	text-indent:-.4in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	mso-list:l1 level2 lfo1;
+	tab-stops:list .4in;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Arial;
+	font-style:italic;}
+h3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:.5in;
+	text-indent:-.5in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	mso-list:l1 level3 lfo1;
+	tab-stops:list .5in;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Arial;}
+h4
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.6in;
+	text-indent:-.6in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	mso-list:l1 level4 lfo1;
+	tab-stops:list .6in;
+	text-autospace:none;
+	font-size:14.0pt;
+	font-family:"Times New Roman";}
+h5
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.7in;
+	text-indent:-.7in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	mso-list:l1 level5 lfo1;
+	tab-stops:list .7in;
+	text-autospace:none;
+	font-size:13.0pt;
+	font-family:"Times New Roman";
+	font-style:italic;}
+h6
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.8in;
+	text-indent:-.8in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	mso-list:l1 level6 lfo1;
+	tab-stops:list .8in;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Times New Roman";}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:.9in;
+	text-indent:-.9in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:7;
+	mso-list:l1 level7 lfo1;
+	tab-stops:list .9in;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:1.0in;
+	text-indent:-1.0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:8;
+	mso-list:l1 level8 lfo1;
+	tab-stops:list 1.0in;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:1.1in;
+	text-indent:-1.1in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:9;
+	mso-list:l1 level9 lfo1;
+	tab-stops:list 1.1in;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-noshow:yes;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.comment, li.comment, div.comment
+	{mso-style-name:comment;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	text-autospace:none;
+	font-size:14.0pt;
+	font-family:"Comic Sans MS";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:#9900CC;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:-2;
+	mso-list-type:simple;
+	mso-list-template-ids:-1;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-text:*;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0in;
+	text-indent:0in;}
+@list l1
+	{mso-list-id:125896153;
+	mso-list-template-ids:1656023980;}
+@list l1:level1
+	{mso-level-style-link:"Heading 1";
+	mso-level-text:%1;
+	mso-level-tab-stop:.3in;
+	mso-level-number-position:left;
+	margin-left:.3in;
+	text-indent:-.3in;}
+@list l1:level2
+	{mso-level-style-link:"Heading 2";
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:.4in;
+	mso-level-number-position:left;
+	margin-left:.4in;
+	text-indent:-.4in;}
+@list l1:level3
+	{mso-level-style-link:"Heading 3";
+	mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	margin-left:.5in;
+	text-indent:-.5in;}
+@list l1:level4
+	{mso-level-style-link:"Heading 4";
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:.6in;
+	mso-level-number-position:left;
+	margin-left:.6in;
+	text-indent:-.6in;}
+@list l1:level5
+	{mso-level-style-link:"Heading 5";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:.7in;
+	mso-level-number-position:left;
+	margin-left:.7in;
+	text-indent:-.7in;}
+@list l1:level6
+	{mso-level-style-link:"Heading 6";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:.8in;
+	mso-level-number-position:left;
+	margin-left:.8in;
+	text-indent:-.8in;}
+@list l1:level7
+	{mso-level-style-link:"Heading 7";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:.9in;
+	mso-level-number-position:left;
+	margin-left:.9in;
+	text-indent:-.9in;}
+@list l1:level8
+	{mso-level-style-link:"Heading 8";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-1.0in;}
+@list l1:level9
+	{mso-level-style-link:"Heading 9";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:1.1in;
+	mso-level-number-position:left;
+	margin-left:1.1in;
+	text-indent:-1.1in;}
+@list l2
+	{mso-list-id:375397140;
+	mso-list-type:hybrid;
+	mso-list-template-ids:34102096 67698703 67698713 67698715 67698703 6769871=
+3 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:785194138;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-625440782 67698703 67698713 67698715 67698703 67698=
+713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4
+	{mso-list-id:992562836;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-2099460086 67698703 67698713 67698715 67698703 6769=
+8713 67698715 67698703 67698713 67698715;}
+@list l4:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5
+	{mso-list-id:1597135282;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1694593798 67698703 67698713 67698715 67698703 6769=
+8713 67698715 67698703 67698713 67698715;}
+@list l5:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6
+	{mso-list-id:1689136467;
+	mso-list-type:hybrid;
+	mso-list-template-ids:741765046 67698689 67698691 67698693 67698689 676986=
+91 67698693 67698689 67698691 67698693;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+@list l6:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l6:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;
+	mso-bidi-font-family:"Times New Roman";}
+@list l6:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+@list l6:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l6:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;
+	mso-bidi-font-family:"Times New Roman";}
+@list l6:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+@list l6:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l6:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level1 lfo3
+	{mso-level-start-at:1;
+	mso-level-number-format:bullet;
+	mso-level-numbering:continue;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:.25in;
+	mso-level-legacy-space:0in;
+	margin-left:71.3pt;
+	text-indent:-.25in;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=3DEN-US style=3D'tab-interval:.5in'>
+
+<div class=3DSection1>
+
+<h1><a name=3D"_Toc35236036"><![if !supportLists]><span style=3D'font-famil=
+y:"Times New Roman";
+mso-font-kerning:0pt;mso-bidi-font-weight:normal'><span style=3D'mso-list:I=
+gnore'>1<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+mso-bidi-font-family:Arial;mso-font-kerning:0pt;mso-bidi-font-weight:normal=
+'>Favorite
+Project Proposal Context</span></a><span style=3D'font-family:"Times New Ro=
+man";
+mso-bidi-font-family:Arial;mso-font-kerning:0pt;mso-bidi-font-weight:normal=
+'> &#8211;
+Proposal Number 1<o:p></o:p></span></h1>
+
+<h2><a name=3D"_Toc35236037"><![if !supportLists]><span style=3D'font-size:=
+14.0pt;
+mso-bidi-font-size:12.0pt;font-family:"Times New Roman";mso-bidi-font-weigh=
+t:
+normal;font-style:normal'><span style=3D'mso-list:Ignore'>1.1<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+ </span></span></span><![endif]><span
+style=3D'font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New =
+Roman";
+mso-bidi-font-family:Arial;mso-bidi-font-weight:normal;font-style:normal'>C=
+ustomer
+Profiles</span></a><span style=3D'font-size:14.0pt;mso-bidi-font-size:12.0p=
+t;
+font-family:"Times New Roman";mso-bidi-font-family:Arial;mso-bidi-font-weig=
+ht:
+normal;font-style:normal'><o:p></o:p></span></h2>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt;mso-bidi-font-size:10.=
+0pt'>Here
+are the customers of the 3D Puzzle Solver project, and why they want to inv=
+est
+time and effort into this project:<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt;mso-bidi-font-size:10.=
+0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><st2:PersonName w:st=3D"on"><st1:GivenName w:st=3D"on"=
+><span
+  style=3D'font-size:14.0pt;mso-bidi-font-size:10.0pt'>Matthew</span></st1:=
+GivenName><span
+ style=3D'font-size:14.0pt;mso-bidi-font-size:10.0pt'> <st1:Sn w:st=3D"on">=
+Klump</st1:Sn></span></st2:PersonName><span
+style=3D'font-size:14.0pt;mso-bidi-font-size:10.0pt'>:<o:p></o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'>The
+benefit to this stakeholder is two fold:</span><span style=3D'mso-bidi-font=
+-size:
+12.0pt;font-family:"Times New Roman";color:windowtext'><o:p></o:p></span></=
+p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;page-break-=
+after:
+avoid;mso-outline-level:2;mso-list:l4 level1 lfo4;tab-stops:list .5in'><![i=
+f !supportLists]><span
+style=3D'font-family:"Times New Roman";color:windowtext'><span style=3D'mso=
+-list:
+Ignore'>1.<span style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&n=
+bsp; </span></span></span><![endif]><span
+style=3D'font-family:"Times New Roman";color:windowtext'>As a humbled parti=
+cipant
+of <st2:PersonName w:st=3D"on"><st1:GivenName w:st=3D"on">Scott</st1:GivenN=
+ame> <st1:Sn
+ w:st=3D"on">Hanselman</st1:Sn></st2:PersonName>&#8217;s C# with .NET semin=
+ar,
+this stakeholder will have an opportunity to make a complicated algorithm
+written to solve a complicate software problem even more complicated to sol=
+ve
+an even more complicated software problem.<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;page-break-=
+after:
+avoid;mso-outline-level:2;mso-list:l4 level1 lfo4;tab-stops:list .5in'><![i=
+f !supportLists]><span
+style=3D'font-family:"Times New Roman";color:windowtext'><span style=3D'mso=
+-list:
+Ignore'>2.<span style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&n=
+bsp; </span></span></span><![endif]><span
+style=3D'font-family:"Times New Roman";color:windowtext'>As a developing
+programmer, this stakeholder will have an opportunity to explore the full
+benefits of using software tools such as .NET, ASP, ADO, HTML, XHTML, XML, =
+and
+last but not least C#.<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.25in;page-break-after:avoid;mso-ou=
+tline-level:
+2'><span style=3D'font-family:"Times New Roman";color:windowtext'><o:p>&nbs=
+p;</o:p></span></p>
+
+<p class=3Dcomment style=3D'page-break-after:avoid;mso-outline-level:2'><st=
+2:PersonName
+w:st=3D"on"><st1:GivenName w:st=3D"on"><span style=3D'font-family:"Times Ne=
+w Roman";
+  color:windowtext'>Jay</span></st1:GivenName><span style=3D'font-family:"T=
+imes New Roman";
+ color:windowtext'> <st1:Sn w:st=3D"on">Bockelman</st1:Sn></span></st2:Pers=
+onName><span
+style=3D'font-family:"Times New Roman";color:windowtext'>:<o:p></o:p></span=
+></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'>The
+benefit to this stakeholder is also two fold:</span><span style=3D'mso-bidi=
+-font-size:
+12.0pt;font-family:"Times New Roman";color:windowtext'><o:p></o:p></span></=
+p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;page-break-=
+after:
+avoid;mso-outline-level:2;mso-list:l5 level1 lfo5;tab-stops:list .5in'><![i=
+f !supportLists]><span
+style=3D'font-family:"Times New Roman";color:windowtext'><span style=3D'mso=
+-list:
+Ignore'>1.<span style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&n=
+bsp; </span></span></span><![endif]><span
+style=3D'font-family:"Times New Roman";color:windowtext'>As the primary spo=
+nsor,
+this stakeholder will have an opportunity to help the first stakeholder grow
+further as a person, as well as the quality of his code.<o:p></o:p></span><=
+/p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;page-break-=
+after:
+avoid;mso-outline-level:2;mso-list:l5 level1 lfo5;tab-stops:list .5in'><![i=
+f !supportLists]><span
+style=3D'font-family:"Times New Roman";color:windowtext'><span style=3D'mso=
+-list:
+Ignore'>2.<span style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&n=
+bsp; </span></span></span><![endif]><span
+style=3D'font-family:"Times New Roman";color:windowtext'>As the primary spo=
+nsor,
+this stakeholder will also benefit from helping the first stakeholder explo=
+rer
+the new technologies available in the .NET framework for implementing web
+services.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt;mso-bidi-font-size:10.=
+0pt'><o:p>&nbsp;</o:p></span></p>
+
+<h2><a name=3D"_Toc35236038"><![if !supportLists]><span style=3D'font-size:=
+14.0pt;
+mso-bidi-font-size:12.0pt;font-family:"Times New Roman";mso-bidi-font-weigh=
+t:
+normal;font-style:normal'><span style=3D'mso-list:Ignore'>1.2<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+ </span></span></span><![endif]><span
+style=3D'font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:"Times New =
+Roman";
+mso-bidi-font-family:Arial;mso-bidi-font-weight:normal;font-style:normal'>A=
+ssumptions
+and Dependencies</span></a><span style=3D'font-size:14.0pt;mso-bidi-font-si=
+ze:
+12.0pt;font-family:"Times New Roman";mso-bidi-font-family:Arial;mso-bidi-fo=
+nt-weight:
+normal;font-style:normal'><o:p></o:p></span></h2>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'>Thankfully
+unlike the Junior Project underway as we speak, there are zero dependencies
+outside the scope project of this project such as external database access =
+or privileged
+information.<o:p></o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'>Here
+are the assumptions and major dependencies I&#8217;ve considered in regard =
+to
+this project:<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l3=
+ level1 lfo8;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-family:"Times=
+ New Roman";
+color:windowtext'><span style=3D'mso-list:Ignore'>1.<span style=3D'font:7.0=
+pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+color:windowtext'>Since I have considered this proposal, I have been operat=
+ing
+under the assumption that I would be allowed to reuse some sections of code=
+ I
+created from the final project of the C# with .NET Seminar instructed by Sc=
+ott
+Hanselman last fall semester. In regard to this matter, code is available f=
+or
+your inspection in the need arises.<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l3=
+ level1 lfo8;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-family:"Times=
+ New Roman";
+color:windowtext'><span style=3D'mso-list:Ignore'>2.<span style=3D'font:7.0=
+pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+color:windowtext'>The 3D word puzzle and word matching dictionary would some
+how have to be created in a randomized fashion as a sub-phase of the projec=
+t,
+and as input for the web-application.<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l3=
+ level1 lfo8;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-family:"Times=
+ New Roman";
+color:windowtext'><span style=3D'mso-list:Ignore'>3.<span style=3D'font:7.0=
+pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+color:windowtext'>A database for the 3D puzzle and the dictionary would also
+have to carefully be designed for the size of each piece of information as =
+well
+as the assumption that I would have the services for hosting the web
+application and the database at home. <o:p></o:p></span></p>
+
+<span style=3D'font-size:14.0pt;font-family:"Times New Roman";mso-fareast-f=
+ont-family:
+"Times New Roman";mso-bidi-font-family:Arial;mso-ansi-language:EN-US;
+mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><br clear=3Dall
+style=3D'page-break-before:always'>
+</span>
+
+<h1><a name=3D"_Toc35236039"><![if !supportLists]><span style=3D'font-famil=
+y:"Times New Roman";
+mso-font-kerning:0pt;mso-bidi-font-weight:normal'><span style=3D'mso-list:I=
+gnore'>2<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+mso-bidi-font-family:Arial;mso-font-kerning:0pt;mso-bidi-font-weight:normal=
+'>Requirements</span></a><span
+style=3D'font-family:"Times New Roman";mso-bidi-font-family:Arial;mso-font-=
+kerning:
+0pt;mso-bidi-font-weight:normal'><o:p></o:p></span></h1>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'>&lt;&lt;
+In this section you will step down one level from the major features and li=
+st
+the higher-level project requirements.<span style=3D'mso-spacerun:yes'>&nbs=
+p;
+</span>Note that we are NOT doing detailed requirements yet.<span
+style=3D'mso-spacerun:yes'>&nbsp; </span>Most of your requirements should m=
+ap to
+a Major feature.<span style=3D'mso-spacerun:yes'>&nbsp; </span>(If they do =
+not
+you may need to rethink your major features.<span
+style=3D'mso-spacerun:yes'>&nbsp; </span>Areas you should consider when
+developing requirements are:<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l6=
+ level1 lfo2;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:windowtext=
+'><span
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New Roma=
+n"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+color:windowtext'>Functionality<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l6=
+ level1 lfo2;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:windowtext=
+'><span
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New Roma=
+n"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+color:windowtext'>Usability<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l6=
+ level1 lfo2;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:windowtext=
+'><span
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New Roma=
+n"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+color:windowtext'>Reliability<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l6=
+ level1 lfo2;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:windowtext=
+'><span
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New Roma=
+n"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+color:windowtext'>Performance<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l6=
+ level1 lfo2;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:windowtext=
+'><span
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New Roma=
+n"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+color:windowtext'>Supportability<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l6=
+ level1 lfo2;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:windowtext=
+'><span
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New Roma=
+n"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+color:windowtext'>Interfaces<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l6=
+ level1 lfo2;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:windowtext=
+'><span
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New Roma=
+n"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+color:windowtext'>Data<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l6=
+ level1 lfo2;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:windowtext=
+'><span
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New Roma=
+n"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+color:windowtext'>Security/Safety<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l6=
+ level1 lfo2;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:windowtext=
+'><span
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New Roma=
+n"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+color:windowtext'>Constraints &#8211; Are there any limitations on your pro=
+gram
+because of the desktop used?<span style=3D'mso-spacerun:yes'>&nbsp; </span>=
+The
+network?<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l6=
+ level1 lfo2;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:windowtext=
+'><span
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New Roma=
+n"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+color:windowtext'>Hardware or Software Platform Requirements<o:p></o:p></sp=
+an></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l6=
+ level1 lfo2;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:windowtext=
+'><span
+style=3D'mso-list:Ignore'>&middot;<span style=3D'font:7.0pt "Times New Roma=
+n"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+color:windowtext'>Documentation and On-Line Help<o:p></o:p></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.5in;text-indent:-.25in;mso-list:l6=
+ level1 lfo2;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;color:windowtext;
+display:none;mso-hide:all'><span style=3D'mso-list:Ignore'>&middot;<span
+style=3D'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+</span></span></span><![endif]><span style=3D'font-family:"Times New Roman";
+color:windowtext'>Training and Help Desk Support<span style=3D'display:none;
+mso-hide:all'><o:p></o:p></span></span></p>
+
+<p class=3Dcomment style=3D'margin-left:.25in'><span style=3D'font-family:"=
+Times New Roman";
+color:windowtext'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'>ALL
+requirements must be measurable.<span style=3D'mso-spacerun:yes'>&nbsp;
+</span>For example:<o:p></o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'>&#8220;Decent
+Performance&#8221; is not a measurable requirement.<o:p></o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'>&#8220;Screen
+refreshes within 2 seconds&#8221; is measurable. <o:p></o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'>Requirements
+have unique fixed (unchanging) numbers.<span style=3D'mso-spacerun:yes'>&nb=
+sp;
+</span>You must use the following numbering scheme:<o:p></o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3Dcomment><span class=3DGramE><span style=3D'font-family:"Times Ne=
+w Roman";
+color:windowtext'>0.#</span></span><span style=3D'font-family:"Times New Ro=
+man";
+color:windowtext'> &#8211; Any requirement that is not tied to a feature.<s=
+pan
+style=3D'mso-spacerun:yes'>&nbsp; </span>For example, performance requireme=
+nts
+are not tied to a particular feature.<o:p></o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'>F#<span
+class=3DGramE>.#</span><span style=3D'mso-spacerun:yes'>&nbsp; </span>- All=
+ feature
+based requirements will use the feature number a period (.) and then a
+requirement number.<span style=3D'mso-spacerun:yes'>&nbsp; </span>For examp=
+le if
+feature 1 has 5 requirements they would be 1.1, 1.2<span class=3DGramE>,1.3=
+,1.4</span>
+and 1.5<o:p></o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'>You
+must use the requirements spreadsheet (requirements.xls) to list your
+requirements<o:p></o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'>Note:<span
+style=3D'mso-spacerun:yes'>&nbsp; </span>The spreadsheet has an additional
+column, &#8220;use case&#8221; which you will fill in 412.<span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>&gt;&gt;<o:p></o:p></s=
+pan></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3Dcomment><span style=3D'font-family:"Times New Roman";color:windo=
+wtext'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

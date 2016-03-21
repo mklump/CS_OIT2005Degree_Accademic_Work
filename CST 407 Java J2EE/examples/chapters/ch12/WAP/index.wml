@@ -1,0 +1,18 @@
+<?xml version = "1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD 
+   WML 1.2//EN" "http://www.wapforum.org/DTD/wml12.dtd"> 
+
+<!-- Fig. 26.5 : index.wml -->
+<!-- tip test start screen -->
+
+<wml>
+   <card id = "index" title = "Tip Test">      
+      <do type = "accept" label = "Enter">
+         <go href = "WAP/info.wml"/>
+      </do>
+
+      <p>
+         eLearning Deitel Programming Tips
+      </p>
+   </card>
+</wml>

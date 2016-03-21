@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+    <module name="org.netbeans.modules.xml.catalog/1" spec="0.2.8.1"/>
+    <instanceof class="java.lang.Object"/>
+    <instanceof class="java.io.Externalizable"/>
+    <instanceof class="org.netbeans.modules.xml.catalog.settings.CatalogSettings"/>
+    <instanceof class="java.io.Serializable"/>
+    <serialdata class="org.netbeans.modules.xml.catalog.settings.CatalogSettings">
+        ACED0005737200396F72672E6E65746265616E732E6D6F64756C65732E786D6C2E636174616C6F672E73657474696E67732E
+        436174616C6F6753657474696E677300000001D6A02DEA0C000078707708000000010000000078
+    </serialdata>
+</settings>

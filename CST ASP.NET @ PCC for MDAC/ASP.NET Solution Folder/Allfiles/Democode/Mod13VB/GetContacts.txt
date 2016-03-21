@@ -1,0 +1,20 @@
+    Public Structure Contact
+        Public name As String
+        Public address As String
+    End Structure
+
+    <WebMethod()> Public Function GetContacts() As Contact()
+        Dim x(4) As Contact
+        x(0).name = "Janet"
+        x(0).address = "Seattle, WA"
+        x(1).name = "Joe"
+        x(1).address = "Attleboro, MA"
+        x(2).name = "Michel"
+        x(2).address = "Spokane, WA"
+        x(3).name = "Maura"
+        x(3).address = "Baltimore, MD"
+        x(4).name = "Caleb"
+        x(4).address = "Denver, CO"
+
+        Return x
+    End Function

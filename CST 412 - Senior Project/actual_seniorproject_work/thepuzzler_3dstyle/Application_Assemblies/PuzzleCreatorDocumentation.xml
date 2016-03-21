@@ -1,0 +1,729 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PuzzleCreator</name>
+    </assembly>
+    <members>
+        <member name="T:Puzzle_Creation.CCTE_LW">
+            <summary>
+            Summary description for CCTE_LW.
+            </summary>
+        </member>
+        <member name="T:Puzzle_Creation.PuzzleCreator">
+            <summary>
+            This class is responsible for random creating an appropriate 3D puzzle.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.PuzzleCreator.direction">
+            <summary>
+            This is an index variable that will navigate the the puzzle char[,,] structure.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.PuzzleCreator.xBoundary">
+            <summary>
+            This boundary variable will define the limits of the puzzle.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.PuzzleCreator.yBoundary">
+            <summary>
+            This boundary variable will define the limits of the puzzle.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.PuzzleCreator.zBoundary">
+            <summary>
+            This boundary variable will define the limits of the puzzle.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.PuzzleCreator.dictionaryCreator">
+            <summary>
+            DictionaryCreator reference needed for the puzzle's constructon.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.PuzzleCreator.random">
+            <summary>
+            Random number generator of the puzzle construction.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.PuzzleCreator.GetBoundaries">
+            <summary>
+            Public helper method for getting the puzzle boundaries.
+            </summary>
+            <returns>The boundaries in the form of an int[] of three elements
+            each containing the respective boundaries.</returns>
+        </member>
+        <member name="M:Puzzle_Creation.PuzzleCreator.#ctor">
+            <summary>
+            Default Constructor for the PuzzleCreator class.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.PuzzleCreator.Parse(ns_RedBlack.RedBlack)">
+            <summary>
+            Polymorphically overrideable method for respective parsing.
+            </summary>
+            <param name="head">This RedBlack Tree node is the head node of the
+            tree representing the dictionary.</param>
+        </member>
+        <member name="M:Puzzle_Creation.PuzzleCreator.FillRemainingCubes">
+            <summary>
+            This method is responsible for cheching the remaining empty cubes in
+            the puzzle, and then fill them with a random character from a to z
+            lowercase.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.PuzzleCreator.GeneratePuzzle">
+            <summary>
+            This method calls all of the overriden Parse() methods and merges all of the
+            resultant puzzle directions into one puzzle.
+            </summary>
+            <returns>The method will return the Randomly Generated Puzzle.</returns>
+        </member>
+        <member name="M:Puzzle_Creation.PuzzleCreator.GetLengthDimentions">
+            <summary>
+            This helper method will will get the length of each x, y, and z side
+            of the char[,,] puzzle
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.PuzzleCreator.Reverse(System.Char[])">
+            <summary>
+            This method will reverse a C# char[].
+            </summary>
+            <param name="str">This parameter is the char[] string to reverse.</param>
+            <returns>The reversed char[] str string.</returns>
+        </member>
+        <member name="P:Puzzle_Creation.PuzzleCreator.Direction">
+            <summary>
+            Property Direction (int) read access to directional argorithm indicator.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.CCTE_LW.slots">
+            <summary>
+            Part of temporary helper interger variable.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.CCTE_LW.topHalf">
+            <summary>
+            Part of temporary helper interger variable.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.CCTE_LW.#ctor">
+            <summary>
+            Default Constructor for Corner to Corner Top East to Lower West.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.CCTE_LW.Parse(ns_RedBlack.RedBlack)">
+            <summary>
+            Polymorphically overrideable method for respective parsing.
+            </summary>
+            <param name="node">This RedBlack Tree node is the next node in the
+            tree representing the dictionary.</param>
+        </member>
+        <member name="M:Puzzle_Creation.CCTE_LW.CountInsertLength(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method count the next available set of cells to insert into.
+            </summary>
+            <returns>The next available amount of cells.</returns>
+            <param name="posx">X start position.</param>
+            <param name="posy">Y start position.</param>
+            <param name="posz">Z start position.</param>
+        </member>
+        <member name="M:Puzzle_Creation.CCTE_LW.InsertWord(System.Char[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method will insert the specified word starting at the
+            (posx,posy,posz) position along the CCTS_LN direction inside the puzzle.
+            </summary>
+            <param name="word">Next word to insert.</param>
+            <param name="posx">X start position to insert.</param>
+            <param name="posy">Y start position to insert.</param>
+            <param name="posz">Z start position to insert.</param>
+        </member>
+        <member name="T:Puzzle_Creation.CCTN_LS">
+            <summary>
+            Summary description for CCTN_LS.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.CCTN_LS.slots">
+            <summary>
+            Part of temporary helper interger variable.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.CCTN_LS.topHalf">
+            <summary>
+            Part of temporary helper interger variable.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.CCTN_LS.#ctor">
+            <summary>
+            Default Constructor for Corner to Corner Top North to Lower South Class.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.CCTN_LS.Parse(ns_RedBlack.RedBlack)">
+            <summary>
+            Polymorphically overrideable method for respective parsing.
+            </summary>
+            <param name="node">This RedBlack Tree node is the next node in the
+            tree representing the dictionary.</param>
+        </member>
+        <member name="M:Puzzle_Creation.CCTN_LS.CountInsertLength(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method count the next available set of cells to insert into.
+            </summary>
+            <returns>The next available amount of cells.</returns>
+            <param name="posx">X start position.</param>
+            <param name="posy">Y start position.</param>
+            <param name="posz">Z start position.</param>
+        </member>
+        <member name="M:Puzzle_Creation.CCTN_LS.InsertWord(System.Char[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method will insert the specified word starting at the
+            (posx,posy,posz) position along the CCTS_LN direction inside the puzzle.
+            </summary>
+            <param name="word">Next word to insert.</param>
+            <param name="posx">X start position to insert.</param>
+            <param name="posy">Y start position to insert.</param>
+            <param name="posz">Z start position to insert.</param>
+        </member>
+        <member name="T:Puzzle_Creation.CCTS_LN">
+            <summary>
+            Summary description for CCTS_LN.
+            This class is responsible for addressing all puzzle cell in the
+            perpendicular direction of Corner to Coner, Top South to the
+            Lower North as well well as the reverse direction Lower North to
+            Top South.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.CCTS_LN.slots">
+            <summary>
+            Part of temporary helper interger variable.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.CCTS_LN.topHalf">
+            <summary>
+            Part of temporary helper interger variable.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.CCTS_LN.#ctor">
+            <summary>
+            Default Constructor for Corner to Corner Top South to Lower North Class.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.CCTS_LN.Parse(ns_RedBlack.RedBlack)">
+            <summary>
+            Polymorphically overrideable method for respective parsing.
+            </summary>
+            <param name="node">This RedBlack Tree node is the next node in the
+            tree representing the dictionary.</param>
+        </member>
+        <member name="M:Puzzle_Creation.CCTS_LN.CountInsertLength(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method count the next available set of cells to insert into.
+            </summary>
+            <returns>The next available amount of cells.</returns>
+            <param name="posx">X start position.</param>
+            <param name="posy">Y start position.</param>
+            <param name="posz">Z start position.</param>
+        </member>
+        <member name="M:Puzzle_Creation.CCTS_LN.InsertWord(System.Char[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method will insert the specified word starting at the
+            (posx,posy,posz) position along the CCTS_LN direction inside the puzzle.
+            </summary>
+            <param name="word">Next word to insert.</param>
+            <param name="posx">X start position to insert.</param>
+            <param name="posy">Y start position to insert.</param>
+            <param name="posz">Z start position to insert.</param>
+        </member>
+        <member name="T:Puzzle_Creation.CCTW_LE">
+            <summary>
+            Summary description for CCTW_LE.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.CCTW_LE.slots">
+            <summary>
+            Part of temporary helper interger variable.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.CCTW_LE.topHalf">
+            <summary>
+            Part of temporary helper interger variable.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.CCTW_LE.#ctor">
+            <summary>
+            Default Constructor for Corner to Corner Top West to Lower East Class.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.CCTW_LE.Parse(ns_RedBlack.RedBlack)">
+            <summary>
+            Polymorphically overrideable method for respective parsing.
+            </summary>
+            <param name="node">This RedBlack Tree node is the next node in the
+            tree representing the dictionary.</param>
+        </member>
+        <member name="M:Puzzle_Creation.CCTW_LE.CountInsertLength(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method count the next available set of cells to insert into.
+            </summary>
+            <returns>The next available amount of cells.</returns>
+            <param name="posx">X start position.</param>
+            <param name="posy">Y start position.</param>
+            <param name="posz">Z start position.</param>
+        </member>
+        <member name="M:Puzzle_Creation.CCTW_LE.InsertWord(System.Char[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method will insert the specified word starting at the
+            (posx,posy,posz) position along the CCTS_LN direction inside the puzzle.
+            </summary>
+            <param name="word">Next word to insert.</param>
+            <param name="posx">X start position to insert.</param>
+            <param name="posy">Y start position to insert.</param>
+            <param name="posz">Z start position to insert.</param>
+        </member>
+        <member name="T:Puzzle_Creation.NESide_SWSide">
+            <summary>
+            Puzzle Creation Class NESide_SWSide.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.NESide_SWSide.slots">
+            <summary>
+            Available spaces to insert the next word.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.NESide_SWSide.checkAgain">
+            <summary>
+            Top half of the puzzle checking switch.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.NESide_SWSide.#ctor">
+            <summary>
+            Default Constructor for the Top Puzzle Side to Bottom Puzzle Side 
+            Puzzle Creation Class.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.NESide_SWSide.Parse(ns_RedBlack.RedBlack)">
+            <summary>
+            Polymorphically overrideable method for respective parsing.
+            </summary>
+            <param name="head">This RedBlack Tree node is the head node of the
+            tree representing the dictionary.</param>
+        </member>
+        <member name="M:Puzzle_Creation.NESide_SWSide.CountInsertLength(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method count the next available set of cells to insert into.
+            </summary>
+            <returns>The next available amount of cells.</returns>
+            <param name="posx">X start position.</param>
+            <param name="posy">Y start position.</param>
+            <param name="posz">Z start position.</param>
+        </member>
+        <member name="M:Puzzle_Creation.NESide_SWSide.InsertWord(System.Char[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method will insert the specified word starting at the
+            (posx,posy,posz) position along the CCTS_LN direction inside the puzzle.
+            </summary>
+            <param name="word">Next word to insert.</param>
+            <param name="posx">X start position to insert.</param>
+            <param name="posy">Y start position to insert.</param>
+            <param name="posz">Z start position to insert.</param>
+        </member>
+        <member name="T:Puzzle_Creation.NETE_SWLE">
+            <summary>
+            Summary description for NETP_SWLE.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.NETE_SWLE.slots">
+            <summary>
+            Available spaces to insert the next word.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.NETE_SWLE.checkAgain">
+            <summary>
+            Top half of the puzzle checking switch.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.NETE_SWLE.#ctor">
+            <summary>
+            Default Constructor for North East Top Edge to South West Lower Edge.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.NETE_SWLE.Parse(ns_RedBlack.RedBlack)">
+            <summary>
+            Polymorphically overrideable method for respective parsing.
+            </summary>
+            <param name="head">This RedBlack Tree node is the head node of the
+            tree representing the dictionary.</param>
+        </member>
+        <member name="M:Puzzle_Creation.NETE_SWLE.CountInsertLength(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method count the next available set of cells to insert into.
+            </summary>
+            <returns>The next available amount of cells.</returns>
+            <param name="posx">X start position.</param>
+            <param name="posy">Y start position.</param>
+            <param name="posz">Z start position.</param>
+        </member>
+        <member name="M:Puzzle_Creation.NETE_SWLE.InsertWord(System.Char[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method will insert the specified word starting at the
+            (posx,posy,posz) position along the CCTS_LN direction inside the puzzle.
+            </summary>
+            <param name="word">Next word to insert.</param>
+            <param name="posx">X start position to insert.</param>
+            <param name="posy">Y start position to insert.</param>
+            <param name="posz">Z start position to insert.</param>
+        </member>
+        <member name="T:Puzzle_Creation.NVE_SVE">
+            <summary>
+            Summary description for NVE_SVE.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.NVE_SVE.slots">
+            <summary>
+            Available spaces to insert the next word.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.NVE_SVE.checkAgain">
+            <summary>
+            Top half of the puzzle checking switch.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.NVE_SVE.#ctor">
+            <summary>
+            Default Constructor for North Vertical Edge (on the Y axis behind the Original Orientation)
+            to South Vertical Edge (on the Y axis on the front of the Original Orientation) Class.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.NVE_SVE.Parse(ns_RedBlack.RedBlack)">
+            <summary>
+            Polymorphically overrideable method for respective parsing.
+            </summary>
+            <param name="head">This RedBlack Tree node is the head node of the
+            tree representing the dictionary.</param>
+        </member>
+        <member name="M:Puzzle_Creation.NVE_SVE.CountInsertLength(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method count the next available set of cells to insert into.
+            </summary>
+            <returns>The next available amount of cells.</returns>
+            <param name="posx">X start position.</param>
+            <param name="posy">Y start position.</param>
+            <param name="posz">Z start position.</param>
+        </member>
+        <member name="M:Puzzle_Creation.NVE_SVE.InsertWord(System.Char[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method will insert the specified word starting at the
+            (posx,posy,posz) position along the CCTS_LN direction inside the puzzle.
+            </summary>
+            <param name="word">Next word to insert.</param>
+            <param name="posx">X start position to insert.</param>
+            <param name="posy">Y start position to insert.</param>
+            <param name="posz">Z start position to insert.</param>
+        </member>
+        <member name="T:Puzzle_Creation.NWSide_SESide">
+            <summary>
+            Puzzle Creation Class NWSide_SESide.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.NWSide_SESide.slots">
+            <summary>
+            Available spaces to insert the next word.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.NWSide_SESide.checkAgain">
+            <summary>
+            Top half of the puzzle checking switch.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.NWSide_SESide.#ctor">
+            <summary>
+            Default Constructor for the Top Puzzle Side to Bottom Puzzle Side 
+            Puzzle Creation Class.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.NWSide_SESide.Parse(ns_RedBlack.RedBlack)">
+            <summary>
+            Polymorphically overrideable method for respective parsing.
+            </summary>
+            <param name="head">This RedBlack Tree node is the head node of the
+            tree representing the dictionary.</param>
+        </member>
+        <member name="M:Puzzle_Creation.NWSide_SESide.CountInsertLength(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method count the next available set of cells to insert into.
+            </summary>
+            <returns>The next available amount of cells.</returns>
+            <param name="posx">X start position.</param>
+            <param name="posy">Y start position.</param>
+            <param name="posz">Z start position.</param>
+        </member>
+        <member name="M:Puzzle_Creation.NWSide_SESide.InsertWord(System.Char[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method will insert the specified word starting at the
+            (posx,posy,posz) position along the CCTS_LN direction inside the puzzle.
+            </summary>
+            <param name="word">Next word to insert.</param>
+            <param name="posx">X start position to insert.</param>
+            <param name="posy">Y start position to insert.</param>
+            <param name="posz">Z start position to insert.</param>
+        </member>
+        <member name="T:Puzzle_Creation.NWTE_SELE">
+            <summary>
+            Summary description for NWTE_SELE.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.NWTE_SELE.slots">
+            <summary>
+            Available spaces to insert the next word.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.NWTE_SELE.checkAgain">
+            <summary>
+            Top half of the puzzle checking switch.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.NWTE_SELE.#ctor">
+            <summary>
+            Default Constructor for North West Top Edge to South East Lower Edge Class.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.NWTE_SELE.Parse(ns_RedBlack.RedBlack)">
+            <summary>
+            Polymorphically overrideable method for respective parsing.
+            </summary>
+            <param name="head">This RedBlack Tree node is the head node of the
+            tree representing the dictionary.</param>
+        </member>
+        <member name="M:Puzzle_Creation.NWTE_SELE.CountInsertLength(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method count the next available set of cells to insert into.
+            </summary>
+            <returns>The next available amount of cells.</returns>
+            <param name="posx">X start position.</param>
+            <param name="posy">Y start position.</param>
+            <param name="posz">Z start position.</param>
+        </member>
+        <member name="M:Puzzle_Creation.NWTE_SELE.InsertWord(System.Char[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method will insert the specified word starting at the
+            (posx,posy,posz) position along the CCTS_LN direction inside the puzzle.
+            </summary>
+            <param name="word">Next word to insert.</param>
+            <param name="posx">X start position to insert.</param>
+            <param name="posy">Y start position to insert.</param>
+            <param name="posz">Z start position to insert.</param>
+        </member>
+        <member name="T:Puzzle_Creation.PuzzleCreator_TestClass">
+            <summary>
+            Means for Testing the PuzzleCreator
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.PuzzleCreator_TestClass.SetUp">
+            <summary>
+            Test Class default constructor
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.PuzzleCreator_TestClass.TestGetLengthDimentions">
+            <summary>
+            The method will test the GetLengthDimentions() method for accuratly counting the
+            side lengths / maximum dimentions of the puzzle.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.PuzzleCreator_TestClass.TestGeneratePuzzle">
+            <summary>
+            Test method to Gererate the entire puzzle.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.PuzzleCreator_TestClass.Main(System.String[])">
+            <summary>
+            Entry point for PuzzleCreator_TestClass
+            </summary>
+            <param name="args">Arguements specified with PuzzlerCreator when
+            the puzzle is built as a Console App for testing.</param>
+        </member>
+        <member name="T:Puzzle_Creation.SETE_NWLE">
+            <summary>
+            Summary description for SETE_NWLE.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.SETE_NWLE.slots">
+            <summary>
+            Available spaces to insert the next word.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.SETE_NWLE.checkAgain">
+            <summary>
+            Top half of the puzzle checking switch.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.SETE_NWLE.#ctor">
+            <summary>
+            Default Constructor for South East Top Edge to North West Lower Edge Class.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.SETE_NWLE.Parse(ns_RedBlack.RedBlack)">
+            <summary>
+            Polymorphically overrideable method for respective parsing.
+            </summary>
+            <param name="head">This RedBlack Tree node is the head node of the
+            tree representing the dictionary.</param>
+        </member>
+        <member name="M:Puzzle_Creation.SETE_NWLE.CountInsertLength(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method count the next available set of cells to insert into.
+            </summary>
+            <returns>The next available amount of cells.</returns>
+            <param name="posx">X start position.</param>
+            <param name="posy">Y start position.</param>
+            <param name="posz">Z start position.</param>
+        </member>
+        <member name="M:Puzzle_Creation.SETE_NWLE.InsertWord(System.Char[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method will insert the specified word starting at the
+            (posx,posy,posz) position along the CCTS_LN direction inside the puzzle.
+            </summary>
+            <param name="word">Next word to insert.</param>
+            <param name="posx">X start position to insert.</param>
+            <param name="posy">Y start position to insert.</param>
+            <param name="posz">Z start position to insert.</param>
+        </member>
+        <member name="T:Puzzle_Creation.SWTE_NELE">
+            <summary>
+            Summary description for SWTE_NELE.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.SWTE_NELE.slots">
+            <summary>
+            Available spaces to insert the next word.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.SWTE_NELE.topHalf">
+            <summary>
+            Top half of the puzzle checking switch.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.SWTE_NELE.#ctor">
+            <summary>
+            Default Constructor for South West Top Edge to North East Lower Edge Class.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.SWTE_NELE.Parse(ns_RedBlack.RedBlack)">
+            <summary>
+            Polymorphically overrideable method for respective parsing.
+            </summary>
+            <param name="head">This RedBlack Tree node is the head node of the
+            tree representing the dictionary.</param>
+        </member>
+        <member name="M:Puzzle_Creation.SWTE_NELE.CountInsertLength(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method count the next available set of cells to insert into.
+            </summary>
+            <returns>The next available amount of cells.</returns>
+            <param name="posx">X start position.</param>
+            <param name="posy">Y start position.</param>
+            <param name="posz">Z start position.</param>
+        </member>
+        <member name="M:Puzzle_Creation.SWTE_NELE.InsertWord(System.Char[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method will insert the specified word starting at the
+            (posx,posy,posz) position along the CCTS_LN direction inside the puzzle.
+            </summary>
+            <param name="word">Next word to insert.</param>
+            <param name="posx">X start position to insert.</param>
+            <param name="posy">Y start position to insert.</param>
+            <param name="posz">Z start position to insert.</param>
+        </member>
+        <member name="T:Puzzle_Creation.Top_Bottom">
+            <summary>
+            Puzzle Creation Class Top_Bottom
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.Top_Bottom.slots">
+            <summary>
+            Available spaces to insert the next word.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.Top_Bottom.checkAgain">
+            <summary>
+            Top half of the puzzle checking switch.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.Top_Bottom.#ctor">
+            <summary>
+            Default Constructor for the Top Puzzle Side to Bottom Puzzle Side 
+            Puzzle Creation Class.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.Top_Bottom.Parse(ns_RedBlack.RedBlack)">
+            <summary>
+            Polymorphically overrideable method for respective parsing.
+            </summary>
+            <param name="head">This RedBlack Tree node is the head node of the
+            tree representing the dictionary.</param>
+        </member>
+        <member name="M:Puzzle_Creation.Top_Bottom.CountInsertLength(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method count the next available set of cells to insert into.
+            </summary>
+            <returns>The next available amount of cells.</returns>
+            <param name="posx">X start position.</param>
+            <param name="posy">Y start position.</param>
+            <param name="posz">Z start position.</param>
+        </member>
+        <member name="M:Puzzle_Creation.Top_Bottom.InsertWord(System.Char[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method will insert the specified word starting at the
+            (posx,posy,posz) position along the CCTS_LN direction inside the puzzle.
+            </summary>
+            <param name="word">Next word to insert.</param>
+            <param name="posx">X start position to insert.</param>
+            <param name="posy">Y start position to insert.</param>
+            <param name="posz">Z start position to insert.</param>
+        </member>
+        <member name="T:Puzzle_Creation.WVE_EVE">
+            <summary>
+            Summary description for WVE_EVE.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.WVE_EVE.slots">
+            <summary>
+            Available spaces to insert the next word.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Creation.WVE_EVE.checkAgain">
+            <summary>
+            Top half of the puzzle checking switch.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.WVE_EVE.#ctor">
+            <summary>
+            Default Constructor for West Vertical Edge (on the Y axis on the left of the Original Orientation)
+            to East Vertical Edge (on the Y axis on the right of the Original Orientation) Class.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Creation.WVE_EVE.Parse(ns_RedBlack.RedBlack)">
+            <summary>
+            Polymorphically overrideable method for respective parsing.
+            </summary>
+            <param name="head">This RedBlack Tree node is the head node of the
+            tree representing the dictionary.</param>
+        </member>
+        <member name="M:Puzzle_Creation.WVE_EVE.CountInsertLength(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method count the next available set of cells to insert into.
+            </summary>
+            <returns>The next available amount of cells.</returns>
+            <param name="posx">X start position.</param>
+            <param name="posy">Y start position.</param>
+            <param name="posz">Z start position.</param>
+        </member>
+        <member name="M:Puzzle_Creation.WVE_EVE.InsertWord(System.Char[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method will insert the specified word starting at the
+            (posx,posy,posz) position along the CCTS_LN direction inside the puzzle.
+            </summary>
+            <param name="word">Next word to insert.</param>
+            <param name="posx">X start position to insert.</param>
+            <param name="posy">Y start position to insert.</param>
+            <param name="posz">Z start position to insert.</param>
+        </member>
+    </members>
+</doc>

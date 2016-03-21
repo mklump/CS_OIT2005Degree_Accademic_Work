@@ -1,0 +1,1049 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/D845548D/UseCasesDiagram.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:w=3D"urn:schemas-microsoft-com:office:word"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<meta name=3DProgId content=3DWord.Document>
+<meta name=3DGenerator content=3D"Microsoft Word 11">
+<meta name=3DOriginator content=3D"Microsoft Word 11">
+<link rel=3DFile-List href=3D"UseCasesDiagram_files/filelist.xml">
+<title>Here in this document are listed each of the individual use cases, t=
+heir
+diagram references, and their pre and post conditions</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Matthew Klump</o:Author>
+  <o:LastAuthor>Matthew Klump</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>1084</o:TotalTime>
+  <o:Created>2004-10-29T19:26:00Z</o:Created>
+  <o:LastSaved>2004-10-29T19:26:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>827</o:Words>
+  <o:Characters>4719</o:Characters>
+  <o:Company>Software Engineering Student</o:Company>
+  <o:Lines>39</o:Lines>
+  <o:Paragraphs>11</o:Paragraphs>
+  <o:CharactersWithSpaces>5535</o:CharactersWithSpaces>
+  <o:Version>11.6360</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:UseWord2002TableStyleRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState=3D"false" LatentStyleCount=3D"156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:118963164;
+	mso-list-template-ids:-238930718;}
+@list l0:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:87.0pt;
+	mso-level-number-position:left;
+	margin-left:87.0pt;
+	text-indent:-51.0pt;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:1.75in;
+	mso-level-number-position:right;
+	margin-left:1.75in;
+	text-indent:-9.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:2.25in;
+	mso-level-number-position:left;
+	margin-left:2.25in;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:2.75in;
+	mso-level-number-position:left;
+	margin-left:2.75in;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:3.25in;
+	mso-level-number-position:right;
+	margin-left:3.25in;
+	text-indent:-9.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:3.75in;
+	mso-level-number-position:left;
+	margin-left:3.75in;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:4.25in;
+	mso-level-number-position:left;
+	margin-left:4.25in;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:4.75in;
+	mso-level-number-position:right;
+	margin-left:4.75in;
+	text-indent:-9.0pt;}
+@list l1
+	{mso-list-id:386033127;
+	mso-list-type:hybrid;
+	mso-list-template-ids:852627036 1471566346 67698713 67698715 67698703 6769=
+8713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:395325916;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-238930718 -339452120 67698713 67698715 67698703 676=
+98713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:87.0pt;
+	mso-level-number-position:left;
+	margin-left:87.0pt;
+	text-indent:-51.0pt;}
+@list l3
+	{mso-list-id:398940259;
+	mso-list-type:hybrid;
+	mso-list-template-ids:724882748 1471566346 67698713 67698715 67698703 6769=
+8713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4
+	{mso-list-id:404375105;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-340380636 -1156432024 67698713 67698715 67698703 67=
+698713 67698715 67698703 67698713 67698715;}
+@list l4:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5
+	{mso-list-id:693308192;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1544178054 -1316318232 67698713 67698715 67698703 67=
+698713 67698715 67698703 67698713 67698715;}
+@list l5:level1
+	{mso-level-start-at:4;
+	mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6
+	{mso-list-id:874317690;
+	mso-list-template-ids:535855338;}
+@list l6:level1
+	{mso-level-start-at:4;
+	mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l6:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l6:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l7
+	{mso-list-id:1367215261;
+	mso-list-type:hybrid;
+	mso-list-template-ids:748462304 1471566346 67698713 67698715 67698703 6769=
+8713 67698715 67698703 67698713 67698715;}
+@list l7:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8
+	{mso-list-id:1461344981;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-474342450 -1156432024 67698713 67698715 67698703 67=
+698713 67698715 67698703 67698713 67698715;}
+@list l8:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l9
+	{mso-list-id:1477530668;
+	mso-list-template-ids:957007768;}
+@list l9:level1
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;}
+@list l9:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	margin-left:1.5in;
+	text-indent:-.25in;}
+@list l9:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:right;
+	margin-left:2.0in;
+	text-indent:-9.0pt;}
+@list l9:level4
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	margin-left:2.5in;
+	text-indent:-.25in;}
+@list l9:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	margin-left:3.0in;
+	text-indent:-.25in;}
+@list l9:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:right;
+	margin-left:3.5in;
+	text-indent:-9.0pt;}
+@list l9:level7
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	margin-left:4.0in;
+	text-indent:-.25in;}
+@list l9:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	margin-left:4.5in;
+	text-indent:-.25in;}
+@list l9:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:5.0in;
+	mso-level-number-position:right;
+	margin-left:5.0in;
+	text-indent:-9.0pt;}
+@list l10
+	{mso-list-id:2051878224;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-490163172 1877660350 67698713 67698715 67698703 676=
+98713 67698715 67698703 67698713 67698715;}
+@list l10:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l11
+	{mso-list-id:2065567113;
+	mso-list-type:hybrid;
+	mso-list-template-ids:150119886 67698703 67698713 67698715 67698703 676987=
+13 67698715 67698703 67698713 67698715;}
+@list l11:level1
+	{mso-level-tab-stop:.25in;
+	mso-level-number-position:left;
+	margin-left:.25in;
+	text-indent:-.25in;}
+@list l12
+	{mso-list-id:2099516651;
+	mso-list-template-ids:-398955802;}
+@list l12:level1
+	{mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l12:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l12:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l12:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l13
+	{mso-list-id:2123375691;
+	mso-list-type:hybrid;
+	mso-list-template-ids:957007768 67698703 67698713 67698715 67698703 676987=
+13 67698715 67698703 67698713 67698715;}
+@list l13:level1
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=3DEN-US style=3D'tab-interval:.5in'>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><b style=3D'mso-bidi-font-weight:normal'><span
+style=3D'font-size:16.0pt'>Here in this document are listed each of the
+individual use cases, their diagram references, and their pre and post
+conditions.<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><b style=3D'mso-bidi-font-weight:normal'><span
+style=3D'font-size:16.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C1: Start<o:p></o:p><=
+/span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>Start
+Here.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition: <o:p><=
+/o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+user invokes the application by entering a URL address into their HTML comp=
+atible
+browser.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><o:p>&nbsp;</o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C2: User Invokes Appl=
+ication<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+user invokes the application by entering a URL address into their HTML
+compatible browser.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>&quot;The
+Puzzler - 3D Style&quot; Welcome and Configuration Screen has appeared in t=
+he
+user's client computer browser.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><o:p>&nbsp;</o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C3: User Configures P=
+uzzle<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>&quot;The
+Puzzler - 3D Style&quot; Welcome and Configuration screen has appeared.<o:p=
+></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+user has set the size of the generated puzzle cube, the size of the generat=
+ed
+dictionary to use, the base dictionary, and the minimum size that each hidd=
+en
+word will be (not less than three), and has pressed the submit button.<o:p>=
+</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><o:p>&nbsp;</o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C4: User Reviews
+Configuration<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition: <o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+user has pressed the submit button on the conformation screen.<o:p></o:p></=
+span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+user has reviewed the configuration, and pressed either no to go back to the
+confirmation screen or yes to display the &quot;Generating Puzzle&quot; pag=
+e.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><o:p>&nbsp;</o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C5: RUN<o:p></o:p></s=
+pan></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Generating Puzzle Pag=
+e is
+Displayed:<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+user has selected &quot;yes&quot; on the Configuration Confirmation screen.=
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>a) The
+&quot;Generate Dictionary&quot; use case is invoked from a pre-selected<span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;
+</span>&quot;base dictionary&quot; with help form a custom algorithm with
+red/black tree<span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;
+</span>data structure.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>b) The
+&quot;Generate Puzzle&quot; use case is invoked with help from a custom<span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;
+</span>algorithm with red/black tree data structure.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><span
+style=3D'mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>c) The
+&quot;Puzzle Interaction&quot; Screen is Displayed<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><o:p>&nbsp;</o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C6: Create Dictionary=
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+system is still displaying the &quot;Generating Puzzle&quot; screen also
+concurrently attempting to execute the &quot;System Generates Puzzle Cube&q=
+uot;
+use case.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+system is still displaying the &quot;Generating Puzzle&quot; screen also
+concurrently still attempting to execute the &quot;System Generates Puzzle
+Cube&quot; use case.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><o:p>&nbsp;</o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C7: Create Puzzle<o:p=
+></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+system is still displaying the &quot;Generating Puzzle&quot; screen also
+concurrently attempting to execute the &quot;System Generates Dictionary&qu=
+ot;
+use case.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+system displays the puzzle interaction screen.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><o:p>&nbsp;</o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C8: Display User Inte=
+rface<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l10 level1 lfo4;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>a)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The system =
+has
+displayed the puzzle interaction screen.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l10 level1 lfo4;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>b)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The generat=
+ed
+dictionary is displayed in the &quot;Dictionary&quot; list box.<o:p></o:p><=
+/span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l10 level1 lfo4;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>c)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The generat=
+ed
+puzzle is displayed in its text area control.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l10 level1 lfo4;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>d)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The puzzle =
+has
+NOT been solved yet.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l10 level1 lfo4;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>e)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The puzzle
+display control(s) are grayed out (not usable), and the &quot;Solve
+Puzzle&quot; button is enabled.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+user clicks the &quot;Solve Puzzle&quot; button.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><o:p>&nbsp;</o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C9: Solve Puzzle<o:p>=
+</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+user has clicked the &quot;Solve Puzzle&quot; button.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l8 level1 lfo9;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>a)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The display
+control(s) are now enabled.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l8 level1 lfo9;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>b)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The first
+cross-sectional 2D plane or &quot;layer&quot; of the puzzle is selected.<o:=
+p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l8 level1 lfo9;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>c)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The &quot;W=
+ord
+that Matched&quot; for the current selected cross-sectional &quot;layer&quo=
+t;
+is displayed in the &quot;Words that Matched&quot; list box.<o:p></o:p></sp=
+an></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l8 level1 lfo9;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>d)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>System disp=
+lays
+the &quot;Time Taken to Solve Puzzle&quot; as well as the dictionary and pu=
+zzle
+generation results in &quot;Time Taken&quot; text area control.<o:p></o:p><=
+/span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l8 level1 lfo9;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>e)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>System enab=
+les
+the &quot;Show Statistics&quot; button.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l8 level1 lfo9;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>f)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The
+&quot;Regenerate Puzzle?&quot; button is enabled.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l8 level1 lfo9;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>g)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The
+&quot;Exit?&quot; button is enabled.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><o:p>&nbsp;</o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C10: Select Different=
+ Layer<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l4 level1 lfo8;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>a)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The post
+condition for &quot;System Solves Puzzle&quot; use case has completed
+successfully.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l4 level1 lfo8;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>b)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>User select=
+ a
+different puzzle layer.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+system displays the selected puzzle layer in the puzzle layer display area =
+and
+concurrently displays the words that matched for that puzzle layer in the
+&quot;Word that Matched&quot; list box.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><o:p>&nbsp;</o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C11: Collect Words Th=
+at
+Matched<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+puzzle has been solved based on words in the dictionary that matched in the
+puzzle.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+hidden words that were found are displayed in the &quot;Words That
+Matched&quot; list item control.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><o:p>&nbsp;</o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C12: Collect Statisti=
+cs<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The postcondition
+for the &quot;System Solved Puzzle&quot; has completed successfully.<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l7 level1 lfo12;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>a)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The timing
+statistics for generating the dictionary, timing statistics for generating =
+the
+puzzle, and the timing statistics are written to a log file as well as the
+configuration.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l7 level1 lfo12;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>b)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The results=
+ for
+the previous postcondition is displayed in the &quot;Time Taken&quot; text =
+area
+for everything.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><o:p>&nbsp;</o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C13: Create Database<=
+o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l3 level1 lfo13;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>a)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The diction=
+ary is
+created and needs to store the data.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l3 level1 lfo13;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>b)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The puzzle =
+is
+created and needs to store the data.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l3 level1 lfo13;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>c)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The &quot;W=
+ords
+That Matched&quot; are found and need to store their data.<o:p></o:p></span=
+></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l3 level1 lfo13;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>d)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The
+&quot;Collected Statistics&quot; are found and need to store their data.<o:=
+p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+appropriate data operations are performed to complete the needed transactio=
+n.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><o:p>&nbsp;</o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C14: Help / Documenta=
+tion<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+user selects the &quot;Help / Documentation&quot; Button.<o:p></o:p></span>=
+</p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+&quot;Help / Documentation&quot; page is displayed with a back button that
+shows:<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l1 level1 lfo14;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>a)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>How to depl=
+oy and
+undeploy the wed application.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l1 level1 lfo14;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>b)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>The Glossar=
+y of
+Terms.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:.5in;text-indent:-.25in;mso-list:=
+l1 level1 lfo14;
+tab-stops:list .5in'><![if !supportLists]><span style=3D'font-size:14.0pt'>=
+<span
+style=3D'mso-list:Ignore'>c)<span style=3D'font:7.0pt "Times New Roman"'>&n=
+bsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style=3D'font-size:14.0pt'>More informa=
+tion
+on the underlying algorithms for the red-black tree and the &quot;brute for=
+ce
+array indexing&quot; for the puzzle.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'><o:p>&nbsp;</o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C15: &quot;Regenerate
+Puzzle?&quot;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+&quot; Regenerate Puzzle?&quot; button is enabled and the user presses the
+&quot; Regenerate Puzzle?&quot; button.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+&quot;Welcome and Puzzle Configuration&quot; screen is displayed.<o:p></o:p=
+></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C16: Exit?<o:p></o:p>=
+</span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+&quot;Exit?&quot; button is pressed.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+&quot;Thanks for Visiting!&quot; screen is displayed with no back button.<o=
+:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>C17: End<o:p></o:p></=
+span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Precondition:<o:p></o=
+:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>The
+&quot;Thanks for Visiting!&quot; screen is displayed with no back button.<o=
+:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:14.0pt'>Postcondition:<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-indent:.5in'><span style=3D'font-size:14=
+.0pt'>Stop
+Here.<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

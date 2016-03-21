@@ -1,0 +1,1022 @@
+/* Replace existing 'generate_code_add_op' 
+ * function in code_gen.cpp with all of this code */
+
+symtableentry_t *
+generate_code_add_op(
+				FILE	*outFile,
+				symtableentry_t	*plhs,
+				symtableentry_t *prhs
+				)
+{
+	symtableentry_t	*p_ret;
+
+	p_ret = create_symbol_table_entry();
+
+	/* produce code for moving from variable to register
+	*  and adding it in register 
+	*/
+
+	if ( IDENT_DEF_VARIABLE == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_VARIABLE == prhs->ident_ptr.ident_type )
+	{
+		/* both operands are variables get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = getFreeReg();
+
+		markRegBusy(p_ret->ident_ptr.ident_info.expr.expr_reg);
+
+		if ( plhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*
+		*/
+
+		if ( prhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tadd	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tadd	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tadd	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+	}
+	else if ( IDENT_DEF_EXPR_REG == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_VARIABLE == prhs->ident_ptr.ident_type )
+	{
+		/* both operands are variables get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = 
+			plhs->ident_ptr.ident_info.expr.expr_reg;
+
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*
+		*/
+
+		if ( prhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tadd	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tadd	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tadd	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+	}
+	else if ( IDENT_DEF_VARIABLE == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_EXPR_REG == prhs->ident_ptr.ident_type )
+	{
+		/* first operand is a variable get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = getFreeReg();
+
+		markRegBusy(p_ret->ident_ptr.ident_info.expr.expr_reg);
+
+		if ( plhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*/
+
+		fprintf( outFile,
+				 "\tadd  %%r%d, %%r%d\n",
+				 p_ret->ident_ptr.ident_info.expr.expr_reg,
+				 prhs->ident_ptr.ident_info.expr.expr_reg );
+		markRegFree( prhs->ident_ptr.ident_info.expr.expr_reg );
+	}
+	else if ( IDENT_DEF_EXPR_REG == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_EXPR_REG == prhs->ident_ptr.ident_type )
+	{
+		/* both operands are variables get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = 
+			plhs->ident_ptr.ident_info.expr.expr_reg;
+
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*
+		*/
+
+		fprintf( outFile,
+				 "\tadd  %%r%d, %%r%d\n",
+				 p_ret->ident_ptr.ident_info.expr.expr_reg,
+				 prhs->ident_ptr.ident_info.expr.expr_reg );
+		markRegFree( prhs->ident_ptr.ident_info.expr.expr_reg );
+	}
+	else
+	{
+		assert(0);
+	}
+
+	/* an expression that is the product of an addition
+	*   is always an integer.
+	*
+	*/
+	p_ret->ident_ptr.ident_info.expr.expr_type = 
+		EXPR_TYPE_INT;
+
+	return p_ret;
+}
+
+symtableentry_t *
+generate_code_sub_op(
+				FILE	*outFile,
+				symtableentry_t	*plhs,
+				symtableentry_t *prhs
+				)
+{ 
+	symtableentry_t	*p_ret;
+
+	p_ret = create_symbol_table_entry();
+
+	/* produce code for moving from variable to register
+	*  and adding it in register 
+	*/
+
+	if ( IDENT_DEF_VARIABLE == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_VARIABLE == prhs->ident_ptr.ident_type )
+	{
+		/* both operands are variables get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = getFreeReg();
+
+		markRegBusy(p_ret->ident_ptr.ident_info.expr.expr_reg);
+
+		if ( plhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*
+		*/
+
+		if ( prhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tsub	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tsub	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tsub	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+	}
+	else if ( IDENT_DEF_EXPR_REG == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_VARIABLE == prhs->ident_ptr.ident_type )
+	{
+		/* both operands are variables get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = 
+			plhs->ident_ptr.ident_info.expr.expr_reg;
+
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*
+		*/
+
+		if ( prhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tsub	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tsub	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tsub	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+	}
+	else if ( IDENT_DEF_VARIABLE == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_EXPR_REG == prhs->ident_ptr.ident_type )
+	{
+		/* first operand is a variable get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = getFreeReg();
+
+		markRegBusy(p_ret->ident_ptr.ident_info.expr.expr_reg);
+
+		if ( plhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*/
+
+		fprintf( outFile,
+				 "\tsub  %%r%d, %%r%d\n",
+				 p_ret->ident_ptr.ident_info.expr.expr_reg,
+				 prhs->ident_ptr.ident_info.expr.expr_reg );
+		markRegFree( prhs->ident_ptr.ident_info.expr.expr_reg );
+	}
+	else if ( IDENT_DEF_EXPR_REG == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_EXPR_REG == prhs->ident_ptr.ident_type )
+	{
+		/* both operands are variables get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = 
+			plhs->ident_ptr.ident_info.expr.expr_reg;
+
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*
+		*/
+
+		fprintf( outFile,
+				 "\tsub  %%r%d, %%r%d\n",
+				 p_ret->ident_ptr.ident_info.expr.expr_reg,
+				 prhs->ident_ptr.ident_info.expr.expr_reg );
+		markRegFree( prhs->ident_ptr.ident_info.expr.expr_reg );
+	}
+	else
+	{
+		assert(0);
+	}
+
+	/* an expression that is the product of an addition
+	*   is always an integer.
+	*
+	*/
+	p_ret->ident_ptr.ident_info.expr.expr_type = 
+		EXPR_TYPE_INT;
+
+	return p_ret;
+}
+
+symtableentry_t *
+generate_code_mult_op(
+				FILE	*outFile,
+				symtableentry_t	*plhs,
+				symtableentry_t *prhs
+				)
+{
+	symtableentry_t	*p_ret;
+
+	p_ret = create_symbol_table_entry();
+
+	/* produce code for moving from variable to register
+	*  and adding it in register 
+	*/
+
+	if ( IDENT_DEF_VARIABLE == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_VARIABLE == prhs->ident_ptr.ident_type )
+	{
+		/* both operands are variables get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = getFreeReg();
+
+		markRegBusy(p_ret->ident_ptr.ident_info.expr.expr_reg);
+
+		if ( plhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*
+		*/
+
+		if ( prhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tmult	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmult	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmult	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+	}
+	else if ( IDENT_DEF_EXPR_REG == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_VARIABLE == prhs->ident_ptr.ident_type )
+	{
+		/* both operands are variables get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = 
+			plhs->ident_ptr.ident_info.expr.expr_reg;
+
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*
+		*/
+
+		if ( prhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tmult	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmult	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmult	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+	}
+	else if ( IDENT_DEF_VARIABLE == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_EXPR_REG == prhs->ident_ptr.ident_type )
+	{
+		/* first operand is a variable get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = getFreeReg();
+
+		markRegBusy(p_ret->ident_ptr.ident_info.expr.expr_reg);
+
+		if ( plhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*/
+
+		fprintf( outFile,
+				 "\tmult  %%r%d, %%r%d\n",
+				 p_ret->ident_ptr.ident_info.expr.expr_reg,
+				 prhs->ident_ptr.ident_info.expr.expr_reg );
+		markRegFree( prhs->ident_ptr.ident_info.expr.expr_reg );
+	}
+	else if ( IDENT_DEF_EXPR_REG == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_EXPR_REG == prhs->ident_ptr.ident_type )
+	{
+		/* both operands are variables get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = 
+			plhs->ident_ptr.ident_info.expr.expr_reg;
+
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*
+		*/
+
+		fprintf( outFile,
+				 "\tmult  %%r%d, %%r%d\n",
+				 p_ret->ident_ptr.ident_info.expr.expr_reg,
+				 prhs->ident_ptr.ident_info.expr.expr_reg );
+		markRegFree( prhs->ident_ptr.ident_info.expr.expr_reg );
+	}
+	else
+	{
+		assert(0);
+	}
+
+	/* an expression that is the product of an addition
+	*   is always an integer.
+	*
+	*/
+	p_ret->ident_ptr.ident_info.expr.expr_type = 
+		EXPR_TYPE_INT;
+
+	return p_ret;
+}
+
+symtableentry_t *
+generate_code_div_op(
+				FILE	*outFile,
+				symtableentry_t	*plhs,
+				symtableentry_t *prhs
+				)
+{
+	symtableentry_t	*p_ret;
+
+	p_ret = create_symbol_table_entry();
+
+	/* produce code for moving from variable to register
+	*  and adding it in register 
+	*/
+
+	if ( IDENT_DEF_VARIABLE == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_VARIABLE == prhs->ident_ptr.ident_type )
+	{
+		/* both operands are variables get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = getFreeReg();
+
+		markRegBusy(p_ret->ident_ptr.ident_info.expr.expr_reg);
+
+		if ( plhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*
+		*/
+
+		if ( prhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tdiv	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tdiv	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tdiv	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+	}
+	else if ( IDENT_DEF_EXPR_REG == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_VARIABLE == prhs->ident_ptr.ident_type )
+	{
+		/* both operands are variables get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = 
+			plhs->ident_ptr.ident_info.expr.expr_reg;
+
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*
+		*/
+
+		if ( prhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tdiv	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tdiv	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == prhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tdiv	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					prhs->ident_ptr.ident_info.var.offset,
+					prhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+	}
+	else if ( IDENT_DEF_VARIABLE == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_EXPR_REG == prhs->ident_ptr.ident_type )
+	{
+		/* first operand is a variable get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = getFreeReg();
+
+		markRegBusy(p_ret->ident_ptr.ident_info.expr.expr_reg);
+
+		if ( plhs->ident_ptr.ident_info.var.sub_type == VAR_SUB_TYPE_LOCAL_VAR )
+		{
+			/* produce code to move the lhs of + into
+			*  the temporary register
+			*
+			*	if the variable is a local variable
+			*/
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r13,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_GLOBAL_VAR == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<$0, $%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		else if ( VAR_SUB_TYPE_FORMAL_PARAM == plhs->ident_ptr.ident_info.var.sub_type )
+		{
+			fprintf(
+					outFile,
+					"\tmov	%%r%d,	<%%r14,	$%d, $%d>\n",
+					p_ret->ident_ptr.ident_info.expr.expr_reg,
+					plhs->ident_ptr.ident_info.var.offset,
+					plhs->ident_ptr.ident_info.var.var_length
+					);
+		}
+		
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*/
+
+		fprintf( outFile,
+				 "\tdiv  %%r%d, %%r%d\n",
+				 p_ret->ident_ptr.ident_info.expr.expr_reg,
+				 prhs->ident_ptr.ident_info.expr.expr_reg );
+		markRegFree( prhs->ident_ptr.ident_info.expr.expr_reg );
+	}
+	else if ( IDENT_DEF_EXPR_REG == plhs->ident_ptr.ident_type &&
+			IDENT_DEF_EXPR_REG == prhs->ident_ptr.ident_type )
+	{
+		/* both operands are variables get a temporary register
+		*	we will return this register as the result of this
+		*	expression evaluation
+		*/
+
+		p_ret->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+		p_ret->ident_ptr.ident_info.expr.expr_reg = 
+			plhs->ident_ptr.ident_info.expr.expr_reg;
+
+		/* now produce the code to add the value of the 2nd variable
+		* to the temporary register.
+		*
+		*/
+
+		fprintf( outFile,
+				 "\tdiv  %%r%d, %%r%d\n",
+				 p_ret->ident_ptr.ident_info.expr.expr_reg,
+				 prhs->ident_ptr.ident_info.expr.expr_reg );
+		markRegFree( prhs->ident_ptr.ident_info.expr.expr_reg );
+	}
+	else
+	{
+		assert(0);
+	}
+
+	/* an expression that is the product of an addition
+	*   is always an integer.
+	*
+	*/
+	p_ret->ident_ptr.ident_info.expr.expr_type = 
+		EXPR_TYPE_INT;
+
+	return p_ret;
+}

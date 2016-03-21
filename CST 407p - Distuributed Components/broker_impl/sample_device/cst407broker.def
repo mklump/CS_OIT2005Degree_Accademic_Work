@@ -1,0 +1,8 @@
+LIBRARY	broker_impl.dll
+
+EXPORTS
+		DllGetClassObject	@2	PRIVATE
+		DllCanUnloadNow		@3	PRIVATE
+		DllRegisterServer	@4	PRIVATE
+		DllUnregisterServer	@5	PRIVATE
+		RegisterClassId			@6	PRIVATE

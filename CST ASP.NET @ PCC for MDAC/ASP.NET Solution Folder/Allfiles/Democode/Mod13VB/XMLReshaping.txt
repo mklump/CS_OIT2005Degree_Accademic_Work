@@ -1,0 +1,6 @@
+
+
+    <XmlType("MyContact")> Public Structure Contact
+        <XmlAttributeAttribute("MyName")> Public name As String
+        <XmlAttributeAttribute("MyAddress")> Public address As String
+    End Structure

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectingToDataSources", "ConnectingToDataSources.csproj", "{84ED30F9-A3F2-478F-9FDF-51F1ECA5BC50}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{84ED30F9-A3F2-478F-9FDF-51F1ECA5BC50}.Debug.ActiveCfg = Debug|.NET
+		{84ED30F9-A3F2-478F-9FDF-51F1ECA5BC50}.Debug.Build.0 = Debug|.NET
+		{84ED30F9-A3F2-478F-9FDF-51F1ECA5BC50}.Release.ActiveCfg = Release|.NET
+		{84ED30F9-A3F2-478F-9FDF-51F1ECA5BC50}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

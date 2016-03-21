@@ -1,0 +1,50 @@
+<xsd:schema id="CatalogDataSet" targetNamespace="http://www.tempuri.org/CatalogDataSet.xsd" xmlns="http://www.tempuri.org/CatalogDataSet.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xsd:element name="CatalogDataSet" msdata:IsDataSet="true">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element name="Categories">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="CategoryID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xsd:int" />
+							<xsd:element name="CategoryName" type="xsd:string" />
+							<xsd:element name="Description" type="xsd:string" minOccurs="0" />
+							<xsd:element name="Picture" minOccurs="0">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:base64Binary" />
+								</xsd:simpleType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="Products">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="ProductID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xsd:int" />
+							<xsd:element name="ProductName" type="xsd:string" />
+							<xsd:element name="SupplierID" type="xsd:int" minOccurs="0" />
+							<xsd:element name="CategoryID" type="xsd:int" minOccurs="0" />
+							<xsd:element name="QuantityPerUnit" type="xsd:string" minOccurs="0" />
+							<xsd:element name="UnitPrice" type="xsd:decimal" minOccurs="0" />
+							<xsd:element name="UnitsInStock" type="xsd:short" minOccurs="0" />
+							<xsd:element name="UnitsOnOrder" type="xsd:short" minOccurs="0" />
+							<xsd:element name="ReorderLevel" type="xsd:short" minOccurs="0" />
+							<xsd:element name="Discontinued" type="xsd:boolean" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:choice>
+		</xsd:complexType>
+		<xsd:unique name="Constraint1" msdata:PrimaryKey="true" msdata:ConstraintName="PK_Categories">
+			<xsd:selector xpath=".//Categories" />
+			<xsd:field xpath="CategoryID" />
+		</xsd:unique>
+		<xsd:unique name="usp_GetProducts_Constraint1" msdata:ConstraintName="PK_Products" msdata:PrimaryKey="true">
+			<xsd:selector xpath=".//Products" />
+			<xsd:field xpath="ProductID" />
+		</xsd:unique>
+		<xsd:keyref name="CategoriesProducts" refer="Constraint1">
+			<xsd:selector xpath=".//Products" />
+			<xsd:field xpath="CategoryID" />
+		</xsd:keyref>
+	</xsd:element>
+</xsd:schema>

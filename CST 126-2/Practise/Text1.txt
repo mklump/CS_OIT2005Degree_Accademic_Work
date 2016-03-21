@@ -1,0 +1,216 @@
+//--------------------------------------------------------------------
+// Author:        P. Hannan      
+// Date Created:    17 Feb 2002
+// Last Change Date:  
+// Project:        Queue
+// Filename:       queue.cpp
+//
+// Overview:       This program demonstrates a queue for inventory
+//                  items
+//   
+// Input:    Food Inventory File.
+//   
+// Output:   Display of Queue
+//   
+//--------------------------------------------------------------------
+
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+
+struct InventoryData {
+	InventoryData(string f, long q) 
+		{food = f; qty = q;};
+	InventoryData() 	
+	    {food = "Truffles"; qty = 1000; days_left = 5;}  // Yum
+	void display() 
+	    {cout << food << " " << qty << " " << days_left << endl;};
+
+	string food;
+	long   qty;
+	int    days_left;
+
+};
+
+struct InventoryNode {
+	InventoryData f;
+	InventoryNode *next;
+	InventoryNode(string workF, long q, int d) 
+	      {f.food = workF; f.qty = q; f.days_left = d; next = NULL; };
+	      // Note:  this is not the best way to do this constructor.  You'll 
+	      //  learn a better format in 136
+};
+
+typedef InventoryNode * InventoryPtr;
+
+class IQueue {
+	public:
+		IQueue() {head = NULL; tail = NULL;};
+		~IQueue();
+		bool PushBack(string name, long qty, int days);
+		InventoryData PopFront();
+		void display();
+	
+	private:
+		InventoryPtr head;
+		InventoryPtr tail;
+};
+
+	
+
+//--------------------------------------------------------------------
+bool OpenInputFile (ifstream & input_file);
+ 
+
+
+//--------------------------------------------------------------------
+
+void main (void)
+{
+	IQueue food_queue;
+	
+	ifstream food_file;
+	
+	string food;
+	long qty;
+	int  days;
+	
+	if (OpenInputFile(food_file)) {
+		while (!food_file.eof()) {
+			food_file >> food;
+			food_file >> qty;
+			food_file >> days;
+			food_queue.PushBack(food,qty,days);
+		}
+		food_file.close();
+		cout << endl;
+		cout << "---------Full Queue------------------" << endl;
+		food_queue.display();
+		
+		InventoryData work;
+		
+		cout << endl;
+		cout << "---------Pop One ------------------" << endl;
+		work = food_queue.PopFront();
+		cout << "Popped " ;
+		work.display();
+		cout << endl;
+		food_queue.display();
+		
+		cout << endl;
+		cout << "---------Pop Two ------------------" << endl;
+		work = food_queue.PopFront();
+		cout << "Popped " ;
+		work.display();
+		cout << endl;
+		food_queue.display();
+	}
+		
+			
+    
+}
+//--------------------------------------------------------------------
+//  File Functions
+//--------------------------------------------------------------------
+//--------------------------------------------------------------------
+// bool    OpenInputFile 
+// Input:  file name (retrieved from user);
+// Output: file pointer. 
+//         Returns true if able to open file and false if 
+//           unable to open file
+bool OpenInputFile (ifstream & input_file)
+{
+	char filename[50];
+	
+	cout << "Please enter the input file name including extension : ";
+	cin >> filename;
+
+
+	input_file.open(filename);
+	
+	if (input_file.fail())
+	{
+		cout << "ERROR: Unable to open file : " << filename << endl;
+		return false;
+	}
+	else
+	{
+		//	cout << "Opened file " << filename << endl;
+		return true;
+	}
+	
+}
+//--------------------------------------------------------------------
+// IQueue functions
+//--------------------------------------------------------------------
+//  This is the destructor.  It deletes the list and we will talk
+//    about them soon.
+IQueue::~IQueue()
+{
+	InventoryPtr temp;
+
+	while (head = NULL) {
+		temp = head;
+		cout << "Deleting " ;
+		head->f.display();
+		head = head->next;
+		delete temp;
+		temp = NULL;
+	};
+	
+	tail = NULL;
+	
+}
+//--------------------------------------------------------------------
+//  Push an item onto the back of the queue
+bool IQueue::PushBack(string name, long qty=0,  int days = 6)
+{
+	//  Initialize the node
+	cout << "PushBack " << name << " " << qty << " " << days;
+	cout.flush();
+	
+	InventoryPtr temp = new InventoryNode(name,qty, days);		
+
+	//  Add the new node to the tail of the list.
+	if (tail != NULL) {
+		tail->next = temp;
+		tail = tail->next;
+	}
+	else
+	{
+		tail = temp;
+		head = temp;
+	}
+
+	cout << endl;		
+	
+}
+//--------------------------------------------------------------------
+//  Pop an inventory item off the front of the queue
+InventoryData IQueue::PopFront()
+{
+	InventoryPtr temp;
+	InventoryData myValues;
+	
+	temp = head;
+	myValues = head->f;
+	head = head->next;
+	delete temp;
+	temp = NULL;
+	
+	return (myValues);
+}
+//--------------------------------------------------------------------
+//  Print every item in the queue
+void IQueue::display()
+{
+	InventoryPtr temp;
+	
+	temp = head;
+	while (temp != NULL) {
+		temp->f.display();
+		temp = temp->next;    // what would happen if I forgot this line?
+	};
+}

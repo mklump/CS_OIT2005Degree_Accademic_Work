@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<books>
+	<book>
+		<title>The Gourmet Microwave</title>
+		<price>19.95</price>
+	</book>
+	<book>
+		<title>Sushi, Anyone?</title>
+		<price>49.99</price>
+	</book>
+</books>

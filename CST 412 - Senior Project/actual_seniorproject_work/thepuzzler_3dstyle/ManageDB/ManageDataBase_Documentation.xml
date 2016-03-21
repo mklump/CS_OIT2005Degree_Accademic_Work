@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ManageDB</name>
+    </assembly>
+    <members>
+        <member name="T:ManageDB.localhost.DataBaseInterface">
+            <remarks/>
+        </member>
+        <member name="M:ManageDB.localhost.DataBaseInterface.#ctor">
+            <remarks/>
+        </member>
+        <member name="M:ManageDB.localhost.DataBaseInterface.StorePuzzlerRun(System.String,System.String,System.String,System.Int64,System.Int64,System.Int64)">
+            <remarks/>
+        </member>
+        <member name="M:ManageDB.localhost.DataBaseInterface.BeginStorePuzzlerRun(System.String,System.String,System.String,System.Int64,System.Int64,System.Int64,System.AsyncCallback,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:ManageDB.localhost.DataBaseInterface.EndStorePuzzlerRun(System.IAsyncResult)">
+            <remarks/>
+        </member>
+        <member name="M:ManageDB.localhost.DataBaseInterface.GetExecutionStatistics">
+            <remarks/>
+        </member>
+        <member name="M:ManageDB.localhost.DataBaseInterface.BeginGetExecutionStatistics(System.AsyncCallback,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:ManageDB.localhost.DataBaseInterface.EndGetExecutionStatistics(System.IAsyncResult)">
+            <remarks/>
+        </member>
+        <member name="T:ManageDB.ManageDataBase">
+            <summary>
+            Responsible for managing the connection to the Data Base through a
+            provided web service for each application execution to keep record.
+            </summary>
+        </member>
+        <member name="F:ManageDB.ManageDataBase.dictionaryXML">
+            <summary>
+            This string variable represents the serialized Equivalent of the
+            corresponding RedBlack Dictionary, char[,,] puzzle, and the
+            RedBlack wordsFound data objcets produced by this web appliaction
+            for transport through the web service, and ultimately stored in
+            local or remote MS SQL Server 2000 data base.
+            </summary>
+        </member>
+        <member name="F:ManageDB.ManageDataBase.puzzleXML">
+            <summary>
+            This string variable represents the serialized Equivalent of the
+            corresponding RedBlack Dictionary, char[,,] puzzle, and the
+            RedBlack wordsFound data objcets produced by this web appliaction
+            for transport through the web service, and ultimately stored in
+            local or remote MS SQL Server 2000 data base.
+            </summary>
+        </member>
+        <member name="F:ManageDB.ManageDataBase.wordsFoundXML">
+            <summary>
+            This string variable represents the serialized Equivalent of the
+            corresponding RedBlack Dictionary, char[,,] puzzle, and the
+            RedBlack wordsFound data objcets produced by this web appliaction
+            for transport through the web service, and ultimately stored in
+            local or remote MS SQL Server 2000 data base.
+            </summary>
+        </member>
+        <member name="F:ManageDB.ManageDataBase.dictionaryTime">
+            <summary>
+            64 bit long integers for easier serialization and calculations.
+            </summary>
+        </member>
+        <member name="F:ManageDB.ManageDataBase.puzzleTime">
+            <summary>
+            64 bit long integers for easier serialization and calculations.
+            </summary>
+        </member>
+        <member name="F:ManageDB.ManageDataBase.solutionTime">
+            <summary>
+            64 bit long integers for easier serialization and calculations.
+            </summary>
+        </member>
+        <member name="F:ManageDB.ManageDataBase.writer">
+            <summary>
+            XmlTextWriter for writing out the XML document serialized equivalent
+            of each of the processed data objects.
+            </summary>
+        </member>
+        <member name="F:ManageDB.ManageDataBase.reader">
+            <summary>
+            StreamReader for reading the XML data documents back into a string
+            for transport through the web service to the database.
+            </summary>
+        </member>
+        <member name="F:ManageDB.ManageDataBase.index">
+            <summary>
+            Class level scope index variable.
+            </summary>
+        </member>
+        <member name="F:ManageDB.ManageDataBase.dbinterface">
+            <summary>
+            Web service to Data Base Interface object reference.
+            </summary>
+        </member>
+        <member name="F:ManageDB.ManageDataBase.serializer">
+            <summary>
+            XML Serializer for serializing my data objects into XML documents
+            for easier, more simplified transport through the web service
+            and ultimately to the database where they will be stored as simple
+            text.
+            </summary>
+        </member>
+        <member name="M:ManageDB.ManageDataBase.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:ManageDB.ManageDataBase.Call_StorePuzzlerRun(Puzzle_Solution.Solution@,ns_ManageStats.ManageStats@)">
+            <summary>
+            The operation will (on the client side) call the StorePuzzlerRun()
+            web service to store all of the current execution statics.
+            </summary>
+            <param name="solution">The Solution reference containing the dictionary,
+            puzzle, and words found data to store in the data base.</param>
+            <param name="statistics">The ManageStats reference containing the
+            dictionary, puzzle, and solution execution times.</param>
+            <returns>The success or failure message of the server side db insert operation.</returns>
+        </member>
+        <member name="M:ManageDB.ManageDataBase.Call_GetExecutionStatistics">
+            <summary>
+            This operation will (on the client side) call the GetExecutionStatistics()
+            web service to retrieve the average execution times for the DictionaryCreation,
+            the Puzzle Creation, and the Solution Execution
+            </summary>
+            <returns>The average execution times for the dictionary, puzzle, and
+            solution for display on the front end UI (from the client side).</returns>
+        </member>
+        <member name="M:ManageDB.ManageDataBase.SetDataForStorage(ns_RedBlack.RedBlack,System.Char[0:,0:,0:],ns_RedBlack.RedBlack,Puzzle_Solution.Solution@)">
+            <summary>
+            This operation will ready the RedBlack dictionary to an array of strings, and the
+            RedBlack wordsFound to an array of strings. This done so the serialization of the data
+            objects become extremely easy for section 5 array encoding, and even easier for each data
+            object's ultimate destination to the server side database.
+            </summary>
+            <param name="RedBlack_Dictionary">The RedBlack dictionary to convert.</param>
+            <param name="puzzle">The char [,,] to convert.</param>
+            <param name="RedBlack_wordsFound">The RedBlack wordsFound to convert.</param>
+            <param name="solution">The solution object class reference.</param>
+        </member>
+        <member name="M:ManageDB.ManageDataBase.ConvertTo3DJaggedArray(System.Char[0:,0:,0:])">
+            <summary>
+            This helper method will take a three dimentional array and convert it to
+            the equivalent three dimentional Jagged Array.
+            </summary>
+            <param name="sourceArray">The source three dimentional char[,,], passed
+            pass value to convert from.</param>
+            <returns>The output char[][][] Destination Array converted to.</returns>
+        </member>
+        <member name="M:ManageDB.ManageDataBase.VisitRedBlackTree(ns_RedBlack.RedBlack,System.String[]@)">
+            <summary>
+            This helper method is used to help with the conversion process from a RedBlack
+            Binary Search Tree to a string[] for easier serialization.
+            </summary>
+            <param name="node">The root/next RedBlack Binary Search Tree node in the list
+            to visit.</param>
+            <param name="convertToItem">The string [] reference to convert the RedBlack Binary
+            Search Tree to.</param>
+        </member>
+        <member name="M:ManageDB.ManageDataBase.SoapSerializePuzzle(System.Char[0:,0:,0:])">
+            <summary>
+            (Depricated) This operation will serialize the char [,,] Puzzle (three dimentional
+            character array) into a soap message for transport to the DataBase.
+            </summary>
+            <param name="puzzle">The three dimentional char [,,] puzzle to serialize.</param>
+            <returns>True if the serialization succeeded, false if an exception ocurred.</returns>
+        </member>
+        <member name="M:ManageDB.ManageDataBase.SoapSerializeDictionary(ns_RedBlack.RedBlack)">
+            <summary>
+            (Deprecated) This operation will serialize the RedBlack Binary Search Tree
+            Dictionary object into a soap message for transport to the DataBase.
+            </summary>
+            <param name="dictionaryRoot">The dictionary root RedBlack node.</param>
+            <returns>True if the serialization succeeded, false if an exception ocurred.</returns>
+        </member>
+        <member name="P:ManageDB.ManageDataBase.Serializer">
+            <summary>
+            Property Serializer (XmlSerializer) Set or Get
+            </summary>
+        </member>
+        <member name="T:ManageDB.ManageDB_TestClass">
+            <summary>
+            This class is responsible for testing the database connectivity
+            and querying ability.
+            </summary>
+        </member>
+        <member name="M:ManageDB.ManageDB_TestClass.#ctor">
+            <summary>
+            Default Constuctor for the ManageDB_TestClass test class of
+            which is further responsible for testing the database connectivity
+            as well as the ability to execute any such needed queries.
+            </summary>
+        </member>
+        <member name="M:ManageDB.ManageDB_TestClass.SetUp">
+            <summary>
+            Seting up the tests will call the class constructor just like
+            calling new My_TestClass()
+            </summary>
+        </member>
+        <member name="M:ManageDB.ManageDB_TestClass.TestConnectivity">
+            <summary>
+            This method will test the connectivity to the MS SQL Data Base Server 2000.
+            </summary>
+            <returns>True if succeeded, and false if not.</returns>
+        </member>
+        <member name="M:ManageDB.ManageDB_TestClass.TestCreateDataBase">
+            <summary>
+            This method will test whether creating the neccessary database table
+            is successfull or not.
+            </summary>
+        </member>
+        <member name="M:ManageDB.ManageDB_TestClass.TestQueryingTheDataBase">
+            <summary>
+            This method will test the ability to successfully query a the MS SQL Server
+            2000 data base for a Result Set for the ADO.NET interface.
+            </summary>
+            <returns>True if the query succeeded, and false if the query failed.</returns>
+        </member>
+        <member name="M:ManageDB.ManageDB_TestClass.HandleException(System.Exception@)">
+            <summary>
+            Error Handling for this ManageDB_TestClass
+            </summary>
+            <param name="ex">The Current System.Exception that was thrown.</param>
+        </member>
+        <member name="M:ManageDB.ManageDB_TestClass.Main(System.String[])">
+            <summary>
+            In case this library is compiled into an individual executable.
+            </summary>
+            <param name="args">Main method parameter list.</param>
+        </member>
+    </members>
+</doc>

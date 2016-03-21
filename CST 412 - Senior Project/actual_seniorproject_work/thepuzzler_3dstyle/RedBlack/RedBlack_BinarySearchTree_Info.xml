@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RedBlack</name>
+    </assembly>
+    <members>
+        <member name="T:ns_RedBlack.RedBlack">
+            <summary>
+            This object encapsulates the characteristics and operations of
+            a RedBlack Binary Search Tree node. First create a head node with
+            one of the provided constructors, and then calling one of the insert
+            methods to begin building your RedBlack Binary Search Tree.
+            Please note that for the purposes of the code for this module, I must
+            give complete credit to Introduction to Algorithms, Second Edition
+            by Thomas H. Cormen, et al (Hardcover) for providing the much needed
+            Pseudo Code for which code be built this RedBlack Binary Search Tree
+            Data Structure.
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.#ctor">
+            <summary>
+            RedBlack default constructor
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.DeepCopy(ns_RedBlack.RedBlack,ns_RedBlack.RedBlack@)">
+            <summary>
+            Provides a mean to execute a deep copy from one RedBlack Tree
+            to Another.
+            </summary>
+            <param name="treeSource">The source RedBlack Binary Search Tree
+            to copy from.</param>
+            <param name="treeDestination">The destination RedBlack Binary Search
+            Tree to send the copy to.</param>
+            <returns>The root node reference to the deep copied tree.</returns>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.RB_Insert(ns_RedBlack.RedBlack@,System.Object)">
+            <summary>
+            This two arguement operation accepts a System.object value and creates
+            a new RedBlack node by first calling the default RedBlack() default 
+            constructor then inserting the resultant new node.
+            Please note that RB_Insert() operation will return any duplicates
+            attempted as a RedBlack node back to the caller.
+            </summary>
+            <param name="T">The root/head of the RedBlack Tree to insert char [] value.</param>
+            <param name="valueToInsert">The object value to insert.</param>
+            <returns>Returns the duplicate node compared to the node to be
+            inserted, other wise inserts the node.</returns>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.GetRoot(ns_RedBlack.RedBlack)">
+            <summary>
+            The purpose of this method is to find the root node of any given
+            RedBlack Binary Search Tree.
+            </summary>
+            <param name="T">An arbitrary RedBlack Tree to find the root.</param>
+            <returns>This method returns the root of a given RedBlack Tree T.</returns>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.RB_LessThanOperator(System.Object,System.Object)">
+            <summary>
+            Less Than Operator for RedBlack object key comparisons.
+            Please note that support is only provided for the System.String
+            or the char [] type comparisons, otherwise you must derive from
+            this class, and overload this method for a "yourType" comparison.
+            The types of both objects being compared must exactly match.
+            </summary>
+            <param name="leftArguement">The RedBlack node whose reference will
+            be used for the right comparison.</param>
+            <param name="rightArguement">The RedBlack node whose reference will
+            be used for the left comparison.</param>
+            <example> bool result = objectA lessthan objectB </example>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.RB_EqualityOperator(System.Object,System.Object)">
+            <summary>
+            Equality Operator for RedBlack object key comparisons.
+            Please note that support is only provided for the System.String
+            or the char [] type comparisons, otherwise you must derive from
+            this class, and overload this method for a "yourType" comparison.
+            The types of both objects being compared must exactly match.
+            </summary>
+            <param name="leftArguement">The RedBlack node whose reference will
+            be used for the right comparison.</param>
+            <param name="rightArguement">The RedBlack node whose reference will
+            be used for the left comparison.</param>
+            <example> bool result = objectA == objectB; </example>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.GetActualSize(ns_RedBlack.RedBlack,System.Int32@)">
+            <summary>
+            The helper method will walk through a given tree, in order, and
+            count the actual number of words in the tree.
+            </summary>
+            <param name="next">The root RedBlack node of the RedBlack Tree.</param>
+            <param name="actualSize">The integer counter used to do the counting.</param>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.Inorder_Tree_Walk(ns_RedBlack.RedBlack)">
+            <summary>
+            This method will correctly and in order access each key
+            in the binary search red-black tree, and in sorted order.
+            </summary>
+            <param name="x">Node to start accessing keys in the subtree of this node. </param>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.Tree_Search(ns_RedBlack.RedBlack,System.Object)">
+            <summary>
+            This method will correctly find the RedBlack node with key k
+            in the tree whose reference is x.
+            </summary>
+            The RedBlack node <param name="x"> is the root node to search through. </param>
+            The key <param name="k"> to search for in the tree on or under node x. </param>
+            <returns> The RedBlack node in the tree on or under node x with key k. 
+            If not found, the Sentinel node is returned.</returns>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.Iterative_Tree_Search(ns_RedBlack.RedBlack,System.Object)">
+            <summary>
+            This method will correctly find the RedBlack node with key k in the tree
+            whose reference is x. This search will always be more efficient since this
+            is not making recursive calls, except just moving memory references.
+            </summary>
+            The RedBlack node <param name="x"> is the root node to search through. </param>
+            The key <param name="k"> to search for in the tree on or under node x. </param>
+            <returns> The RedBlack node in the tree on or under node x with key k, but
+            performs the search more efficiently by "unrolling" the recursion into a
+            while loop. If not found, the Sentinel node is returned.
+            If not found, the Sentinel node is returned.</returns>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.Tree_Minimum(ns_RedBlack.RedBlack)">
+            <summary>
+            This method finds the minimum node whose value is the smallest beneath
+            a given root node x by following the left most node of that tree on and
+            under the root node x.
+            </summary>
+            The RedBlack node <param name="x"> is the root node of the subtree.</param>
+            <returns>The node whose key is the smallest value under node x.</returns>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.Tree_Maximum(ns_RedBlack.RedBlack)">
+            <summary>
+            This method returns the node with the maximum value on and under a given
+            root RedBlack node x. The key with the maximum value is always found by
+            following the right child references is that subtree. This exists as a
+            characteristic property of a binary search tree.
+            </summary>
+            The RedBlack node <param name="x"> is the root node of the tree to find
+            the maximum valued node. </param>
+            <returns>The RedBlack node on or under x with the maximum key value.</returns>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.Tree_Successor(ns_RedBlack.RedBlack)">
+            <summary>
+            This method finds the smallest key greater than the key of node x.
+            </summary>
+            <param name="x">Is any given RedBlack node of which ever root node.</param>
+            <returns>This method returns the RedBlack node whose key is the smallest
+            key greater than the key of node x.</returns>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.Tree_Predecessor(ns_RedBlack.RedBlack)">
+            <summary>
+            This method finds the largest key smaller than the key of node x.
+            </summary>
+            <param name="x">Is any given RedBlack node of which ever root node.</param>
+            <returns>This method returns the RedBlack node whose key is the largest
+            key smaller than the key of node x.</returns>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.Left_Rotate(ns_RedBlack.RedBlack@,ns_RedBlack.RedBlack)">
+            <summary>
+            After this method executes, the subnode x at or under the absolute
+            root node T will rotate references with x's right child node.
+            </summary>
+            <param name="T">This is the absolute root node containing or is
+            the RedBlack node x.</param>
+            <param name="x">This is the RedBlack node that will be rotated
+            left with x's right child node</param>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.Right_Rotate(ns_RedBlack.RedBlack@,ns_RedBlack.RedBlack)">
+            <summary>
+            After this method executes, the subnode x at or under the absolute
+            root node T will rotate references with x's left child node.
+            </summary>
+            <param name="T">This is the absolute root node containing or is
+            the RedBlack node x.</param>
+            <param name="x">This is the RedBlack node that will be rotated
+            left with x's right child node</param>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.Insert(ns_RedBlack.RedBlack@,ns_RedBlack.RedBlack)">
+            <summary>
+            This method accepts a reference to the root or head of the RedBlack Tree T
+            and a reference to the RedBlack node to insert z, whose key fill must filled
+            in with sortable data. Lastly this method calls RB_Insert_Fixup( T, z ) to
+            maintain properly the five properties of the RedBlack Tree.
+            </summary>
+            <param name="T">A reference to the root or head of the RedBlack Tree T.</param>
+            <param name="z">A reference to the RedBlack node we'll insert z.</param>
+            <returns>Returns the node just inserted.</returns>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.RB_Insert_Fixup(ns_RedBlack.RedBlack@,ns_RedBlack.RedBlack)">
+            <summary>
+            This is primarily a helper method/operation meant to maintain the
+            five properties of the RedBlack Binary Search Tree.
+            </summary>
+            <param name="T">Root or Head of the RedBlack tree we're working with.</param>
+            <param name="z">RedBlack node being inserted.</param>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.RB_Delete(ns_RedBlack.RedBlack@,System.Object)">
+            <summary>
+            The method must be provided to properly delete a given RedBlack node
+            from the RedBlack Tree that we're working with to properly maintain
+            the five properties of the Red Black Binary Search Tree.
+            </summary>
+            <param name="T">Head or Root of the RedBlack Tree we're working with.</param>
+            <param name="Value">The RedBlack node whose key is specified by this
+            paramenter that we're going to delete.</param>
+            <returns>The last RedBlack node worked with.</returns>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack.RB_Delete_Fixup(ns_RedBlack.RedBlack@,ns_RedBlack.RedBlack)">
+            <summary>
+            This helper method/operation is meant to provide support for maintaining
+            the neccessary five RedBlack Tree properties after having called RB_Delete()
+            </summary>
+            <param name="T">Head or Root of the RedBlack Tree we're working with.</param>
+            <param name="x">RedBlack node we're going to "fixup".</param>
+        </member>
+        <member name="P:ns_RedBlack.RedBlack.Parent">
+            <summary>
+            Property Parent (RedBlack) Read access and Write access
+            </summary>
+        </member>
+        <member name="P:ns_RedBlack.RedBlack.Right">
+            <summary>
+            Property Right (RedBlack) Read access and Write access
+            </summary>
+        </member>
+        <member name="P:ns_RedBlack.RedBlack.Left">
+            <summary>
+            Property Left (RedBlack) Read access and Write access
+            </summary>
+        </member>
+        <member name="P:ns_RedBlack.RedBlack.Color">
+            <summary>
+            Property Color (string)	Read access and Write access
+            </summary>
+        </member>
+        <member name="P:ns_RedBlack.RedBlack.Key">
+            <summary>
+            Property Key (object) Read and Write access
+            </summary>
+        </member>
+        <member name="T:ns_RedBlack.Sentinel">
+            <summary>
+            The intent of this class is to provide a Sentinel node nil[T],
+            for which is very much needed for the RedBlack Tree's inferstructional
+            support. This the class is abstract, it cannot be instanciated, and
+            with all the member's being static, they must be used through the
+            class's name.
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.Sentinel.Create">
+            <summary>
+            Set up the Sentinel Node.
+            </summary>
+        </member>
+        <member name="P:ns_RedBlack.Sentinel.Node">
+            <summary>
+            Property Node (RedBlack)
+            Read access only.
+            </summary>
+        </member>
+        <member name="T:ns_RedBlack.RedBlack_TestClass">
+            <summary>
+            Test Class for the RedBlack Binary Search Tree
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.SetUpTests">
+            <summary>
+            SetUp
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.Test1">
+            <summary>
+            Test 1
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.Test2">
+            <summary>
+            Test 2
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.Test3">
+            <summary>
+            Test 3
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.Test4">
+            <summary>
+            Test 4
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.Test5">
+            <summary>
+            Test 5
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.Test6">
+            <summary>
+            Test 6
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.Test7">
+            <summary>
+            Test 7
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.Test8">
+            <summary>
+            Test 8
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.Test9">
+            <summary>
+            Test 9
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.Test10">
+            <summary>
+            Test 10
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.Test11">
+            <summary>
+            Test 11
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.Test12">
+            <summary>
+            Test 12
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.Test13">
+            <summary>
+            This test will perform 100000 nodal element RB_Insert() operations and then
+            attempt to call RB_Delete() on all 100000 elements leaving only the Sentinel.Node
+            left in the test root RedBlack Tree and the same thing done on a second RedBlack
+            Binary Search Tree.
+            </summary>
+        </member>
+        <member name="M:ns_RedBlack.RedBlack_TestClass.Main(System.String[])">
+            <summary>
+            Main program entry point
+            </summary>
+            <param name="args">string arguements</param>
+        </member>
+    </members>
+</doc>

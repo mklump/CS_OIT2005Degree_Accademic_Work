@@ -1,0 +1,38 @@
+If Page.IsValid Then
+
+	lblMessage.Text = "Valid!"
+
+	'TODO Lab 14: Set Session Variables
+	Session("Name") = txtName.Text
+	Session("Birth") = txtBirth.Text
+
+	Dim objCookie As HttpCookie = _
+		Request.Cookies("Benefits")
+	Dim strDoc As String
+	Dim strLife As String
+
+	If Not objCookie Is Nothing Then
+		strDoc = objCookie.Values("doctor")
+		strLife = objCookie.Values("life")
+	End If
+
+	If (chkShortTerm.Checked) Then
+		If (chkLongTerm.Checked) Then
+			strLife = "Short Term and Long Term"
+		Else
+			strLife = "Short Term"
+		End If
+	ElseIf (chkLongTerm.Checked) Then
+		strLife = "Long Term"
+	End If
+	strLife &= ": Coverage = $" & txtCoverage.Text
+
+	Dim objNewCookie As New HttpCookie("Benefits")
+	objNewCookie.Expires = DateTime.Now.AddDays(30)
+	objNewCookie.Values.Add("doctor", strDoc)
+	objNewCookie.Values.Add("life", strLife)
+	Response.Cookies.Add(objNewCookie)
+	Response.Redirect("default.aspx")
+
+End If
+

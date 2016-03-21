@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0077)http://www.capital.ous.edu/~rksaripa/cst320spring2003/assignments/2/descr.htm -->
+<HTML><HEAD><TITLE>Instructor Ramakrishna Saripalli</TITLE>
+<META http-equiv=Content-Language content=en-us>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2800.1141" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId></HEAD>
+<BODY>
+<H2>Instructor Ramakrishna Saripalli.</H2>
+<P>CST 320 Compilers Assignment 2. Uploaded on 04/12/2003 Saturday 11:56 am.</P>
+<P>Students MUST return the completed assignment on 04/28/2003. Check the main 
+page for more details.</P>
+<HR color=#800000 SIZE=6>
+
+<H2>Submission.</H2>
+<UL>
+  <LI>Each student MUST submit a single flex specification file. 
+  <UL>
+    <LI>A student MAY not submit other files. </LI></UL>
+  <LI>The name of the student, e-mail address and date submitted should be 
+  included in the flex file as comments. 
+  <LI>This is an individual assignment and must be completed individually. 
+</LI></UL>
+<HR color=#ff00ff SIZE=5>
+
+<H2>Assignment details.</H2>
+<BLOCKQUOTE>
+  <P>The goal of this assignment is to write a lexical analyzer to recognize all 
+  possible C tokens using flex. Students are required to write a flex 
+  specification file. The flex tool is available as part of the cygwin package. 
+  See main page for details.</P>
+  <P>Specification.</P>
+  <P><B>Students MUST write a specification file for Flex(2.5.4) that tokenizes 
+  any input C program. Definition of a token includes the following. To complete 
+  this assignment, you may need to refer to a C programming reference manual 
+  such as "C programming" by Kernighan and Ritchie.</B></P>
+  <UL>
+    <LI><B>C and C++ style comments.</B> 
+    <LI><B>Integer literals.</B> 
+    <UL>
+      <LI><B>This includes hexadecimal, octal and regular decimal integers.</B> 
+      </LI></UL>
+    <LI><B>Real and floating point values.</B> 
+    <UL>
+      <LI><B>This includes all possible C style floating point constants. See 
+      any C programming manual for more explanation.</B> 
+      <LI><B>For example, all of the following are floating point constants in 
+      C.</B> 
+      <UL>
+        <LI><B>1.41</B> 
+        <LI><B>1.0</B> 
+        <LI><B>.53</B> 
+        <LI><B>-.53</B> 
+        <LI><B>-1.53</B> 
+        <LI><B>-1.53E+10</B> 
+        <LI><B>+1.53E-10</B> 
+        <LI><B>1.53E10</B> </LI></UL></LI></UL>
+    <LI><B>C-style string constants.</B> 
+    <UL>
+      <LI><B>For this assignment, no escape characters need be handled. See the 
+      exception below.</B> 
+      <LI><B>If the string spans more than one line and there is no escape 
+      character before \n, the scanner MUST display an error message with the 
+      line # where it occurred and exit.</B> 
+      <LI><B>See the following examples.</B> 
+      <UL>
+        <LI><B>Legal string <I><U>char *p = "This is a legal 
+        string";</U></I></B> 
+        <LI><B>Illegal string <I><U>char *p = "This is an illegal string 
+        </U></I></B>
+        <UL>
+          <LI><I><U><B>";</B></U></I> 
+          <LI>In the above case, the string spans more than one line but does 
+          not have an escape character. </LI></UL>
+        <LI><B>Legal string <I><U>char *p = "This is a legal string that spans 
+        more \</U></I></B> 
+        <UL>
+          <LI><B><I><U>one line";</U></I></B> </LI></UL></LI></UL></LI></UL>
+    <LI><B>Character constants.</B> 
+    <UL>
+      <LI><B>If the lexical analyzer finds more than one character within a '', 
+      the scanner must issue an error with an appropriate error message along 
+      with the line # and exit.</B> </LI></UL>
+    <LI><B>All C keywords.</B> 
+    <UL>
+      <LI><B>For a list of all the possible keywords, refer to the C language 
+      reference manual.</B> </LI></UL>
+    <LI><B>Any possible C identifier.</B> 
+    <LI><B>All legal operators in C.</B> 
+    <LI><B>Process #define directives.</B> 
+    <UL>
+      <LI><B>For example, if the line #define&nbsp;&nbsp;&nbsp; 
+      X&nbsp;&nbsp;&nbsp; 10 appears in a line and X is used later, you need to 
+      replace X by 10 in the input stream so that the driver program does not 
+      know the difference.</B> </LI></UL>
+    <LI><B><FONT size=5><U>YOU DO NOT NEED TO PROCESS #include directives in 
+    this assignment.</U></FONT></B> 
+    <OL>
+      <LI>Your scanner MUST detect any use of the #include directive in the 
+      input , issue an appropriate error message including the line # where it 
+      occurred and exit. </LI></OL>
+    <LI>Your scanner MUST detect balanced parantheses for the following cases. 
+    <UL>
+      <LI>Each use of ( must be balanced by a corresponding use of a ). If these 
+      do not match, your scanner MUST issue an error message and exit. It need 
+      not display any line numbers. 
+      <LI>Each use of a [ must be balanced by a corresponding use of a ]. If 
+      these do not match, your scanner MUST issue an error message and exit. No 
+      line numbers need be displayed. 
+      <LI>Each use of a { must be balanced by a corresponding use of a }. If 
+      these do not match, your scanner MUST issue an error message and exit. No 
+      line numbers need be displayed. </LI></UL></LI></UL></BLOCKQUOTE>
+<HR color=#ff00ff SIZE=5>
+
+<H2>Driver program.</H2>
+<UL>
+  <LI>The students will use the same driver program and the same interface 
+  between the driver program &amp; the lexical analyzer as was given in the 
+  first assignment. The driver program has not changed for this assignment. 
+</LI></UL></BODY></HTML>

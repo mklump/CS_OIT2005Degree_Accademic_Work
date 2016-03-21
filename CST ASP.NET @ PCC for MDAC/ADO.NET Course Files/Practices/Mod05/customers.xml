@@ -1,0 +1,168 @@
+﻿<CustomerData>
+	<customers>
+		<CustomerID>ALFKI</CustomerID>
+		<CompanyName>Alfreds Futterkiste</CompanyName>
+		<ContactName>Maria Andersen</ContactName>
+		<ContactTitle>Sales Representative</ContactTitle>
+		<Address>Obere Str. 57</Address>
+		<City>Berlin</City>
+		<PostalCode>12209</PostalCode>
+		<Country>Germany</Country>
+		<Phone>030-0074321</Phone>
+		<Fax>030-0076545</Fax>
+		<orders>
+			<OrderID>10643</OrderID>
+			<CustomerID>ALFKI</CustomerID>
+			<EmployeeID>6</EmployeeID>
+			<OrderDate>1997-08-25 07:00:00</OrderDate>
+			<RequiredDate>1997-09-22 07:00:00</RequiredDate>
+			<ShippedDate>1997-09-02 07:00:00</ShippedDate>
+			<ShipVia>1</ShipVia>
+			<Freight>29.46</Freight>
+			<ShipName>Alfreds Futterkiste</ShipName>
+			<ShipAddress>Obere Str. 57</ShipAddress>
+			<ShipCity>Berlin</ShipCity>
+			<ShipPostalCode>12209</ShipPostalCode>
+			<ShipCountry>Germany</ShipCountry>
+			<orderdetails>
+				<OrderID>10643</OrderID>
+				<ProductID>28</ProductID>
+				<UnitPrice>6000</UnitPrice>
+				<Quantity>15</Quantity>
+				<Discount>0.25</Discount>
+			</orderdetails>
+			<orderdetails>
+				<OrderID>10643</OrderID>
+				<ProductID>39</ProductID>
+				<UnitPrice>18</UnitPrice>
+				<Quantity>21</Quantity>
+				<Discount>0.25</Discount>
+			</orderdetails>
+			<orderdetails>
+				<OrderID>10643</OrderID>
+				<ProductID>46</ProductID>
+				<UnitPrice>12</UnitPrice>
+				<Quantity>2</Quantity>
+				<Discount>0.25</Discount>
+			</orderdetails>
+		</orders>
+		<orders>
+			<OrderID>10692</OrderID>
+			<CustomerID>ALFKI</CustomerID>
+			<EmployeeID>4</EmployeeID>
+			<OrderDate>1997-10-03 07:00:00</OrderDate>
+			<RequiredDate>1997-10-31 08:00:00</RequiredDate>
+			<ShippedDate>1997-10-13 07:00:00</ShippedDate>
+			<ShipVia>2</ShipVia>
+			<Freight>61.02</Freight>
+			<ShipName>Alfred's Futterkiste</ShipName>
+			<ShipAddress>Obere Str. 57</ShipAddress>
+			<ShipCity>Berlin</ShipCity>
+			<ShipPostalCode>12209</ShipPostalCode>
+			<ShipCountry>Germany</ShipCountry>
+			<orderdetails>
+				<OrderID>10692</OrderID>
+				<ProductID>63</ProductID>
+				<UnitPrice>43.9</UnitPrice>
+				<Quantity>20</Quantity>
+				<Discount>0</Discount>
+			</orderdetails>
+		</orders>
+	</customers>
+	<customers>
+		<CustomerID>ANATR</CustomerID>
+		<CompanyName>Ana Trujillo Emparedados y helados</CompanyName>
+		<ContactName>Ana Trujillo</ContactName>
+		<ContactTitle>Owner</ContactTitle>
+		<Address>Avda. de la ConstituciÃ³n 2222</Address>
+		<City>MÃ©xico D.F.</City>
+		<PostalCode>05021</PostalCode>
+		<Country>Mexico</Country>
+		<Phone>(5) 555-4729</Phone>
+		<Fax>(5) 555-3745</Fax>
+		<orders>
+			<OrderID>10308</OrderID>
+			<CustomerID>ANATR</CustomerID>
+			<EmployeeID>7</EmployeeID>
+			<OrderDate>1996-09-18 07:00:00</OrderDate>
+			<RequiredDate>1996-10-16 07:00:00</RequiredDate>
+			<ShippedDate>1996-09-24 07:00:00</ShippedDate>
+			<ShipVia>3</ShipVia>
+			<Freight>1.61</Freight>
+			<ShipName>Ana Trujillo Emparedados y helados</ShipName>
+			<ShipAddress>Avda. de la Constitución 2222</ShipAddress>
+			<ShipCity>México D.F.</ShipCity>
+			<ShipPostalCode>05021</ShipPostalCode>
+			<ShipCountry>Mexico</ShipCountry>
+		</orders>
+		<orders>
+			<OrderID>10625</OrderID>
+			<CustomerID>ANATR</CustomerID>
+			<EmployeeID>3</EmployeeID>
+			<OrderDate>1997-08-08 07:00:00</OrderDate>
+			<RequiredDate>1997-09-05 07:00:00</RequiredDate>
+			<ShippedDate>1997-08-14 07:00:00</ShippedDate>
+			<ShipVia>1</ShipVia>
+			<Freight>43.9</Freight>
+			<ShipName>Ana Trujillo Emparedados y helados</ShipName>
+			<ShipAddress>Avda. de la Constitución 2222</ShipAddress>
+			<ShipCity>México D.F.</ShipCity>
+			<ShipPostalCode>05021</ShipPostalCode>
+			<ShipCountry>Mexico</ShipCountry>
+			<orderdetails>
+				<OrderID>10625</OrderID>
+				<ProductID>14</ProductID>
+				<UnitPrice>23.25</UnitPrice>
+				<Quantity>3</Quantity>
+				<Discount>0</Discount>
+			</orderdetails>
+			<orderdetails>
+				<OrderID>10625</OrderID>
+				<ProductID>42</ProductID>
+				<UnitPrice>14</UnitPrice>
+				<Quantity>5</Quantity>
+				<Discount>0</Discount>
+			</orderdetails>
+			<orderdetails>
+				<OrderID>10625</OrderID>
+				<ProductID>60</ProductID>
+				<UnitPrice>34</UnitPrice>
+				<Quantity>10</Quantity>
+				<Discount>0</Discount>
+			</orderdetails>
+		</orders>
+	</customers>
+	<customers>
+		<CustomerID>ANTON</CustomerID>
+		<CompanyName>Antonio Moreno TaquerÃ­a</CompanyName>
+		<ContactName>Antonio Moreno</ContactName>
+		<ContactTitle>Owner</ContactTitle>
+		<Address>Mataderos  2312</Address>
+		<City>MÃ©xico D.F.</City>
+		<PostalCode>05023</PostalCode>
+		<Country>Mexico</Country>
+		<Phone>(5) 555-3932</Phone>
+		<orders>
+			<OrderID>10365</OrderID>
+			<CustomerID>ANTON</CustomerID>
+			<EmployeeID>3</EmployeeID>
+			<OrderDate>1996-11-27 08:00:00</OrderDate>
+			<RequiredDate>1996-12-25 08:00:00</RequiredDate>
+			<ShippedDate>1996-12-02 08:00:00</ShippedDate>
+			<ShipVia>2</ShipVia>
+			<Freight>22</Freight>
+			<ShipName>Antonio Moreno TaquerÃ­a</ShipName>
+			<ShipAddress>Mataderos  2312</ShipAddress>
+			<ShipCity>MÃ©xico D.F.</ShipCity>
+			<ShipPostalCode>05023</ShipPostalCode>
+			<ShipCountry>Mexico</ShipCountry>
+			<orderdetails>
+				<OrderID>10365</OrderID>
+				<ProductID>11</ProductID>
+				<UnitPrice>16.8</UnitPrice>
+				<Quantity>24</Quantity>
+				<Discount>0</Discount>
+			</orderdetails>
+		</orders>
+	</customers>
+</CustomerData>

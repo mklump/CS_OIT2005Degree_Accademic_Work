@@ -1,0 +1,33 @@
+<?xml version = "1.0"?>
+
+<!-- Fig. D.12 : planner.xml   -->
+<!-- Day Planner XML document  -->
+
+<planner>
+
+   <year value = "2001">
+
+      <date month = "7" day = "15">
+         <note time = "1430">Doctor&apos;s appointment</note>
+         <note time = "1620">Physics class at BH291C</note>
+      </date>
+
+      <date month = "7" day = "4">
+         <note>Independence Day</note>
+      </date>
+
+      <date month = "7" day = "20">
+         <note time = "0900">General Meeting in room 32-A</note>
+      </date>
+
+      <date month = "7" day = "20">
+         <note time = "1900">Party at Joe&apos;s</note>
+      </date>
+
+      <date month = "7" day = "20">
+         <note time = "1300">Financial Meeting in room 14-C</note>
+      </date>
+
+   </year>
+
+</planner>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="1.0">
+    <name unique="explorer" display="CTL_ExplorerWindow" from-bundle="true" bundle="org.netbeans.core.windows.Bundle" />
+    <ui-type type="any" >
+        <bounds x="-4" y="112" width="307" height="375" />
+        <frame type="window" state="normal" />
+        <container type="split" >
+        </container>
+        <icon url="nbresboot:/org/netbeans/core/resources/frames/explorer.gif" />
+        <other defined-by="module" mode-state="hidden" />
+    </ui-type>
+</mode>

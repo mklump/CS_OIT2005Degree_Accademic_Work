@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+
+<!-- Fig. 28.10 : profile.xml             -->
+<!-- Simple introduction to XML markup   -->
+
+<profile>
+   <name>
+	   <firstname>Sean</firstname>
+	   <lastname>Santry</lastname>
+   </name>
+   
+   <hobbies>
+	   <hobby>chess</hobby>
+	   <hobby>tennis</hobby>
+	   <hobby>taekwon do</hobby>
+   </hobbies>
+   
+   <books>
+      <book>
+         <title>The Lord of the Rings</title>
+         <author>Tolkien</author>
+      </book>
+   </books>
+	
+</profile>

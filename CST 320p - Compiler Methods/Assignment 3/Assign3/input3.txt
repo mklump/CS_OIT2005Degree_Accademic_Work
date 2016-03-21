@@ -1,0 +1,12 @@
+START
+  VAR i : INTEGER;
+
+  VAR j : INTEGER;
+
+  VAR k : INTEGER;
+
+  IF ( k := 10 ) THEN i := k + 10; ELSE j := i + 5;
+
+  PRINT(k);
+
+END

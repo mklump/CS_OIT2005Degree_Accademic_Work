@@ -1,0 +1,158 @@
+Buildfile: file:///C:/Documents and Settings/Nostro/VSWebCache/matthew.klump-pdx.com/thepuzzler_3dstyle/thepuzzler_3dstyle.build
+Target framework: Microsoft .NET Framework 1.1
+Target(s) specified: clean build 
+
+
+clean:
+
+   [delete] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\thepuzzler_3dstyle.build(7,5):
+   [delete] Error creating FileSet.
+   [delete]     Illegal characters in path.
+
+build:
+
+ [solution] Starting solution build.
+ [solution] Loading projects...
+ [solution] Loading project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\ManageStats.csproj'.
+ [solution] Loading referenced project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\DictionaryCreator.csproj'.
+ [solution] Loading referenced project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\Solution\Puzzle_Solution.csproj'.
+ [solution] Loading referenced project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\RedBlack\RedBlack.csproj'.
+ [solution] Loading referenced project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\RedBlack\RedBlack.csproj'.
+ [solution] Loading referenced project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\Puzzle_Creation.csproj'.
+ [solution] Loading referenced project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\DictionaryCreator.csproj'.
+ [solution] Loading referenced project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\Solution\Puzzle_Solution.csproj'.
+ [solution] Loading referenced project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\RedBlack\RedBlack.csproj'.
+ [solution] Loading referenced project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\Solution\Puzzle_Solution.csproj'.
+ [solution] Loading referenced project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\RedBlack\RedBlack.csproj'.
+ [solution] Loading project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\DictionaryCreator.csproj'.
+ [solution] Loading project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\RedBlack\RedBlack.csproj'.
+ [solution] Loading project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\Solution\Puzzle_Solution.csproj'.
+ [solution] Loading project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\thepuzzler_3dstyle_localhost.csproj'.
+ [solution] Loading referenced project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\ManageStats.csproj'.
+ [solution] Loading referenced project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\Puzzle_Creation.csproj'.
+ [solution] Loading referenced project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\Solution\Puzzle_Solution.csproj'.
+ [solution] Loading referenced project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\RedBlack\RedBlack.csproj'.
+ [solution] Loading referenced project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\DictionaryCreator.csproj'.
+ [solution] Loading project 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\Puzzle_Creation.csproj'.
+ [solution] Gathering additional dependencies...
+ [solution] Fixing up references...
+ [solution] Building 'RedBlack' [debug] ...
+               [attrib] Setting file attributes for 2 files to Normal.
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\RedBlack\bin\Debug\RedBlack.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\RedBlack\bin\Debug\RedBlack_BinarySearchTree_Info.xml
+ [solution] Project is up-to-date.
+ [solution] Building satellite assemblies...
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\RedBlack\bin\Debug\RedBlack.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\RedBlack\bin\Debug\RedBlack_BinarySearchTree_Info.xml '.
+ [solution] Fixing up references...
+ [solution] Building 'Puzzle_Solution' [debug] ...
+               [attrib] Setting file attributes for 4 files to Normal.
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\Solution\bin\Debug\RedBlack.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\Solution\bin\Debug\RedBlack_BinarySearchTree_Info.xml
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\Solution\bin\Debug\Solution.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\Solution\bin\Debug\SolutionClassDocumentation.xml
+ [solution] Project is up-to-date.
+ [solution] Building satellite assemblies...
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\Solution\bin\Debug\SolutionClassDocumentation.xml'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\Solution\bin\Debug\RedBlack.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\Solution\bin\Debug\RedBlack_BinarySearchTree_Info.xml '.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\Solution\bin\Debug\Solution.dll'.
+ [solution] Fixing up references...
+ [solution] Building 'DictionaryCreator' [debug] ...
+               [attrib] Setting file attributes for 6 files to Normal.
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\bin\Debug\DictionaryCreator.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\bin\Debug\DictionaryCreatorDocumentation.xml
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\bin\Debug\RedBlack.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\bin\Debug\RedBlack_BinarySearchTree_Info.xml
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\bin\Debug\Solution.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\bin\Debug\SolutionClassDocumentation.xml
+ [solution] Project is up-to-date.
+ [solution] Building satellite assemblies...
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\bin\Debug\SolutionClassDocumentation.xml'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\bin\Debug\RedBlack.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\bin\Debug\RedBlack_BinarySearchTree_Info.xml '.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\bin\Debug\DictionaryCreatorDocumentation.xml'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\bin\Debug\Solution.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\DictionaryCreator\bin\Debug\DictionaryCreator.dll'.
+ [solution] Fixing up references...
+ [solution] Building 'Puzzle_Creation' [debug] ...
+               [attrib] Setting file attributes for 8 files to Normal.
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\DictionaryCreator.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\DictionaryCreatorDocumentation.xml
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\PuzzleCreator.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\PuzzleCreatorDocumentation.xml
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\RedBlack.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\RedBlack_BinarySearchTree_Info.xml
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\Solution.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\SolutionClassDocumentation.xml
+ [solution] Project is up-to-date.
+ [solution] Building satellite assemblies...
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\DictionaryCreatorDocumentation.xml'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\DictionaryCreator.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\SolutionClassDocumentation.xml'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\Solution.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\PuzzleCreatorDocumentation.xml'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\PuzzleCreator.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\RedBlack.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\PuzzleCreator\bin\Debug\RedBlack_BinarySearchTree_Info.xml '.
+ [solution] Fixing up references...
+ [solution] Building 'ManageStats' [debug] ...
+               [attrib] Setting file attributes for 10 files to Normal.
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\DictionaryCreator.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\DictionaryCreatorDocumentation.xml
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\ManageStats.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\ManageStats_Documentation.xml
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\PuzzleCreator.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\PuzzleCreatorDocumentation.xml
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\RedBlack.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\RedBlack_BinarySearchTree_Info.xml
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\Solution.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\SolutionClassDocumentation.xml
+ [solution] Project is up-to-date.
+ [solution] Building satellite assemblies...
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\DictionaryCreatorDocumentation.xml'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\DictionaryCreator.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\SolutionClassDocumentation.xml'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\ManageStats.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\Solution.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\PuzzleCreatorDocumentation.xml'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\ManageStats_Documentation.xml'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\PuzzleCreator.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\RedBlack.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\ManageStats\bin\Debug\RedBlack_BinarySearchTree_Info.xml '.
+ [solution] Fixing up references...
+ [solution] Building 'thepuzzler_3dstyle_localhost' [debug] ...
+               [attrib] Setting file attributes for 13 files to Normal.
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\DictionaryCreator.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\DictionaryCreatorDocumentation.xml
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\ManageStats.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\ManageStats_Documentation.xml
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\PuzzleCreator.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\PuzzleCreatorDocumentation.xml
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\RedBlack.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\RedBlack_BinarySearchTree_Info.xml
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\Solution.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\SolutionClassDocumentation.xml
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\thepuzzler_3dstyle.dll
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\thepuzzler_3dstyle.pdb
+               [attrib] C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\thepuzzler_subwebdocumentation.xml
+ [solution] Project is up-to-date.
+ [solution] Building satellite assemblies...
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\DictionaryCreatorDocumentation.xml'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\thepuzzler_3dstyle.pdb'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\DictionaryCreator.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\SolutionClassDocumentation.xml'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\ManageStats.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\Solution.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\PuzzleCreatorDocumentation.xml'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\ManageStats_Documentation.xml'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\thepuzzler_subwebdocumentation.xml'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\PuzzleCreator.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\RedBlack.dll'.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\RedBlack_BinarySearchTree_Info.xml '.
+                 [copy] Copying 0 files to 'C:\Documents and Settings\Nostro\VSWebCache\matthew.klump-pdx.com\thepuzzler_3dstyle\bin\thepuzzler_3dstyle.dll'.
+
+BUILD SUCCEEDED - 1 non-fatal error(s), 0 warning(s)
+
+Total time: 1.5 seconds.
+

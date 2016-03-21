@@ -1,0 +1,18 @@
+//  This is the destructor.  It deletes the list and we will talk
+//    about them soon.
+IQueue::~IQueue()
+{
+	InventoryPtr temp;
+
+	while (head != NULL) {
+		temp = head;
+		cout << "Deleting " ;
+		head->f.display();
+		head = head->next;
+		delete temp;
+		temp = NULL;
+	};
+	
+	tail = NULL;
+	
+}

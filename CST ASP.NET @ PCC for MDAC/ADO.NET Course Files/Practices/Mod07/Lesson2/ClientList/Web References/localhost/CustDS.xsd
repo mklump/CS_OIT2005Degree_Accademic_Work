@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema id="CustDS" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.tempuri.org/CustDS.xsd" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element n1:IsDataSet="true" name="CustDS" xmlns:n1="urn:schemas-microsoft-com:xml-msdata">
+    <complexType>
+      <choice maxOccurs="unbounded">
+        <element name="Customers">
+          <complexType>
+            <sequence>
+              <element name="CustomerID" type="string" />
+              <element name="CompanyName" type="string" />
+              <element minOccurs="0" name="ContactName" type="string" />
+              <element minOccurs="0" name="Address" type="string" />
+              <element minOccurs="0" name="City" type="string" />
+              <element minOccurs="0" name="Region" type="string" />
+              <element minOccurs="0" name="PostalCode" type="string" />
+              <element minOccurs="0" name="Country" type="string" />
+              <element minOccurs="0" name="Phone" type="string" />
+              <element minOccurs="0" name="Fax" type="string" />
+            </sequence>
+          </complexType>
+        </element>
+      </choice>
+    </complexType>
+    <unique n1:PrimaryKey="true" name="Constraint1">
+      <selector xpath=".//Customers" />
+      <field xpath="CustomerID" />
+    </unique>
+  </element>
+</schema>

@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnTheRoad", "OnTheRoad.csproj", "{55972796-686C-4A07-B677-DD307A0AC79C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnTheRoadWS", "http://localhost/2389/Labs/Lab07/Solution/CS/OnTheRoadWS/OnTheRoadWS.csproj", "{E27459FD-7814-4EAC-8761-6952FDC21E80}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{55972796-686C-4A07-B677-DD307A0AC79C}.Debug.ActiveCfg = Debug|.NET
+		{55972796-686C-4A07-B677-DD307A0AC79C}.Debug.Build.0 = Debug|.NET
+		{55972796-686C-4A07-B677-DD307A0AC79C}.Release.ActiveCfg = Release|.NET
+		{55972796-686C-4A07-B677-DD307A0AC79C}.Release.Build.0 = Release|.NET
+		{E27459FD-7814-4EAC-8761-6952FDC21E80}.Debug.ActiveCfg = Debug|.NET
+		{E27459FD-7814-4EAC-8761-6952FDC21E80}.Debug.Build.0 = Debug|.NET
+		{E27459FD-7814-4EAC-8761-6952FDC21E80}.Release.ActiveCfg = Release|.NET
+		{E27459FD-7814-4EAC-8761-6952FDC21E80}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

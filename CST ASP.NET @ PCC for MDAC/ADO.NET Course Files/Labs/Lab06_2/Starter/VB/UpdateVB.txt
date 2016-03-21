@@ -1,0 +1,77 @@
+        ' Declare local DataTable variables for changes
+
+        ' we need to create a complete DataSet for inserts so that when a new
+        ' order is inserted, and a new OrderID assigned by SQL Server, that value
+        ' is propagated through to related OrderDetail rows
+        Dim dsInserts As DataSet = Me.dsNorthwind.GetChanges(DataRowState.Added)
+
+        ' these variables are only used to check if new rows have been added
+        Dim dtInsertCustomers As DataTable = Me.dsNorthwind.Tables("Customers").GetChanges(DataRowState.Added)
+        Dim dtInsertOrders As DataTable = Me.dsNorthwind.Tables("Orders").GetChanges(DataRowState.Added)
+        Dim dtInsertOrderDetails As DataTable = Me.dsNorthwind.Tables("OrderDetails").GetChanges(DataRowState.Added)
+
+        Dim dtUpdateCustomers As DataTable = Me.dsNorthwind.Tables("Customers").GetChanges(DataRowState.Modified)
+        Dim dtUpdateOrders As DataTable = Me.dsNorthwind.Tables("Orders").GetChanges(DataRowState.Modified)
+        Dim dtUpdateOrderDetails As DataTable = Me.dsNorthwind.Tables("OrderDetails").GetChanges(DataRowState.Modified)
+
+        Dim dtDeleteCustomers As DataTable = Me.dsNorthwind.Tables("Customers").GetChanges(DataRowState.Deleted)
+        Dim dtDeleteOrders As DataTable = Me.dsNorthwind.Tables("Orders").GetChanges(DataRowState.Deleted)
+        Dim dtDeleteOrderDetails As DataTable = Me.dsNorthwind.Tables("OrderDetails").GetChanges(DataRowState.Deleted)
+
+        ' Call Update method for each DataTable and each DataAdapter
+        Try
+
+            If Not dtInsertCustomers Is Nothing Then
+                Me.daCustomers.Update(dsInserts.Tables("Customers"))
+            End If
+
+            If Not dtInsertOrders Is Nothing Then
+                Me.daOrders.Update(dsInserts.Tables("Orders"))
+            End If
+
+            If Not dtInsertOrderDetails Is Nothing Then
+                Me.daOrderDetails.Update(dsInserts.Tables("OrderDetails"))
+            End If
+
+            If Not dtUpdateCustomers Is Nothing Then
+                Me.daCustomers.Update(dtUpdateCustomers)
+            End If
+
+            If Not dtUpdateOrders Is Nothing Then
+                Me.daOrders.Update(dtUpdateOrders)
+            End If
+
+            If Not dtUpdateOrderDetails Is Nothing Then
+                Me.daOrderDetails.Update(dtUpdateOrderDetails)
+            End If
+
+            If Not dtDeleteOrderDetails Is Nothing Then
+                Me.daOrderDetails.Update(dtDeleteOrderDetails)
+            End If
+
+            If Not dtDeleteOrders Is Nothing Then
+                Me.daOrders.Update(dtDeleteOrders)
+            End If
+
+            If Not dtDeleteCustomers Is Nothing Then
+                Me.daCustomers.Update(dtDeleteCustomers)
+            End If
+
+            Me.dsNorthwind.AcceptChanges()
+
+        Catch Xcp As System.Exception
+
+            MessageBox.Show(Xcp.ToString())
+            Exit Sub
+
+        End Try
+
+
+        ' refresh local copy?
+        If MessageBox.Show( _
+            "Do you want to refresh your local copy of data?", "Update", _
+            MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
+
+            mnuFill_Click(sender, e)
+
+        End If

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s0="http://tempuri.org/" xmlns:i0="http://www.tempuri.org/CustDS.xsd" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <import namespace="http://www.tempuri.org/CustDS.xsd" location="http://localhost/2389/Practices/Mod07/Lesson1/ClientRosterService/Service1.asmx?schema=CustDS" />
+  <types>
+    <s:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://www.tempuri.org/CustDS.xsd" />
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="HelloWorldResult" nillable="true" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="city" nillable="true" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetCustomersResult" nillable="true">
+              <s:complexType>
+                <s:sequence>
+                  <s:any namespace="http://www.tempuri.org/CustDS.xsd" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="CustDS" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:any namespace="http://www.tempuri.org/CustDS.xsd" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="HelloWorldSoapIn">
+    <part name="parameters" element="s0:HelloWorld" />
+  </message>
+  <message name="HelloWorldSoapOut">
+    <part name="parameters" element="s0:HelloWorldResponse" />
+  </message>
+  <message name="GetCustomersSoapIn">
+    <part name="parameters" element="s0:GetCustomers" />
+  </message>
+  <message name="GetCustomersSoapOut">
+    <part name="parameters" element="s0:GetCustomersResponse" />
+  </message>
+  <message name="HelloWorldHttpGetIn" />
+  <message name="HelloWorldHttpGetOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="GetCustomersHttpGetIn">
+    <part name="city" type="s:string" />
+  </message>
+  <message name="GetCustomersHttpGetOut">
+    <part name="Body" element="s0:CustDS" />
+  </message>
+  <message name="HelloWorldHttpPostIn" />
+  <message name="HelloWorldHttpPostOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="GetCustomersHttpPostIn">
+    <part name="city" type="s:string" />
+  </message>
+  <message name="GetCustomersHttpPostOut">
+    <part name="Body" element="s0:CustDS" />
+  </message>
+  <portType name="Service1Soap">
+    <operation name="HelloWorld">
+      <input message="s0:HelloWorldSoapIn" />
+      <output message="s0:HelloWorldSoapOut" />
+    </operation>
+    <operation name="GetCustomers">
+      <input message="s0:GetCustomersSoapIn" />
+      <output message="s0:GetCustomersSoapOut" />
+    </operation>
+  </portType>
+  <portType name="Service1HttpGet">
+    <operation name="HelloWorld">
+      <input message="s0:HelloWorldHttpGetIn" />
+      <output message="s0:HelloWorldHttpGetOut" />
+    </operation>
+    <operation name="GetCustomers">
+      <input message="s0:GetCustomersHttpGetIn" />
+      <output message="s0:GetCustomersHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="Service1HttpPost">
+    <operation name="HelloWorld">
+      <input message="s0:HelloWorldHttpPostIn" />
+      <output message="s0:HelloWorldHttpPostOut" />
+    </operation>
+    <operation name="GetCustomers">
+      <input message="s0:GetCustomersHttpPostIn" />
+      <output message="s0:GetCustomersHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="Service1Soap" type="s0:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetCustomers">
+      <soap:operation soapAction="http://tempuri.org/GetCustomers" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="Service1HttpGet" type="s0:Service1HttpGet">
+    <http:binding verb="GET" />
+    <operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetCustomers">
+      <http:operation location="/GetCustomers" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="Service1HttpPost" type="s0:Service1HttpPost">
+    <http:binding verb="POST" />
+    <operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetCustomers">
+      <http:operation location="/GetCustomers" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Service1">
+    <port name="Service1Soap" binding="s0:Service1Soap">
+      <soap:address location="http://localhost/2389/Practices/Mod07/Lesson1/ClientRosterService/Service1.asmx" />
+    </port>
+    <port name="Service1HttpGet" binding="s0:Service1HttpGet">
+      <http:address location="http://localhost/2389/Practices/Mod07/Lesson1/ClientRosterService/Service1.asmx" />
+    </port>
+    <port name="Service1HttpPost" binding="s0:Service1HttpPost">
+      <http:address location="http://localhost/2389/Practices/Mod07/Lesson1/ClientRosterService/Service1.asmx" />
+    </port>
+  </service>
+</definitions>

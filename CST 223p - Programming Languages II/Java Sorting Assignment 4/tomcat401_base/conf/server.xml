@@ -1,0 +1,37 @@
+<!-- Basic Server configuration file for Netbeans/FFJ -->
+<Server port="8015" shutdown="SHUTDOWN" debug="0">
+
+  <!-- Define the Tomcat-Netbeans Service -->
+  <Service name="Tomcat-Netbeans">
+    <!-- Define a non-SSL HTTP/1.1 Connector on port 8080 -->
+    <Connector className="org.apache.catalina.connector.http.HttpConnector" port="8081" minProcessors="5" maxProcessors="75" enableLookups="true" redirectPort="8443" acceptCount="10" debug="0" connectionTimeout="60000" />
+
+    <!-- Define the top level container in our container hierarchy -->
+    <Engine name="Tomcat-Internal" defaultHost="localhost" debug="0">
+
+      <!-- Global logger unless overridden at lower levels -->
+      <Logger className="org.apache.catalina.logger.FileLogger" prefix="server_log." suffix=".txt" timestamp="true" />
+
+      <!-- Define the default virtual host -->
+      <Host name="localhost" debug="0" appBase="webapps" unpackWARs="true">
+
+        <!-- Access log processes all requests for this virtual host. -->
+        <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" prefix="localhost_access_log." suffix=".txt" pattern="common" />
+
+        <!-- Logger shared by all Contexts related to this virtual host. -->
+        <Logger className="org.apache.catalina.logger.FileLogger" directory="logs" prefix="localhost_log." suffix=".txt" timestamp="true" />
+
+        <!-- Tomcat Manager Context.
+             This context enables deploying a new web application, or undeploying an existing one,
+             without having to shut down and restart the entire container.
+             Look at : http://jakarta.apache.org/tomcat/tomcat-4.0-doc/manager-howto.html
+        -->
+        <Context path="/manager" docBase="manager" debug="0" privileged="true" />
+
+      </Host>
+
+    </Engine>
+
+  </Service>
+
+</Server>

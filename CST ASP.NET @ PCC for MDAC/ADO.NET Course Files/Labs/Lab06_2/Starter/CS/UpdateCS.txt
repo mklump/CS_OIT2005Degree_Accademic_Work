@@ -1,0 +1,85 @@
+// Declare three local DataSet variables 
+
+// we need to create a complete DataSet for inserts so that when a new
+// order is inserted, and a new OrderID assigned by SQL Server, that value
+// is propagated through to related OrderDetail rows
+DataSet dsInserts = this.dsNorthwind.GetChanges(DataRowState.Added);
+
+// these variables are only used to check if new rows have been added
+DataTable dtInsertCustomers = this.dsNorthwind.Tables["Customers"].GetChanges(DataRowState.Added);
+DataTable dtInsertOrders = this.dsNorthwind.Tables["Orders"].GetChanges(DataRowState.Added);
+DataTable dtInsertOrderDetails = this.dsNorthwind.Tables["OrderDetails"].GetChanges(DataRowState.Added);
+
+DataTable dtUpdateCustomers = this.dsNorthwind.Tables["Customers"].GetChanges(DataRowState.Modified);
+DataTable dtUpdateOrders = this.dsNorthwind.Tables["Orders"].GetChanges(DataRowState.Modified);
+DataTable dtUpdateOrderDetails = this.dsNorthwind.Tables["OrderDetails"].GetChanges(DataRowState.Modified);
+
+DataTable dtDeleteCustomers = this.dsNorthwind.Tables["Customers"].GetChanges(DataRowState.Deleted);
+DataTable dtDeleteOrders = this.dsNorthwind.Tables["Orders"].GetChanges(DataRowState.Deleted);
+DataTable dtDeleteOrderDetails = this.dsNorthwind.Tables["OrderDetails"].GetChanges(DataRowState.Deleted);
+
+
+// Call Update on all three Data Adapters
+try
+{
+    if (dtInsertCustomers != null) 
+    {
+	this.daCustomers.Update(dsInserts.Tables["Customers"]);
+    }
+
+    if (dtInsertOrders != null) 
+    {
+	this.daOrders.Update(dsInserts.Tables["Orders"]);
+    }
+
+    if (dtInsertOrderDetails != null) 
+    {
+        this.daOrderDetails.Update(dsInserts.Tables["OrderDetails"]);
+    }
+
+    if (dtUpdateCustomers != null)
+    {
+        this.daCustomers.Update(dtUpdateCustomers);
+    }
+
+    if (dtUpdateOrders != null)
+    {
+        this.daOrders.Update(dtUpdateOrders);
+    }
+
+    if (dtUpdateOrderDetails != null)
+    {
+        this.daOrderDetails.Update(dtUpdateOrderDetails);
+    }
+
+    if (dtDeleteOrderDetails != null)
+    {
+        this.daOrderDetails.Update(dtDeleteOrderDetails);
+    }
+
+    if (dtDeleteOrders != null)
+    {
+        this.daOrders.Update(dtDeleteOrders);
+    }
+
+    if (dtDeleteCustomers != null)
+    {
+        this.daCustomers.Update(dtDeleteCustomers);
+    }
+
+    this.dsNorthwind.AcceptChanges();
+
+}
+catch (System.Exception Xcp)
+{
+    MessageBox.Show(Xcp.ToString());
+    return;
+}
+
+// refresh local copy?
+if (MessageBox.Show(
+      "Do you want to refresh your local copy of data?", "Update", 
+       MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+{
+    mnuFill_Click(sender, e);
+}

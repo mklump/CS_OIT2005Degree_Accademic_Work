@@ -1,0 +1,8 @@
+import "unknwn.idl";
+
+[object, uuid(EB788015-5336-45ea-BA21-14EA359CDDD0)]
+interface ICalc : IUnknown
+{
+  HRESULT Sum([in] int x, [in] int y, [out,retval] int *retVal);
+  HRESULT Mult([in] int x, [in] int y, [out, retval] int *retval);
+};

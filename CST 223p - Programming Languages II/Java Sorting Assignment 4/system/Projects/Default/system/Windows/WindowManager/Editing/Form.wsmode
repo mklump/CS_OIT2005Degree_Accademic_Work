@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="1.0">
+    <name unique="Form" display="CTL_FormEditorWindow" from-bundle="true" bundle="org.netbeans.modules.form.Bundle" />
+    <module name="org.netbeans.modules.form/2" spec="1.7" />
+    <ui-type type="any" >
+        <bounds x="260" y="112" width="665" height="437" />
+        <frame type="window" state="normal" />
+        <container type="split" >
+            <area constraint="top" x="0" y="0" width="445" height="39" />
+            <area constraint="right" x="445" y="0" width="219" height="437" />
+            <area constraint="center" x="0" y="61" width="445" height="397" />
+        </container>
+        <icon url="nbres:/org/netbeans/modules/form/resources/formDesigner.gif" />
+        <other defined-by="module" mode-state="hidden" />
+    </ui-type>
+</mode>

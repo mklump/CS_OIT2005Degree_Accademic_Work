@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AddressDataSet"
+						elementFormDefault="qualified"
+						xmlns="http://MySchema/ShippingAddressSchema.org/"
+						xmlns:xs="http://www.w3.org/2001/XMLSchema"
+						xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+						targetNamespace="http://ShippingService.org/">
+  <xs:element name="Address">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="StreetAddress" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="City" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="Zip" type="xs:int" minOccurs="1" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddressDataSet" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="Address" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

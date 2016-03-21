@@ -1,0 +1,22 @@
+SqlConnection conn = new SqlConnection ("data source=localhost;initial catalog=Dentists;integrated security=true");
+SqlDataAdapter daDentistsPoCode;
+DataSet dsDentistsPoCode = new DataSet();
+SqlParameter workParam  = null;
+
+//call the DentistsByState stored procedure
+daDentistsPoCode = new SqlDataAdapter("DentistsByPostalCode", conn);
+daDentistsPoCode.SelectCommand.CommandType = CommandType.StoredProcedure;
+
+//add the postal code input parameter
+workParam = new SqlParameter("@PostalCode", System.Data.SqlDbType.NVarChar);
+workParam.Direction = ParameterDirection.Input;
+workParam.Value = strPostalCode;
+daDentistsPoCode.SelectCommand.Parameters.Add(workParam);
+
+//run the stored procedure and fill a dataset
+daDentistsPoCode.Fill(dsDentistsPoCode, "DentistsPoCode");
+
+//close the connection
+conn.Close();
+
+return dsDentistsPoCode;

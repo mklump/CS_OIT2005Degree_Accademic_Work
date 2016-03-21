@@ -1,0 +1,27 @@
+<xsd:schema id="DataSet1" targetNamespace="http://www.tempuri.org/DataSet1.xsd" xmlns="http://www.tempuri.org/DataSet1.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xsd:element name="DataSet1" msdata:IsDataSet="true">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element name="authors">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="au_id" type="xsd:string" />
+							<xsd:element name="au_lname" type="xsd:string" />
+							<xsd:element name="au_fname" type="xsd:string" />
+							<xsd:element name="phone" type="xsd:string" />
+							<xsd:element name="address" type="xsd:string" minOccurs="0" />
+							<xsd:element name="city" type="xsd:string" minOccurs="0" />
+							<xsd:element name="state" type="xsd:string" minOccurs="0" />
+							<xsd:element name="zip" type="xsd:string" minOccurs="0" />
+							<xsd:element name="contract" type="xsd:boolean" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:choice>
+		</xsd:complexType>
+		<xsd:unique name="Constraint1" msdata:PrimaryKey="true">
+			<xsd:selector xpath=".//authors" />
+			<xsd:field xpath="au_id" />
+		</xsd:unique>
+	</xsd:element>
+</xsd:schema>

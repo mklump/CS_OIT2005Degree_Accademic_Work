@@ -1,0 +1,20 @@
+/*****************************************************************************
+
+                        Copyright (c) Prolog Development Center A/S
+
+******************************************************************************/
+
+#include @"pie.ph"
+
+% privately used packages
+#include @"pfc\application\exe\exe.ph"
+#include @"taskWindow\taskWindow.ph"
+#include @"pfc\exception\exception.ph"
+
+% private interfaces
+#include @"resourceIdentifiers.i"
+
+% private classes
+
+% implementations
+#include @"pie.pro"

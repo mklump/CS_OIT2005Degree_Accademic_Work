@@ -1,0 +1,51 @@
+// HelloServ.idl : IDL source for HelloServ.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (HelloServ.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(706A50D1-6C74-11D4-A359-00104B732442),
+	
+		helpstring("IHelloWorld Interface"),
+		pointer_default(unique)
+	]
+	interface IHelloWorld : IUnknown
+	{
+		[helpstring("method SayHello")] HRESULT SayHello();
+	};
+
+[
+	uuid(27613737-6A27-11D4-A358-00104B732442),
+	version(1.0),
+	helpstring("HelloServ 1.0 Type Library")
+]
+library HELLOSERVLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(706A50D4-6C74-11D4-A359-00104B732442),
+		helpstring("DHelloWorldEvents event interface")
+	]
+	dispinterface DHelloWorldEvents
+	{
+		properties:
+		methods:
+		[id(1), helpstring("method OnSayHello")] HRESULT OnSayHello([in] BSTR bstrHost);
+	};
+
+	[
+		uuid(706A50D3-6C74-11D4-A359-00104B732442),
+		helpstring("HelloWorld Class")
+	]
+	coclass HelloWorld
+	{
+		[default] interface IHelloWorld;
+		[default, source] dispinterface DHelloWorldEvents;
+	};
+};

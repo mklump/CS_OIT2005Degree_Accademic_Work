@@ -1,0 +1,7 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\CLSID\{d58cf70d-7363-49c9-aa6e-7f30b6691f5b}]
+@="Com 407 Calculator sample"
+
+[HKEY_CLASSES_ROOT\CLSID\{d58cf70d-7363-49c9-aa6e-7f30b6691f5b}\InProcServer32]
+@="C:\\teaching\\oit\\cst407winter2002\\assignments\\comcalc\\Debug\\comcalc.dll"

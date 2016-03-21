@@ -1,0 +1,6 @@
+// allow client to connect to network resources on hostname
+// at ports above 1024
+grant {
+   permission java.net.SocketPermission "hostname:1024-", 
+      "connect, accept, resolve";
+};

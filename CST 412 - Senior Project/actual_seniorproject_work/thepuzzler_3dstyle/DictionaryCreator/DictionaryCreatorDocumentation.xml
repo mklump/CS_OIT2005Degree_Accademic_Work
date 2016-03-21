@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DictionaryCreator</name>
+    </assembly>
+    <members>
+        <member name="T:ns_DictionaryCreator.DictionaryCreator">
+            <summary>
+            Summary description for DictionaryCreator.
+            </summary>
+        </member>
+        <member name="F:ns_DictionaryCreator.DictionaryCreator.nextWord">
+            <summary>
+            The next word retrieved from the dictionary.
+            </summary>
+        </member>
+        <member name="F:ns_DictionaryCreator.DictionaryCreator.file">
+            <summary>
+            Array that has the appropriate web path referencs for the input files.
+            </summary>
+        </member>
+        <member name="F:ns_DictionaryCreator.DictionaryCreator.maximumWordLength">
+            <summary>
+            Maximum word length indicator for any given entry into the dictionary.
+            </summary>
+        </member>
+        <member name="F:ns_DictionaryCreator.DictionaryCreator.dictionarySize">
+            <summary>
+            Dictionary list size indicator.
+            </summary>
+        </member>
+        <member name="F:ns_DictionaryCreator.DictionaryCreator.reader">
+            <summary>
+            Stream used to read the Dictionary into Solution.Dictionary RedBlack
+            Binary Search Tree.
+            </summary>
+        </member>
+        <member name="F:ns_DictionaryCreator.DictionaryCreator.tempTree">
+            <summary>
+            Publicly available deep copy of the Solution.Dictionary after
+            CreatDictionary is called.
+            </summary>
+        </member>
+        <member name="F:ns_DictionaryCreator.DictionaryCreator.usedWords">
+            <summary>
+            This SortedList is used to track what words were already selected
+            in the NextWord() operation.
+            </summary>
+        </member>
+        <member name="M:ns_DictionaryCreator.DictionaryCreator.GetDictionaryFile(System.Int32)">
+            <summary>
+            This single argument helper operation retrieves the base dictionary
+            input file and fills and sets the maximum word length.
+            </summary>
+            <param name="dictionaryNum">Specifies which dictionary to use.</param>
+        </member>
+        <member name="M:ns_DictionaryCreator.DictionaryCreator.IsAphabetic(System.String)">
+            <summary>
+            The helper method determines, by the specified parameter word, wheather
+            or not all the characters of this string instance are alphabetic.
+            </summary>
+            <param name="word">System.string to check.</param>
+            <returns>True if all of word's characters are alphabetic,
+            and false if any single character is not.</returns>
+        </member>
+        <member name="M:ns_DictionaryCreator.DictionaryCreator.CreateDictionary(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Responsible for actually creating the RedBlack Tree dictionary
+            when called from the single arguement DictionaryCreator constructor.
+            </summary>
+            <param name="baseDictionary">Base dictoinary selector parameter.</param>
+            <param name="size">Dictionary size indication parameter.</param>
+            <param name="minimumWordLength">Specifies the minimum length of a word.</param>
+            <returns>The completed RedBlack Tree dictionary.</returns>
+        </member>
+        <member name="M:ns_DictionaryCreator.DictionaryCreator.RandomizeDictionary(ns_RedBlack.RedBlack,System.Int32@)">
+            <summary>
+            This helper method will randomize the dictionary created in the last
+            method call, and decrease it's size to that specified by dictionarySize
+            from the last method call.
+            </summary>
+            <param name="dictionary">The dictionary to randomize.</param>
+            <param name="size">The size of the dictionary specified by the user.</param>
+            <returns>The user specified RedBlack Tree dictionary.</returns>
+        </member>
+        <member name="M:ns_DictionaryCreator.DictionaryCreator.NextWord(ns_RedBlack.RedBlack,System.Char)">
+            <summary>
+            This helper operation will search for a word in the base dictionary
+            whose first letter will match the randomly generated charater in
+            the previous method call. If nothing is found, then the Sentinel
+            Node is returned.
+            </summary>
+            <param name="word">Base dictionary to look through.</param>
+            <param name="firstChar">Randomly selected first character to look for.</param>
+            <returns>The RedBlack node word whose key has a first character
+            that matches the randomly generated character as an in/out passed by reference
+            parameter.</returns>
+        </member>
+        <member name="P:ns_DictionaryCreator.DictionaryCreator.TempTree">
+            <summary>
+            Property TempTree (RedBlack) Read Access Only
+            </summary>
+        </member>
+        <member name="P:ns_DictionaryCreator.DictionaryCreator.UsedWords">
+            <summary>
+            Property UsedWords (SortedList)
+            </summary>
+        </member>
+        <member name="P:ns_DictionaryCreator.DictionaryCreator.DictionarySize">
+            <summary>
+            Property DictionarySize (int) read access for the dictionary size;
+            </summary>
+        </member>
+        <member name="T:ns_DictionaryCreator.DictionaryCreator_TestClass">
+            <summary>
+            Test Class Harness for DictionaryCreator
+            </summary>
+        </member>
+        <member name="M:ns_DictionaryCreator.DictionaryCreator_TestClass.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:ns_DictionaryCreator.DictionaryCreator_TestClass.OutPutDictionary(ns_DictionaryCreator.DictionaryCreator)">
+            <summary>
+            OutPutDictionary() will write the entire contents of a given DictionaryCreator
+            object as specified by the dictionary_ parameter.
+            Special Note: Beware! This method will take serveral minutes and consume much
+            system resources to print an ENTIRE dictionary to a file because the actual base
+            dictionary are extremely large!
+            </summary>
+            <param name="creator">The parameter specifies which DictionaryCreator object 
+            to write out to the file "output.txt"</param>
+        </member>
+        <member name="M:ns_DictionaryCreator.DictionaryCreator_TestClass.Test1">
+            <summary>
+            Test1 method.
+            </summary>
+        </member>
+        <member name="M:ns_DictionaryCreator.DictionaryCreator_TestClass.Test2">
+            <summary>
+            Test2 method.
+            </summary>
+        </member>
+        <member name="M:ns_DictionaryCreator.DictionaryCreator_TestClass.Test3">
+            <summary>
+            Test3 method.
+            </summary>
+        </member>
+        <member name="M:ns_DictionaryCreator.DictionaryCreator_TestClass.Test4">
+            <summary>
+            Test4 method.
+            </summary>
+        </member>
+        <member name="M:ns_DictionaryCreator.DictionaryCreator_TestClass.Main(System.String[])">
+            <summary>
+            Test class entry point, the point of these tests will be to estimate about
+            how long it will take to put all four base dictionary into variously separate
+            RedBlack Trees for later manipulation.
+            </summary>
+            <param name="args">test class arguments</param>
+        </member>
+    </members>
+</doc>

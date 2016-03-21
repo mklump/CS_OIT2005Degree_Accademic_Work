@@ -1,0 +1,6 @@
+Dim intValue As Integer = args.Value
+If intValue mod 2 = 0 Then
+	args.IsValid = True
+Else
+	args.IsValid = False
+End If

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="CustomerData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" name="customers">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CustomerID" type="xs:string" />
+							<xs:element name="CompanyName" type="xs:string" />
+							<xs:element name="ContactName" type="xs:string" />
+							<xs:element name="ContactTitle" type="xs:string" />
+							<xs:element name="Address" type="xs:string" />
+							<xs:element name="City" type="xs:string" />
+							<xs:element name="PostalCode" type="xs:unsignedShort" />
+							<xs:element name="Country" type="xs:string" />
+							<xs:element name="Phone" type="xs:string" />
+							<xs:element minOccurs="0" name="Fax" type="xs:string" />
+							<xs:element maxOccurs="unbounded" name="orders">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="OrderID" type="xs:unsignedShort" />
+										<xs:element name="CustomerID" type="xs:string" />
+										<xs:element name="EmployeeID" type="xs:unsignedByte" />
+										<xs:element name="OrderDate" type="xs:string" />
+										<xs:element name="RequiredDate" type="xs:string" />
+										<xs:element name="ShippedDate" type="xs:string" />
+										<xs:element name="ShipVia" type="xs:unsignedByte" />
+										<xs:element name="Freight" type="xs:decimal" />
+										<xs:element name="ShipName" type="xs:string" />
+										<xs:element name="ShipAddress" type="xs:string" />
+										<xs:element name="ShipCity" type="xs:string" />
+										<xs:element name="ShipPostalCode" type="xs:unsignedShort" />
+										<xs:element name="ShipCountry" type="xs:string" />
+										<xs:element minOccurs="0" maxOccurs="unbounded" name="orderdetails">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="OrderID" type="xs:unsignedShort" />
+													<xs:element name="ProductID" type="xs:unsignedByte" />
+													<xs:element name="UnitPrice" type="xs:decimal" />
+													<xs:element name="Quantity" type="xs:unsignedByte" />
+													<xs:element name="Discount" type="xs:decimal" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

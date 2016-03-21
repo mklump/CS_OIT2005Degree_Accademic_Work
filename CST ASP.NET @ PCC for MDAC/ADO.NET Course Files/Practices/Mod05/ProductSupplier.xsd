@@ -1,0 +1,43 @@
+<xsd:schema id="ProductList" targetNamespace="http://www.tempuri.org/ProductList" xmlns="http://www.tempuri.org/ProductList" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	<xsd:element name="ProductList" msdata:IsDataSet="true">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element name="Products">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="ProductID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xsd:int" />
+							<xsd:element name="ProductName" type="xsd:string" />
+							<xsd:element name="SupplierID" type="xsd:int" minOccurs="0" />
+							<xsd:element name="UnitPrice" type="xsd:decimal" minOccurs="0" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="Suppliers">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="SupplierID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xsd:int" />
+							<xsd:element name="CompanyName" type="xsd:string" />
+							<xsd:element name="Address" type="xsd:string" minOccurs="0" />
+							<xsd:element name="City" type="xsd:string" minOccurs="0" />
+							<xsd:element name="Region" type="xsd:string" minOccurs="0" />
+							<xsd:element name="PostalCode" type="xsd:string" minOccurs="0" />
+							<xsd:element name="Country" type="xsd:string" minOccurs="0" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:choice>
+		</xsd:complexType>
+		<xsd:unique name="Constraint1" msdata:PrimaryKey="true">
+			<xsd:selector xpath=".//Products" />
+			<xsd:field xpath="ProductID" />
+		</xsd:unique>
+		<xsd:unique name="Suppliers_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xsd:selector xpath=".//Suppliers" />
+			<xsd:field xpath="SupplierID" />
+		</xsd:unique>
+		<xsd:keyref name="SuppliersProducts" refer="Suppliers_Constraint1" msdata:ConstraintOnly="true">
+			<xsd:selector xpath=".//Products" />
+			<xsd:field xpath="SupplierID" />
+		</xsd:keyref>
+	</xsd:element>
+</xsd:schema>

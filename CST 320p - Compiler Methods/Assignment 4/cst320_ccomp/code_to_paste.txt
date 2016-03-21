@@ -1,0 +1,127 @@
+// Only two methods change since my last revision:
+produce_code_for_goto(), and
+produce_code_for_labeled_statement()
+
+symtableentry_t *
+produce_code_for_goto(
+					  FILE	*outFile,
+					  const char	*label
+					  )
+{
+	int	bIsLabel = 0,  // Boolean for wheather or not label is indeed a label
+		index;		   // Loop variable
+
+	symtableentry_t *temp;
+	temp = get_ident_entry( label );
+	if( temp == NULL )
+	{
+		temp = static_cast<symtableentry_t *>( pop_item( Stack_id ) );
+	}
+
+	for( index = 0; index < 300; ++index )
+	{
+		if( temp->ident_ptr.ident_info.const_int == label_stack[index] )
+		{
+			bIsLabel = 1;	// label is indeed a label
+			temp->id_name = strdup( label );
+			break;
+		}
+	}
+
+	/* check to see if identifier is a label */
+	if ( temp != NULL && bIsLabel == 1 )
+	{ // label->ident_ptr.ident_info.const_int is our goto label
+		temp->ident_ptr.ident_info.const_int = pop_label();
+
+		fprintf( outFile,"jmp {}, label%d\n", temp->ident_ptr.ident_info.const_int );
+		printf( "jmp {}, label%d\n", temp->ident_ptr.ident_info.const_int );
+
+		return temp;
+	}
+	else
+	{
+		printf( "The identifier %s is not a label for goto. Line: %d", temp->id_name, lineno );
+		return NULL;
+	}
+}
+
+symtableentry_t *
+generate_code_for_labeled_statement(
+					  FILE	*outFile,
+					  const char *label
+					  )
+{
+	int index = 0,		// Loop variable
+		bSpill = 0;		// Wheather or not to spill a register
+
+	Stack_id = initialize_stack();
+
+	symtableentry_t *temp = NULL;
+	char carrot[128] = "^";
+
+	temp = get_ident_entry( label );
+
+	if ( temp == NULL )
+	{
+		temp = create_symbol_table_entry();
+		temp->p_next	=	NULL;
+		temp->id_name	=	strdup(label);
+		if( (int)temp->id_name[0] != (int)'^' )
+			temp->id_name = strcat( carrot, temp->id_name );
+	}
+
+	temp->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+	temp->ident_ptr.ident_info.expr.expr_reg = getFreeReg();
+	temp->ident_ptr.ident_info.expr.expr_type = EXPR_TYPE_INT;
+
+	if ( temp != NULL )
+	{
+		temp->ident_ptr.ident_info.const_int = generate_label();
+		push_label( temp->ident_ptr.ident_info.const_int );
+		push_item( Stack_id, temp );
+
+		fprintf( outFile,"^label%d\n", temp->ident_ptr.ident_info.const_int); // new label established
+
+		if ( temp->ident_ptr.ident_info.expr.expr_reg  == max_reg )
+		{
+			/* we will choose register 0*/
+	
+			temp->ident_ptr.ident_info.expr.expr_reg  = 0;
+			bSpill = 1;
+	
+			/* we will need to spill register 0 */
+		}
+
+		if ( bSpill == 1 )
+		{
+			fprintf(
+					outFile,
+					"\tpush	%%r%d	// spill register %d\n",
+					temp->ident_ptr.ident_info.expr.expr_reg ,
+					temp->ident_ptr.ident_info.expr.expr_reg 
+					);
+			temp->ident_ptr.ident_info.expr.bSpill = 1;
+		}
+		else
+		{
+			temp->ident_ptr.ident_info.expr.bSpill = 0;
+		}
+
+		fprintf(
+				outFile,
+				"\tmov %%r%d,	$%d\n",
+				temp->ident_ptr.ident_info.expr.expr_reg,
+				temp->ident_ptr.ident_info.const_int
+				);
+
+		markRegBusy(temp->ident_ptr.ident_info.expr.expr_reg);
+
+		return	temp;
+	}
+	else
+	{
+		printf( "This implementation requires declaring the \
+					label before using it. Line: %d", lineno );
+		return NULL;
+	}
+}

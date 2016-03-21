@@ -1,0 +1,1 @@
+In this exercise, we will test your knowledge of the Deitel programming tips ;tiptest ;

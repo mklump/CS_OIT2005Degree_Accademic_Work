@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DrivingDirections xmlns="http://DrivingDirections/HowToGetThere">
+	<To>
+		<Address>
+			<Street>My Address</Street>
+			<City>My City</City>
+			<State>My State</State>
+			<Zip>My Zip Code</Zip>
+		</Address>
+	</To>
+	<From>
+		<Address>
+			<Street>My From Address</Street>
+			<City>My From City</City>
+			<State>My From State</State>
+			<Zip>My From Zip Code</Zip>
+		</Address>
+	</From>
+	<Steps>
+		<Step number="1">
+			<Street>Next To Street</Street>
+			<CompasDir>West</CompasDir>
+			<Distance>0.9mi</Distance>
+			<Turn>Right</Turn>
+		</Step>
+		<Step number="2">
+			<Street>The Next To Street</Street>
+			<CompasDir>North</CompasDir>
+			<Distance>1.6mi</Distance>
+			<Turn>Left</Turn>
+		</Step>
+	</Steps>
+</DrivingDirections>

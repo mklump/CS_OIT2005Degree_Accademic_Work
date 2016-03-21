@@ -1,0 +1,4 @@
+LIBRARY comcalc.dll
+EXPORTS
+	DllGetClassObject
+	DllCanUnloadNow

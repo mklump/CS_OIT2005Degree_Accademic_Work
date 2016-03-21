@@ -1,0 +1,24 @@
+try
+{
+	this.daProducts.Fill(tempNW.Products);
+
+	this.daCustomers.SelectCommand.Parameters["@EmployeeID"].Value = this.EmployeeID;
+	this.daCustomers.Fill(tempNW.Customers);
+
+	this.daOrders.SelectCommand.Parameters["@EmployeeID"].Value = this.EmployeeID;
+	this.daOrders.Fill(tempNW.Orders);
+
+	this.daOrderDetails.SelectCommand.Parameters["@EmployeeID"].Value = this.EmployeeID;
+	this.daOrderDetails.Fill(tempNW.OrderDetails);
+
+	this.dsNorthwind = tempNW;
+	this.RefreshUI();
+}
+catch (System.Exception Xcp)
+{
+	MessageBox.Show(
+		"Failed to retrieve data because:\n" + Xcp.ToString() +
+		"\n\nTry a different server name.",
+		"Get from central database",
+		MessageBoxButtons.OK, MessageBoxIcon.Error);
+}

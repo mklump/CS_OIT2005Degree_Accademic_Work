@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingCommandObjects", "WindowsApplication1\BuildingCommandObjects.csproj", "{3723B25E-C706-4311-AB26-234395CA07E4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScalarValues", "ScalarValues\ScalarValues.csproj", "{6A127DE2-D069-4FA8-965C-6B87DEACE50A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingMultipleRows", "ProcessingMultipleRows\ProcessingMultipleRows.csproj", "{5EAF5E81-6EF0-469C-AA50-F25FD953A410}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecutingMultipleStatements", "ExecutingMultipleStatements\ExecutingMultipleStatements.csproj", "{8D3885D9-A2D0-4997-B2B9-ADFC9B3A8BF7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecutingDDL", "ExecutingDDL\ExecutingDDL.csproj", "{2BB35E19-2051-4CF1-AD23-995C58C14859}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecutingDML", "ExecutingDML\ExecutingDML.csproj", "{057DEA44-66B9-4C77-B9B4-E00BBAA8BFBE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3723B25E-C706-4311-AB26-234395CA07E4}.Debug.ActiveCfg = Debug|.NET
+		{3723B25E-C706-4311-AB26-234395CA07E4}.Debug.Build.0 = Debug|.NET
+		{3723B25E-C706-4311-AB26-234395CA07E4}.Release.ActiveCfg = Release|.NET
+		{3723B25E-C706-4311-AB26-234395CA07E4}.Release.Build.0 = Release|.NET
+		{6A127DE2-D069-4FA8-965C-6B87DEACE50A}.Debug.ActiveCfg = Debug|.NET
+		{6A127DE2-D069-4FA8-965C-6B87DEACE50A}.Debug.Build.0 = Debug|.NET
+		{6A127DE2-D069-4FA8-965C-6B87DEACE50A}.Release.ActiveCfg = Release|.NET
+		{6A127DE2-D069-4FA8-965C-6B87DEACE50A}.Release.Build.0 = Release|.NET
+		{5EAF5E81-6EF0-469C-AA50-F25FD953A410}.Debug.ActiveCfg = Debug|.NET
+		{5EAF5E81-6EF0-469C-AA50-F25FD953A410}.Debug.Build.0 = Debug|.NET
+		{5EAF5E81-6EF0-469C-AA50-F25FD953A410}.Release.ActiveCfg = Release|.NET
+		{5EAF5E81-6EF0-469C-AA50-F25FD953A410}.Release.Build.0 = Release|.NET
+		{8D3885D9-A2D0-4997-B2B9-ADFC9B3A8BF7}.Debug.ActiveCfg = Debug|.NET
+		{8D3885D9-A2D0-4997-B2B9-ADFC9B3A8BF7}.Debug.Build.0 = Debug|.NET
+		{8D3885D9-A2D0-4997-B2B9-ADFC9B3A8BF7}.Release.ActiveCfg = Release|.NET
+		{8D3885D9-A2D0-4997-B2B9-ADFC9B3A8BF7}.Release.Build.0 = Release|.NET
+		{2BB35E19-2051-4CF1-AD23-995C58C14859}.Debug.ActiveCfg = Debug|.NET
+		{2BB35E19-2051-4CF1-AD23-995C58C14859}.Debug.Build.0 = Debug|.NET
+		{2BB35E19-2051-4CF1-AD23-995C58C14859}.Release.ActiveCfg = Release|.NET
+		{2BB35E19-2051-4CF1-AD23-995C58C14859}.Release.Build.0 = Release|.NET
+		{057DEA44-66B9-4C77-B9B4-E00BBAA8BFBE}.Debug.ActiveCfg = Debug|.NET
+		{057DEA44-66B9-4C77-B9B4-E00BBAA8BFBE}.Debug.Build.0 = Debug|.NET
+		{057DEA44-66B9-4C77-B9B4-E00BBAA8BFBE}.Release.ActiveCfg = Release|.NET
+		{057DEA44-66B9-4C77-B9B4-E00BBAA8BFBE}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

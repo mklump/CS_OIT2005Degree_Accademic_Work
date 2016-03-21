@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<employees>
+	<employee>	
+		<name>Stuart Munson</name> 
+		<salary>23500</salary>
+		<jobtitle>Programmer</jobtitle>
+		<region>Redmond</region>
+	</employee>
+	<employee>	
+		<name>Robert Brown</name> 
+		<salary>51000</salary>
+		<jobtitle>Tester</jobtitle>
+		<region>Minneapolis</region>
+	</employee>
+	<employee>	
+		<name>Carol Philips</name> 
+		<salary>45000</salary>
+		<jobtitle>System Architect</jobtitle>
+		<region>Dallas</region>
+	</employee>
+	<employee>	
+		<name>James Smith</name> 
+		<salary>72000</salary>
+		<jobtitle>Project Manager</jobtitle>
+		<region>Washington D.C.</region>
+	</employee>
+</employees>

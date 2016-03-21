@@ -1,0 +1,6 @@
+SELECT 
+	Customers.CustomerID, CompanyName, ContactName, City, Phone
+FROM Customers INNER JOIN Orders ON 
+	Customers.CustomerID = Orders.CustomerID
+WHERE (Orders.EmployeeID = @EmployeeID)
+ORDER BY CompanyName

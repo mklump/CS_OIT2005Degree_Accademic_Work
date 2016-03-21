@@ -1,0 +1,598 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Puzzle_Solution</name>
+    </assembly>
+    <members>
+        <member name="T:Puzzle_Solution.Solution">
+            <summary>
+            Summary description for Solution.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.puzzle">
+            <summary>
+            The puzzle itself (The data structure that perpetually
+            represents the puzzle in memory as its data structure).
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.dictionary">
+            <summary>
+            This RedBlack Tree represents the dictionary that
+            will contain the list of words to look for.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.wordsFound">
+            <summary>
+            This RedBlack Tree represents the complete list
+            of words in the dictionary that were found in the
+            puzzle.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.totalTime">
+            <summary>
+            The total TimeSpan taken to execute the Solution.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.numWordsFound">
+            <summary>
+            Words found conuter.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.xbound">
+            <summary>
+            This boundary variable defines one of the
+            limits of the puzzle.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.ybound">
+            <summary>
+            This boundary variable defines one of the
+            limits of the puzzle.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.zbound">
+            <summary>
+            This boundary variable defines one of the
+            limits of the puzzle.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.x">
+            <summary>
+            Puzzle construction naviagtor variables
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.y">
+            <summary>
+            Puzzle construction naviagtor variables
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.z">
+            <summary>
+            Puzzle construction naviagtor variables
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.possibilities">
+            <summary>
+            This RedBlack Tree represents all the puzzle
+            substring possibilities.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.solutions">
+            <summary>
+            Solution Threads for the multithreaded solution
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.solve">
+            <summary>
+            The current running thread for the Solve() operation
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.numWordsCOPY">
+            <summary>
+            This static integer array is needed for maintaining concurrent
+            writes to numWordsFound static int reference.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.wordFindings">
+            <summary>
+            This static RedBlack Tree array is needed for maintaining
+            concurrent writes to the static RedBlack wordsFound final
+            collection.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution.isMultiThreaded">
+            <summary>
+            Bit flag to run the solution as single or multi-threaded.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.#ctor">
+            <summary>
+            Default Solution Constuctor Sets up all of the Solution Class Components
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.InitializeThreads">
+            <summary>
+            Initialize the appropriate delgates
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Restart">
+            <summary>
+            This method will restart The Puzzler - 3D Style web application
+            This is not implemented in the Solution Class. This is implemented in the
+            ASP.NET code behind layer.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.SelectLayer">
+            <summary>
+            This operation will select a different crossectional view of the puzzle
+            This is not implemented in the Solution Class. This is implemented in the
+            ASP.NET code behind layer.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.GoToExitPage">
+            <summary>
+            The use case Exit was activated by the use clicking on the EXIT Button.
+            This is not implemented in the Solution Class. This is implemented in the
+            ASP.NET code behind layer.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Solve">
+            <summary>
+            This operation will Solve the randomly generated puzzle with a separate solution
+            algorithm.
+            </summary>
+            <returns>The total number of words found in the puzzle that matched the
+            dictionary.</returns>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.GetFoundWords">
+            <summary>
+            This helper method consolidates the wordFindings sub
+            lists into the single wordsFound list.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.VisitWordFoundSubList(ns_RedBlack.RedBlack)">
+            <summary>
+            This helper method visits all of the individual sub lists
+            for this words found and combines them into on wordsFound list.
+            </summary>
+            <param name="nextFoundWord">Specifies the next words found
+            sub list to sort through all it's individual nodes.</param>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.GetMatchedWords(ns_RedBlack.RedBlack,System.Int32)">
+            <summary>
+            This helper method will retrieve each dictionary word (those found in the
+            randomly generated dictonary), in desending order, one at a time, and check
+            each one of them against every sub list entry in the possibilities RedBlack Binary
+            Search Tree which represents every word in the puzzle with three or more
+            characters. Each matched word is then added to a separate RedBlack Tree called
+            wordsFound.
+            </summary>
+            <param name="nextDictionaryWord">The root RedBlack node of the dictionary
+            tree list.</param>
+            <param name="direction">This specifies which direction to search all the word
+            possibilities that matchup with something, if anything, inside the
+            dictionary.</param>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.GetPuzzleSubStrings(System.Char[0:,0:,0:],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This helper method will retrieve all of the substring possibilities at
+            a specified starting point and an increment or decrement in the specified direction
+            of the horizontal, vertical, or diagonal 26 possible directions in the puzzle.
+            </summary>
+            <param name="puzzle">Used to get a local copy of the puzzle for thread multiple
+            read access.</param>
+            <param name="initX">Specifies the starting point for X as 0 or the X boudary value.</param>
+            <param name="initY">Specifies the starting point for Y as 0 or the Y boudary value.</param>
+            <param name="initZ">Specifies the starting point for Z as 0 or the Z boudary value.</param>
+            <param name="endX">Specifies the ending point for X as -1 for "greater than" -1 or
+            the X boundary value for "less than" the X boundary value.</param>
+            <param name="endY">Specifies the ending point for Y as -1 for "greater than" -1 or
+            the Y boundary value for "less than" the Y boundary value.</param>
+            <param name="endZ">Specifies the ending point for Z as -1 for "greater than" -1 or
+            the Z boundary value for "less than" the Z boundary value.</param>
+            <param name="incX">Specifies how X increments or decrements as 1, 0, or -1 added to X.</param>
+            <param name="incY">Specifies how Y increments or decrements as 1, 0, or -1 added to Y.</param>
+            <param name="incZ">Specifies how Z increments or decrements as 1, 0, or -1 added to Z.</param>
+            <param name="direction">Spedifies what direction is being solved.</param>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Reverse(System.Char[])">
+            <summary>
+            This helper method will reverse a C# char[].
+            </summary>
+            <param name="str">This parameter is the char[] string to reverse.</param>
+            <returns>The reversed char[] str string.</returns>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.OutputPuzzle">
+            <summary>
+            This operation will output the puzzle in Row-Major order, in a vertical crossection
+            by crossection manner.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Thread1">
+            <summary>
+            Thread that starts solving direction 1
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Thread2">
+            <summary>
+            Thread that starts solving direction 2
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Thread3">
+            <summary>
+            Thread that starts solving direction 3
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Thread4">
+            <summary>
+            Thread that starts solving direction 4
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Thread5">
+            <summary>
+            Thread that starts solving direction 5
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Thread6">
+            <summary>
+            Thread that starts solving direction 6
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Thread7">
+            <summary>
+            Thread that starts solving direction 7
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Thread8">
+            <summary>
+            Thread that starts solving direction 8
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Thread9">
+            <summary>
+            Thread that starts solving direction 9
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Thread10">
+            <summary>
+            Thread that starts solving direction 10
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Thread11">
+            <summary>
+            Thread that starts solving direction 11
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Thread12">
+            <summary>
+            Thread that starts solving direction 12
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution.Thread13">
+            <summary>
+            Thread that starts solving direction 13
+            </summary>
+        </member>
+        <member name="P:Puzzle_Solution.Solution.TotalTime">
+            <summary>
+            Property TotalTime (TimeSpan) Read Only.
+            </summary>
+        </member>
+        <member name="P:Puzzle_Solution.Solution.Possibilities">
+            <summary>
+            Property Possibilities (RedBlack[]) ReadOnly
+            </summary>
+        </member>
+        <member name="P:Puzzle_Solution.Solution.IsMultiThreaded">
+            <summary>
+            Property Bool IsMultiThreaded (bool)
+            </summary>
+        </member>
+        <member name="P:Puzzle_Solution.Solution.WordsFound">
+            <summary>
+            Property WordsFound (RedBlack)
+            Read access for wordsFound.
+            </summary>
+        </member>
+        <member name="P:Puzzle_Solution.Solution.Dictionary">
+            <summary>
+            Property Dictionary (RedBlack)
+            Read access for dictionary.
+            </summary>
+        </member>
+        <member name="P:Puzzle_Solution.Solution.Puzzle">
+            <summary>
+            Property Puzzle (char[,,])
+            Read access for puzzle.
+            </summary>
+        </member>
+        <member name="T:Puzzle_Solution.Solution_TestClass">
+            <summary>
+            Test class for the Solution implementation base class
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_TestClass.SetUpSingleThread">
+            <summary>
+            SetUp method for Solution_TestClass
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_TestClass.RunSingleThreadedSolution">
+            <summary>
+            This helper method is being used to call all of the
+            solution sub task without threading to trouble shoot
+            an index out of range exception problem.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_TestClass.Test1">
+            <summary>
+            Test1 counts the size of the dictionary and the wordsFound
+            RedBlack Binary Search Trees and compares their totals, if
+            the size of the wordsFound list is larger than the dictionary,
+            then the test fails.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_TestClass.Test2">
+            <summary>
+            Test2 prints the contents of the dictionary and the wordsFound to
+            the Trace.Writeline() operation so that the contents of each list
+            maybe visually inspected. This may also be printed to a file by un-
+            commenting the TraceListener.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_TestClass.Main(System.String[])">
+            <summary>
+            Solution_TestClass entry point
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="T:Puzzle_Solution.Solution_CCTELW">
+            <summary>
+            Summary description for Solution_CCTELW.
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution_CCTELW.xboundary">
+            <summary>
+            Private copies of the puzzle boudary values
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution_CCTELW.yboundary">
+            <summary>
+            Private copies of the puzzle boudary values
+            </summary>
+        </member>
+        <member name="F:Puzzle_Solution.Solution_CCTELW.zboundary">
+            <summary>
+            Private copies of the puzzle boudary values
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_CCTELW.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_CCTELW.GetPossibilities_CCTELW(System.Char[0:,0:,0:])">
+            <summary>
+            This helper method will get all of the specified puzzle substring
+            possibilities in the direction of Corner to Corner Top East to Lower
+            West as well as the reverse direction along that line of movement.
+            </summary>
+            <param name="puzzle">Puzzle to get the substring possibilities for</param>
+        </member>
+        <member name="T:Puzzle_Solution.Solution_CCTNLS">
+            <summary>
+            Summary description for Solution_CCTNLS.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_CCTNLS.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_CCTNLS.GetPossibilities_CCTNLS(System.Char[0:,0:,0:])">
+            <summary>
+            This helper method will get all of the specified puzzle substring
+            possibilities in the direction of Corner to Corner Top North to Lower
+            South as well as the reverse direction along that line of movement.
+            </summary>
+            <param name="puzzle">Puzzle to get the substring possibilities for</param>
+        </member>
+        <member name="T:Puzzle_Solution.Solution_CCTSLN">
+            <summary>
+            Summary description for Solution_CCTSLN.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_CCTSLN.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_CCTSLN.GetPossibilities_CCTSLN(System.Char[0:,0:,0:])">
+            <summary>
+            This helper method will get all of the specified puzzle substring
+            possibilities in the direction of Corner to Corner Top South to Lower
+            North as well as the reverse direction along that line of movement.
+            </summary>
+            <param name="puzzle">Puzzle to get the substring possibilities for</param>
+        </member>
+        <member name="T:Puzzle_Solution.Solution_CCTWLE">
+            <summary>
+            Summary description for Solution_CCTELW.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_CCTWLE.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_CCTWLE.GetPossibilities_CCTWLE(System.Char[0:,0:,0:])">
+            <summary>
+            This helper method will get all of the specified puzzle substring
+            possibilities in the direction of Corner to Corner Top West to Lower
+            East as well as the reverse direction along that line of movement.
+            </summary>
+            <param name="puzzle">Puzzle to get the substring possibilities for</param>
+        </member>
+        <member name="T:Puzzle_Solution.Solution_NESideSWSide">
+            <summary>
+            Summary description for Solution_NESideSWSide.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_NESideSWSide.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_NESideSWSide.GetPossibilities_NESideSWSide(System.Char[0:,0:,0:])">
+            <summary>
+            This helper method will get all of the specified puzzle substring
+            possibilities in the direction of North East Side to South West Side
+            as well as the reverse direction along that line of movement.
+            </summary>
+            <param name="puzzle">Puzzle to get the substring possibilities for</param>
+        </member>
+        <member name="T:Puzzle_Solution.Solution_NETESWLE">
+            <summary>
+            Summary description for Solution_NETESWLE.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_NETESWLE.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_NETESWLE.GetPossibilities_NETESWLE(System.Char[0:,0:,0:])">
+            <summary>
+            This helper method will get all of the specified puzzle substring
+            possibilities in the direction of North East Top Edge to South West Lower Edge
+            as well as the reverse direction along that line of movement.
+            </summary>
+            <param name="puzzle">Puzzle to get the substring possibilities for</param>
+        </member>
+        <member name="T:Puzzle_Solution.Solution_NVESVE">
+            <summary>
+            Summary description for Solution_NVESVE.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_NVESVE.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_NVESVE.GetPossibilities_NVESVE(System.Char[0:,0:,0:])">
+            <summary>
+            This helper method will get all of the specified puzzle substring
+            possibilities in the direction of North Vertical Edge to South Vertical Edge
+            as well as the reverse direction along that line of movement.
+            </summary>
+            <param name="puzzle">Puzzle to get the substring possibilities for</param>
+        </member>
+        <member name="T:Puzzle_Solution.Solution_NWSideSESide">
+            <summary>
+            Summary description for Solution_NWSideSESide.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_NWSideSESide.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_NWSideSESide.GetPossibilities_NWSideSESide(System.Char[0:,0:,0:])">
+            <summary>
+            This helper method will get all of the specified puzzle substring
+            possibilities in the direction of North West Side to South East Side
+            as well as the reverse direction along that line of movement.
+            </summary>
+            <param name="puzzle">Puzzle to get the substring possibilities for</param>
+        </member>
+        <member name="T:Puzzle_Solution.Solution_NWTESELE">
+            <summary>
+            Summary description for Solution_NWTESELE.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_NWTESELE.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_NWTESELE.GetPossibilities_NWTESELE(System.Char[0:,0:,0:])">
+            <summary>
+            This helper method will get all of the specified puzzle substring
+            possibilities in the direction of North West Top Edge to South East Lower Edge
+            as well as the reverse direction along that line of movement.
+            </summary>
+            <param name="puzzle">Puzzle to get the substring possibilities for</param>
+        </member>
+        <member name="T:Puzzle_Solution.Solution_SETENWLE">
+            <summary>
+            Summary description for Solution_SETENWLE.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_SETENWLE.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_SETENWLE.GetPossibilities_SETENWLE(System.Char[0:,0:,0:])">
+            <summary>
+            This helper method will get all of the specified puzzle substring
+            possibilities in the direction of South East Top Edge to North West Lower Edge
+            as well as the reverse direction along that line of movement.
+            </summary>
+            <param name="puzzle">Puzzle to get the substring possibilities for</param>
+        </member>
+        <member name="T:Puzzle_Solution.Solution_SWTENELE">
+            <summary>
+            Summary description for Solution_SWTENELE.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_SWTENELE.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_SWTENELE.GetPossibilities_SWTENELE(System.Char[0:,0:,0:])">
+            <summary>
+            This helper method will get all of the specified puzzle substring
+            possibilities in the direction of South West Top Edge to North East Lower Edge
+            as well as the reverse direction along that line of movement.
+            </summary>
+            <param name="puzzle">Puzzle to get the substring possibilities for</param>
+        </member>
+        <member name="T:Puzzle_Solution.Solution_TOPBOTTOM">
+            <summary>
+            Summary description for Solution_TOPBOTTOM.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_TOPBOTTOM.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_TOPBOTTOM.GetPossibilities_TOPBOTTOM(System.Char[0:,0:,0:])">
+            <summary>
+            This helper method will get all of the specified puzzle substring
+            possibilities in the direction of Top Side to the Bottom Side
+            as well as the reverse direction along that line of movement.
+            </summary>
+            <param name="puzzle">Puzzle to get the substring possibilities for</param>
+        </member>
+        <member name="T:Puzzle_Solution.Solution_WVEEVE">
+            <summary>
+            Summary description for Solution_WVEEVE.
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_WVEEVE.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:Puzzle_Solution.Solution_WVEEVE.GetPossibilities_WVEEVE(System.Char[0:,0:,0:])">
+            <summary>
+            This helper method will get all of the specified puzzle substring
+            possibilities in the direction of West Vertical Edge to East Vertical Edge
+            as well as the reverse direction along that line of movement.
+            </summary>
+            <param name="puzzle">Puzzle to get the substring possibilities for</param>
+        </member>
+    </members>
+</doc>

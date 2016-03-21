@@ -1,0 +1,450 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="Admin%20Use%20Case%20Writeup_files/filelist.xml">
+<title>Use Case:</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Gary W. Roberts</o:Author>
+  <o:LastAuthor>Matthew James Klump</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>69</o:TotalTime>
+  <o:LastPrinted>2004-01-23T12:39:00Z</o:LastPrinted>
+  <o:Created>2003-02-11T19:49:00Z</o:Created>
+  <o:LastSaved>2003-02-11T19:49:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>650</o:Words>
+  <o:Characters>3710</o:Characters>
+  <o:Company>Home</o:Company>
+  <o:Lines>30</o:Lines>
+  <o:Paragraphs>8</o:Paragraphs>
+  <o:CharactersWithSpaces>4352</o:CharactersWithSpaces>
+  <o:Version>11.5329</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DrawingGridHorizontalSpacing>3.75 pt</w:DrawingGridHorizontalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>2</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:SelectEntireFieldWithStartOrEnd/>
+   <w:UseWord2002TableStyleRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Trebuchet MS";
+	panose-1:2 11 6 3 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Trebuchet MS";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Courier New";}
+h1
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Trebuchet MS";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Courier New";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Trebuchet MS";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Courier New";}
+p.MsoEnvelopeAddress, li.MsoEnvelopeAddress, div.MsoEnvelopeAddress
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:2.0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-element:frame;
+	mso-element-frame-width:5.5in;
+	mso-element-frame-height:99.0pt;
+	mso-element-frame-hspace:9.0pt;
+	mso-element-wrap:auto;
+	mso-element-anchor-horizontal:page;
+	mso-element-left:center;
+	mso-element-top:bottom;
+	mso-height-rule:exactly;
+	font-size:14.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Courier New";}
+p.MsoEnvelopeReturn, li.MsoEnvelopeReturn, div.MsoEnvelopeReturn
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Courier New";}
+p.CODE, li.CODE, div.CODE
+	{mso-style-name:CODE;
+	mso-margin-top-alt:auto;
+	margin-right:.5in;
+	mso-margin-bottom-alt:auto;
+	margin-left:.5in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+p.Code0, li.Code0, div.Code0
+	{mso-style-name:Code;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+ /* Page Definitions */
+ @page
+	{mso-footnote-separator:url("Admin%20Use%20Case%20Writeup_files/header.htm") fs;
+	mso-footnote-continuation-separator:url("Admin%20Use%20Case%20Writeup_files/header.htm") fcs;
+	mso-endnote-separator:url("Admin%20Use%20Case%20Writeup_files/header.htm") es;
+	mso-endnote-continuation-separator:url("Admin%20Use%20Case%20Writeup_files/header.htm") ecs;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:.6in .6in .6in .6in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-header:url("Admin%20Use%20Case%20Writeup_files/header.htm") h1;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=EN-US style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<p class=MsoNormal><b><o:p>&nbsp;</o:p></b></p>
+
+<p class=MsoNormal><b><o:p>&nbsp;</o:p></b></p>
+
+<h1>Admin Use case write-up</h1>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Admin</b> <i
+style='mso-bidi-font-style:normal'>logs</i> in. <b style='mso-bidi-font-weight:
+normal'>System</b> <i style='mso-bidi-font-style:normal'>validates</i> <b
+style='mso-bidi-font-weight:normal'>login</b> with <b style='mso-bidi-font-weight:
+normal'>DB</b>.</p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>System</b> <i
+style='mso-bidi-font-style:normal'>presents</i> admin with <b style='mso-bidi-font-weight:
+normal'>menu page</b>. Admin can choose to <i style='mso-bidi-font-style:normal'>modify</i>
+the <b style='mso-bidi-font-weight:normal'>standard template</b>, <i
+style='mso-bidi-font-style:normal'>approve</i> <b style='mso-bidi-font-weight:
+normal'>faculty augmentations</b>, or <i style='mso-bidi-font-style:normal'>create</i>
+<b style='mso-bidi-font-weight:normal'>new evaluations</b>.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Modify standard template:</p>
+
+<p class=MsoNormal>System presents the admin with a page where changes can be
+made to the standard template. Admin <i style='mso-bidi-font-style:normal'>makes
+changes</i> and <i style='mso-bidi-font-style:normal'>submits</i> it to the
+system. If the <b style='mso-bidi-font-weight:normal'>changes</b> are valid,
+then the system saves the <b style='mso-bidi-font-weight:normal'>new standard
+template</b> in the <b style='mso-bidi-font-weight:normal'>database</b> and the
+admin gets an <b style='mso-bidi-font-weight:normal'>ok message</b>. If not,
+then they get <b style='mso-bidi-font-weight:normal'>feedback</b> of <b
+style='mso-bidi-font-weight:normal'>errors</b>.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Approve augmentations:</p>
+
+<p class=MsoNormal>System presents admin with a <b style='mso-bidi-font-weight:
+normal'>list of changes</b> <i style='mso-bidi-font-style:normal'>pending</i>
+their <b style='mso-bidi-font-weight:normal'>review</b>. Admin makes a <b
+style='mso-bidi-font-weight:normal'>selection</b> and the system displays the <b
+style='mso-bidi-font-weight:normal'>changes</b>. If admin <i style='mso-bidi-font-style:
+normal'>approves</i> of the <b style='mso-bidi-font-weight:normal'>changes</b>,
+then the system <i style='mso-bidi-font-style:normal'>saves</i> the <b
+style='mso-bidi-font-weight:normal'>information</b> in the <b style='mso-bidi-font-weight:
+normal'>database</b> for use in the <b style='mso-bidi-font-weight:normal'>actual
+evaluation</b>. If admin <i style='mso-bidi-font-style:normal'>denies</i> <b
+style='mso-bidi-font-weight:normal'>changes</b> then the system presents the
+admin with a <b style='mso-bidi-font-weight:normal'>form</b> to <i
+style='mso-bidi-font-style:normal'>send</i> a reason they were denied, via <b
+style='mso-bidi-font-weight:normal'>email</b>, to the <b style='mso-bidi-font-weight:
+normal'>faculty member</b> who requested them.</p>
+
+<p class=MsoNormal>System presents an <b style='mso-bidi-font-weight:normal'>ok
+message.</b></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Create new evaluations:</p>
+
+<p class=MsoNormal>System <i style='mso-bidi-font-style:normal'>presents</i>
+admin with a <b style='mso-bidi-font-weight:normal'>form</b> to determine the <b
+style='mso-bidi-font-weight:normal'>evaluation name</b>, who has <b
+style='mso-bidi-font-weight:normal'>access</b> to <i style='mso-bidi-font-style:
+normal'>add</i> <b style='mso-bidi-font-weight:normal'>questions</b> or <i
+style='mso-bidi-font-style:normal'>view</i> <b style='mso-bidi-font-weight:
+normal'>results</b> for the evaluation, how many <b style='mso-bidi-font-weight:
+normal'>keys</b> are needed, and <b style='mso-bidi-font-weight:normal'>open</b>
+and <b style='mso-bidi-font-weight:normal'>close</b> dates for the <b
+style='mso-bidi-font-weight:normal'>evaluation</b>.</p>
+
+<p class=MsoNormal>Admin <i style='mso-bidi-font-style:normal'>submits</i>
+selections to the system which validates and saves the new evaluation in the
+database. System <i style='mso-bidi-font-style:normal'>generates</i> <b
+style='mso-bidi-font-weight:normal'>keys</b> in the <b style='mso-bidi-font-weight:
+normal'>quantity requested</b> and <i style='mso-bidi-font-style:normal'>saves</i>
+them in the <b style='mso-bidi-font-weight:normal'>database</b>. Admin is
+presented with <b style='mso-bidi-font-weight:normal'>keys</b> for printing or
+can <i style='mso-bidi-font-style:normal'>print</i> them later, along with an
+OK message. <b style='mso-bidi-font-weight:normal'>Faculty member</b> <i
+style='mso-bidi-font-style:normal'>associated</i> with the <b style='mso-bidi-font-weight:
+normal'>audit</b> are emailed about its existence.</p>
+
+<p class=MsoNormal style='line-height:200%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>Nouns:</i> </p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>Admin: </i>Not an
+object, is an Actor.</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>DB: </i>Is an object</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>database: </i>(same as
+previous)</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>list of changes:</i>
+Is an object, implies a data structure</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>login:</i> Is an
+object</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>menu page:</i> Not an
+object, too vague for anything</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>standard template:</i>
+Not an object, implies a default view</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>changes</i>: Not an
+object, implies a state condition</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>new standard template:</i>
+Not an object, implies a state change</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>ok message</i>: Not an
+object, is product of success condition</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>feedback:</i> Not an
+object, too vague</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>error:</i> Not and
+object, too vague</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>review: </i>Not an
+object, is an action performed by user</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>information:</i> Not
+an object, much too vague to do anything</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>actual evaluation: </i>Not
+an object, implies new state for evaluation</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>form:</i> Not and object,
+too vague</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>reason:</i> Not and
+object, too vague</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>email:</i> Not and
+object, too vague</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>faculty member: </i>Not
+an object, implies an interaction with this actor</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>evaluation name: </i>Not
+an object, implies an attribute for evaluation</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>access:</i> Not an
+object, implies a security status</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>questions:</i> Not an
+object, implies an attribute of the evaluation</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>results: </i>Not an
+object, implies output of some kind</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>keys: </i>Not and
+object, implies a product of an object</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>open date:</i> Not an
+object, implies an attribute of an object</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>close date:</i> same
+as previous</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>quantity requested: </i>Not
+an object, implies database collaboration</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>audit: </i>Not an
+object, Implies a different object</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>Verbs:</i></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>logs in: </i>(security
+clearance level)</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>validates: </i>(implying
+a database collaboration)</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>presents: </i>(GUI /
+user interaction)</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>choose: </i>(GUI
+template/ user interaction)<i style='mso-bidi-font-style:normal'> <o:p></o:p></i></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>modify: </i>(implying
+a database collaboration)<i style='mso-bidi-font-style:normal'> <o:p></o:p></i></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>approve: </i>(GUI
+template/ user interaction)</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>selection: </i>same as
+previous</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>approves:</i> same as
+previous</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>create: </i>(implying
+a database collaboration)<i style='mso-bidi-font-style:normal'><o:p></o:p></i></p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>saves: </i>(implies a
+database collaboration)</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>pending: </i>action
+indicating status, perhaps a que for instructor changes</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'>generates: </i>action
+indicating object creation(from the above context)</p>
+
+<p class=MsoNormal><i style='mso-bidi-font-style:normal'><o:p>&nbsp;</o:p></i></p>
+
+<p class=MsoNormal>Since there are so few usable nouns describing object, I
+have made the following statements:</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>Administrators login to the system using an <b
+style='mso-bidi-font-weight:normal'>authentication page</b>:</p>
+
+<p class=MsoNormal>Administrators are then given several choices from the <b
+style='mso-bidi-font-weight:normal'>administrator page, </b>where they can
+navigate to the 1) <b style='mso-bidi-font-weight:normal'>change</b> <b
+style='mso-bidi-font-weight:normal'>evaluation form,</b> 2) <b
+style='mso-bidi-font-weight:normal'>approve augmentation form</b>, 3) <b
+style='mso-bidi-font-weight:normal'>create new evaluation form, </b>or the 4) <b
+style='mso-bidi-font-weight:normal'>account administration form</b> for the
+system <b style='mso-bidi-font-weight:normal'>account</b>s. </p>
+
+<p class=MsoNormal>All forms require the administration to submit the form to
+the system for verification by a <b style='mso-bidi-font-weight:normal'>validation
+algorithm.<o:p></o:p></b></p>
+
+<p class=MsoNormal>All validated changes are saved using a <b style='mso-bidi-font-weight:
+normal'>database communicator.</b></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>All the object for this section include:</p>
+
+<p class=MsoNormal>Authentication Page, Administrator Page, Change Evaluation
+Form, Approve Augmentation Form, Create New Evaluation Form, Account
+Administration Form, Account, Validation Algorithm, Database Communicator, List
+of Changes, Database, Login</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>

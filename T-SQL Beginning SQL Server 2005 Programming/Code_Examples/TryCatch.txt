@@ -1,0 +1,91 @@
+ALTER PROC spInsertDateValidatedOrder
+   @CustomerID       nvarchar(5),
+   @EmployeeID       int,
+   @OrderDate        datetime     = NULL,
+   @RequiredDate     datetime     = NULL,
+   @ShippedDate      datetime     = NULL,
+   @ShipVia          int,
+   @Freight          money,
+   @ShipName         nvarchar(40) = NULL,
+   @ShipAddress      nvarchar(60) = NULL,
+   @ShipCity         nvarchar(15) = NULL,
+   @ShipRegion       nvarchar(15) = NULL,
+   @ShipPostalCode   nvarchar(10) = NULL,
+   @ShipCountry      nvarchar(15) = NULL,
+   @OrderID          int      OUTPUT
+
+AS
+
+-- Declare our variables
+DECLARE   @Error               int
+DECLARE   @InsertedOrderDate   smalldatetime
+
+/* Test to see if supplied date is over seven days old, if so
+** replace with NULL value
+** otherwise, truncate the time to be midnight*/
+IF DATEDIFF(dd, @OrderDate, GETDATE()) > 7
+BEGIN
+   SELECT @InsertedOrderDate = NULL
+   PRINT 'Invalid Order Date'
+   PRINT 'Supplied OrderDate was greater than 7 days old.' 
+   PRINT 'The value has been reset to NULL'
+END
+ELSE
+BEGIN
+   SELECT @InsertedOrderDate =
+      CONVERT(datetime,(CONVERT(varchar,@OrderDate,112)))
+      PRINT 'The Time of Day in Order Date was truncated'
+END
+
+BEGIN TRY
+
+/* Create the new record */
+INSERT INTO Orders
+VALUES
+(
+   @CustomerID, 
+   @EmployeeID,
+   @InsertedOrderDate,
+   @RequiredDate,
+   @ShippedDate,
+   @ShipVia,
+   @Freight,
+   @ShipName,
+   @ShipAddress,
+   @ShipCity,
+   @ShipRegion,
+   @ShipPostalCode,
+   @ShipCountry
+)
+
+PRINT 'Hey, our INSERT succeeded'
+END TRY
+BEGIN CATCH
+    -- Uh, oh – something went wrong. 
+
+   IF ERROR_NUMBER() = 547
+   -- The problem is a constraint violation. Print out some informational
+   -- help to steer the user to the most likely problem.
+   BEGIN
+      PRINT 'Supplied data violates data integrity rules'
+      PRINT 'Check that the supplied customer number exists'
+      PRINT 'in the system and try again'
+   END
+   ELSE
+   -- Oops, it's something we haven't anticipated, tell them that we 
+   -- don't know, print out the error.
+   BEGIN
+      PRINT 'An unknown error occurred. Contact your System Administrator'
+      PRINT 'The error was number ' + CONVERT(varchar, ERROR_NUMBER())
+   END
+   -- Regardless of the error, we're going to send it back to the calling
+   -- piece of code so it can be handled at that level if necessary.
+   RETURN ERROR_NUMBER()
+END CATCH
+
+
+/* Move the identity value from the newly inserted record into
+      our output variable */
+SELECT @OrderID = @@IDENTITY
+
+RETURN

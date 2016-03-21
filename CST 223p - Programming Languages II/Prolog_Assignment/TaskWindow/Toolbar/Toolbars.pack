@@ -1,0 +1,19 @@
+/*****************************************************************************
+
+                        Copyright (c) 
+
+******************************************************************************/
+
+#include @"TaskWindow\Toolbar\Toolbars.ph"
+
+% privately used packages
+#include @"pfc\exception\exception.ph"
+
+% private interfaces
+#include @"resourceIdentifiers.i"
+
+% private classes
+
+% implementations
+#include @"TaskWindow\Toolbar\ProjectToolbar.pro"
+#include @"TaskWindow\Toolbar\StatusLine.pro"

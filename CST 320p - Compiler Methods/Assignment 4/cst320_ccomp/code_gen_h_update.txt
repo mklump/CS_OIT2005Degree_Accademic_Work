@@ -1,0 +1,17 @@
+/* Add this code immediately following the
+ * 'generate_code_sub_op' declaration in code_gen.h */
+
+symtableentry_t *
+generate_code_mult_op(
+				FILE	*outFile,
+				symtableentry_t		*plhs,
+				symtableentry_t		*prhs
+				);
+
+symtableentry_t *
+generate_code_div_op(
+				FILE	*outFile,
+				symtableentry_t		*plhs,
+				symtableentry_t		*prhs
+				);
+

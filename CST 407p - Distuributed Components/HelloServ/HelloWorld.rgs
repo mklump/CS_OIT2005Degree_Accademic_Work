@@ -1,0 +1,23 @@
+HKCR
+{
+	HelloServ.HelloWorld.1 = s 'HelloWorld Class'
+	{
+		CLSID = s '{706A50D3-6C74-11D4-A359-00104B732442}'
+	}
+	HelloServ.HelloWorld = s 'HelloWorld Class'
+	{
+		CLSID = s '{706A50D3-6C74-11D4-A359-00104B732442}'
+		CurVer = s 'HelloServ.HelloWorld.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {706A50D3-6C74-11D4-A359-00104B732442} = s 'HelloWorld Class'
+		{
+			ProgID = s 'HelloServ.HelloWorld.1'
+			VersionIndependentProgID = s 'HelloServ.HelloWorld'
+			LocalServer32 = s '%MODULE%'
+			val AppID = s '{27613738-6A27-11D4-A358-00104B732442}'
+			'TypeLib' = s '{27613737-6A27-11D4-A358-00104B732442}'
+		}
+	}
+}

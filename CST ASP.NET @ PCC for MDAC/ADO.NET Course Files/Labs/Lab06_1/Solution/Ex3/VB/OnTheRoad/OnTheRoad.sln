@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OnTheRoad", "OnTheRoad.vbproj", "{BC0E6365-ED7A-43B4-B22E-7DF354D2B00D}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BC0E6365-ED7A-43B4-B22E-7DF354D2B00D}.Debug.ActiveCfg = Debug|.NET
+		{BC0E6365-ED7A-43B4-B22E-7DF354D2B00D}.Debug.Build.0 = Debug|.NET
+		{BC0E6365-ED7A-43B4-B22E-7DF354D2B00D}.Release.ActiveCfg = Release|.NET
+		{BC0E6365-ED7A-43B4-B22E-7DF354D2B00D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

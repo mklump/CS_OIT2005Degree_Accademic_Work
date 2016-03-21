@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:s1="http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/Session" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/">
+      <s:element name="Login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="employee_ID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="customer_ID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="admin" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LoginResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllGategories">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="custOrder" type="tns:Order" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Order">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="orders" type="tns:ArrayOfOrderDetail" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfOrderDetail">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="OrderDetail" nillable="true" type="tns:OrderDetail" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="OrderDetail">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="OrderID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="UnitPrice" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="Quantity" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Discount" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="product" type="tns:Product" />
+          <s:element minOccurs="0" maxOccurs="1" name="processingEmployee" type="tns:Employee" />
+          <s:element minOccurs="0" maxOccurs="1" name="orderingCustomer" type="tns:Customer" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Product">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ProductID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProductName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Discontinued" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="category" type="tns:Category" />
+          <s:element minOccurs="0" maxOccurs="1" name="supply" type="tns:Supply" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Category">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CategoryID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CategoryName" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Supply">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="product" type="tns:ArrayOfProduct" />
+          <s:element minOccurs="0" maxOccurs="1" name="supplier" type="tns:ArrayOfSupplier" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfProduct">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Product" nillable="true" type="tns:Product" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfSupplier">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Supplier" nillable="true" type="tns:Supplier" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Supplier">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SupplierID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CompanyName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="supply" type="tns:Supply" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Employee">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="EmployeeID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsManager" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="orderHandle" type="tns:Order" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Customer">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CustomerID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="AmountPaid" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="CompanyName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="custOrder" type="tns:Order" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAllGategoriesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllGategoriesResult" type="tns:ArrayOfCategory" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCategory">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Category" nillable="true" type="tns:Category" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAllProductsByCategory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="orderSource" type="tns:Order" />
+            <s:element minOccurs="0" maxOccurs="1" name="itemQuery" type="tns:Category" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllProductsByCategoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllProductsByCategoryResult" type="tns:ArrayOfProduct" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllCustomers">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllCustomersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllCustomersResult" type="tns:ArrayOfCustomer" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCustomer">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Customer" nillable="true" type="tns:Customer" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAllEmployees">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllEmployeesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllEmployeesResult" type="tns:ArrayOfEmployee" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfEmployee">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Employee" nillable="true" type="tns:Employee" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAllOrders">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllOrdersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllOrdersResult" type="tns:ArrayOfOrderDetail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PlaceOrder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="orderingCustomer" type="tns:Customer" />
+            <s:element minOccurs="0" maxOccurs="1" name="neworders" type="tns:Order" />
+            <s:element minOccurs="1" maxOccurs="1" name="ammountEnclosed" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PlaceOrderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PlaceOrderResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/Session">
+      <s:element name="_Session" type="s1:_Session" />
+      <s:complexType name="_Session">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="initiate" type="s1:Initiate" />
+          <s:element minOccurs="0" maxOccurs="1" name="terminate" type="s1:Terminate" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Initiate">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="expires" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Terminate">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Terminated" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="LoginSoapIn">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="LoginSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="Login_Session">
+    <wsdl:part name="_Session" element="s1:_Session" />
+  </wsdl:message>
+  <wsdl:message name="GetAllGategoriesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllGategories" />
+  </wsdl:message>
+  <wsdl:message name="GetAllGategoriesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllGategoriesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllGategories_Session">
+    <wsdl:part name="_Session" element="s1:_Session" />
+  </wsdl:message>
+  <wsdl:message name="GetAllProductsByCategorySoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllProductsByCategory" />
+  </wsdl:message>
+  <wsdl:message name="GetAllProductsByCategorySoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllProductsByCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllProductsByCategory_Session">
+    <wsdl:part name="_Session" element="s1:_Session" />
+  </wsdl:message>
+  <wsdl:message name="GetAllCustomersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllCustomers" />
+  </wsdl:message>
+  <wsdl:message name="GetAllCustomersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllCustomersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllCustomers_Session">
+    <wsdl:part name="_Session" element="s1:_Session" />
+  </wsdl:message>
+  <wsdl:message name="GetAllEmployeesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllEmployees" />
+  </wsdl:message>
+  <wsdl:message name="GetAllEmployeesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllEmployeesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllEmployees_Session">
+    <wsdl:part name="_Session" element="s1:_Session" />
+  </wsdl:message>
+  <wsdl:message name="GetAllOrdersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllOrders" />
+  </wsdl:message>
+  <wsdl:message name="GetAllOrdersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllOrdersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllOrders_Session">
+    <wsdl:part name="_Session" element="s1:_Session" />
+  </wsdl:message>
+  <wsdl:message name="PlaceOrderSoapIn">
+    <wsdl:part name="parameters" element="tns:PlaceOrder" />
+  </wsdl:message>
+  <wsdl:message name="PlaceOrderSoapOut">
+    <wsdl:part name="parameters" element="tns:PlaceOrderResponse" />
+  </wsdl:message>
+  <wsdl:message name="PlaceOrder_Session">
+    <wsdl:part name="_Session" element="s1:_Session" />
+  </wsdl:message>
+  <wsdl:portType name="WSA5Soap">
+    <wsdl:operation name="Login">
+      <wsdl:input message="tns:LoginSoapIn" />
+      <wsdl:output message="tns:LoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGategories">
+      <wsdl:input message="tns:GetAllGategoriesSoapIn" />
+      <wsdl:output message="tns:GetAllGategoriesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllProductsByCategory">
+      <wsdl:input message="tns:GetAllProductsByCategorySoapIn" />
+      <wsdl:output message="tns:GetAllProductsByCategorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCustomers">
+      <wsdl:input message="tns:GetAllCustomersSoapIn" />
+      <wsdl:output message="tns:GetAllCustomersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllEmployees">
+      <wsdl:input message="tns:GetAllEmployeesSoapIn" />
+      <wsdl:output message="tns:GetAllEmployeesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllOrders">
+      <wsdl:input message="tns:GetAllOrdersSoapIn" />
+      <wsdl:output message="tns:GetAllOrdersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PlaceOrder">
+      <wsdl:input message="tns:PlaceOrderSoapIn" />
+      <wsdl:output message="tns:PlaceOrderSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSA5Soap" type="tns:WSA5Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:Login_Session" part="_Session" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:Login_Session" part="_Session" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllGategories">
+      <soap:operation soapAction="http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/GetAllGategories" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAllGategories_Session" part="_Session" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAllGategories_Session" part="_Session" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllProductsByCategory">
+      <soap:operation soapAction="http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/GetAllProductsByCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAllProductsByCategory_Session" part="_Session" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAllProductsByCategory_Session" part="_Session" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllCustomers">
+      <soap:operation soapAction="http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/GetAllCustomers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAllCustomers_Session" part="_Session" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAllCustomers_Session" part="_Session" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllEmployees">
+      <soap:operation soapAction="http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/GetAllEmployees" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAllEmployees_Session" part="_Session" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAllEmployees_Session" part="_Session" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllOrders">
+      <soap:operation soapAction="http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/GetAllOrders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAllOrders_Session" part="_Session" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:GetAllOrders_Session" part="_Session" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PlaceOrder">
+      <soap:operation soapAction="http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/PlaceOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+        <soap:header message="tns:PlaceOrder_Session" part="_Session" use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+        <soap:header message="tns:PlaceOrder_Session" part="_Session" use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSA5">
+    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
+    <wsdl:port name="WSA5Soap" binding="tns:WSA5Soap">
+      <soap:address location="http://matthew.klump-pdx.com/thepuzzler_3dstyle/WSA5_WebService/WSA5_Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

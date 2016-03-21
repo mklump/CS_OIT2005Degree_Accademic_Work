@@ -1,0 +1,30 @@
+Dim conn As New SqlConnection _
+	("data source=localhost; " & _
+	"initial catalog=Dentists; " & _
+	"integrated security=true")
+Dim daDentistsPoCode As SqlDataAdapter
+Dim dsDentistsPoCode As New DataSet()
+Dim workParam As SqlParameter = Nothing
+
+'call the DentistsByState stored procedure
+daDentistsPoCode = _
+	New SqlDataAdapter("DentistsByPostalCode", conn)
+daDentistsPoCode.SelectCommand.CommandType = _
+	CommandType.StoredProcedure
+
+'add the postal code input parameter 
+workParam = New SqlParameter("@PostalCode", _
+	System.Data.SqlDbType.NVarChar)
+workParam.Direction = ParameterDirection.Input
+workParam.Value = strPostalCode
+daDentistsPoCode.SelectCommand.Parameters.Add(workParam)
+
+'run the stored procedure and fill a dataset
+daDentistsPoCode.Fill(dsDentistsPoCode, _
+	"DentistsPoCode")
+
+'close the connection
+conn.Close()
+
+Return dsDentistsPoCode
+

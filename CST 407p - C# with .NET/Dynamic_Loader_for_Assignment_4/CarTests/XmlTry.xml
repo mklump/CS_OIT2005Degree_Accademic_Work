@@ -1,0 +1,28 @@
+using NUnit.Framework;
+using System.Diagnostics;
+using System.Xml;
+using System;
+
+namespace Tests
+{
+	[TestFixture]
+	public class XmlFun
+	{
+		[Test]
+		public void Test_XmL()
+		{
+			//Store.. query..get working fast..very slow imp..lot of memory
+			XmlDocument x = new XmlDocument();
+			x.Load("account.xml");
+
+			XmlNodeList list = new x.GetelementByTagname("Account");
+
+			foreach(XmlNode node in list)
+			{
+				string NumberElement = node["Number"];
+				Trace.WriteLine("node.InnerText");
+			}
+		}
+	}
+}
+

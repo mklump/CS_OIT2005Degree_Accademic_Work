@@ -1,0 +1,3 @@
+flex C_Lexer.c
+gcc -o C_Lexer.exe lex.yy.c -lfl -ly
+./C_Lexer.exe

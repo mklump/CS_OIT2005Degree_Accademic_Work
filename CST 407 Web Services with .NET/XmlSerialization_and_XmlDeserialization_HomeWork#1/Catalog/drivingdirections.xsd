@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DrivingDirections" targetNamespace="http://DrivingDirections/HowToGetThere" xmlns:mstns="http://DrivingDirections/HowToGetThere" xmlns="http://DrivingDirections/HowToGetThere" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="DrivingDirections" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="To">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Street" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+              <xs:element name="City" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+              <xs:element name="State" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+              <xs:element name="Zip" type="xs:string" minOccurs="0" msdata:Ordinal="3" />
+            </xs:sequence>
+            <xs:attribute name="Address" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="From">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Street" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+              <xs:element name="City" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+              <xs:element name="State" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+              <xs:element name="Zip" type="xs:string" minOccurs="0" msdata:Ordinal="3" />
+            </xs:sequence>
+            <xs:attribute name="Address" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Steps">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Step" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Street" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+                    <xs:element name="CompasDir" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+                    <xs:element name="Distance" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+                    <xs:element name="Turn" type="xs:string" minOccurs="0" msdata:Ordinal="3" />
+                  </xs:sequence>
+                  <xs:attribute name="number" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

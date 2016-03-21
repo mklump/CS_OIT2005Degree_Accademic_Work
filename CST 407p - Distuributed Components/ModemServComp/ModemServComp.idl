@@ -1,0 +1,21 @@
+// ModemServComp.idl : IDL source for ModemServComp.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ModemServComp.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+import "cst407_modem.idl";
+
+[
+	uuid(ECA1B21E-82DE-4000-AE28-BD23A713D00A),
+	version(1.0),
+	helpstring("ModemServComp 1.0 Type Library")
+]
+library MODEMSERVCOMPLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

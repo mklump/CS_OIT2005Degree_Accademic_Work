@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" 
+	"http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml> 
+
+   <card title = "Log In"> 
+      <p>
+         <a href="#hint">Get Password Hint</a>
+      </p>
+      <p>
+         Email address:
+         <input maxlength = "25" type = "text" format = "*" name = "userID"/>
+      </p>
+      <p>
+         Password:
+         <input maxlength = "25" type = "password" format = "*" name = "password"/>
+      </p>
+     
+      <do type = "accept" label = "Log in">
+         <go href = "Login" method = "post">
+            <postfield value = "$(userID)" name = "userID"/>
+            <postfield value = "$(password)" name = "password"/>
+         </go>
+      </do>   
+   </card>
+
+   <card title = "Get Password Hint" id = "hint">
+      <p>
+         Email address:
+         <input maxlength = "25" type = "text" format = "*" name = "userID"/>
+      </p>
+
+      <do type = "accept" label = "Get Hint">
+         <go href = "GetPasswordHint" method = "get">
+            <postfield value = "$(userID)" name = "userID"/>
+         </go>
+      </do>   
+   </card>
+
+
+<!-- 
+ ************************************************************************** 
+ * (C) Copyright 2002 by Deitel & Associates, Inc. and Prentice Hall.     *
+ * All Rights Reserved.                                                   *
+ *                                                                        *
+ * DISCLAIMER: The authors and publisher of this book have used their     *
+ * best efforts in preparing the book. These efforts include the          *
+ * development, research, and testing of the theories and programs        *
+ * to determine their effectiveness. The authors and publisher make       *
+ * no warranty of any kind, expressed or implied, with regard to these    *
+ * programs or to the documentation contained in these books. The authors *
+ * and publisher shall not be liable in any event for incidental or       *
+ * consequential damages in connection with, or arising out of, the       *
+ * furnishing, performance, or use of these programs.                     *
+ **************************************************************************
+-->
+
+</wml>

@@ -1,0 +1,29 @@
+#!/bin/sh
+#trash
+#Matthew Klump
+#March 13, 2002
+#To allow Unix to have a "Recycle Bin" feature.
+#This script uses a directory called .trash in
+#the home directory to move deleted files to
+#with their absolute path maintained.
+
+. pathlib.sh
+
+if [ $# = 0 ]; then
+	echo "Error, trash doesn't take 0 parameters."
+	echo "Usage: trash filepath1 filepath2 ... filepathx"
+	exit 1
+fi
+if [ ! "$TRASH_DIR" ]; then
+	TRASH_DIR="$HOME/.TRASH"
+fi
+for filename in $@; do
+	absfile=`rel2abs $filename`
+	absdir=`dirname $absfile`
+	trashdir="$TRASHDIR $absdir"
+    if [ ! –d $trashdir ]; then
+	mkdir –p $trashdir
+    fi
+    compress –f $filename
+    mv ${filename}.z $trashdir
+done

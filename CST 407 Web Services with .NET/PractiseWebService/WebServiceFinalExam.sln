@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormFinalExamClient", "WinFormFinalExamClient\WinFormFinalExamClient.csproj", "{14EAE864-B989-44EF-B51A-C748441F95B0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceFinalExam", "http://localhost/Matts_Projects/wsapfinalexam/WebServiceFinalExam.csproj", "{605A04FF-21FA-4C55-A536-33F50D17CE7A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{14EAE864-B989-44EF-B51A-C748441F95B0}.Debug.ActiveCfg = Debug|.NET
+		{14EAE864-B989-44EF-B51A-C748441F95B0}.Debug.Build.0 = Debug|.NET
+		{14EAE864-B989-44EF-B51A-C748441F95B0}.Release.ActiveCfg = Release|.NET
+		{14EAE864-B989-44EF-B51A-C748441F95B0}.Release.Build.0 = Release|.NET
+		{605A04FF-21FA-4C55-A536-33F50D17CE7A}.Debug.ActiveCfg = Debug|.NET
+		{605A04FF-21FA-4C55-A536-33F50D17CE7A}.Debug.Build.0 = Debug|.NET
+		{605A04FF-21FA-4C55-A536-33F50D17CE7A}.Release.ActiveCfg = Release|.NET
+		{605A04FF-21FA-4C55-A536-33F50D17CE7A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

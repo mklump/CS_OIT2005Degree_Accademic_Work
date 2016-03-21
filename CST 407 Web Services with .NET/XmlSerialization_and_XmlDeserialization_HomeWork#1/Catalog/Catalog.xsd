@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="catalog" targetNamespace="http://Assignment1/Catalog"
+		xmlns:mstns="http://Assignment1/Catalog" xmlns="http://Assignment1/Catalog"
+		xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+		attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="catalog" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="book">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="author" type="xs:string" minOccurs="1" msdata:Ordinal="0"  maxOccurs="1"/>
+              <xs:element name="title" type="xs:string" minOccurs="1" msdata:Ordinal="1"  maxOccurs="1"/>
+              <xs:element name="genre" type="xs:string" minOccurs="1" msdata:Ordinal="2"  maxOccurs="1"/>
+              <xs:element name="price" type="xs:double" minOccurs="1" msdata:Ordinal="3"  maxOccurs="1"/>
+              <xs:element name="publish_date" type="xs:date" minOccurs="1" msdata:Ordinal="4"  maxOccurs="1"/>
+              <xs:element name="description" type="xs:string" minOccurs="1" msdata:Ordinal="5"  maxOccurs="1"/>
+            </xs:sequence>
+            <xs:attribute name="id" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

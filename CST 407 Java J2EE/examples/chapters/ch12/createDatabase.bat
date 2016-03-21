@@ -1,0 +1,1 @@
+java -Dij.protocol=jdbc:rmi:jdbc:cloudscape: COM.cloudscape.tools.ij %1

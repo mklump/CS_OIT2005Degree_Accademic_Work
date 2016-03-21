@@ -1,0 +1,5 @@
+    [XmlType("MyContact")] public struct Contact
+    {
+        [XmlAttributeAttribute("MyName")] public string name;
+        [XmlAttributeAttribute("MyAddress")] public string address; 
+    }

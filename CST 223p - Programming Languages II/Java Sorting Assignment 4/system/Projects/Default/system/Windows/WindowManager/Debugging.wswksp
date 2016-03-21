@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace version="1.1">
+    <name unique="Debugging" display="CTL_Debugging_workspace" from-bundle="true" bundle="org.netbeans.modules.debugger.resources.Bundle" />
+    <module name="org.netbeans.modules.debugger.core/3" spec="2.1" />
+    <ui-type type="any">
+        <cascade origin-x="0" origin-y="0" step-x="20" step-y="20" count="25" current-x="0" current-y="0" />
+        <active mode="" />
+        <mode z-order="Form,debugger,editor,output" />
+        <toolbar configuration="Debugging" />
+    </ui-type>
+</workspace>

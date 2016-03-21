@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PuzzleConfig</name>
+    </assembly>
+    <members>
+        <member name="T:PuzzleConfig.PuzzleConfiguration">
+            <summary>
+            This class accepts and checks the users input to The Puzzler - 3D Style
+            and checks for validity.
+            </summary>
+        </member>
+        <member name="F:PuzzleConfig.PuzzleConfiguration.dictionarySpecs">
+            <summary>
+            Represents the dictionary specifications for passing to Main.aspx Page
+            </summary>
+        </member>
+        <member name="F:PuzzleConfig.PuzzleConfiguration.puzzleSizes">
+            <summary>
+            Represents the three puzzle dimentions for verification
+            </summary>
+        </member>
+        <member name="M:PuzzleConfig.PuzzleConfiguration.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:PuzzleConfig.PuzzleConfiguration.CheckIntegerInput(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            This public operation will check all the user's data enteries for valid values
+            as all integers within the boundaries of a valid System.Int32
+            </summary>
+            <param name="baseDiction">Base Dictionary Selection</param>
+            <param name="dictionSize">Dictionary Size Specification</param>
+            <param name="minWord">Minimum Word Size Specification</param>
+            <param name="Xpuzzle">X Dimentional Length Specification</param>
+            <param name="Ypuzzle">Y Dimentional Length Specification</param>
+            <param name="Zpuzzle">Z Dimentional Length Specification</param>
+            <returns>The appropriate error condition if any exists and based on user input.</returns>
+        </member>
+        <member name="M:PuzzleConfig.PuzzleConfiguration.CheckDictionaryParameters(System.Int32,System.Int32,System.Int32,System.Int32[])">
+            <summary>
+            This helper method will validate the arguements provided by the user. The static number
+            limitations are based solely on the known contents of each dictionary word list file.
+            </summary>
+            <param name="baseDictionary">The number specifying which base dictionary to use.</param>
+            <param name="dictionarySize">The number specifying how many words to randomly select.</param>
+            <param name="minWordSize">The number specifying the minimum dictionary word size.</param>
+            <param name="puzzleSizes">Contains the puzzle dimentions to check minimum word length.</param>
+            <returns>The error string specific to the dictionary's current configuration, if any.</returns>
+        </member>
+        <member name="M:PuzzleConfig.PuzzleConfiguration.CheckPuzzleParameters(System.Int32[])">
+            <summary>
+            This operation checks the dimentional lengths of the puzzle as provided by the
+            user to see if they'd considered "reasonable" not to leave the user waiting for an
+            eternity for the creation and solution algorithms to finish processing.
+            </summary>
+            <param name="puzzleSizes">Specifies the dimentional lengths to check.</param>
+            <returns>The error string specific to the puzzle's current configuration.</returns>
+        </member>
+        <member name="M:PuzzleConfig.PuzzleConfiguration.IsNumeric(System.String)">
+            <summary>
+            This helper method determines, by the specified parameter str, wheather
+            or not all the characters of this string instance are numeric.
+            </summary>
+            <param name="str">System.string to check.</param>
+            <returns>True if all of word's characters are numeric,
+            and false if any single character is not other than the
+            negative sign or the decimal point.</returns>
+        </member>
+    </members>
+</doc>

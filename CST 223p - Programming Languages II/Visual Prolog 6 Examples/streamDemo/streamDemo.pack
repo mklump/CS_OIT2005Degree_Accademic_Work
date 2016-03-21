@@ -1,0 +1,24 @@
+/*****************************************************************************
+
+                        Copyright (c) Prolog Developement Center
+
+ Written by: Visual Prolog
+******************************************************************************/
+
+#include "streamDemo.ph"
+
+% privately used packages
+#include "pfc\\exception\\exception.ph"
+#include "pfc\\fileSystem\\fileSystem.ph"
+#include "pfc\\string\\string.ph"
+#include "pfc\\console\\console.ph"
+#include "pfc\\application\\exe\\exe.ph"
+
+% private interfaces
+
+% private classes
+#include "streamDemo.cl"
+
+
+% implementations
+#include "streamDemo.pro"

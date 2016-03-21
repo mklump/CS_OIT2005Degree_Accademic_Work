@@ -1,0 +1,52 @@
+<?xml version = "1.0"?>
+
+<!-- Fig. B.9: invalid-IDExample.xml               -->
+<!-- Example for ID and IDREF values of attributes -->
+
+<!DOCTYPE bookstore [
+   <!ELEMENT bookstore ( shipping+, book+ )>
+   <!ELEMENT shipping ( duration )>
+   <!ATTLIST shipping shipID ID #REQUIRED> 
+   <!ELEMENT book ( #PCDATA )>
+   <!ATTLIST book shippedBy IDREF #IMPLIED>
+   <!ELEMENT duration ( #PCDATA )>
+]>
+
+<bookstore>
+   <shipping shipID = "bug2bug">
+      <duration>2 to 4 days</duration>
+   </shipping>
+
+   <shipping shipID = "Deitel">
+      <duration>1 day</duration>
+   </shipping>
+
+   <book shippedBy = "Deitel">
+      Java How to Program 4th edition.
+   </book>
+
+   <book shippedBy = "Deitel">
+      C How to Program 3rd edition.
+   </book>
+
+   <book shippedBy = "bug">
+      C++ How to Program 3rd edition.
+   </book>
+</bookstore>
+
+<!-- 
+ ************************************************************************** 
+ * (C) Copyright 2002 by Deitel & Associates, Inc. and Prentice Hall.     *
+ * All Rights Reserved.                                                   *
+ *                                                                        *
+ * DISCLAIMER: The authors and publisher of this book have used their     *
+ * best efforts in preparing the book. These efforts include the          *
+ * development, research, and testing of the theories and programs        *
+ * to determine their effectiveness. The authors and publisher make       *
+ * no warranty of any kind, expressed or implied, with regard to these    *
+ * programs or to the documentation contained in these books. The authors *
+ * and publisher shall not be liable in any event for incidental or       *
+ * consequential damages in connection with, or arising out of, the       *
+ * furnishing, performance, or use of these programs.                     *
+ **************************************************************************
+-->

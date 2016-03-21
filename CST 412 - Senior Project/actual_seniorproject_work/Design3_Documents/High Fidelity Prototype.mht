@@ -1,0 +1,585 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: High Fidelity Prototype
+Date: Wed, 24 Nov 2004 23:36:19 -0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost/mywebprojects/thepuzzler_3dstyle/UIPrototype.aspx
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1441
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>High Fidelity Prototype</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<META content=3DFalse name=3Dvs_snapToGrid>
+<META content=3DTrue name=3Dvs_showGrid>
+<META content=3D"MSHTML 6.00.2800.1476" name=3DGENERATOR>
+<META content=3DC# name=3DCODE_LANGUAGE>
+<META content=3DVBScript name=3Dvs_defaultClientScript>
+<META content=3Dhttp://schemas.microsoft.com/intellisense/ie5=20
+name=3Dvs_targetSchema></HEAD>
+<BODY MS_POSITIONING=3D"GridLayout">
+<FORM id=3DForm1 name=3DForm1 action=3DUIPrototype.aspx =
+method=3Dpost><INPUT type=3Dhidden=20
+value=3DdDwzOTY0MTc4MjQ7Oz5KuS0JEcJgCspSpjNH3JtyGYbwiA=3D=3D =
+name=3D__VIEWSTATE> <SELECT=20
+id=3DListBox1=20
+style=3D"Z-INDEX: 101; LEFT: 24px; WIDTH: 152px; COLOR: forestgreen; =
+POSITION: absolute; TOP: 40px; HEIGHT: 640px; BACKGROUND-COLOR: =
+lightyellow"=20
+size=3D4 name=3DListBox1></SELECT><SPAN id=3DLabel2=20
+style=3D"BORDER-RIGHT: 2px ridge; BORDER-TOP: 2px ridge; Z-INDEX: 104; =
+LEFT: 184px; BORDER-LEFT: 2px ridge; WIDTH: 109px; COLOR: red; =
+BORDER-BOTTOM: 2px ridge; POSITION: absolute; TOP: 16px">Words=20
+Found:</SPAN><SELECT id=3DListBox2=20
+style=3D"Z-INDEX: 103; LEFT: 184px; WIDTH: 152px; COLOR: red; POSITION: =
+absolute; TOP: 40px; HEIGHT: 640px; BACKGROUND-COLOR: lightyellow"=20
+size=3D4 name=3DListBox2></SELECT><SPAN id=3DLabel1=20
+style=3D"BORDER-RIGHT: 2px ridge; BORDER-TOP: 2px ridge; Z-INDEX: 102; =
+LEFT: 24px; BORDER-LEFT: 2px ridge; WIDTH: 117px; COLOR: forestgreen; =
+BORDER-BOTTOM: 2px ridge; POSITION: absolute; TOP: 16px">Words=20
+to Find:</SPAN><SELECT id=3DDropDownList1=20
+style=3D"Z-INDEX: 105; LEFT: 344px; WIDTH: 168px; COLOR: goldenrod; =
+POSITION: absolute; TOP: 40px"=20
+name=3DDropDownList1></SELECT><SPAN id=3DLabel3=20
+style=3D"BORDER-RIGHT: 2px ridge; BORDER-TOP: 2px ridge; Z-INDEX: 106; =
+LEFT: 344px; BORDER-LEFT: 2px ridge; WIDTH: 164px; COLOR: goldenrod; =
+BORDER-BOTTOM: 2px ridge; POSITION: absolute; TOP: 16px">Current=20
+Cross Section:</SPAN><SPAN id=3DLabel4=20
+style=3D"BORDER-RIGHT: 2px ridge; BORDER-TOP: 2px ridge; Z-INDEX: 107; =
+LEFT: 23px; BORDER-LEFT: 2px ridge; WIDTH: 179px; COLOR: blue; =
+BORDER-BOTTOM: 2px ridge; POSITION: absolute; TOP: 680px">Statistics=20
+for This Puzzle:</SPAN>=20
+<TABLE id=3DTable1=20
+style=3D"BORDER-RIGHT: #000000 thin; TABLE-LAYOUT: auto; BORDER-TOP: =
+#000000 thin; Z-INDEX: 108; LEFT: 343px; BORDER-LEFT: #000000 thin; =
+WIDTH: 560px; BORDER-BOTTOM: #000000 thin; POSITION: absolute; TOP: =
+68px; BORDER-COLLAPSE: collapse; HEIGHT: 604px; BACKGROUND-COLOR: snow"=20
+borderColor=3D#daa520 cellSpacing=3D0 borderColorDark=3Dgoldenrod =
+cellPadding=3D0=20
+width=3D560 align=3Dcenter borderColorLight=3Dgoldenrod border=3D1>
+  <TBODY>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 24px"></TD></TR></TBODY></TABLE>
+<TABLE id=3DTable2=20
+style=3D"BORDER-RIGHT: black thin; TABLE-LAYOUT: auto; BORDER-TOP: black =
+thin; Z-INDEX: 109; LEFT: 21px; BORDER-LEFT: black thin; WIDTH: 881px; =
+BORDER-BOTTOM: black thin; POSITION: absolute; TOP: 703px; =
+BORDER-COLLAPSE: collapse; HEIGHT: 106px; BACKGROUND-COLOR: snow"=20
+borderColor=3Dblue cellSpacing=3D0 borderColorDark=3Dblue =
+cellPadding=3D0 width=3D881=20
+borderColorLight=3D#0000ff border=3D1>
+  <TBODY>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 128px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 128px"></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+    <TD style=3D"WIDTH: 128px"></TD></TR>
+  <TR>
+    <TD style=3D"HEIGHT: 25px"></TD>
+    <TD style=3D"HEIGHT: 25px"></TD>
+    <TD style=3D"HEIGHT: 25px"></TD>
+    <TD style=3D"HEIGHT: 25px"></TD>
+    <TD style=3D"HEIGHT: 25px"></TD>
+    <TD style=3D"HEIGHT: 25px"></TD>
+    <TD style=3D"WIDTH: 128px; HEIGHT: 25px"></TD></TR></TBODY></TABLE>
+<HR style=3D"Z-INDEX: 111; LEFT: 13px; POSITION: absolute; TOP: 833px"=20
+width=3D"100%" SIZE=3D1>
+</FORM></BODY></HTML>

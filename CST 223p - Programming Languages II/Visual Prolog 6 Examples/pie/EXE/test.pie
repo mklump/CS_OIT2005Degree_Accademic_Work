@@ -1,0 +1,7 @@
+op(1200,xfx,"has").
+has(human,head).
+has(human,leg).
+has(human,hand).
+has(dog,head).
+has(dog,tail).
+has(dog,leg).

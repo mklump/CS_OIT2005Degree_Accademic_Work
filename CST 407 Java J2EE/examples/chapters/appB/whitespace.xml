@@ -1,0 +1,59 @@
+<?xml version = "1.0"?>
+
+<!-- Fig. B.14 : whitespace.xml       -->
+<!-- Demonstrating whitespace parsing -->
+
+<!DOCTYPE whitespace [
+   <!ELEMENT whitespace ( hasCDATA,
+      hasID, hasNMTOKEN, hasEnumeration, hasMixed )>
+
+   <!ELEMENT hasCDATA EMPTY>
+   <!ATTLIST hasCDATA cdata CDATA #REQUIRED>
+
+   <!ELEMENT hasID EMPTY>
+   <!ATTLIST hasID id ID #REQUIRED>
+
+   <!ELEMENT hasNMTOKEN EMPTY>
+   <!ATTLIST hasNMTOKEN nmtoken NMTOKEN #REQUIRED>
+
+   <!ELEMENT hasEnumeration EMPTY>
+   <!ATTLIST hasEnumeration enumeration ( true | false )
+             #REQUIRED>
+
+   <!ELEMENT hasMixed ( #PCDATA | hasCDATA )*>
+]>
+
+<whitespace>
+
+   <hasCDATA cdata = "  simple cdata  "/>
+
+   <hasID id = "  i20"/>
+
+   <hasNMTOKEN nmtoken = "   hello"/>
+
+   <hasEnumeration enumeration = "   true"/>
+
+   <hasMixed>
+      This is text.
+      <hasCDATA cdata = " simple    cdata"/>
+      This is some additional text.
+   </hasMixed>
+
+</whitespace>
+
+<!-- 
+ ************************************************************************** 
+ * (C) Copyright 2002 by Deitel & Associates, Inc. and Prentice Hall.     *
+ * All Rights Reserved.                                                   *
+ *                                                                        *
+ * DISCLAIMER: The authors and publisher of this book have used their     *
+ * best efforts in preparing the book. These efforts include the          *
+ * development, research, and testing of the theories and programs        *
+ * to determine their effectiveness. The authors and publisher make       *
+ * no warranty of any kind, expressed or implied, with regard to these    *
+ * programs or to the documentation contained in these books. The authors *
+ * and publisher shall not be liable in any event for incidental or       *
+ * consequential damages in connection with, or arising out of, the       *
+ * furnishing, performance, or use of these programs.                     *
+ **************************************************************************
+-->

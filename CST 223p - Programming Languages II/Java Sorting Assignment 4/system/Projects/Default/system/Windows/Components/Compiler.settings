@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+    <instanceof class="java.util.EventListener"/>
+    <instanceof class="org.netbeans.core.output.OutputTabTerm"/>
+    <instanceof class="java.awt.MenuContainer"/>
+    <instanceof class="javax.swing.JComponent"/>
+    <instanceof class="org.netbeans.core.windows.WellKnownModeNames"/>
+    <instanceof class="java.awt.Component"/>
+    <instanceof class="java.awt.Container"/>
+    <instanceof class="org.openide.windows.TopComponent"/>
+    <instanceof class="javax.accessibility.Accessible"/>
+    <instanceof class="java.lang.Object"/>
+    <instanceof class="java.io.Externalizable"/>
+    <instanceof class="org.netbeans.core.windows.TopComponentListener"/>
+    <instanceof class="org.openide.windows.InputOutput"/>
+    <instanceof class="java.awt.image.ImageObserver"/>
+    <instanceof class="java.io.Serializable"/>
+    <serialdata class="org.netbeans.core.output.OutputTabTerm">
+        ACED00057372002E6F72672E6E65746265616E732E636F72652E6F75747075742E4F75747075745461625465726D24526570
+        6C616365D49B9210855B9A810200025A000F64656661756C74496E7374616E636549000C696E7374616E6365547970657870
+        0000000001
+    </serialdata>
+</settings>

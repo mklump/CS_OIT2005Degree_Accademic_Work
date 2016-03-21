@@ -1,0 +1,32 @@
+<?xml version = "1.0"?>
+
+<!-- Fig. D.5 : games.xml  -->
+<!-- Sports Database       -->
+
+<sports>
+
+   <game title = "cricket">
+      <id>243</id>
+
+      <para>
+         More popular among commonwealth nations.
+      </para>
+   </game>
+
+   <game title = "baseball">
+      <id>431</id>
+
+      <para>
+         More popular in America.
+      </para>
+   </game>
+
+   <game title = "soccer">
+      <id>123</id>
+
+      <para>
+         Most popular sport in the world.
+      </para>
+   </game>
+
+</sports>

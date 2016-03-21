@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="1.0">
+    <name unique="properties" display="CTL_PropertiesWindow" from-bundle="true" bundle="org.netbeans.core.windows.Bundle" />
+    <module name="org.netbeans.modules.form/2" spec="1.7" />
+    <ui-type type="any" >
+        <bounds x="252" y="487" width="204" height="250" />
+        <frame type="window" state="normal" />
+        <container type="tabbed" >
+        </container>
+        <icon url="nbresboot:/org/netbeans/core/resources/frames/properties.gif" />
+        <other defined-by="module" mode-state="hidden" />
+    </ui-type>
+</mode>

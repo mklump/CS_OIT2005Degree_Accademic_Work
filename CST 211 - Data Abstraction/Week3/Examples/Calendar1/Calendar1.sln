@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calendar1", "Calendar1.vcproj", "{FD68F756-A736-48A5-8425-A09E7F84BB4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FD68F756-A736-48A5-8425-A09E7F84BB4C}.Debug.ActiveCfg = Debug|Win32
+		{FD68F756-A736-48A5-8425-A09E7F84BB4C}.Debug.Build.0 = Debug|Win32
+		{FD68F756-A736-48A5-8425-A09E7F84BB4C}.Release.ActiveCfg = Release|Win32
+		{FD68F756-A736-48A5-8425-A09E7F84BB4C}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

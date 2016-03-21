@@ -1,0 +1,9 @@
+int intValue = args.Value;
+if (intValue%2 == 0)
+{
+	args.IsValid = true;
+}
+else
+{
+	args.IsValid = false;
+}

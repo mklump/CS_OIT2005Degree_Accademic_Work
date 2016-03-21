@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OnTheRoadWS", "http://localhost/2389/Labs/Lab07/Solution/VB/OnTheRoadWS/OnTheRoadWS.vbproj", "{861ED3C0-436B-4449-BD8E-B7B53C919253}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{861ED3C0-436B-4449-BD8E-B7B53C919253}.Debug.ActiveCfg = Debug|.NET
+		{861ED3C0-436B-4449-BD8E-B7B53C919253}.Debug.Build.0 = Debug|.NET
+		{861ED3C0-436B-4449-BD8E-B7B53C919253}.Release.ActiveCfg = Release|.NET
+		{861ED3C0-436B-4449-BD8E-B7B53C919253}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:mstns="http://www.tempuri.org/NWDataSet.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="http://www.tempuri.org/NWDataSet.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.tempuri.org/NWDataSet.xsd" id="NWDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" name="NWDataSet">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="AppSettings">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="EmployeeID" type="xs:int" />
+              <xs:element minOccurs="0" name="ServerName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Customers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CustomerID" type="xs:string" />
+              <xs:element name="CompanyName" type="xs:string" />
+              <xs:element minOccurs="0" name="ContactName" type="xs:string" />
+              <xs:element minOccurs="0" name="City" type="xs:string" />
+              <xs:element minOccurs="0" name="Phone" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Employees">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" msdata:AutoIncrement="true" name="EmployeeID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="FullName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="OrderDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OrderID" type="xs:int" />
+              <xs:element name="ProductID" type="xs:int" />
+              <xs:element name="UnitPrice" type="xs:decimal" />
+              <xs:element name="Quantity" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Orders">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" msdata:AutoIncrement="true" name="OrderID" type="xs:int" />
+              <xs:element minOccurs="0" name="OrderDate" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="EmployeeID" type="xs:int" />
+              <xs:element minOccurs="0" name="CustomerID" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Products">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" msdata:AutoIncrement="true" name="ProductID" type="xs:int" />
+              <xs:element name="ProductName" type="xs:string" />
+              <xs:element minOccurs="0" name="UnitPrice" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:Customers" />
+      <xs:field xpath="mstns:CustomerID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Employees_Constraint1">
+      <xs:selector xpath=".//mstns:Employees" />
+      <xs:field xpath="mstns:EmployeeID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Orders_Constraint1">
+      <xs:selector xpath=".//mstns:Orders" />
+      <xs:field xpath="mstns:OrderID" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Products_Constraint1">
+      <xs:selector xpath=".//mstns:Products" />
+      <xs:field xpath="mstns:ProductID" />
+    </xs:unique>
+    <xs:keyref name="CustomersOrders" refer="mstns:Constraint1">
+      <xs:selector xpath=".//mstns:Orders" />
+      <xs:field xpath="mstns:CustomerID" />
+    </xs:keyref>
+    <xs:keyref name="EmployeesOrders" refer="mstns:Employees_Constraint1">
+      <xs:selector xpath=".//mstns:Orders" />
+      <xs:field xpath="mstns:EmployeeID" />
+    </xs:keyref>
+    <xs:keyref name="ProductsOrderDetails" refer="mstns:Products_Constraint1">
+      <xs:selector xpath=".//mstns:OrderDetails" />
+      <xs:field xpath="mstns:ProductID" />
+    </xs:keyref>
+    <xs:keyref name="OrdersOrderDetails" refer="mstns:Orders_Constraint1">
+      <xs:selector xpath=".//mstns:OrderDetails" />
+      <xs:field xpath="mstns:OrderID" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

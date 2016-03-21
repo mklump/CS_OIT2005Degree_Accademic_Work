@@ -1,0 +1,22 @@
+/*****************************************************************************
+
+                        Copyright (c) Prolog Development Center A/S
+
+******************************************************************************/
+
+#include @"Output\Output.ph"
+
+% privately used packages
+#include @"pfc\5xvip\5xstring\5xstring.ph"
+#include @"pfc\5xvip\5xconversion\5xconversion.ph"
+#include @"pfc\5xvip\5xfile\5xfile.ph"
+#include @"parser\parser.ph"
+#include @"engine\engine.ph"
+#include @"pfc\exception\exception.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"Output\output.pro"

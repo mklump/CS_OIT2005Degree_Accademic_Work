@@ -1,0 +1,42 @@
+if (Page.IsValid)
+{
+	lblMessage.Text = "Valid!";
+
+	//TODO Lab 14: Set Session Variables
+	Session["Name"] = txtName.Text;
+	Session["Birth"] = txtBirth.Text;
+
+	HttpCookie objCookie = Request.Cookies["Benefits"];
+	string strDoc = "";
+	string strLife = "";
+
+	if (objCookie != null)
+	{
+		strDoc = objCookie.Values["doctor"];
+		strLife = objCookie.Values["life"];
+	}
+
+	//TODO Lab 14: Build the string
+	if (chkShortTerm.Checked)
+	{
+		if (chkLongTerm.Checked)
+		{
+			strLife = "Short Term and Long Term";
+		}
+		else
+		{
+			strLife = "Short Term";
+		}
+	}
+	else if (chkLongTerm.Checked)
+		strLife = "Long Term";
+
+	strLife += ": Coverage = $" + txtCoverage.Text;
+
+	HttpCookie objNewCookie = new HttpCookie("Benefits");
+	objNewCookie.Expires = DateTime.Now.AddDays(30);
+	objNewCookie.Values.Add("doctor", strDoc);
+	objNewCookie.Values.Add("life", strLife);
+	Response.Cookies.Add(objNewCookie);
+	Response.Redirect("default.aspx");
+}

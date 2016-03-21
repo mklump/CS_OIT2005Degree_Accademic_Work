@@ -1,0 +1,81 @@
+-- First Leture Miscelaneous --
+Be able to:
+	Use Enum's
+	Use Bitwise Operators
+	Describe when Bitwise Operators and when not to.
+	Be able to use and know when to use separate .h and .cpp files.
+	Be able to use compiler directives such as #ifndef
+	And finally be able to use namespaces.
+
+-- Chapter 10 --
+Be able to:
+	Use traditional C Strings
+		Know the common standard string functions
+		Avoid the pitfall
+	Be able to use the C++ Class string
+	Be able to use Multidimensional Arrays
+	Understand how the communicative property effects operator precedence.
+	
+-- Chapter 11 -- 
+Be able to:
+	Define and use pointer variables.
+	Use dynamic arrays.
+	Use pointer arithmetic.
+	Manage the memory associated with pointers including allocating and releasing memory.
+	Understand Static, Dynamic and Automatic Variables.
+	Write a destructor.
+		Describe when a destructor is required.
+	Write copy constructors.
+		Describe when they are required.
+	Overload the assignment operator.
+		Know when overloading the assignment operator is required.
+		Avoid the pitfall.
+
+-- Chapter 12 --
+Be able to use Recursive Functions in a program.
+Understand how the stack is used in a recursive function.
+Understand how to design a recursive function.
+
+-- Chapter 14 --
+Be able to:
+ 	read and follow a basic linked list structure.
+	Understand the -> operator
+	define the word node and understand how it relates to linked lists.
+	Search a linked list
+	Insert in the Middle of a Linked List
+	Insert at the End of a Linked List
+	Create an example data structure.  (Be sure to read through the stack example the book provides)
+
+
+
+-- Chapter 15 --
+Be able to:
+	Define inheritance
+	Use inheritance
+	understand the implications for constructors
+	understand what member data is available to you and when.
+	define the protected visibility modifier.
+	Use constructor initialization lists.
+	Override a member function.
+
+-- Chapter 8 --
+Be able to:
+	Use friend functions
+	Use a const parameter and explain why you would want to.
+	Answer the following Questions:
+		How do you overload operators?
+		What operators can be overloaded?
+		What should an overloaded operator return?
+		What restrictions are there on operator overloading?
+		What operator behaviour can  NOT be changed?
+		What operands do you use for an overloaded operator?
+		How many parameters must an overloaded operator have?
+
+-- Chapter 5 --
+For File I/O you should:
+	Understand C++ file I/O
+	Be able to write simple file i/o
+	Use and identify other global stream objects (ie clog)
+	Describe how and why to Buffer flush.
+	Describe how to monitor Stream states.
+	Describe how to open a binary file.

@@ -1,0 +1,54 @@
+#!/bin/sh
+
+#Filename: 15_6.sh
+
+#Author: Matthew Klump
+
+#Written: March 5, 2002
+
+#Modified: March 6, 2002
+
+#Purpose: To provide a library of three predefined functions.
+
+#Input: Takes one number arguement for math ecpression. 
+#This is merrly a resource for other file scripts or line commands.
+
+sum()
+{ 
+    sum=0
+    for num in $@
+    do
+       sum=`expr $sum + $num`
+    done
+    return
+} 
+
+min()
+{
+    for num in $@
+    do
+        if [ "$min" = "" ]
+        then
+            min=$num
+        elif [ "$num" -lt "$min" ]
+        then
+            min=$num 
+        fi
+    done
+    return 
+}
+
+max ()
+{
+   for num in $@
+   do
+       if [ "$max" = "" ]
+       then
+           max=$num
+       elif [ "$num" -gt "$max" ]
+       then
+           max=$num 
+       fi
+   done
+   return
+}

@@ -1,0 +1,29 @@
+/*****************************************************************************
+
+                        Copyright (c) Prolog Development Center A/S
+
+******************************************************************************/
+
+#include @"TaskWindow\TaskWindow.ph"
+
+% privately used packages
+#include @"pfc\vpi\vpimessage\vpimessage.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\memory\memory.ph"
+#include @"pfc\filesystem\filesystem.ph"
+#include @"engine\engine.ph"
+#include @"goalwindow\goalwindow.ph"
+#include @"configuration\configuration.ph"
+#include @"editor\editor.ph"
+#include @"pfc\vpi\vpieditor\vpieditor.ph"
+#include @"pfc\exception\exception.ph"
+#include @"TaskWindow\Toolbar\Toolbars.ph"
+
+% private interfaces
+#include @"resourceIdentifiers.i"
+
+% private classes
+
+% implementations
+#include @"TaskWindow\AboutDialog.pro"
+#include @"TaskWindow\TaskWindow.pro"

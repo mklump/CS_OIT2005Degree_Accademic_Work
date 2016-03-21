@@ -1,0 +1,16 @@
+/*****************************************************************************
+
+                        Copyright (c) Prolog Development Center A/S
+
+******************************************************************************/
+
+#include @"InferenceEngine\Engine\Engine.ph"
+
+% privately used packages
+#include @"pfc\exception\exception.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations

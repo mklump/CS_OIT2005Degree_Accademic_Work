@@ -1,0 +1,20 @@
+This will test the default constructor.
+R = 255, G = 255, B = 255
+R = 255, G = 255, B = 255
+This will test the three arguement constructor for black.
+R = 0, G = 0, B = 0
+R = 0, G = 0, B = 0
+This will test the three arguement constructor for various colors.
+R = 0, G = 255, B = 255
+R = 45, G = 57, B = 26
+This will test the overloaded addition operator.
+R = 68, G = 155, B = 255
+This will test the overloaded less than operator.
+R = 45, G = 57, B = 26
+This will test the overloaded subtraction operator for dark colors.
+R = 0, G = 43, B = 44
+This will test the overloaded subtraction operator for light colors.
+R = 56, G = 20, B = 0
+This will test the overloaded less than operator again.
+R = 24, G = 242, B = 255
+Press any key to continue

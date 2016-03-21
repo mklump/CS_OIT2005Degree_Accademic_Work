@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ManageStats</name>
+    </assembly>
+    <members>
+        <member name="T:ns_ManageStats.ManageStats">
+            <summary>
+            Summary description for ManageStats.
+            </summary>
+        </member>
+        <member name="F:ns_ManageStats.ManageStats.dictionaryTime">
+            <summary>
+            This System.String represents the Dictionary Creation execution time.
+            </summary>
+        </member>
+        <member name="F:ns_ManageStats.ManageStats.puzzleTime">
+            <summary>
+            This System.String represents the Puzzle Creation execution time.
+            </summary>
+        </member>
+        <member name="F:ns_ManageStats.ManageStats.solutionTime">
+            <summary>
+            This System.String represents the Puzzle Solution execution time.
+            </summary>
+        </member>
+        <member name="F:ns_ManageStats.ManageStats.solution">
+            <summary>
+            Object responsible for providing the puzzle solution.
+            </summary>
+        </member>
+        <member name="F:ns_ManageStats.ManageStats.puzzleCreator">
+            <summary>
+            Object responsible for providing the puzzle creation.
+            </summary>
+        </member>
+        <member name="F:ns_ManageStats.ManageStats.dictionaryCreator">
+            <summary>
+            Object responsible for providing the dictionary creation.
+            </summary>
+        </member>
+        <member name="F:ns_ManageStats.ManageStats.timer1">
+            <summary>
+            Timer used to get the time of the System clock before an algorithm execution.
+            </summary>
+        </member>
+        <member name="F:ns_ManageStats.ManageStats.timer2">
+            <summary>
+            Timer used to get the time of the System clock after an algorithm execution.
+            </summary>
+        </member>
+        <member name="M:ns_ManageStats.ManageStats.#ctor">
+            <summary>
+            Default constructor for ManageStats.
+            </summary>
+        </member>
+        <member name="M:ns_ManageStats.ManageStats.GetDictionaryTime(System.Web.UI.HtmlControls.HtmlTable@,System.Int32,System.Int32,System.Int32,System.Collections.ArrayList)">
+            <summary>
+            This operation will execute the CreateDictionary() operation and
+            return the time taken to make it as a System.String
+            </summary>
+            <param name="table">The HtmlTable to which will be printed the results.</param>
+            <param name="dictionNum">Specifies which dictionary to pass to DictionaryCreator().</param>
+            <param name="listSize">Specifies how large the dictionary should be when passed
+            to DictionaryCreator() as its second arguement.</param>
+            <param name="stats">The string array collection keeping track of the
+            resultant statistics</param>
+            <param name="minimum">Specifies the minimum size of a word to use.</param>
+        </member>
+        <member name="M:ns_ManageStats.ManageStats.GetPuzzleTime(System.Web.UI.HtmlControls.HtmlTable@,System.Collections.ArrayList)">
+            <summary>
+            This operation will execute the GeneratePuzzle() operaton and
+            return the time taken to make it as a System.String
+            </summary>
+            <param name="table">The HtmlTable to which will be printed the results.</param>
+            <param name="stats">The string array collection keeping track of the
+            resultant statistics</param>
+        </member>
+        <member name="M:ns_ManageStats.ManageStats.GetSolutionTime(System.Web.UI.HtmlControls.HtmlTable@,System.Collections.ArrayList)">
+            <summary>
+            This operation will execute the Solve() operation and return
+            the time taken to solve the puzzle as a System.String
+            </summary>
+            <param name="table">The HtmlTable to which will be printed the results.</param>
+            <param name="stats">The string array collection keeping track of the
+            resultant statistics</param>
+            <returns>The total number of words found in the puzzle that matched the
+            dictionary.</returns>
+        </member>
+    </members>
+</doc>

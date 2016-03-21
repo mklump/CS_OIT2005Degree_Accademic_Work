@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlSerializerPreCompiler", "XmlSerializerPreCompiler\XmlSerializerPreCompiler.csproj", "{F13037F5-1DDE-45A1-A518-E377A9BE31AF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTypes", "TestTypes\TestTypes.csproj", "{48573174-5C65-443B-B46B-7B2C249B3AB0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F13037F5-1DDE-45A1-A518-E377A9BE31AF}.Debug.ActiveCfg = Debug|.NET
+		{F13037F5-1DDE-45A1-A518-E377A9BE31AF}.Debug.Build.0 = Debug|.NET
+		{F13037F5-1DDE-45A1-A518-E377A9BE31AF}.Release.ActiveCfg = Release|.NET
+		{F13037F5-1DDE-45A1-A518-E377A9BE31AF}.Release.Build.0 = Release|.NET
+		{48573174-5C65-443B-B46B-7B2C249B3AB0}.Debug.ActiveCfg = Debug|.NET
+		{48573174-5C65-443B-B46B-7B2C249B3AB0}.Debug.Build.0 = Debug|.NET
+		{48573174-5C65-443B-B46B-7B2C249B3AB0}.Release.ActiveCfg = Release|.NET
+		{48573174-5C65-443B-B46B-7B2C249B3AB0}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

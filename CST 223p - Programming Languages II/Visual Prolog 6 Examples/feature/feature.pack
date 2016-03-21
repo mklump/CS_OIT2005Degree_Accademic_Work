@@ -1,0 +1,23 @@
+/*****************************************************************************
+
+                        Copyright (c) Prolog Development Center
+
+ Written by: Thomas Linder Puls
+******************************************************************************/
+
+#include "feature.ph"
+
+% privately used packages
+#include "pfc\\exception\\exception.ph"
+#include "pfc\\console\\console.ph"
+#include "pfc\\exception\\exceptionDump\\exceptionDump.ph"
+#include "pfc\\memory\\memory.ph"
+#include "pfc\\application\\exe\\exe.ph"
+
+% private interfaces
+
+% private classes
+#include "feature.cl"
+
+% implementations
+#include "feature.pro"

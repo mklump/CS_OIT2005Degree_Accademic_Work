@@ -1,0 +1,142 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{708A2795-3361-4053-8809-CE1C9A838BC9}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "CarTests"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Exe"
+                RootNamespace = "CarTests"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "Accessibility"
+                    AssemblyName = "Accessibility"
+                    HintPath = "..\..\..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\Accessibility.dll"
+                />
+                <Reference
+                    Name = "nunit.extensions"
+                    AssemblyName = "nunit.extensions"
+                    HintPath = "..\..\..\..\..\..\..\..\Program Files\NUnit V2.1\\bin\nunit.extensions.dll"
+                />
+                <Reference
+                    Name = "nunit.framework"
+                    AssemblyName = "nunit.framework"
+                    HintPath = "..\..\..\..\..\..\..\..\Program Files\NUnit V2.1\\bin\nunit.framework.dll"
+                />
+                <Reference
+                    Name = "nunit.tests"
+                    AssemblyName = "nunit.tests"
+                    HintPath = "..\..\..\..\..\..\..\..\Program Files\NUnit V2.1\\bin\nunit.tests.dll"
+                />
+                <Reference
+                    Name = "nunit.uikit"
+                    AssemblyName = "nunit.uikit"
+                    HintPath = "..\..\..\..\..\..\..\..\Program Files\NUnit V2.1\\bin\nunit.uikit.dll"
+                />
+                <Reference
+                    Name = "nunit.util"
+                    AssemblyName = "nunit.util"
+                    HintPath = "..\..\..\..\..\..\..\..\Program Files\NUnit V2.1\\bin\nunit.util.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "Car"
+                    Project = "{D24B2CF6-902D-4351-A8E4-775926EB1027}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "App.config"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CarTestClass.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DynamicLoader.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "XmlTry.xml"
+                    SubType = "Code"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

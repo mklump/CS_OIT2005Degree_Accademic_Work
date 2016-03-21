@@ -1,0 +1,19 @@
+/*****************************************************************************
+
+                        Copyright (c) 
+
+******************************************************************************/
+
+#include @"prolog_Assignment.ph"
+
+% privately used packages
+#include @"pfc\application\exe\exe.ph"
+#include @"taskWindow\taskWindow.ph"
+#include @"pfc\exception\exception.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"prolog_Assignment.pro"

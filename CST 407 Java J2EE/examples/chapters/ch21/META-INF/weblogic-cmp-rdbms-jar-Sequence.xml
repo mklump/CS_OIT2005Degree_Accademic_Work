@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!-- weblogic-cmp-rdbms-jar-sequence.xml ejb descriptor for -->
+<!-- SequenceFactory defines rdbms properties for WebLogic -->
+
+<!DOCTYPE weblogic-rdbms-bean PUBLIC 
+   '-//BEA Systems, Inc.//DTD WebLogic 5.1.0 EJB RDBMS Persistence//EN'
+   'http://www.bea.com/servers/wls510/dtd/weblogic-rdbms-persistence.dtd'>
+
+<!-- element containing rdbms properties for SequenceFactoryEJB -->
+<weblogic-rdbms-bean>
+
+   <!-- assigns this bean to pool named BookstorePool -->
+   <pool-name>BookstorePool</pool-name>
+
+   <!-- assigns this bean to table SEQUENCEFACTORY -->
+   <table-name>SequenceFactory</table-name>
+
+   <!-- element containing field mappings -->
+   <attribute-map>
+
+      <!-- field mapping for addressID -->
+      <object-link>
+         <bean-field>tableName</bean-field>
+         <dbms-column>tableName</dbms-column>
+      </object-link>
+
+      <!-- field mapping for primaryKey -->
+      <object-link>
+         <bean-field>nextID</bean-field>
+         <dbms-column>nextID</dbms-column>
+      </object-link>
+
+   </attribute-map>
+
+   <options>
+      <use-quoted-names>false</use-quoted-names>
+   </options>
+
+</weblogic-rdbms-bean>

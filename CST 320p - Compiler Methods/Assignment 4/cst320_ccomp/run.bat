@@ -1,0 +1,1 @@
+debug\cst320_ccomp.exe %1 2>%1.out

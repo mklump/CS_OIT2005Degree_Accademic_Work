@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.xmethods.net/sd/TemperatureService.wsdl" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" targetNamespace="http://www.xmethods.net/sd/TemperatureService.wsdl" name="TemperatureService" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types />
+  <message name="getTempRequest">
+    <part name="zipcode" type="s:string" />
+  </message>
+  <message name="getTempResponse">
+    <part name="return" type="s:float" />
+  </message>
+  <portType name="TemperaturePortType">
+    <operation name="getTemp">
+      <input message="tns:getTempRequest" />
+      <output message="tns:getTempResponse" />
+    </operation>
+  </portType>
+  <binding name="TemperatureBinding" type="tns:TemperaturePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <operation name="getTemp">
+      <soap:operation soapAction="" />
+      
+      <input>
+        <soap:body use="encoded" namespace="urn:xmethods-Temperature" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:xmethods-Temperature" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="TemperatureService">
+    <documentation>Returns current temperature in a given U.S. zipcode  </documentation>
+    <port name="TemperaturePort" binding="tns:TemperatureBinding">
+      <soap:address location="http://services.xmethods.net:80/soap/servlet/rpcrouter" />
+    </port>
+  </service>
+</definitions>

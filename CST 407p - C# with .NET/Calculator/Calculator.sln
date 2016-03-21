@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator.csproj", "{E4894C6F-A782-46E6-9001-5E90ACD0647D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWebApplication", "http://matts_notebook/CalculatorWebApplication/CalculatorWebApplication.csproj", "{5F9CE482-DFCA-4FDD-A0ED-F5021E4504D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E4894C6F-A782-46E6-9001-5E90ACD0647D}.Debug.ActiveCfg = Debug|.NET
+		{E4894C6F-A782-46E6-9001-5E90ACD0647D}.Debug.Build.0 = Debug|.NET
+		{E4894C6F-A782-46E6-9001-5E90ACD0647D}.Release.ActiveCfg = Release|.NET
+		{E4894C6F-A782-46E6-9001-5E90ACD0647D}.Release.Build.0 = Release|.NET
+		{5F9CE482-DFCA-4FDD-A0ED-F5021E4504D9}.Debug.ActiveCfg = Debug|.NET
+		{5F9CE482-DFCA-4FDD-A0ED-F5021E4504D9}.Debug.Build.0 = Debug|.NET
+		{5F9CE482-DFCA-4FDD-A0ED-F5021E4504D9}.Release.ActiveCfg = Release|.NET
+		{5F9CE482-DFCA-4FDD-A0ED-F5021E4504D9}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

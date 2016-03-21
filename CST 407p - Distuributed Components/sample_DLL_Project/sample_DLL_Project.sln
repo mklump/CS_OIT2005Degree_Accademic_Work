@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcproj", "{99C20036-B682-4613-9EAE-BE05723F8CDD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample_DLL_Project", "sample_DLL_Project.vcproj", "{3ABA39D9-D404-449A-ADE1-59830CFF2F23}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{99C20036-B682-4613-9EAE-BE05723F8CDD}.Debug.ActiveCfg = Debug|Win32
+		{99C20036-B682-4613-9EAE-BE05723F8CDD}.Debug.Build.0 = Debug|Win32
+		{99C20036-B682-4613-9EAE-BE05723F8CDD}.Release.ActiveCfg = Release|Win32
+		{99C20036-B682-4613-9EAE-BE05723F8CDD}.Release.Build.0 = Release|Win32
+		{3ABA39D9-D404-449A-ADE1-59830CFF2F23}.Debug.ActiveCfg = Debug|Win32
+		{3ABA39D9-D404-449A-ADE1-59830CFF2F23}.Debug.Build.0 = Debug|Win32
+		{3ABA39D9-D404-449A-ADE1-59830CFF2F23}.Release.ActiveCfg = Release|Win32
+		{3ABA39D9-D404-449A-ADE1-59830CFF2F23}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,431 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0053)http://www.capital.ous.edu/~murthys/tools/Testing.htm -->
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="Testing%20Expectations_files/filelist.xml">
+<title>Testing</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Matthew J Klump</o:Author>
+  <o:LastAuthor>Matthew J Klump</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>7</o:TotalTime>
+  <o:Created>2001-11-10T19:37:00Z</o:Created>
+  <o:LastSaved>2001-11-10T19:44:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
+  <o:Words>1525</o:Words>
+  <o:Characters>8695</o:Characters>
+  <o:Company> </o:Company>
+  <o:Lines>72</o:Lines>
+  <o:Paragraphs>20</o:Paragraphs>
+  <o:CharactersWithSpaces>10200</o:CharactersWithSpaces>
+  <o:Version>10.2625</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>90</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h4
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:614943791;
+	mso-list-template-ids:-231297080;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:1873423539;
+	mso-list-template-ids:-270775602;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]-->
+<meta http-equiv=Content-Language content=en-us>
+<meta content="tb, default" name="Microsoft Border">
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<h4 style='tab-stops:42.65pt center 441.3pt'><span style='font-size:18.0pt'><span
+style='mso-tab-count:1'>         </span><span style='mso-tab-count:1'>                                                          </span>Software
+Testing<o:p></o:p></span></h4>
+
+<p align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<h4><span style='font-size:18.0pt'>What to test<o:p></o:p></span></h4>
+
+<p><span style='font-size:14.0pt'>How you test software and what you test
+depends on your goal. For example, the data you use to testing speed of
+performance will be different from the data you use if you are testing for
+functionality. In addition to your stated goal, you also need to decide if you
+are testing for nominal operation or exceptional operation. Nominal tests are
+intended to see if the product works the way it should, if it used the way it
+should. Exceptional tests are intended to see if the product does not fall
+apart, if it abused.<o:p></o:p></span></p>
+
+<h4><span style='font-size:18.0pt'>What test data must you use<o:p></o:p></span></h4>
+
+<p><span style='font-size:14.0pt'>Ideally, software must be tested using all
+possible input and verifying that the output generated is correct for each
+case. As simple as <span class=GramE>this sounds</span>, it may not be
+practical to test a software exhaustively. Software is normally tested with
+representative test cases only. Use a combination of the following to prepare
+test cases:<o:p></o:p></span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list .5in'><span style='font-size:14.0pt'>Highest
+     and lowest values possible for input (&quot;boundary&quot; values). <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list .5in'><span style='font-size:14.0pt'>One
+     off values from boundary values (one more than highest, one less than
+     highest, one less than lowest, one more than lowest) <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list .5in'><span style='font-size:14.0pt'>Middle
+     value <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list .5in'><span style='font-size:14.0pt'>One
+     off values from the middle value (one more than middle value and one less
+     than middle value) <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list .5in'><span style='font-size:14.0pt'>A
+     random sub-set of values excluding the values listed above. <o:p></o:p></span></li>
+</ul>
+
+<p><span style='font-size:14.0pt'>Here is an example. Assume a program accepts
+an integer, say x, and outputs another integer, say y.&nbsp;Assume also that
+the program control flow is linear. That is, the program has no branches. In
+this case, there are two boundary values,<span class=GramE>&nbsp; four</span>
+one off boundary values, one middle value, and two one off middle values for
+the input variable. Figure 1 demonstrates the range of values for the input
+variable. 'L' is the lowest acceptable value for the variable, 'M' is the
+middle value, and 'H' is the highest acceptable value for the variable. These
+two are the boundary values for the variable. The values around the boundary
+values are the &quot;one-off boundary&quot; values. There are four one off
+values for the variable. Other values for the variable exist between the
+boundary values.<o:p></o:p></span></p>
+
+<p align=center style='text-align:center'><u><span style='font-size:14.0pt'>(L-1)</span></u><span
+style='font-size:14.0pt'>&nbsp; <u>L</u><span class=GramE>&nbsp; <u>(</u></span><u>L+1)</u>&nbsp;&nbsp;
+_ _ _ _ _ _&nbsp; <u>M</u>&nbsp; _ _ _ _ _ _&nbsp; <u>(H-1)</u>&nbsp; <u>H</u>&nbsp;
+<u>(H+1)</u>&nbsp;&nbsp;&nbsp;<o:p></o:p></span></p>
+
+<p align=center style='text-align:center'><b>Figure 1: Number line showing the
+range of values for one input variable</b><o:p></o:p></p>
+
+<p><span style='font-size:14.0pt'>The boundary values, the middle value, and
+the one of middle values must always be included in the test data for the input
+variable. You must also <span class=GramE>included</span> all four one off
+boundary values if you are doing an exceptional test. You can, however, ignore
+two of the one off boundary values if you are doing a nominal test. That is,
+you can ignore the values (L-1) and (H+1) if you are conducting a nominal test.
+Consequently there are at least seven test values in a nominal test and at
+least nine test values in an exceptional test. In addition you can choose some
+other values between the lowest and highest values. Hoe many more values you
+choose depends on the application and how much testing resources are available.<o:p></o:p></span></p>
+
+<h4><span style='font-size:18.0pt'>What is the range of values for any input
+variable<o:p></o:p></span></h4>
+
+<p><span style='font-size:14.0pt'>The application decides the range of values
+for any input variable. The type of data, the programming language, the
+operating system, and the CPU also contribute to the range of values. Figure 1
+shows a general range of values with a value 'M' being the middle value. If a
+program designed to run on MS Windows 9x is expected to accept any signed
+&quot;short&quot; integer value, if it is implemented in Microsoft Visual C++
+6, and if it was running on a Pentium processor, the range of values for the
+input variable is -32768 to +32767. The middle value is zero. The one off
+boundary values are -32769, -32767, +32766, and +32768. The one off middle
+values are -1 and +1. Note that we have enumerated only nine out of the
+possible 65538<span class=GramE>&nbsp; values</span> (including all four one
+off boundary values) That is, we have only used 0.000137% of the possible
+number of values to test! If the program is expected to accept a
+&quot;long&quot; integer, instead of a &quot;short&quot; integer, we will have
+a total of over eight billion possible input values. Just using the nine values
+will then be an even smaller percentage of the possible values. Remember, the
+nine values (or seven values for a nominal test) is the test values you must
+use; they are not all the values you must use.&nbsp;<o:p></o:p></span></p>
+
+<h4>What information can you use to determine test data</h4>
+
+<p><span style='font-size:14.0pt'>You can use the application knowledge
+(requirements) to determine what data you must use. Deciding if you are doing a
+nominal test or an exceptional test certainly helps. Let us assume the program
+mentioned above accepts a month number (1 to 12) and outputs the number of
+minimum number of days in that month (that is, February always has 28 days)..
+Let us also assume we are testing this program for<span class=GramE>&nbsp;
+nominal</span> use only. The range of input values in this case is 1 to 12,
+regardless of what data type is used to implement the program. Thus, the seven
+values of interest will be: low range 1, 2; middle 5, 6, 7; high range 11, 12.
+That is, we have used 58% of the possible input values in testing. This
+coverage percentage will be far less<span class=GramE>&nbsp; without</span> the
+knowledge that the input is a month number (without the application knowledge
+we will likely be conducting an exceptional test when we think we are
+conducting a nominal test).&nbsp;<o:p></o:p></span></p>
+
+<p><span style='font-size:14.0pt'>Assume the program accepts number of days in
+a month and prints the possible month numbers. The seven input values will then
+be: low range 1, 2; middle 13, 14<span class=GramE>,15</span>, 16, 17; high
+range 27, 28, 29, 30, 31. Note that we have five values in the middle and high
+range. The reason is that 13, 14, and 15 are middle values for a month with 28
+days, where as 15, 16, and 17 are middle values for a month with 31 days.
+Similar reasoning applied to values in the high range.<o:p></o:p></span></p>
+
+<p><span style='font-size:14.0pt'>The test values identified in the paragraph
+above are seriously flawed. The <span class=GramE>requirements of the program
+is</span> that it accepts the number of days in a month and prints possible
+month numbers. Since we are testing only for nominal operation, the only
+possible input values are 28, 29, 30, and 31. That is, we can test this program
+exhaustively using all four possible input values.&nbsp;<o:p></o:p></span></p>
+
+<p><span style='font-size:14.0pt'>These examples demonstrate we can use
+knowledge of the application to control the number of test values. The
+application knowledge is especially helpful in conducting nominal tests.<o:p></o:p></span></p>
+
+<h4><span style='font-size:18.0pt'>What is the impact of number of input
+variables on the number of test values<o:p></o:p></span></h4>
+
+<p><span style='font-size:14.0pt'>We have seen that a nominal test of a program
+with one input requires at least seven test values. We have also seen that
+seven values constitute a very small percentage of the possible input values in
+most cases. This percentage coverage becomes smaller if we just use seven
+values per variable to test a program that takes more than one input. For
+example, let us assume a<span class=GramE>&nbsp; program</span> accepts two
+inputs and produces one output that depends on both input values. We have seven
+test values for each input variable giving us a total of 49 test permutations.
+Note that there are over four billion possible input permutations if the two
+inputs are &quot;short&quot; integers. 49 permutations represent <span
+class=GramE>a really</span> small percentage coverage in this case.<o:p></o:p></span></p>
+
+<p><span style='font-size:14.0pt'>Assume a program accepts two input variables
+and outputs two numbers, each output depending exactly on one input variable.
+In this case, we don't really have 49 test permutations- we don't have any
+permutation/combination for that matter. In this case we have seven input
+values for each input-output combination. That is, testing this program is
+exactly like testing two different programs with one input and one
+output.&nbsp;<o:p></o:p></span></p>
+
+<p><span style='font-size:14.0pt'>These examples demonstrate that more<span
+class=GramE>&nbsp; number</span> of inputs does not always require permutations
+of inputs . The <span class=GramE>number of test cases grow</span> exponentially
+only if the inputs combine to produce output.<o:p></o:p></span></p>
+
+<h4><span style='font-size:18.0pt'>What other information can you use to
+determine test data<o:p></o:p></span></h4>
+
+<p><span style='font-size:14.0pt'>We have so far emphasized the use of minimum
+number of test data, without much emphasis on other test values in between.
+Again, knowledge of the application helps us determine other test values.<o:p></o:p></span></p>
+
+<p><span style='font-size:14.0pt'>Assume a program accepts a balance amount in
+a regular bank checking<span class=GramE>&nbsp; account</span> and computes
+interest amount. We assume that bank balance cannot be negative (fair
+assumption for a checking account, but not for an account with line of credit
+attached). The bank does not require a minimum balance on the account, but it
+requires a minimum balance of $100 to gain any interest. The bank will not
+allow more than $1,000,000 balance in the account (user has to switch to a
+different account type).<o:p></o:p></span></p>
+
+<p><span style='font-size:14.0pt'>From the requirements stated above, the
+program accepts one input, the balance amount. The possible range of values is
+zero to one million. We can use the regular seven test values 0, 1, half
+million (-1 and +1)<span class=GramE>,,</span> and one million (-1). We may
+perhaps also just pick a few values in between at random as test values. We can
+also exploit the knowledge that the 100 has a special meaning to the program.
+That is, we can add test cases around the fact that a $100 minimum balance is
+needed to gain any interest. With this knowledge we can visualize the input
+values to be in two ranges: 0 to 100 and 101 to one million. We can then
+enumerate seven values for each range for a total of fourteen test values. So
+our test values will be 0, 1, 49, 50, 51, 99, 100, 101, 102, 999999, and
+1000000.<o:p></o:p></span></p>
+
+<p><span style='font-size:14.0pt'>This example demonstrates we can use
+knowledge of the application further to break up the range of input values to
+create sub-ranges. We can then create test values for each sub-range of values.<o:p></o:p></span></p>
+
+<h4><span style='font-size:18.0pt'>Summary<o:p></o:p></span></h4>
+
+<p><span style='font-size:14.0pt'>In summary, do the following to determine the<span
+class=GramE>&nbsp; test</span> data:<o:p></o:p></span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'><span style='font-size:14.0pt'>Understand
+     the application domain. <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'><span style='font-size:14.0pt'>Define
+     a goal for testing. <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'><span style='font-size:14.0pt'>Determine
+     if you are conducting nominal test or exceptional test. <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'><span style='font-size:14.0pt'>Identify
+     the number of inputs and outputs. <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'><span style='font-size:14.0pt'>Understand
+     the range of values of inputs. <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'><span style='font-size:14.0pt'>Understand
+     the type of data: both from the application domain and the implementation.
+     <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'><span style='font-size:14.0pt'>Understand
+     the relationship between the inputs, between the inputs and outputs. <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'><span style='font-size:14.0pt'>Define
+     the minimum number of test values as discussed so far. <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo2;tab-stops:list .5in'><span style='font-size:14.0pt'>Define
+     additional test values based on the application and the resources you
+     have. <o:p></o:p></span></li>
+</ul>
+
+<p><span style='font-size:14.0pt'>Use this chart to prepare your tests and test
+the software after you have decided the test values.<o:p></o:p></span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=3 cellpadding=0 width=695
+ style='width:417.0pt;mso-cellspacing:1.5pt'>
+ <tr style='mso-yfti-irow:0'>
+  <td width=236 valign=top style='width:141.6pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:14.0pt'>Exact value used for each input
+  (list value of each input variable that can cause a measurable output)<o:p></o:p></span></p>
+  </td>
+  <td width=222 valign=top style='width:1.85in;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:14.0pt'>Expected output<o:p></o:p></span></p>
+  </td>
+  <td width=221 valign=top style='width:132.6pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:14.0pt'>Observed output<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=236 valign=top style='width:141.6pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:14.0pt'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=222 valign=top style='width:1.85in;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:14.0pt'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=221 valign=top style='width:132.6pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:14.0pt'>&nbsp;<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes'>
+  <td width=236 valign=top style='width:141.6pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:14.0pt'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=222 valign=top style='width:1.85in;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:14.0pt'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=221 valign=top style='width:132.6pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span style='font-size:14.0pt'>&nbsp;<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='tab-stops:200.0pt'><span style='font-size:14.0pt'>&nbsp;<span
+style='mso-tab-count:1'>                                                       </span><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

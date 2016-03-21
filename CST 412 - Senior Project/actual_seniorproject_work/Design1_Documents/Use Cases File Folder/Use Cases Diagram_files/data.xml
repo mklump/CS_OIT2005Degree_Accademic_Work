@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Use Case-1" NameU="Use Case-1">
+			<Shapes>
+				<Shape ID="1" UniqueID="{428B2E7C-7333-4BE1-B3EF-A3188A8A0ABA}" Name="System Boundary" NameU="System Boundary" Master="22">
+					<Text>The Puzzler – 3D Style System</Text>
+					<XForm>
+						<PinX Unit="MM">4.274606299212598</PinX>
+						<PinY Unit="MM">5.465551181102362</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{68D8CF1B-735F-4DD4-9EFF-4B8D5CEA9964}" Name="Actor" NameU="Actor" Master="23">
+					<Text>User</Text>
+					<XForm>
+						<PinX Unit="MM">0.393700787401575</PinX>
+						<PinY Unit="MM">5.159448818897637</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{15759743-6FC5-407E-93EE-9228DC96BABF}" Name="Watermark Title" NameU="Watermark Title" Master="18">
+					<Text>Use Case</Text>
+					<XForm>
+						<PinX Unit="MM">0.000000000000000</PinX>
+						<PinY Unit="MM">10.999999999999998</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{DAFDCDC2-971B-4CDC-BD5B-26F41C397CB1}" Name="Use Case" NameU="Use Case" Master="24">
+					<Text>User Invokes
+Application: "C2"</Text>
+					<XForm>
+						<PinX Unit="MM">1.975218987033925</PinX>
+						<PinY Unit="MM">9.150289741430493</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{72281891-75E9-43AF-A832-EFEC7F465281}" Name="Use Case.5" NameU="Use Case.5" Master="24">
+					<Text>User Configures
+Puzzle: "C3"</Text>
+					<XForm>
+						<PinX Unit="MM">1.975218987033925</PinX>
+						<PinY Unit="MM">7.188085017021045</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{794D5446-2E73-42F4-9568-54A5C7A55A0D}" Name="Use Case.6" NameU="Use Case.6" Master="24">
+					<Text>User Reviews
+Configuration: "C4"</Text>
+					<XForm>
+						<PinX Unit="MM">1.943314308124401</PinX>
+						<PinY Unit="MM">3.924413059574012</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{A19213D1-DB64-4B95-9B10-29C0895CA409}" Name="Use Case.7" NameU="Use Case.7" Master="24">
+					<Text>RUN: "C5"</Text>
+					<XForm>
+						<PinX Unit="MM">1.975218987033925</PinX>
+						<PinY Unit="MM">1.873124387099785</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{CE15FC97-6833-48F4-B120-F62C65CAB97F}" Name="Uses" NameU="Uses" Master="25">
+					<XForm>
+						<PinX Unit="MM">1.019517988670529</PinX>
+						<PinY Unit="MM">7.253741864272870</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{DFF81B62-C579-485A-8E39-18C893064806}" Name="Uses.10" NameU="Uses.10" Master="25">
+					<XForm>
+						<PinX Unit="MM">1.025375456321896</PinX>
+						<PinY Unit="MM">6.272639502068145</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{ED0DB0D5-1739-470A-B604-FC82731B2FD1}" Name="Uses.12" NameU="Uses.12" Master="25">
+					<XForm>
+						<PinX Unit="MM">0.974227766220162</PinX>
+						<PinY Unit="MM">4.640803523344630</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{4FAE0728-4990-4F93-9023-4FE8BADA04D5}" Name="Uses.14" NameU="Uses.14" Master="25">
+					<XForm>
+						<PinX Unit="IN">1.959266647579163</PinX>
+						<PinY Unit="IN">2.861766627841076</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="16" UniqueID="{6FAA8E65-E973-4BCF-9B7B-32C4D96A7223}" Name="Use Case.16" NameU="Use Case.16" Master="24">
+					<Text>Create Dictionary:
+"C6"</Text>
+					<XForm>
+						<PinX Unit="MM">3.740157480314961</PinX>
+						<PinY Unit="MM">9.055118110236220</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{03A3F8A5-6EBA-493C-BD98-9B594F26E012}" Name="Uses.17" NameU="Uses.17" Master="25">
+					<XForm>
+						<PinX Unit="IN">2.722273901691586</PinX>
+						<PinY Unit="IN">5.539121248668003</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="19" UniqueID="{1109E679-1F3E-4B2C-B65F-AA6F06277929}" Name="Use Case.19" NameU="Use Case.19" Master="24">
+					<Text>Create Puzzle: "C7"</Text>
+					<XForm>
+						<PinX Unit="MM">3.740157480314960</PinX>
+						<PinY Unit="MM">7.015319750937489</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="20" UniqueID="{46B209BD-99BD-4D59-BD60-35DCD455EAB7}" Name="Uses.20" NameU="Uses.20" Master="25">
+					<XForm>
+						<PinX Unit="IN">2.699446753254086</PinX>
+						<PinY Unit="IN">4.519222069018637</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="27" UniqueID="{AC287F9B-D01B-48B7-A0B4-1411900B4227}" Name="Use Case.27" NameU="Use Case.27" Master="24">
+					<Text>Display User
+Interface: "C8"</Text>
+					<XForm>
+						<PinX Unit="MM">3.740157480314961</PinX>
+						<PinY Unit="MM">4.626310752198854</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="30" UniqueID="{ADBBAB00-68B8-43F2-BF8B-83A0273344BE}" Name="Use Case.30" NameU="Use Case.30" Master="24">
+					<Text>Solve Puzzle: "C9"</Text>
+					<XForm>
+						<PinX Unit="MM">3.740157480314960</PinX>
+						<PinY Unit="MM">1.968503937007874</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="36" UniqueID="{9DBA4997-33E8-46FA-9ADA-7D8FCA992211}" Name="Use Case.36" NameU="Use Case.36" Master="24">
+					<Text>Select Different
+Layer: "C10"</Text>
+					<XForm>
+						<PinX Unit="MM">5.574129100991848</PinX>
+						<PinY Unit="MM">8.630258284149743</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="37" UniqueID="{77327F9F-18AB-4890-9DAF-28CA00E274B8}" Name="Uses.37" NameU="Uses.37" Master="25">
+					<XForm>
+						<PinX Unit="MM">2.835629921259843</PinX>
+						<PinY Unit="MM">6.993726135632495</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="39" UniqueID="{24362131-A739-4315-A22B-960762833C3C}" Name="Use Case.39" NameU="Use Case.39" Master="24">
+					<Text>Collect
+Statistics: "C12"</Text>
+					<XForm>
+						<PinX Unit="MM">6.102362204724409</PinX>
+						<PinY Unit="MM">6.534574859790377</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="40" UniqueID="{2A0A7550-CA7F-4605-9B37-B3176BD1FDD2}" Name="Uses.40" NameU="Uses.40" Master="25">
+					<XForm>
+						<PinX Unit="MM">3.092393644146631</PinX>
+						<PinY Unit="MM">5.945884423452812</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="42" UniqueID="{F72B586B-662D-443D-AA9E-976E0C544347}" Name="Use Case.42" NameU="Use Case.42" Master="24">
+					<Text>"Regenerate
+Puzzle?": "C15"</Text>
+					<XForm>
+						<PinX Unit="MM">5.910179051695043</PinX>
+						<PinY Unit="MM">3.619713623758777</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="43" UniqueID="{7F0F11B3-4575-426B-A955-5BD30098DE5F}" Name="Use Case.43" NameU="Use Case.43" Master="24">
+					<Text>Start: "C1"</Text>
+					<XForm>
+						<PinX Unit="MM">1.974803149606299</PinX>
+						<PinY Unit="MM">9.963779527559055</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="44" UniqueID="{62654EF9-3022-4467-9C10-94DC41B1FBCD}" Name="Uses.44" NameU="Uses.44" Master="25">
+					<XForm>
+						<PinX Unit="IN">1.975011068320112</PinX>
+						<PinY Unit="IN">9.579367788492792</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="46" UniqueID="{E52C26A5-FA31-419A-8241-06FF61705066}" Name="Uses.46" NameU="Uses.46" Master="25">
+					<XForm>
+						<PinX Unit="MM">4.905087988395390</PinX>
+						<PinY Unit="MM">4.892344131619912</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="48" UniqueID="{CDF8C9AF-EFF9-4220-B7A2-CCD5D78A0021}" Name="Uses.48" NameU="Uses.48" Master="25">
+					<XForm>
+						<PinX Unit="MM">4.760604913453570</PinX>
+						<PinY Unit="MM">2.895115843261906</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="50" UniqueID="{323FDC42-499F-46F8-B441-C1636EE76995}" Name="Uses.50" NameU="Uses.50" Master="25">
+					<XForm>
+						<PinX Unit="MM">2.998755871648061</PinX>
+						<PinY Unit="MM">4.488453805437012</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="52" UniqueID="{E0E59301-5572-4E30-990A-B306F1DE5553}" Name="Use Case.52" NameU="Use Case.52" Master="24">
+					<Text>"Exit?": C16</Text>
+					<XForm>
+						<PinX Unit="MM">5.911811023622047</PinX>
+						<PinY Unit="MM">2.752755905511811</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="53" UniqueID="{A33E389A-9351-48DD-A0CE-36F9191B44D7}" Name="Uses.53" NameU="Uses.53" Master="25">
+					<XForm>
+						<PinX Unit="IN">3.032480314960630</PinX>
+						<PinY Unit="IN">4.054974946313529</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="55" UniqueID="{7385BBCC-B42D-4408-86C2-623927BBA9AB}" Name="Use Case.55" NameU="Use Case.55" Master="24">
+					<Text>End: "C17"</Text>
+					<XForm>
+						<PinX Unit="MM">5.911811023622047</PinX>
+						<PinY Unit="MM">1.577952755905512</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="22" UniqueID="{D41110A4-7FEF-47E0-BE94-6FD8F8384D01}" Name="Extends" NameU="Extends" Master="28">
+					<XForm>
+						<PinX Unit="MM">3.740157480314960</PinX>
+						<PinY Unit="MM">8.046632504805604</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="24" UniqueID="{C3853188-6575-4453-83F4-372A6D88BCF6}" Name="Uses.24" NameU="Uses.24" Master="25">
+					<XForm>
+						<PinX Unit="MM">1.975218987033925</PinX>
+						<PinY Unit="MM">8.166258645400085</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="26" UniqueID="{0E785153-713D-4E8A-841A-423088C8EA1D}" Name="Uses.26" NameU="Uses.26" Master="25">
+					<XForm>
+						<PinX Unit="MM">2.279774792164361</PinX>
+						<PinY Unit="MM">5.569447294790143</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="62" UniqueID="{468598A4-F95C-435E-8735-FA55C344222C}" Name="Uses.62" NameU="Uses.62" Master="25">
+					<XForm>
+						<PinX Unit="MM">1.638758502993964</PinX>
+						<PinY Unit="MM">5.569447294790143</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="64" UniqueID="{50241A27-58F5-4ACB-AFA5-202D78CB8357}" Name="Uses.64" NameU="Uses.64" Master="25">
+					<XForm>
+						<PinX Unit="MM">3.740157480314960</PinX>
+						<PinY Unit="MM">5.787625478008600</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="31" UniqueID="{8A1E2DB1-9BD9-44D8-A360-7E29DC22F0C2}" Name="Extends.31" NameU="Extends.31" Master="28">
+					<XForm>
+						<PinX Unit="MM">3.740157480314960</PinX>
+						<PinY Unit="MM">3.323652461790863</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="33" UniqueID="{FD5C9550-089B-4685-A1F5-752CEE807A1D}" Name="Uses.33" NameU="Uses.33" Master="25">
+					<XForm>
+						<PinX Unit="IN">5.911811023622047</PinX>
+						<PinY Unit="IN">2.165354330708661</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="35" UniqueID="{1F23B673-4B14-4D30-9FAF-E48B3E5536AF}" Name="Uses.35" NameU="Uses.35" Master="25">
+					<XForm>
+						<PinX Unit="MM">4.657143290653404</PinX>
+						<PinY Unit="MM">6.622710768632062</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="57" UniqueID="{6F1BA478-667D-4E48-B644-AA1AAC125BF0}" Name="Uses.57" NameU="Uses.57" Master="25">
+					<XForm>
+						<PinX Unit="MM">4.181507859709156</PinX>
+						<PinY Unit="MM">5.520353549064444</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="28" UniqueID="{F5A6EE00-78D5-49C7-9DB3-1DE1487CDDD9}" Name="Use Case.28" NameU="Use Case.28" Master="24">
+					<Text>Create Database:
+"C13"</Text>
+					<XForm>
+						<PinX Unit="MM">6.574956041489196</PinX>
+						<PinY Unit="MM">4.921259842519684</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="29" UniqueID="{CDF80E24-2112-4E13-80D5-6FE696807C09}" Name="Use Case.29" NameU="Use Case.29" Master="24">
+					<Text>Collect Matched
+Words: "C11"</Text>
+					<XForm>
+						<PinX Unit="MM">6.029921259842519</PinX>
+						<PinY Unit="MM">7.798425196850394</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="59" UniqueID="{AA805644-CADF-4873-892C-F1C08A41F1EC}" Name="Uses.59" NameU="Uses.59" Master="25">
+					<XForm>
+						<PinX Unit="MM">4.783303700022424</PinX>
+						<PinY Unit="MM">6.293691199512579</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="66" UniqueID="{C76AC22D-5A03-4BFB-A8DD-5B672131C45F}" Name="Use Case.66" NameU="Use Case.66" Master="24">
+					<Text>Help/
+Documentation: "C14"</Text>
+					<XForm>
+						<PinX Unit="MM">5.708661417322834</PinX>
+						<PinY Unit="MM">9.531460478483758</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="67" UniqueID="{9AD5324E-624F-4E95-97DA-24E7BEEFB447}" Name="Uses.67" NameU="Uses.67" Master="25">
+					<XForm>
+						<PinX Unit="MM">2.936493507713768</PinX>
+						<PinY Unit="MM">7.327680030341149</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="69" UniqueID="{9239BA17-CEBF-4217-BE55-CBB1AA06DFD8}" Name="Uses.69" NameU="Uses.69" Master="25">
+					<XForm>
+						<PinX Unit="MM">4.991020362467662</PinX>
+						<PinY Unit="MM">5.492181957982671</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="71" UniqueID="{3DADE40B-1F8E-40D0-9B63-5E9B6D2519F9}" Name="Uses.71" NameU="Uses.71" Master="25">
+					<XForm>
+						<PinX Unit="MM">5.064486652521788</PinX>
+						<PinY Unit="MM">6.890533601884381</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="73" UniqueID="{1F6F9559-AF4D-48BA-909F-BCBA869B9D54}" Name="Uses.73" NameU="Uses.73" Master="25">
+					<XForm>
+						<PinX Unit="MM">5.184969175452860</PinX>
+						<PinY Unit="MM">5.968289796728586</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="75" UniqueID="{AC033BD6-EB49-4455-AEBC-12781193B3C2}" Name="Uses.75" NameU="Uses.75" Master="25">
+					<XForm>
+						<PinX Unit="MM">6.699606195203916</PinX>
+						<PinY Unit="MM">6.455778419386129</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

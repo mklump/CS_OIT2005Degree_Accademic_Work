@@ -1,0 +1,24 @@
+/*****************************************************************************
+
+                        Copyright (c) Prolog Development Center A/S
+
+******************************************************************************/
+
+#include @"Editor\Editor.ph"
+
+% privately used packages
+#include @"pfc\5xvip\5xfile\5xfile.ph"
+#include @"pfc\5xvip\5xstring\5xstring.ph"
+#include @"taskwindow\taskwindow.ph"
+#include @"configuration\configuration.ph"
+#include @"engine\engine.ph"
+#include @"pfc\vpi\vpieditor\vpieditor.ph"
+#include @"pfc\exception\exception.ph"
+
+% private interfaces
+#include @"resourceIdentifiers.i"
+
+% private classes
+
+% implementations
+#include @"Editor\editor.pro"

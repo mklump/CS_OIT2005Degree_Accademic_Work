@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="Mount">
+        <attr name="OpenIDE-Folder-Order" stringvalue="Javadoc/java/SystemFileSystem.instance/org-netbeans-modules-form-GlobalJarFileSystem.settings/org-netbeans-modules-usersguide-sampledir.settings/org-openide-filesystems-LocalFileSystem.settings"/>
+    </fileobject>
+    <fileobject name="">
+        <attr name="Wizards\Setup\org-netbeans-core-ui-IDESettingsPanel.instance\dateShown" serialvalue="aced00057372000e6a6176612e7574696c2e44617465686a81014b59741903000078707708000000f4fa14b2e278"/>
+        <attr name="Services\Browsers\WinWebBrowser.settings\DEFAULT_BROWSER" boolvalue="true"/>
+        <attr name="Wizards\Setup\org-netbeans-modules-autoupdate-SetupPanel.instance\dateShown" serialvalue="aced00057372000e6a6176612e7574696c2e44617465686a81014b59741903000078707708000000f4fa14b2e278"/>
+        <attr name="Templates\Other\group.group\templateWizardIterator" serialvalue="aced00057372003c6f72672e6e65746265616e732e6d6f64756c65732e67726f75702e47726f7570536861646f772447726f757054656d706c6174654974657261746f72ee5b21578711f6870200014c000b74617267657450616e656c7400244c6f72672f6f70656e6964652f57697a61726444657363726970746f722450616e656c3b787070"/>
+        <attr name="Wizards\Setup\org-netbeans-core-ui-ModuleSelectionPanel.instance\dateShown" serialvalue="aced00057372000e6a6176612e7574696c2e44617465686a81014b59741903000078707708000000f4fa14b2e278"/>
+    </fileobject>
+</attributes>

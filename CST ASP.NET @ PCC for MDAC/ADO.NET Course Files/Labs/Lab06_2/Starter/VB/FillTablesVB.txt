@@ -1,0 +1,26 @@
+Try
+    Me.daProducts.Fill(tempNW.Products)
+
+    Me.daCustomers.SelectCommand.Parameters( _
+        "@EmployeeID").Value = Me.EmployeeID
+    Me.daCustomers.Fill(tempNW.Customers)
+
+    Me.daOrders.SelectCommand.Parameters( _
+        "@EmployeeID").Value = Me.EmployeeID
+    Me.daOrders.Fill(tempNW.Orders)
+
+    Me.daOrderDetails.SelectCommand.Parameters( _
+        "@EmployeeID").Value = Me.EmployeeID
+    Me.daOrderDetails.Fill(tempNW.OrderDetails)
+
+    Me.dsNorthwind = tempNW
+    Me.RefreshUI()
+
+Catch Xcp As System.Exception
+    MessageBox.Show( "Failed to retrieve data because: " & vbCrLf & _
+                      Xcp.ToString() & vbCrLf & vbCrLf & _
+                     "Try a different server name.", _
+                     "Get from central database", _
+                      MessageBoxButtons.OK, MessageBoxIcon.Error)
+End Try
+

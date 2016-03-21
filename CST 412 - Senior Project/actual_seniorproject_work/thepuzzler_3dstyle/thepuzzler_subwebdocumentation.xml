@@ -1,0 +1,711 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>thepuzzler_3dstyle</name>
+    </assembly>
+    <members>
+        <member name="T:thepuzzler_3dstyle.GeneratingPuzzle">
+            <summary>
+            Summary description for GeneratingPuzzle.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.GeneratingPuzzle.DIV1">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.GeneratingPuzzle.continue1">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlInputButton
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.GeneratingPuzzle.P1">
+            <summary>
+            protected System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.GeneratingPuzzle.P2">
+            <summary>
+            protected System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.GeneratingPuzzle.P3">
+            <summary>
+            protected System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.GeneratingPuzzle.GenPuzzleLayout">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.GeneratingPuzzle.writer">
+            <summary>
+            HtmlTextWriter for the current page request
+            </summary>
+        </member>
+        <member name="M:thepuzzler_3dstyle.GeneratingPuzzle.OnInit(System.EventArgs)">
+            <summary>
+            Web Form Designer generated code: override protected void OnInit(EventArgs e)
+            </summary>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.GeneratingPuzzle.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:thepuzzler_3dstyle.GeneratingPuzzle.GetPostBack">
+            <summary>
+            Used to Trigger a post back event progmatically
+            </summary>
+        </member>
+        <member name="M:thepuzzler_3dstyle.GeneratingPuzzle.RaisePostBackEvent(System.String)">
+            <summary>
+            Implement the RaisePostBackEvent method from the
+            IPostBackEventHandler interface.
+            </summary>
+            <param name="eventArgument">Event Argument Specification</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.GeneratingPuzzle.continue1_ServerClick(System.Object,System.EventArgs)">
+            <summary>
+            Html server button continue1 click event handler
+            </summary>
+            <param name="sender">object sender source</param>
+            <param name="e">Event Arguement(s)</param>
+        </member>
+        <member name="T:thepuzzler_3dstyle.Global">
+            <summary>
+            Summary description for Global.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Global.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Global.#ctor">
+            <summary>
+            Global operation
+            </summary>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Global.Application_Start(System.Object,System.EventArgs)">
+            <summary>
+            Application_Start Operation Event Handler
+            </summary>
+            <param name="sender">object sender</param>
+            <param name="e">event arguement</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Global.Session_Start(System.Object,System.EventArgs)">
+            <summary>
+            Session_Start Operation Event Handler
+            </summary>
+            <param name="sender">object sender</param>
+            <param name="e">event arguement</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Global.Application_BeginRequest(System.Object,System.EventArgs)">
+            <summary>
+            Application_BeginRequest Event Handler
+            </summary>
+            <param name="sender">object sender</param>
+            <param name="e">event arguement</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Global.Application_EndRequest(System.Object,System.EventArgs)">
+            <summary>
+            Application_EndRequest Operation Event Handler
+            </summary>
+            <param name="sender">object sender</param>
+            <param name="e"></param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Global.Application_AuthenticateRequest(System.Object,System.EventArgs)">
+            <summary>
+            Application_AuthenticateRequest Operation Event Handler
+            </summary>
+            <param name="sender">object sender</param>
+            <param name="e">event areguement</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Global.Application_Error(System.Object,System.EventArgs)">
+            <summary>
+            Application_Error Operation Event Handler
+            </summary>
+            <param name="sender">object sender</param>
+            <param name="e">event areguement</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Global.Session_End(System.Object,System.EventArgs)">
+            <summary>
+            Session_End Operation Event Handler
+            </summary>
+            <param name="sender">object sender</param>
+            <param name="e">event areguement</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Global.Application_End(System.Object,System.EventArgs)">
+            <summary>
+            Application_End Operation Event Handler
+            </summary>
+            <param name="sender">object sender</param>
+            <param name="e">event areguement</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Global.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:thepuzzler_3dstyle.Help">
+            <summary>
+            Summary description for Help.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Help.ResetServer">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Help.BACK1">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Help.BACK2">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Help.Label1">
+            <summary>
+            System.Web.UI.WebControls.Label
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Help.from">
+            <summary>
+            Specifies where this page was navigated to from.
+            </summary>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Help.OnInit(System.EventArgs)">
+            <summary>
+            OnInit is responsible for handling the Initialization
+            of the web application
+            </summary>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Help.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Help.BACK1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Back button 1 click event handler
+            </summary>
+            <param name="sender">object sender</param>
+            <param name="e">event arguements</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Help.BACK2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Back button click event handler
+            </summary>
+            <param name="sender">object sender</param>
+            <param name="e">event arguements</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Help.ResetServer_Click(System.Object,System.EventArgs)">
+            <summary>
+            Reset web server click event handler
+            </summary>
+            <param name="sender">object sender</param>
+            <param name="e">event arguements</param>
+        </member>
+        <member name="T:thepuzzler_3dstyle.MainWebForm">
+            <summary>
+            Summary description for MainWebForm.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.WordsFound_VS_DictionarySize">
+            <summary>
+            System.Web.UI.WebControls.Label
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.PuzzleSize">
+            <summary>
+            System.Web.UI.WebControls.Label
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.Label2">
+            <summary>
+            System.Web.UI.WebControls.Label
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.Label3">
+            <summary>
+            System.Web.UI.WebControls.Label
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.Label4">
+            <summary>
+            System.Web.UI.WebControls.Label
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.Get_Lists">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.Get_Puzzle">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.SolvePuzzle">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.SingleThreadSolution">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.GetStats">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.StartOver">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.Exit">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.Label5">
+            <summary>
+            System.Web.UI.WebControls.Label
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.Label6">
+            <summary>
+            System.Web.UI.WebControls.Label
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.Label1">
+            <summary>
+            System.Web.UI.WebControls.Label
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.DictionaryViewControl">
+            <summary>
+            System.Web.UI.WebControls.DropDownList
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.WordsMatchedViewControl">
+            <summary>
+            System.Web.UI.WebControls.DropDownList
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.StatisticsView">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlTable
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.PuzzleView">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlTable
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.CubeImageRotator">
+            <summary>
+            System.Web.UI.WebControls.AdRotator
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.DictionaryListBox">
+            <summary>
+            System.Web.UI.WebControls.ListBox
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.WordsFound">
+            <summary>
+            System.Web.UI.WebControls.ListBox
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.DirectionDropDownList">
+            <summary>
+            protected System.Web.UI.WebControls.DropDownList
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.Cross_sectionDropDownList">
+            <summary>
+            protected System.Web.UI.WebControls.DropDownList
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.HELP">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.pre_cross_section">
+            <summary>
+            Saved state variable, boundary marker, or list control variable.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.pre_direction">
+            <summary>
+            Saved state variable, boundary marker, or list control variable.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.xbound">
+            <summary>
+            Saved state variable, boundary marker, or list control variable.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.ybound">
+            <summary>
+            Saved state variable, boundary marker, or list control variable.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.zbound">
+            <summary>
+            Saved state variable, boundary marker, or list control variable.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.list_counter">
+            <summary>
+            Saved state variable, boundary marker, or list control variable.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.statistics">
+            <summary>
+            This ArrayList collection will keep track of the statistical
+            results posted to the StatisticsView HtmlTable display.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.writer">
+            <summary>
+            HtmlTextWriter used to output each HtmlTable's content.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.row">
+            <summary>
+            HtmlTableRow for the StatisticsView and PuzzleView HTML table construction.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.cell">
+            <summary>
+            HtmlTableCell for the StatisticsView and PuzzleView HTML table construction.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.managestats">
+            <summary>
+            This is responsible for handling the execution and timing statistics for the
+            various C# logic components to this project.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.MainWebForm.manageDB">
+            <summary>
+            Data base connection for database.
+            </summary>
+        </member>
+        <member name="M:thepuzzler_3dstyle.MainWebForm.Page_Load(System.Object,System.EventArgs)">
+            <summary>
+            Main load page event handler
+            </summary>
+            <param name="sender">sender idenitifier</param>
+            <param name="e">Event arguements</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.MainWebForm.OnInit(System.EventArgs)">
+            <summary>
+            OnInit is responsible for handling the Initialization
+            of the web application
+            </summary>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.MainWebForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:thepuzzler_3dstyle.MainWebForm.LoadStatistics">
+            <summary>
+            This Method Will run the Dictionary Creator, the Puzzle Generator,
+            the Puzzle Solver, and render the HtmlTable StatisticsView.
+            </summary>
+        </member>
+        <member name="M:thepuzzler_3dstyle.MainWebForm.ReDrawStatisticsView">
+            <summary>
+            This helper operation will redraw the StatisticsView HTML Table
+            control.
+            </summary>
+        </member>
+        <member name="M:thepuzzler_3dstyle.MainWebForm.Select_Layer(System.Int32,System.Int32)">
+            <summary>
+            This method's responsibility is to print the appropriate crossectional
+            view of the inside of the puzzle.
+            </summary>
+            <param name="direction">Specifies which of thirteen views to look at. The default
+            is zero.</param>
+            <param name="cross_section">Specifies which crossectional "cut" to display
+            in the puzzle display area. The default is zero.</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.MainWebForm.Init_DirectionDropDownList">
+            <summary>
+            Initializes the DirectionDropDownList Control
+            </summary>
+        </member>
+        <member name="M:thepuzzler_3dstyle.MainWebForm.InitializeDictionaryListBox(ns_RedBlack.RedBlack,System.Char)">
+            <summary>
+            The method will initialize the DictionaryListBox on the first load of the
+            Main.aspx page.		
+            </summary>
+            <param name="next">This is the root RedBlack Tree Solution.dictionary node.</param>
+            <param name="sortChar">Beginning letter of dictionary word to add to list.</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.MainWebForm.InitializeWordsFoundListBox(ns_RedBlack.RedBlack,System.Char)">
+            <summary>
+            This method will populate the WordsFound ListBox control.
+            </summary>
+            <param name="next">This is the Solution.wordsFound RedBlack Tree root node.</param>
+            <param name="sortChar">Beginning letter of dictionary word to add to list.</param>
+        </member>
+        <member name="T:thepuzzler_3dstyle.WebForm1">
+            <summary>
+            Summary description for WebForm1.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.WebForm1.ListBox1">
+            <summary>
+            System.Web.UI.WebControls.ListBox
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.WebForm1.ListBox2">
+            <summary>
+            System.Web.UI.WebControls.ListBox
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.WebForm1.Label2">
+            <summary>
+            System.Web.UI.WebControls.Label
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.WebForm1.DropDownList1">
+            <summary>
+            System.Web.UI.WebControls.DropDownList
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.WebForm1.Label3">
+            <summary>
+            System.Web.UI.WebControls.Label
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.WebForm1.Label4">
+            <summary>
+            System.Web.UI.WebControls.Label
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.WebForm1.Table1">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlTable
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.WebForm1.SolvePuzzle">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.WebForm1.GetStats">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.WebForm1.Help">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.WebForm1.StartOver">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.WebForm1.Exit">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.WebForm1.Label1">
+            <summary>
+            System.Web.UI.WebControls.Label
+            </summary>
+        </member>
+        <member name="M:thepuzzler_3dstyle.WebForm1.OnInit(System.EventArgs)">
+            <summary>
+            OnInit is responsible for handling the On-Initialization of the web application.
+            </summary>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.WebForm1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:thepuzzler_3dstyle.Welcome">
+            <summary>
+            Summary description for Welcome.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.Div1">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.DIV2">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.DIV3">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.DIV4">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.DIV5">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.Div16">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.Div17">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.Div18">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.Div19">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.Div20">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.DIV6">
+            <summary>
+            System.Web.UI.HtmlControls.HtmlGenericControl
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.HELP">
+            <summary>
+            System.Web.UI.WebControls.Button
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.textboxBASEDICTIONARY">
+            <summary>
+            This TextBox specifies which Base Dictionary to Generate the Actual
+            Dictionary from.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.textboxDICTIONARYSIZE">
+            <summary>
+            This TextBox specifies the actual size of the Dictionary to create.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.textboxMINIMUMDICTIONARYWORDSIZE">
+            <summary>
+            This TextBox specifies the minimum size of any given word in the
+            Dictionary.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.textboxPUZZLE_X_LENGTH">
+            <summary>
+            This TextBox specifies the X variable length of the 3D puzzle.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.textboxPUZZLE_Y_LENGTH">
+            <summary>
+            This TextBox specifies the Y variable height of the 3D puzzle.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.textboxPUZZLE_Z_LENGTH">
+            <summary>
+            This TextBox specifies the Z variable depth of the 3D puzzle;
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.SubmitConfiguration">
+            <summary>
+            This Button submits the specified configuration for checking,
+            to the next Review Configuration page.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.baseDictionary">
+            <summary>
+            Static reference to which base dictionary to use.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.dictionarySize">
+            <summary>
+            Static reference to how big the dictionary should be.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.minimumSizeWord">
+            <summary>
+            Static reference what minimum size of a dictionary word to use.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.puzzleX">
+            <summary>
+            Static reference to the X puzzle length.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.puzzleY">
+            <summary>
+            Static reference to the Y puzzle height.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.puzzleZ">
+            <summary>
+            Static reference to the Z puzzle depth.
+            </summary>
+        </member>
+        <member name="F:thepuzzler_3dstyle.Welcome.NO_Response">
+            <summary>
+            No response flag to the "Configuration Okay?" question on Review Configuration page
+            </summary>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Welcome.OnInit(System.EventArgs)">
+            <summary>
+            On initionalization event handler
+            </summary>
+            <param name="e">Event arguement</param>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Welcome.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:thepuzzler_3dstyle.Welcome.LoadDefaultValues">
+            <summary>
+            Loads the default starting values if people don't want to enter anything.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,21 @@
+/* replace existing 'multiplicative_expression' in
+ * parser.y file with the following. */
+
+multiplicative_expression:
+	cast_expression
+	| multiplicative_expression '*' cast_expression {
+			$$ = generate_code_mult_op(
+								g_outFile,
+								$1,
+								$3
+								);
+	}
+	| multiplicative_expression '/' cast_expression {
+			$$ = generate_code_div_op(
+								g_outFile,
+								$1,
+								$3
+								);
+	}
+	;
+

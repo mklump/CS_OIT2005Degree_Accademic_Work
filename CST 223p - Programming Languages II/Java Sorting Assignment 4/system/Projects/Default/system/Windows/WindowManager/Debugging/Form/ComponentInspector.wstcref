@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tc-ref version="1.0" id="ComponentInspector" >
+    <module name="org.netbeans.modules.form/2" spec="1.7" />
+    <ui-type type="any" state="closed" constraint="right" />
+</tc-ref>

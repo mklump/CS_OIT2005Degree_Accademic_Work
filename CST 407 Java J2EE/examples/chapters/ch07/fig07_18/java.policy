@@ -1,0 +1,20 @@
+// java.policy
+// Policy file that grants AllPermission
+// to JAAS modules and specific permissions
+// to the D:\Projects\Java codebase.
+grant codebase "file:/D:/jdk1.3.1/jre/lib/ext/jaas.jar" {
+   permission java.security.AllPermission;
+}; 
+
+grant codebase "file:/D:/JavaProjects/advjhtp1/src/-" {
+   permission javax.security.auth.AuthPermission 
+      "createLoginContext";
+
+   permission javax.security.auth.AuthPermission "doAs";
+
+   permission java.io.FilePermission "D:/privilegedFile.txt", 
+      "write";
+
+   permission java.io.FilePermission "D:/privilegedFile.txt", 
+      "read";
+};

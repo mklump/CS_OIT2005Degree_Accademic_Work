@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<order xmlns="http://mycompany.com">
+	<orderNum>102</orderNum>
+	<SendToAddress>
+		<street>1234 My Street</street>
+		<city>Seattle</city>
+		<state>WA</state>
+	</SendToAddress>
+	<items>
+		<item number="1">
+			<name>marbles</name>
+			<unit_price>$12.22</unit_price>
+		</item>
+		<item number="2">
+			<name>french fries</name>
+			<unit_price>$1.99</unit_price>
+		</item>
+	</items>
+</order>

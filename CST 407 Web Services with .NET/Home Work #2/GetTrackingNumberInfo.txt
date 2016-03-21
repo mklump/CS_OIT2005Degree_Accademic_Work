@@ -1,0 +1,32 @@
+Request:
+POST /mywebprojects/ShippingAddress/Service1.asmx HTTP/1.1
+Host: ShippingService
+SOAPAction: “http://ShippingService/GetTrackingNumber”
+<?xml version=”1.0” ?>
+<soap:Envelope xmlns:xsi=”http://www.w3.org/2001/XMLSchema-instance”
+xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body>
+	<GetTrackingNumber xmlns="http://ShippingService.org/">
+      <Destination>
+      	<StreetAddress>My Street</StreetAddress>
+      	<City>My City</City>
+      	<State>My State</State>
+      	<Zip>My Zip Code</Zip>
+      </Destination>
+      </GetTrackingNumber>
+</soap:Body>
+</soap:Envelope>
+
+Response:
+HTTP/1.1 200 OK
+<?xml version=”1.0” ?>
+<soap:Evelope xmlns=”http://www.w3.org/2001/XMLSchema-instance”
+xmlns:soap=”http://schemas.xmlsoap,org/soap/envelope/”>
+      <soap:Body>
+      	<GetTrackingNumberResponse xmlns="http://ShippingService.org/">
+      		<GetTrackingNumberResult>
+      1284586
+       </GetTrackingNumberResult>
+      </GetTrackingNumberResponse>
+      </soap:Body>
+</soap:Evelope>

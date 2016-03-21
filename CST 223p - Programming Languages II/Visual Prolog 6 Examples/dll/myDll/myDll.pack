@@ -1,0 +1,21 @@
+/*****************************************************************************
+
+                        Copyright (c) Prolog Developement Center
+
+ Written by: Visual Prolog
+******************************************************************************/
+
+#include "myDll.ph"
+
+% privately used packages
+#include "pfc\\exception\\exception.ph"
+#include "pfc\\string\\string.ph"
+
+% private interfaces
+
+% private classes
+#include "myDllMain.cl"
+
+% implementations
+#include "myDllMain.pro"
+#include "myDll.pro"

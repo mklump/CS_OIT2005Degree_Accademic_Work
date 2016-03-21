@@ -1,0 +1,239 @@
+symtableentry_t *
+produce_code_for_function_call(
+									FILE	*outFile,
+									symtableentry_t	*pFuncEntry,
+									symtableentry_t	*pActParamSpaceInfo
+									)
+{
+	symtableentry_t	*p_entry = create_symbol_table_entry();
+	int		stack_offset = 0;
+	char *msg = "function of character type not allowed!" ;
+
+	symtableentry_t	*pNextActualParam;
+	
+
+	int			total_space_on_stack = 0;
+	int			totforparams = pFuncEntry->ident_ptr.ident_info.func.total_formal_parameters ;
+	int			totactparams = 0 ;
+	
+	
+	
+	if ( pActParamSpaceInfo )
+	
+	while ( 
+		isactParamStackEmpty(pActParamSpaceInfo->ident_ptr.ident_info.actual_param_stack) == 0 )
+	{
+		
+		pop_act_parameter(
+			pActParamSpaceInfo->ident_ptr.ident_info.actual_param_stack,
+			&pNextActualParam
+			);
+		
+	
+		assert(pNextActualParam);
+		
+		
+		total_space_on_stack += produce_code_for_actual_param(
+								outFile,
+								pNextActualParam,
+								&stack_offset
+								);
+		totactparams++ ;
+	
+	}
+	/* Jasen's Code begins:
+	 * this verification needed one new variable totactparams defined as an int.
+	 * this function compares the number of formal params to the number of actual params.
+	 * if they do not equal each other, then a assertion error occurs*/
+	if(totforparams != 	totactparams)
+	{
+		printf(
+		"cst320 : ccomp. error file[%s] line[%d] source line[%d].\n compile error number of actual parameters does not equal number of formal parameters\n",
+				__FILE__,__LINE__, lineno
+				);
+		assert(0) ;
+	}
+	/*jasen's code ends here*/				
+	
+	
+	fprintf(
+				outFile,
+				"\tcall	%s_func\n",
+				pFuncEntry->id_name
+				) ;
+
+	if ( pActParamSpaceInfo )
+	fprintf(
+				outFile,
+				"\tadd	%%r13,	$%d\n",
+				total_space_on_stack
+				);
+
+	p_entry->ident_ptr.ident_type = IDENT_DEF_EXPR_REG;
+
+	/* a function used in an expression always has a return type.
+	*   the type of the expression is the same as the return type
+	*   of the function if any.
+	*
+	*/
+
+	switch(pFuncEntry->ident_ptr.ident_info.func.func_declared_type)
+	{
+	case FUNC_DEF_DECLARED_VOID:
+		p_entry->ident_ptr.ident_info.expr.expr_type = 
+				EXPR_TYPE_VOID;
+			
+
+		break;
+
+	case FUNC_DEF_DECLARED_INT:
+		p_entry->ident_ptr.ident_info.expr.expr_type = 
+				EXPR_TYPE_INT;
+
+		break;
+
+	case FUNC_DEF_DECLARED_CHAR:
+		p_entry->ident_ptr.ident_info.expr.expr_type = 
+				EXPR_TYPE_CHAR;	
+
+		/* Jasen's Code Starts Here*/
+		printf("Invalid function call. Does not support char functions") ;	
+		assert(0);
+		/* Jasen's Code ends here*/
+
+		break;
+
+	case FUNC_DEF_DECLARED_INVALID:
+		assert(0);
+		break;
+	}
+
+	/* a function always returns its value via register r0 */
+	p_entry->ident_ptr.ident_info.expr.expr_reg = 0;
+
+	return	p_entry;
+}
+
+
+int
+produce_code_for_actual_param(
+							  FILE	*outFile,
+							  symtableentry_t	*pActParam,
+							  int	*p_stack_offset
+							  )
+{
+	int	space_for_param_on_stack = 0;
+	/* we could be given a variable or an expression
+	*   as a handle here.
+	*
+	*   If it is an expression it is in a register.
+	*	If it is a variable, we know the offset & stuff.
+	*	if it is a constant, we know the value.
+	*
+	*/
+
+	if ( pActParam->ident_ptr.ident_type == IDENT_DEF_VARIABLE )
+	{
+		/* the variable could be a local variable, global variable
+		*   or a formal parameter.
+		*
+		*	We MUST produce the correct code.
+		*
+		*/
+		/*if(pActParam->ident_ptr.ident_info.func*/
+		/* Jasens Code starts:
+		 * this condition makes sure that no character variables are passed into functions
+		 * per RK we are only dealing with integers*/
+		if(pActParam->ident_ptr.ident_info.var.var_declared_type == IDENT_DEF_DECLARED_CHAR)
+		{
+				printf(
+				"cst320 : ccomp. error file[%s] line[%d] source line[%d].\n compile error:function does not accept character data types\n",
+				__FILE__,__LINE__, lineno
+				);
+				assert(0) ;
+				
+		}
+	
+		switch( pActParam->ident_ptr.ident_info.var.sub_type )
+		{
+		case VAR_SUB_TYPE_LOCAL_VAR:
+			fprintf(
+						outFile,
+						"\tpush	<%%r13,	$%d, $%d>\n",
+						pActParam->ident_ptr.ident_info.var.offset + *p_stack_offset,
+						pActParam->ident_ptr.ident_info.var.var_length
+						);
+			
+			
+
+			break;
+
+		case VAR_SUB_TYPE_FORMAL_PARAM:
+			fprintf(
+						outFile,
+						"\tpush	<%%r14,	$%d, $%d>\n",
+						pActParam->ident_ptr.ident_info.var.offset,
+						pActParam->ident_ptr.ident_info.var.var_length
+						);
+			printf("FORMAL PARAM IN ARGUMENT!!!!!!!!!!!!!!!") ;
+			
+	
+
+			break;
+
+		case VAR_SUB_TYPE_GLOBAL_VAR:
+			fprintf(
+						outFile,
+						"\tpush	<$0,	$%d, $%d>\n",
+						pActParam->ident_ptr.ident_info.var.offset,
+						pActParam->ident_ptr.ident_info.var.var_length
+						);
+
+			break;
+
+		default:
+			assert(0);
+			break;
+		}
+		
+		
+		space_for_param_on_stack = 
+			pActParam->ident_ptr.ident_info.var.var_length;
+
+		*p_stack_offset = 
+			*p_stack_offset + pActParam->ident_ptr.ident_info.var.var_length;
+	}
+	else if ( pActParam->ident_ptr.ident_type == IDENT_DEF_EXPR_REG )
+	{
+		
+		/*Jasen's Code begins: This verification makes sure that an argument param is
+		 *not a function
+		*/
+		printf(
+				"cst320 : ccomp. error file[%s] line[%d] source line[%d].\n compile error:function cannot support functions as actual parameters\n",
+				__FILE__,__LINE__, lineno
+				);
+		assert(0) ;
+		/*Jasen's code ends*/
+		
+		
+		
+	}
+	else if ( IDENT_DEF_CONSTANT_INT == pActParam->ident_ptr.ident_type )
+	{
+		fprintf(outFile,
+					"\tpush	$%d\n",
+					pActParam->ident_ptr.ident_info.const_int
+					);
+		
+		space_for_param_on_stack = 4;
+
+		*p_stack_offset = *p_stack_offset + 4;
+	}
+	else
+	{
+		assert(0);
+	}
+
+	return	space_for_param_on_stack ;
+}

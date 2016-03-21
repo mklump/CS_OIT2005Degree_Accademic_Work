@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="1.0">
+    <name unique="output" display="CTL_OutputWindow" from-bundle="true" bundle="org.netbeans.core.windows.Bundle" />
+    <module name="org.netbeans.modules.debugger.core/3" spec="2.1" />
+    <ui-type type="any" >
+        <bounds x="354" y="487" width="665" height="250" />
+        <frame type="window" constraints="bottom" state="normal" />
+        <container type="split" active-tc="Compiler" >
+            <area constraint="center" x="0" y="0" width="657" height="216" />
+        </container>
+        <icon url="nbresboot:/org/netbeans/core/resources/frames/output.gif" />
+        <other defined-by="module" mode-state="visible" />
+    </ui-type>
+</mode>

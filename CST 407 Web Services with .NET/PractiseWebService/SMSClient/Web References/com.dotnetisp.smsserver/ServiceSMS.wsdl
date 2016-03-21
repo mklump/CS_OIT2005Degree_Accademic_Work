@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://SMSServer.dotnetISP.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://SMSServer.dotnetISP.com" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://SMSServer.dotnetISP.com">
+      <s:element name="GetCredit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Cle" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCreditResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetCreditResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MessageID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStatusResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSmsText">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Cle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Destinataire" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Nom" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSmsTextResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendSmsTextResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="GetCreditSoapIn">
+    <part name="parameters" element="s0:GetCredit" />
+  </message>
+  <message name="GetCreditSoapOut">
+    <part name="parameters" element="s0:GetCreditResponse" />
+  </message>
+  <message name="GetStatusSoapIn">
+    <part name="parameters" element="s0:GetStatus" />
+  </message>
+  <message name="GetStatusSoapOut">
+    <part name="parameters" element="s0:GetStatusResponse" />
+  </message>
+  <message name="SendSmsTextSoapIn">
+    <part name="parameters" element="s0:SendSmsText" />
+  </message>
+  <message name="SendSmsTextSoapOut">
+    <part name="parameters" element="s0:SendSmsTextResponse" />
+  </message>
+  <portType name="ServiceSMSSoap">
+    <operation name="GetCredit">
+      <input message="s0:GetCreditSoapIn" />
+      <output message="s0:GetCreditSoapOut" />
+    </operation>
+    <operation name="GetStatus">
+      <input message="s0:GetStatusSoapIn" />
+      <output message="s0:GetStatusSoapOut" />
+    </operation>
+    <operation name="SendSmsText">
+      <input message="s0:SendSmsTextSoapIn" />
+      <output message="s0:SendSmsTextSoapOut" />
+    </operation>
+  </portType>
+  <binding name="ServiceSMSSoap" type="s0:ServiceSMSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="GetCredit">
+      <soap:operation soapAction="http://SMSServer.dotnetISP.com/GetCredit" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetStatus">
+      <soap:operation soapAction="http://SMSServer.dotnetISP.com/GetStatus" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="SendSmsText">
+      <soap:operation soapAction="http://SMSServer.dotnetISP.com/SendSmsText" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ServiceSMS">
+    <port name="ServiceSMSSoap" binding="s0:ServiceSMSSoap">
+      <soap:address location="http://smsserver.dotnetisp.com/ServiceSMS.asmx" />
+    </port>
+  </service>
+</definitions>

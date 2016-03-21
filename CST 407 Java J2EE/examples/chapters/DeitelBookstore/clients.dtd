@@ -1,0 +1,11 @@
+<!-- clients.dtd                               -->
+<!-- DTD for specifying Bookstore client types -->
+
+<!ELEMENT clients ( client+ )>
+
+<!ELEMENT client ( userAgent, contentType, XSLPath )>
+<!ATTLIST client name CDATA #REQUIRED>
+
+<!ELEMENT userAgent ( #PCDATA )>
+<!ELEMENT contentType ( #PCDATA )>
+<!ELEMENT XSLPath ( #PCDATA )>

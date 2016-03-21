@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="nGalleryDataSet" targetNamespace="http://tempuri.org/nGalleryDataSet.xsd" xmlns:mstns="http://tempuri.org/nGalleryDataSet.xsd" xmlns="http://tempuri.org/nGalleryDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="nGalleryConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="nGalleryConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.nGallerySQLConnectionTesting.Properties.Settings.GlobalReference.Default.nGalleryConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AllDataTableAdapter" GeneratorDataComponentClassName="AllDataTableAdapter" Name="AllData" UserDataComponentName="AllDataTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="nGalleryConnectionString (Settings)" DbObjectName="nGallery.dbo.AllData" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="False">
+                    <CommandText>SELECT AlbumID, AlbumName, AlbumDesc, AlbumCreateDate, ParentAlbumID, CommentID, CommentFromName, CommentFromEmailAddr, CommentFromWebURL, CommentText, CommentDateSubmitted, CommentAlbumID, CommentPictureID, InvitationID, Expr1, Message, CreateDate, Expr2, ContactID, Guid, IsRead, Expr3, FirstName, MiddleName, LastName, NickName, EmailAddress, HomePhone, WorkPhone, MobilePhone, Address1, Address2, City, State, Zip, WebsiteURL, PictureID, PictureTitle, PictureCaption, PictureCreateDate, PictureFileName, PictureHighlight, PictureAlbumID, PictureViewCount, PictureHeight, PictureWidth, Expr4, rating1, rating2, rating3, rating4, rating5, Name, Value FROM dbo.AllData</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="AlbumID" DataSetColumn="AlbumID" />
+              <Mapping SourceColumn="AlbumName" DataSetColumn="AlbumName" />
+              <Mapping SourceColumn="AlbumDesc" DataSetColumn="AlbumDesc" />
+              <Mapping SourceColumn="AlbumCreateDate" DataSetColumn="AlbumCreateDate" />
+              <Mapping SourceColumn="ParentAlbumID" DataSetColumn="ParentAlbumID" />
+              <Mapping SourceColumn="CommentID" DataSetColumn="CommentID" />
+              <Mapping SourceColumn="CommentFromName" DataSetColumn="CommentFromName" />
+              <Mapping SourceColumn="CommentFromEmailAddr" DataSetColumn="CommentFromEmailAddr" />
+              <Mapping SourceColumn="CommentFromWebURL" DataSetColumn="CommentFromWebURL" />
+              <Mapping SourceColumn="CommentText" DataSetColumn="CommentText" />
+              <Mapping SourceColumn="CommentDateSubmitted" DataSetColumn="CommentDateSubmitted" />
+              <Mapping SourceColumn="CommentAlbumID" DataSetColumn="CommentAlbumID" />
+              <Mapping SourceColumn="CommentPictureID" DataSetColumn="CommentPictureID" />
+              <Mapping SourceColumn="InvitationID" DataSetColumn="InvitationID" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+              <Mapping SourceColumn="Message" DataSetColumn="Message" />
+              <Mapping SourceColumn="CreateDate" DataSetColumn="CreateDate" />
+              <Mapping SourceColumn="Expr2" DataSetColumn="Expr2" />
+              <Mapping SourceColumn="ContactID" DataSetColumn="ContactID" />
+              <Mapping SourceColumn="Guid" DataSetColumn="Guid" />
+              <Mapping SourceColumn="IsRead" DataSetColumn="IsRead" />
+              <Mapping SourceColumn="Expr3" DataSetColumn="Expr3" />
+              <Mapping SourceColumn="FirstName" DataSetColumn="FirstName" />
+              <Mapping SourceColumn="MiddleName" DataSetColumn="MiddleName" />
+              <Mapping SourceColumn="LastName" DataSetColumn="LastName" />
+              <Mapping SourceColumn="NickName" DataSetColumn="NickName" />
+              <Mapping SourceColumn="EmailAddress" DataSetColumn="EmailAddress" />
+              <Mapping SourceColumn="HomePhone" DataSetColumn="HomePhone" />
+              <Mapping SourceColumn="WorkPhone" DataSetColumn="WorkPhone" />
+              <Mapping SourceColumn="MobilePhone" DataSetColumn="MobilePhone" />
+              <Mapping SourceColumn="Address1" DataSetColumn="Address1" />
+              <Mapping SourceColumn="Address2" DataSetColumn="Address2" />
+              <Mapping SourceColumn="City" DataSetColumn="City" />
+              <Mapping SourceColumn="State" DataSetColumn="State" />
+              <Mapping SourceColumn="Zip" DataSetColumn="Zip" />
+              <Mapping SourceColumn="WebsiteURL" DataSetColumn="WebsiteURL" />
+              <Mapping SourceColumn="PictureID" DataSetColumn="PictureID" />
+              <Mapping SourceColumn="PictureTitle" DataSetColumn="PictureTitle" />
+              <Mapping SourceColumn="PictureCaption" DataSetColumn="PictureCaption" />
+              <Mapping SourceColumn="PictureCreateDate" DataSetColumn="PictureCreateDate" />
+              <Mapping SourceColumn="PictureFileName" DataSetColumn="PictureFileName" />
+              <Mapping SourceColumn="PictureHighlight" DataSetColumn="PictureHighlight" />
+              <Mapping SourceColumn="PictureAlbumID" DataSetColumn="PictureAlbumID" />
+              <Mapping SourceColumn="PictureViewCount" DataSetColumn="PictureViewCount" />
+              <Mapping SourceColumn="PictureHeight" DataSetColumn="PictureHeight" />
+              <Mapping SourceColumn="PictureWidth" DataSetColumn="PictureWidth" />
+              <Mapping SourceColumn="Expr4" DataSetColumn="Expr4" />
+              <Mapping SourceColumn="rating1" DataSetColumn="rating1" />
+              <Mapping SourceColumn="rating2" DataSetColumn="rating2" />
+              <Mapping SourceColumn="rating3" DataSetColumn="rating3" />
+              <Mapping SourceColumn="rating4" DataSetColumn="rating4" />
+              <Mapping SourceColumn="rating5" DataSetColumn="rating5" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="Value" DataSetColumn="Value" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="nGalleryDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="nGalleryDataSet" msprop:Generator_DataSetName="nGalleryDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AllData" msprop:Generator_UserTableName="AllData" msprop:Generator_RowDeletedName="AllDataRowDeleted" msprop:Generator_TableClassName="AllDataDataTable" msprop:Generator_RowChangedName="AllDataRowChanged" msprop:Generator_RowClassName="AllDataRow" msprop:Generator_RowChangingName="AllDataRowChanging" msprop:Generator_RowEvArgName="AllDataRowChangeEvent" msprop:Generator_RowEvHandlerName="AllDataRowChangeEventHandler" msprop:Generator_TablePropName="AllData" msprop:Generator_TableVarName="tableAllData" msprop:Generator_RowDeletingName="AllDataRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AlbumID" msprop:Generator_UserColumnName="AlbumID" msprop:Generator_ColumnPropNameInRow="AlbumID" msprop:Generator_ColumnVarNameInTable="columnAlbumID" msprop:Generator_ColumnPropNameInTable="AlbumIDColumn" type="xs:int" />
+              <xs:element name="AlbumName" msprop:Generator_UserColumnName="AlbumName" msprop:Generator_ColumnPropNameInRow="AlbumName" msprop:Generator_ColumnVarNameInTable="columnAlbumName" msprop:Generator_ColumnPropNameInTable="AlbumNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AlbumDesc" msprop:Generator_UserColumnName="AlbumDesc" msprop:Generator_ColumnPropNameInRow="AlbumDesc" msprop:Generator_ColumnVarNameInTable="columnAlbumDesc" msprop:Generator_ColumnPropNameInTable="AlbumDescColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AlbumCreateDate" msprop:Generator_UserColumnName="AlbumCreateDate" msprop:Generator_ColumnPropNameInRow="AlbumCreateDate" msprop:Generator_ColumnVarNameInTable="columnAlbumCreateDate" msprop:Generator_ColumnPropNameInTable="AlbumCreateDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ParentAlbumID" msprop:Generator_UserColumnName="ParentAlbumID" msprop:Generator_ColumnPropNameInRow="ParentAlbumID" msprop:Generator_ColumnVarNameInTable="columnParentAlbumID" msprop:Generator_ColumnPropNameInTable="ParentAlbumIDColumn" type="xs:int" />
+              <xs:element name="CommentID" msprop:Generator_UserColumnName="CommentID" msprop:Generator_ColumnPropNameInRow="CommentID" msprop:Generator_ColumnVarNameInTable="columnCommentID" msprop:Generator_ColumnPropNameInTable="CommentIDColumn" type="xs:int" />
+              <xs:element name="CommentFromName" msprop:Generator_UserColumnName="CommentFromName" msprop:Generator_ColumnPropNameInRow="CommentFromName" msprop:Generator_ColumnVarNameInTable="columnCommentFromName" msprop:Generator_ColumnPropNameInTable="CommentFromNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CommentFromEmailAddr" msprop:Generator_UserColumnName="CommentFromEmailAddr" msprop:Generator_ColumnPropNameInRow="CommentFromEmailAddr" msprop:Generator_ColumnVarNameInTable="columnCommentFromEmailAddr" msprop:Generator_ColumnPropNameInTable="CommentFromEmailAddrColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CommentFromWebURL" msprop:Generator_UserColumnName="CommentFromWebURL" msprop:Generator_ColumnPropNameInRow="CommentFromWebURL" msprop:Generator_ColumnVarNameInTable="columnCommentFromWebURL" msprop:Generator_ColumnPropNameInTable="CommentFromWebURLColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CommentText" msprop:Generator_UserColumnName="CommentText" msprop:Generator_ColumnPropNameInRow="CommentText" msprop:Generator_ColumnVarNameInTable="columnCommentText" msprop:Generator_ColumnPropNameInTable="CommentTextColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CommentDateSubmitted" msprop:Generator_UserColumnName="CommentDateSubmitted" msprop:Generator_ColumnPropNameInRow="CommentDateSubmitted" msprop:Generator_ColumnVarNameInTable="columnCommentDateSubmitted" msprop:Generator_ColumnPropNameInTable="CommentDateSubmittedColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CommentAlbumID" msprop:Generator_UserColumnName="CommentAlbumID" msprop:Generator_ColumnPropNameInRow="CommentAlbumID" msprop:Generator_ColumnVarNameInTable="columnCommentAlbumID" msprop:Generator_ColumnPropNameInTable="CommentAlbumIDColumn" type="xs:int" />
+              <xs:element name="CommentPictureID" msprop:Generator_UserColumnName="CommentPictureID" msprop:Generator_ColumnPropNameInRow="CommentPictureID" msprop:Generator_ColumnVarNameInTable="columnCommentPictureID" msprop:Generator_ColumnPropNameInTable="CommentPictureIDColumn" type="xs:int" />
+              <xs:element name="InvitationID" msprop:Generator_UserColumnName="InvitationID" msprop:Generator_ColumnPropNameInRow="InvitationID" msprop:Generator_ColumnVarNameInTable="columnInvitationID" msprop:Generator_ColumnPropNameInTable="InvitationIDColumn" type="xs:int" />
+              <xs:element name="Expr1" msprop:Generator_UserColumnName="Expr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" type="xs:int" />
+              <xs:element name="Message" msprop:Generator_UserColumnName="Message" msprop:Generator_ColumnPropNameInRow="Message" msprop:Generator_ColumnVarNameInTable="columnMessage" msprop:Generator_ColumnPropNameInTable="MessageColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CreateDate" msprop:Generator_UserColumnName="CreateDate" msprop:Generator_ColumnPropNameInRow="CreateDate" msprop:Generator_ColumnVarNameInTable="columnCreateDate" msprop:Generator_ColumnPropNameInTable="CreateDateColumn" type="xs:dateTime" />
+              <xs:element name="Expr2" msprop:Generator_UserColumnName="Expr2" msprop:Generator_ColumnPropNameInRow="Expr2" msprop:Generator_ColumnVarNameInTable="columnExpr2" msprop:Generator_ColumnPropNameInTable="Expr2Column" type="xs:int" />
+              <xs:element name="ContactID" msprop:Generator_UserColumnName="ContactID" msprop:Generator_ColumnPropNameInRow="ContactID" msprop:Generator_ColumnVarNameInTable="columnContactID" msprop:Generator_ColumnPropNameInTable="ContactIDColumn" type="xs:int" />
+              <xs:element name="Guid" msprop:Generator_UserColumnName="Guid" msprop:Generator_ColumnPropNameInRow="Guid" msprop:Generator_ColumnVarNameInTable="columnGuid" msprop:Generator_ColumnPropNameInTable="GuidColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsRead" msprop:Generator_UserColumnName="IsRead" msprop:Generator_ColumnPropNameInRow="IsRead" msprop:Generator_ColumnVarNameInTable="columnIsRead" msprop:Generator_ColumnPropNameInTable="IsReadColumn" type="xs:boolean" />
+              <xs:element name="Expr3" msprop:Generator_UserColumnName="Expr3" msprop:Generator_ColumnPropNameInRow="Expr3" msprop:Generator_ColumnVarNameInTable="columnExpr3" msprop:Generator_ColumnPropNameInTable="Expr3Column" type="xs:int" />
+              <xs:element name="FirstName" msprop:Generator_UserColumnName="FirstName" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_ColumnVarNameInTable="columnFirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MiddleName" msprop:Generator_UserColumnName="MiddleName" msprop:Generator_ColumnPropNameInRow="MiddleName" msprop:Generator_ColumnVarNameInTable="columnMiddleName" msprop:Generator_ColumnPropNameInTable="MiddleNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LastName" msprop:Generator_UserColumnName="LastName" msprop:Generator_ColumnPropNameInRow="LastName" msprop:Generator_ColumnVarNameInTable="columnLastName" msprop:Generator_ColumnPropNameInTable="LastNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NickName" msprop:Generator_UserColumnName="NickName" msprop:Generator_ColumnPropNameInRow="NickName" msprop:Generator_ColumnVarNameInTable="columnNickName" msprop:Generator_ColumnPropNameInTable="NickNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EmailAddress" msprop:Generator_UserColumnName="EmailAddress" msprop:Generator_ColumnPropNameInRow="EmailAddress" msprop:Generator_ColumnVarNameInTable="columnEmailAddress" msprop:Generator_ColumnPropNameInTable="EmailAddressColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HomePhone" msprop:Generator_UserColumnName="HomePhone" msprop:Generator_ColumnPropNameInRow="HomePhone" msprop:Generator_ColumnVarNameInTable="columnHomePhone" msprop:Generator_ColumnPropNameInTable="HomePhoneColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WorkPhone" msprop:Generator_UserColumnName="WorkPhone" msprop:Generator_ColumnPropNameInRow="WorkPhone" msprop:Generator_ColumnVarNameInTable="columnWorkPhone" msprop:Generator_ColumnPropNameInTable="WorkPhoneColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MobilePhone" msprop:Generator_UserColumnName="MobilePhone" msprop:Generator_ColumnPropNameInRow="MobilePhone" msprop:Generator_ColumnVarNameInTable="columnMobilePhone" msprop:Generator_ColumnPropNameInTable="MobilePhoneColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address1" msprop:Generator_UserColumnName="Address1" msprop:Generator_ColumnPropNameInRow="Address1" msprop:Generator_ColumnVarNameInTable="columnAddress1" msprop:Generator_ColumnPropNameInTable="Address1Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address2" msprop:Generator_UserColumnName="Address2" msprop:Generator_ColumnPropNameInRow="Address2" msprop:Generator_ColumnVarNameInTable="columnAddress2" msprop:Generator_ColumnPropNameInTable="Address2Column">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="City" msprop:Generator_UserColumnName="City" msprop:Generator_ColumnPropNameInRow="City" msprop:Generator_ColumnVarNameInTable="columnCity" msprop:Generator_ColumnPropNameInTable="CityColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="State" msprop:Generator_UserColumnName="State" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInTable="StateColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Zip" msprop:Generator_UserColumnName="Zip" msprop:Generator_ColumnPropNameInRow="Zip" msprop:Generator_ColumnVarNameInTable="columnZip" msprop:Generator_ColumnPropNameInTable="ZipColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WebsiteURL" msprop:Generator_UserColumnName="WebsiteURL" msprop:Generator_ColumnPropNameInRow="WebsiteURL" msprop:Generator_ColumnVarNameInTable="columnWebsiteURL" msprop:Generator_ColumnPropNameInTable="WebsiteURLColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PictureID" msprop:Generator_UserColumnName="PictureID" msprop:Generator_ColumnPropNameInRow="PictureID" msprop:Generator_ColumnVarNameInTable="columnPictureID" msprop:Generator_ColumnPropNameInTable="PictureIDColumn" type="xs:int" />
+              <xs:element name="PictureTitle" msprop:Generator_UserColumnName="PictureTitle" msprop:Generator_ColumnPropNameInRow="PictureTitle" msprop:Generator_ColumnVarNameInTable="columnPictureTitle" msprop:Generator_ColumnPropNameInTable="PictureTitleColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PictureCaption" msprop:Generator_UserColumnName="PictureCaption" msprop:Generator_ColumnPropNameInRow="PictureCaption" msprop:Generator_ColumnVarNameInTable="columnPictureCaption" msprop:Generator_ColumnPropNameInTable="PictureCaptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PictureCreateDate" msprop:Generator_UserColumnName="PictureCreateDate" msprop:Generator_ColumnPropNameInRow="PictureCreateDate" msprop:Generator_ColumnVarNameInTable="columnPictureCreateDate" msprop:Generator_ColumnPropNameInTable="PictureCreateDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PictureFileName" msprop:Generator_UserColumnName="PictureFileName" msprop:Generator_ColumnPropNameInRow="PictureFileName" msprop:Generator_ColumnVarNameInTable="columnPictureFileName" msprop:Generator_ColumnPropNameInTable="PictureFileNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PictureHighlight" msprop:Generator_UserColumnName="PictureHighlight" msprop:Generator_ColumnPropNameInRow="PictureHighlight" msprop:Generator_ColumnVarNameInTable="columnPictureHighlight" msprop:Generator_ColumnPropNameInTable="PictureHighlightColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PictureAlbumID" msprop:Generator_UserColumnName="PictureAlbumID" msprop:Generator_ColumnPropNameInRow="PictureAlbumID" msprop:Generator_ColumnVarNameInTable="columnPictureAlbumID" msprop:Generator_ColumnPropNameInTable="PictureAlbumIDColumn" type="xs:int" />
+              <xs:element name="PictureViewCount" msprop:Generator_UserColumnName="PictureViewCount" msprop:Generator_ColumnPropNameInRow="PictureViewCount" msprop:Generator_ColumnVarNameInTable="columnPictureViewCount" msprop:Generator_ColumnPropNameInTable="PictureViewCountColumn" type="xs:int" />
+              <xs:element name="PictureHeight" msprop:Generator_UserColumnName="PictureHeight" msprop:Generator_ColumnPropNameInRow="PictureHeight" msprop:Generator_ColumnVarNameInTable="columnPictureHeight" msprop:Generator_ColumnPropNameInTable="PictureHeightColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PictureWidth" msprop:Generator_UserColumnName="PictureWidth" msprop:Generator_ColumnPropNameInRow="PictureWidth" msprop:Generator_ColumnVarNameInTable="columnPictureWidth" msprop:Generator_ColumnPropNameInTable="PictureWidthColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Expr4" msprop:Generator_UserColumnName="Expr4" msprop:Generator_ColumnPropNameInRow="Expr4" msprop:Generator_ColumnVarNameInTable="columnExpr4" msprop:Generator_ColumnPropNameInTable="Expr4Column" type="xs:int" />
+              <xs:element name="rating1" msprop:Generator_UserColumnName="rating1" msprop:Generator_ColumnPropNameInRow="rating1" msprop:Generator_ColumnVarNameInTable="columnrating1" msprop:Generator_ColumnPropNameInTable="rating1Column" type="xs:int" />
+              <xs:element name="rating2" msprop:Generator_UserColumnName="rating2" msprop:Generator_ColumnPropNameInRow="rating2" msprop:Generator_ColumnVarNameInTable="columnrating2" msprop:Generator_ColumnPropNameInTable="rating2Column" type="xs:int" />
+              <xs:element name="rating3" msprop:Generator_UserColumnName="rating3" msprop:Generator_ColumnPropNameInRow="rating3" msprop:Generator_ColumnVarNameInTable="columnrating3" msprop:Generator_ColumnPropNameInTable="rating3Column" type="xs:int" />
+              <xs:element name="rating4" msprop:Generator_UserColumnName="rating4" msprop:Generator_ColumnPropNameInRow="rating4" msprop:Generator_ColumnVarNameInTable="columnrating4" msprop:Generator_ColumnPropNameInTable="rating4Column" type="xs:int" />
+              <xs:element name="rating5" msprop:Generator_UserColumnName="rating5" msprop:Generator_ColumnPropNameInRow="rating5" msprop:Generator_ColumnVarNameInTable="columnrating5" msprop:Generator_ColumnPropNameInTable="rating5Column" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Value" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInTable="ValueColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AllData" />
+      <xs:field xpath="mstns:AlbumID" />
+      <xs:field xpath="mstns:CommentID" />
+      <xs:field xpath="mstns:CommentAlbumID" />
+      <xs:field xpath="mstns:CommentPictureID" />
+      <xs:field xpath="mstns:InvitationID" />
+      <xs:field xpath="mstns:Expr2" />
+      <xs:field xpath="mstns:ContactID" />
+      <xs:field xpath="mstns:Expr3" />
+      <xs:field xpath="mstns:PictureID" />
+      <xs:field xpath="mstns:PictureAlbumID" />
+      <xs:field xpath="mstns:Expr4" />
+      <xs:field xpath="mstns:Name" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

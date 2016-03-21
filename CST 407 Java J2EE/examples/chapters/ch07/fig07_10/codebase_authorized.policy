@@ -1,0 +1,8 @@
+// codebase_authorized.policy
+// Policy file that grants write permission to 
+// file "codebase_authorized.txt" for codebase "C:/myclasses"
+
+grant codebase "file:/C:/myclasses" {
+   permission java.io.FilePermission
+     "codebase_authorized.txt", "write";
+};

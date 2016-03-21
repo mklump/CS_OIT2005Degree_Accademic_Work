@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedApplication", "ConnectedApplication.csproj", "{915C4AF1-3FFF-4447-860C-CFB72E950B4A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateDataSets", "..\CreateDataSets\CreateDataSets.csproj", "{F8ED3EF1-CF16-4937-97E5-F2A503CC4C0C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{915C4AF1-3FFF-4447-860C-CFB72E950B4A}.Debug.ActiveCfg = Debug|.NET
+		{915C4AF1-3FFF-4447-860C-CFB72E950B4A}.Debug.Build.0 = Debug|.NET
+		{915C4AF1-3FFF-4447-860C-CFB72E950B4A}.Release.ActiveCfg = Release|.NET
+		{915C4AF1-3FFF-4447-860C-CFB72E950B4A}.Release.Build.0 = Release|.NET
+		{F8ED3EF1-CF16-4937-97E5-F2A503CC4C0C}.Debug.ActiveCfg = Debug|.NET
+		{F8ED3EF1-CF16-4937-97E5-F2A503CC4C0C}.Debug.Build.0 = Debug|.NET
+		{F8ED3EF1-CF16-4937-97E5-F2A503CC4C0C}.Release.ActiveCfg = Release|.NET
+		{F8ED3EF1-CF16-4937-97E5-F2A503CC4C0C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

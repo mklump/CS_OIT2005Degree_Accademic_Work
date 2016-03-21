@@ -1,0 +1,43 @@
+struct strNode
+{
+	void* Item;
+	Node* next;
+}Node;
+
+Node* ptrTop;
+
+void Delete(Node* ptrNext = ptrTop)
+{
+	if (ptrNext.next!=NULL)
+	{
+	 Delete(ptrNext.next);
+	}
+	delete ptrNext.Item;
+	if (ptrNext == ptrTop)
+	{
+		ptrTop = NULL;
+	}
+	delete ptrNext;	
+}
+
+typedef struct strNode
+{
+	void* Item;
+	Node* next;
+}Node;
+
+Node* ptrTop;
+
+void Delete(Node* ptrNext = ptrTop)
+{
+	if (ptrNext.next!=NULL)
+	{
+	 Delete(ptrNext.next);
+	}
+	delete ptrNext.Item;
+	if (ptrNext == ptrTop)
+	{
+		ptrTop = NULL;
+	}
+	delete ptrNext;	
+}

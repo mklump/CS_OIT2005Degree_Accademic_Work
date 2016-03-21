@@ -1,0 +1,5 @@
+// refresh the title bar of the form to show the current employee
+
+this.Text = dsNorthwind.Employees.Select("EmployeeID=" + this.EmployeeID)[0]["FullName"].ToString()
+               + " - " 
+               + Application.ProductName;

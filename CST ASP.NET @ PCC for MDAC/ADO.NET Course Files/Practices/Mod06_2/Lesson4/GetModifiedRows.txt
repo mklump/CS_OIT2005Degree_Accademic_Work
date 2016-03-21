@@ -1,0 +1,19 @@
+If (ProductDataSet1.HasChanges(DataRowState.Modified)) Then
+  Dim ds As ProductDataSet = _
+     ProductDataSet1.GetChanges(DataRowState.Modified)
+
+  Dim row As DataRow
+  For Each row In ds.Products.Rows
+    Dim str As String = "Current:  " & _
+     row("ProductName", DataRowVersion.Current) & ", " & _
+     row("UnitPrice",   DataRowVersion.Current) & vbCrLf
+
+    str = str & "Original:  " & _
+     row("ProductName", DataRowVersion.Original) & ", " & _
+     row("UnitPrice",   DataRowVersion.Original)
+
+    MessageBox.Show(str, "Modified row")
+  Next
+Else
+  MessageBox.Show("No modified rows", "Information")
+End If

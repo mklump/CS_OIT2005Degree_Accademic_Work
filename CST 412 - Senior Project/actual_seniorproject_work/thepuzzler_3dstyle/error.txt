@@ -1,0 +1,8 @@
+Application Error Occured of Type: System.InvalidOperationException
+
+System.InvalidOperationException: ExecuteNonQuery requires an open and available Connection. The connection's current state is Closed.
+   at System.Data.OleDb.OleDbConnection.SetStateExecuting(OleDbCommand attempt, String method, Boolean flag)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method, Int32& localState)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at ManageDB.ManageDB_TestClass.TestQueryingTheDataBase() in c:\Documents and Settings\ACER USER\My Documents\Visual Studio Projects\Accademic_Work\CST 412 - Senior Project\actual_seniorproject_work\thepuzzler_3dstyle\ManageDB\ManageDataBase.cs:line 397

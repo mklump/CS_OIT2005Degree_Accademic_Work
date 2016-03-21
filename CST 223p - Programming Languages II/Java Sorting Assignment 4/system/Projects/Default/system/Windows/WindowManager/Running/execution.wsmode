@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="1.0">
+    <name unique="execution" display="CTL_ExecutionWindow" from-bundle="true" bundle="org.netbeans.core.windows.Bundle" />
+    <ui-type type="any" >
+        <bounds x="-4" y="112" width="358" height="375" />
+        <frame type="window" constraints="left" state="normal" />
+        <container type="tabbed" active-tc="execution" >
+        </container>
+        <icon url="nbresboot:/org/netbeans/core/resources/frames/execution.gif" />
+        <other defined-by="module" mode-state="visible" />
+    </ui-type>
+</mode>

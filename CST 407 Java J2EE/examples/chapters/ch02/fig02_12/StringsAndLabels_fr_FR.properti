@@ -1,0 +1,12 @@
+# French language strings for internationalized WebBrowser
+# tooltip for back button
+backToolTip = Page pr\u00E9c\u00E9dente
+
+# application title
+applicationTitle = Logiciel de Navigation de Deitel
+
+# title for WebToolBar
+toolBarTitle = Navigation des Pages sur la Toile
+
+# tooltip for forward toolbar button
+forwardToolTip = Prochaine Page

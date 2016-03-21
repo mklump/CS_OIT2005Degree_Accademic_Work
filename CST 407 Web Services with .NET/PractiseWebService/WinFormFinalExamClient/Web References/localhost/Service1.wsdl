@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:s1="http://CST407/AppliedWebServices/FinalExam/FinalExamDataSample.xsd" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://CST407/WebServicesApplied/FinalExam" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://CST407/WebServicesApplied/FinalExam" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://CST407/WebServicesApplied/FinalExam">
+      <s:import namespace="http://CST407/AppliedWebServices/FinalExam/FinalExamDataSample.xsd" />
+      <s:element name="Remember">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="valueToRemember" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RememberResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Forget">
+        <s:complexType />
+      </s:element>
+      <s:element name="ForgetResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Regurgitate">
+        <s:complexType />
+      </s:element>
+      <s:element name="RegurgitateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegurgitateResult" type="s1:ArrayOfRememberedThing" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RememberedThing" nillable="true" type="s1:RememberedThing" />
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://CST407/AppliedWebServices/FinalExam/FinalExamDataSample.xsd">
+      <s:import namespace="http://CST407/WebServicesApplied/FinalExam" />
+      <s:complexType name="ArrayOfRememberedThing">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" ref="tns:RememberedThing" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="RememberedThing">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TimeRemembered" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="StringRemembered" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="RememberSoapIn">
+    <wsdl:part name="parameters" element="tns:Remember" />
+  </wsdl:message>
+  <wsdl:message name="RememberSoapOut">
+    <wsdl:part name="parameters" element="tns:RememberResponse" />
+  </wsdl:message>
+  <wsdl:message name="ForgetSoapIn">
+    <wsdl:part name="parameters" element="tns:Forget" />
+  </wsdl:message>
+  <wsdl:message name="ForgetSoapOut">
+    <wsdl:part name="parameters" element="tns:ForgetResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegurgitateSoapIn">
+    <wsdl:part name="parameters" element="tns:Regurgitate" />
+  </wsdl:message>
+  <wsdl:message name="RegurgitateSoapOut">
+    <wsdl:part name="parameters" element="tns:RegurgitateResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service1Soap">
+    <wsdl:operation name="Remember">
+      <wsdl:input message="tns:RememberSoapIn" />
+      <wsdl:output message="tns:RememberSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Forget">
+      <wsdl:input message="tns:ForgetSoapIn" />
+      <wsdl:output message="tns:ForgetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Regurgitate">
+      <wsdl:input message="tns:RegurgitateSoapIn" />
+      <wsdl:output message="tns:RegurgitateSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service1Soap" type="tns:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="Remember">
+      <soap:operation soapAction="http://CST407/WebServicesApplied/FinalExam/Remember" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Forget">
+      <soap:operation soapAction="http://CST407/WebServicesApplied/FinalExam/Forget" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Regurgitate">
+      <soap:operation soapAction="http://CST407/WebServicesApplied/FinalExam/Regurgitate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
+    <wsdl:port name="Service1Soap" binding="tns:Service1Soap">
+      <soap:address location="http://localhost/matts_projects/wsapfinalexam/Service1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

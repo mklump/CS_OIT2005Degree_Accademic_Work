@@ -1,0 +1,67 @@
+﻿<CustomerData xmlns="http://tempuri.org/customers">
+	<customers>
+		<CustomerID>ALFKI</CustomerID>
+		<CompanyName>Alfreds Futterkiste</CompanyName>
+		<ContactName>Maria Andersen</ContactName>
+		<ContactTitle>Sales Representative</ContactTitle>
+		<Address>Obere Str. 57</Address>
+		<City>Berlin</City>
+		<PostalCode>12209</PostalCode>
+		<Country>Germany</Country>
+		<Phone>030-0074321</Phone>
+		<Fax>030-0076545</Fax>
+		<orders>
+			<OrderID>10643</OrderID>
+			<CustomerID>ALFKI</CustomerID>
+			<EmployeeID>6</EmployeeID>
+			<OrderDate>1997-08-25 07:00:00</OrderDate>
+		</orders>
+		<orders>
+			<OrderID>10692</OrderID>
+			<CustomerID>ALFKI</CustomerID>
+			<EmployeeID>4</EmployeeID>
+			<OrderDate>1997-10-03 07:00:00</OrderDate>
+		</orders>
+	</customers>
+	<customers>
+		<CustomerID>ANATR</CustomerID>
+		<CompanyName>Ana Trujillo Emparedados y helados</CompanyName>
+		<ContactName>Ana Trujillo</ContactName>
+		<ContactTitle>Owner</ContactTitle>
+		<Address>Avda. de la Constitución 2222</Address>
+		<City>México D.F.</City>
+		<PostalCode>05021</PostalCode>
+		<Country>Mexico</Country>
+		<Phone>(5) 555-4729</Phone>
+		<Fax>(5) 555-3745</Fax>
+		<orders>
+			<OrderID>10308</OrderID>
+			<CustomerID>ANATR</CustomerID>
+			<EmployeeID>7</EmployeeID>
+			<OrderDate>1996-09-18 07:00:00</OrderDate>
+		</orders>
+		<orders>
+			<OrderID>10625</OrderID>
+			<CustomerID>ANATR</CustomerID>
+			<EmployeeID>3</EmployeeID>
+			<OrderDate>1997-08-08 07:00:00</OrderDate>
+		</orders>
+	</customers>
+	<customers>
+		<CustomerID>ANTON</CustomerID>
+		<CompanyName>Antonio Moreno Taquería</CompanyName>
+		<ContactName>Antonio Moreno</ContactName>
+		<ContactTitle>Owner</ContactTitle>
+		<Address>Mataderos  2312</Address>
+		<City>México D.F.</City>
+		<PostalCode>05023</PostalCode>
+		<Country>Mexico</Country>
+		<Phone>(5) 555-3932</Phone>
+		<orders>
+			<OrderID>10365</OrderID>
+			<CustomerID>ANTON</CustomerID>
+			<EmployeeID>3</EmployeeID>
+			<OrderDate>1996-11-27 08:00:00</OrderDate>
+		</orders>
+	</customers>
+</CustomerData>

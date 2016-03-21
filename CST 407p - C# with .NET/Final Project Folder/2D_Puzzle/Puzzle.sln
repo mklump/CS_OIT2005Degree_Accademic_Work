@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzzle_Console_App", "Puzzle_Console_App.csproj", "{AC2201E0-88F4-4606-A9DE-43F12E242057}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DPuzzle_Client", "..\2DPuzzle_Client\2DPuzzle_Client.csproj", "{6D8D64D6-E4C6-4806-8918-5D13C688342F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{AC2201E0-88F4-4606-A9DE-43F12E242057}.Debug.ActiveCfg = Debug|.NET
+		{AC2201E0-88F4-4606-A9DE-43F12E242057}.Debug.Build.0 = Debug|.NET
+		{AC2201E0-88F4-4606-A9DE-43F12E242057}.Release.ActiveCfg = Release|.NET
+		{6D8D64D6-E4C6-4806-8918-5D13C688342F}.Debug.ActiveCfg = Debug|.NET
+		{6D8D64D6-E4C6-4806-8918-5D13C688342F}.Debug.Build.0 = Debug|.NET
+		{6D8D64D6-E4C6-4806-8918-5D13C688342F}.Release.ActiveCfg = Release|.NET
+		{6D8D64D6-E4C6-4806-8918-5D13C688342F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
